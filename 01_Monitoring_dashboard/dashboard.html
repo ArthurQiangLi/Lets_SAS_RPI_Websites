@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Raspberry Pi Dashboard</title>
+    <style>
+      body {
+          background-color: {{ color }};
+          font-family: Arial, sans-serif;
+          text-align: center;
+          transition: background-color 3s;
+      }
+      .container {
+          margin: 20px auto;
+          padding: 20px;
+          width: 80%;
+          border: 2px solid #000;
+          border-radius: 10px;
+      }
+      button {
+          padding: 10px 20px;
+          font-size: 16px;
+          cursor: pointer;
+          background-color: #ff0000;
+          color: #fff;
+          border: none;
+          border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Raspberry Pi Dashboard</h1>
+      <h2>Weather: {{ weather }}</h2>
+      <h2>CPU & Memory Usage: {{ cpu_memory }}</h2>
+      <h2>Bus Info:</h2>
+      <p>{{ station_1 }}</p>
+      <p>{{ station_2 }}</p>
+      <h2>Age: {{ age }}</h2>
+      <form action="/reboot" method="post">
+        <button type="submit">Reboot</button>
+      </form>
+    </div>
+  </body>
+</html>
