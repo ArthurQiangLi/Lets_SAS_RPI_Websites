@@ -12,6 +12,8 @@ ECE750-T37 Project: Developing self-adaptive software to enhance website perform
 1. [building_website_on_rpis](./Managed_System/building_website_on_rpis.md)
 2. [how this website on RPI works](./Managed_System/902_how_apache_works.md)
 3. [how to get wether data](./Documents/910_get_wether_data.md)
+4. [how to read cpu temp](./01_Monitoring_dashboard/how_read_cpu_temperature.md)
+5. [how to build a monitoring dashboard](./01_Monitoring_dashboard/how_monitoring_dashboard_works.md)
 
 # References
 

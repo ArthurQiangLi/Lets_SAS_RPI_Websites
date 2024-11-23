@@ -1,5 +1,9 @@
 # Read temperature of RPI
 
+Reference
+
+1. [raspberrypi document `vcgencmd`](https://github.com/raspberrypi/documentation/blob/0e2b6afed4dd6d7d0fa2560256c57cc2f2d08d3c/raspbian/applications/vcgencmd.md)
+
 ## 1. In command line
 
 | Methods                | Howto                                                                                                                                                                                                             |

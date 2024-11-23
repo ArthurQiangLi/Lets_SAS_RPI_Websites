@@ -3,7 +3,7 @@
 1. Metrics (**Input**):
    1. [x] Wether [D]
    2. [ ] CPU/memory [D]
-   3. [ ] CPU temperatrue [A]
+   3. [x] CPU temperatrue [A]
    4. [ ] Current power concumption [A]
    5. [ ] Apache2 metrics [D]
       1. acces number
