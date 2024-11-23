@@ -2,10 +2,16 @@
 
 ECE750-T37 Project: Developing self-adaptive software to enhance website performance and reliability on Raspberry Pi systems.
 
+# Logs
+
+- [Arthur](./Documents/901_arthur_log.md)
+- [Daniel](./Documents/902_daniel_log.md)
+
 # Relative docs
 
 1. [building_website_on_rpis](./Managed_System/building_website_on_rpis.md)
 2. [how this website on RPI works](./Managed_System/902_how_apache_works.md)
+3. [how to get wether data](./Documents/910_get_wether_data.md)
 
 # References
 
