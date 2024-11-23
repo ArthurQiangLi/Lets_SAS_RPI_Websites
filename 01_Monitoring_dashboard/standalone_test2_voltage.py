@@ -35,6 +35,7 @@ def get_parse_throttled_status():
 # Example usage
 if __name__ == "__main__":
     status = get_parse_throttled_status()
+    print(status) #as a dictionary
     if status:
         print("Throttling Status:")
         print(f"Under-voltage detected: {status['under_voltage']}")

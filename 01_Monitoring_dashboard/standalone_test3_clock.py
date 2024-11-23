@@ -1,0 +1,22 @@
+import os
+
+def get_arm_clock():
+    try:
+        output = os.popen("vcgencmd measure_clock arm").readline()
+        return int(output.split("=")[1]) // 1_000_000  # Convert Hz to MHz
+    except Exception as e:
+        return f"Error: {e}"
+
+def get_apache_status():
+    try:
+        result = os.run("systemctl is-active apache2").readline()
+        return result.stdout.strip()
+    except Exception as e:
+        return f"Error: {e}"
+
+if __name__ == "__main__":
+    arm_clock = get_arm_clock()
+    apache_status = get_apache_status()
+    
+    print(f"Apache Server Status: {apache_status}")
+    print(f"ARM CPU Clock: {arm_clock} MHz")
