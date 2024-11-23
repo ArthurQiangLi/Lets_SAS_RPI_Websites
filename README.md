@@ -14,6 +14,7 @@ ECE750-T37 Project: Developing self-adaptive software to enhance website perform
 3. [how to get wether data](./Documents/910_get_wether_data.md)
 4. [how to read cpu temp](./01_Monitoring_dashboard/how_read_cpu_temperature.md)
 5. [how to build a monitoring dashboard](./01_Monitoring_dashboard/how_monitoring_dashboard_works.md)
+6. [how to get voltage and clock](./01_Monitoring_dashboard/how_get_power_and_clock.md)
 
 # References
 

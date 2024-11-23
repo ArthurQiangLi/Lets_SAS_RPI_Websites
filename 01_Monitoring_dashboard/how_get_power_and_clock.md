@@ -61,10 +61,13 @@ frequency(48)=900002000
 
 ## Test with python code
 
-Refer to the code[standalone test2](./standalone_test2_voltage.py)
+Refer to the code [standalone test2 voltage](./standalone_test2_voltage.py) and code [standalone test3 clock](./standalone_test3_clock.py)
 <br>
 Run it and get the result as an dictionary.
 
 The result look like this:
+![voltage](./document_media/20241123_14h20m01s_grim.png)
+and this:
+![clock](./document_media/20241123_14h40m09s_grim.png)
 
 ---
