@@ -10,7 +10,11 @@ Monitoring the ARM CPU clock frequency helps understand whether the CPU is runni
 - Power supply issues
 - Resource contention
 
-Reference
+## !! No built-in power meter in RPIs
+
+Starting with the Raspberry Pi 4, power monitoring has been slightly improved, but it still does not include a full power meter. The Pi 4 has enhanced voltage monitoring and thermal management but still lacks built-in current measurement or real-time power measurement capabilities.
+
+### Reference
 
 1. [raspberrypi document `vcgencmd`](https://github.com/raspberrypi/documentation/blob/0e2b6afed4dd6d7d0fa2560256c57cc2f2d08d3c/raspbian/applications/vcgencmd.md)
 
