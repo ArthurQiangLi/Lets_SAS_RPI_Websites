@@ -7,18 +7,23 @@ import os
 import json
 
 # Load configuration
-with open("config.json", "r") as f:
+with open("./config.json", "r") as f:
     config = json.load(f)
 
 app = Flask(__name__)
 
-def get_weather(city):
-    API_KEY = config["openweather_api_key"]
+def get_weather(city="London"):
+    API_KEY = "your_openweather_api_key"
     url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={API_KEY}&units=metric"
     response = requests.get(url)
     data = response.json()
-    weather = f"{data['weather'][0]['description'].capitalize()}, {data['main']['temp']}°C"
-    return weather
+    print(data)  # Debug: Print the API response
+    if "weather" in data and "main" in data:
+        weather = f"{data['weather'][0]['description'].capitalize()}, {data['main']['temp']}°C"
+        return weather
+    else:
+        return "Weather data unavailable"
+
 
 def get_cpu_memory_usage():
     cpu = psutil.cpu_percent(interval=1)
