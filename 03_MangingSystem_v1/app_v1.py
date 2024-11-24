@@ -42,5 +42,12 @@ def get_cpu_memory_usage():
         "memory": psutil.virtual_memory().percent
     }
 
+
+@app.route("/reboot", methods=["POST"])
+def reboot():
+    os.system("sudo reboot")
+    return "Rebooting the Raspberry Pi...", 200
+
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)

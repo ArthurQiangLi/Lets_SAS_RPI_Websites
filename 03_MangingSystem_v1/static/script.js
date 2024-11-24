@@ -1,50 +1,9 @@
-document.addEventListener("DOMContentLoaded", () => {
-  const fetchData = () => {
-    fetch("/data")
-      .then((response) => response.json())
-      .then((data) => {
-        document.getElementById(
-          "weather"
-        ).textContent = `Weather: ${data.weather}`;
-        document.getElementById(
-          "cpu"
-        ).textContent = `CPU Usage: ${data.cpu_percent}%`;
-        document.getElementById(
-          "memory"
-        ).textContent = `Memory Usage: ${data.memory_used} MB / ${data.memory_total} MB`;
-        document.getElementById("age").textContent = `Age: ${data.age} years`;
-        document.getElementById(
-          "inner-temp"
-        ).textContent = `Inner Temp: ${data.inner_temp}`;
-      });
-  };
-
-  // Random background color change
-  setInterval(() => {
-    document.body.style.backgroundColor = `rgb(${Math.random() * 255}, ${
-      Math.random() * 255
-    }, ${Math.random() * 255})`;
-  }, 3000);
-
-  // Fetch data every 5 seconds
-  fetchData();
-  setInterval(fetchData, 5000);
-
-  // Reboot button
-  document.getElementById("reboot-button").addEventListener("click", () => {
-    fetch("/reboot", { method: "POST" })
-      .then(() => alert("Rebooting..."))
-      .catch((err) => alert("Error: " + err));
-  });
-});
-
-//////////////
 // Function to update the background color every 3 seconds
 function updateBackgroundColor() {
   fetch("/background_color")
     .then((response) => response.json())
     .then((data) => {
-      document.querySelector("h1").style.color = data.color;
+      document.querySelector(".box.age").style.backgroundColor = data.color;
     })
     .catch((error) => console.error("Error updating background color:", error));
 }
@@ -75,6 +34,27 @@ function updateCpuStats() {
 }
 
 // Set intervals for updates
-setInterval(updateBackgroundColor, 3000); // Every 3 seconds
+setInterval(updateBackgroundColor, 1000); // Every 3 seconds
 setInterval(updateWeather, 30000); // Every 30 seconds
 setInterval(updateCpuStats, 1000); // Every 1 second
+S;
+
+// Function to handle the reboot button click
+function setupRebootButton() {
+  const rebootButton = document.getElementById("reboot-button");
+  rebootButton.addEventListener("click", () => {
+    fetch("/reboot", { method: "POST" })
+      .then(() => {
+        alert("Rebooting the Raspberry Pi...");
+      })
+      .catch((error) => {
+        console.error("Error sending reboot request:", error);
+        alert("Failed to reboot the Raspberry Pi. Please try again.");
+      });
+  });
+}
+
+// Set up the reboot button functionality on page load
+document.addEventListener("DOMContentLoaded", () => {
+  setupRebootButton();
+});
