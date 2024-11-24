@@ -52,3 +52,11 @@ For most use cases, **`systemctl is-active apache2`** is more robust and reliabl
 - It integrates with Systemd's service management.
 - It accounts for more than just process existence (e.g., failed states).
 - It simplifies service control (start, stop, restart).
+
+## 3. Test the code
+
+Run the code [watchdog.py](./standalone_test6_custom_watchdog.py) in one terminal and in another terminal. <br> Run
+`sudo systemctl stop apache2`, this will return `inactive` to show apache2 is stopped.
+
+Example:
+![reboot after 120s](./document_media/20241123_19h21m02s_grim.png)
