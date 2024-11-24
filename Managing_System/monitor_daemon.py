@@ -5,6 +5,8 @@ import logging
 import csv
 import os
 import shutil
+import subprocess
+
 from datetime import datetime
 
 APACHE_STATUS_URL = "http://localhost/server-status?auto"
@@ -20,7 +22,7 @@ LOCATION = "Kitchener,CA"  # Replace with your city and country code
 CSV_FILE = "system_metrics.csv"
 
 # Degradation Thresholds
-CPU_THRESHOLD = 40  # in percentage
+CPU_THRESHOLD = 15  # in percentage
 MEMORY_THRESHOLD = 90  # in percentage
 
 # Paths to HTML files
@@ -72,6 +74,7 @@ def calculate_memory_usage():
 def switch_content(degrade=False):
     try:
         # Determine the target content
+        print(degrade)
         target_content_path = HIGH_LOAD_HTML if degrade else NORMAL_CONTENT_HTML
 
         # Read the contents of CURRENT_HTML
@@ -90,6 +93,8 @@ def switch_content(degrade=False):
 
         # Switch the content by copying the target file to CURRENT_HTML
         shutil.copyfile(target_content_path, CURRENT_HTML)
+        os.utime(CURRENT_HTML, None)
+        # subprocess.run(["curl", "http://localhost"], stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
         logging.info(f"Content switched to {'high_load.html' if degrade else 'normal_content.html'}")
         print(f"[INFO] Content switched to {'high_load.html' if degrade else 'normal_content.html'}")
     except Exception as e:
@@ -118,17 +123,32 @@ def fetch_apache_metrics():
 # Function to fetch latency from access logs
 def get_latest_latency():
     try:
-        with open(ACCESS_LOG_FILE, 'r') as file:
-            # Read the last few lines to minimize I/O
-            lines = file.readlines()[-100:]  # Adjust the number as needed
-            # Filter out requests made by the monitoring daemon (python-requests)
+        with open(ACCESS_LOG_FILE, 'rb') as file:
+            lines_to_read = 100
+            buffer = bytearray()
+            file.seek(0, os.SEEK_END)
+            file_size = file.tell()
+            block_size = 1024
+            lines_found = 0
+            while file_size > 0 and lines_found < lines_to_read:
+                if file_size - block_size > 0:
+                    file.seek(file_size - block_size)
+                    block = file.read(block_size)
+                else:
+                    file.seek(0)
+                    block = file.read(file_size)
+                buffer.extend(block)
+                lines_found = buffer.count(b'\n')
+                file_size -= block_size
+            all_read_text = buffer.decode('utf-8', errors='ignore')
+            lines = all_read_text.splitlines()
+            # Filter out monitoring daemon requests
             target_lines = [line for line in lines if 'python-requests' not in line]
             if not target_lines:
-                return None  # No relevant log lines
-            # Extract the latency (last value in the log entry) from the most recent match
+                return None
             last_line = target_lines[-1]
-            latency = int(last_line.split()[-1])  # Latency is the last field
-            return latency / 1000  # Convert microseconds to milliseconds
+            latency = int(last_line.split()[-1])  # Adjust based on your log format
+            return latency / 1000
     except Exception as e:
         logging.error(f"Error reading latency from access log: {e}")
         return None
@@ -141,6 +161,9 @@ def monitor_metrics():
             cpu_usage = psutil.cpu_percent(interval=0)
             memory_usage = calculate_memory_usage()
             temp = psutil.sensors_temperatures().get('cpu-thermal', [{}])[0].get('current', 'N/A')
+
+            print(cpu_usage)
+            print(memory_usage)
 
             # Fetch weather data
             weather_temp, humidity, weather_desc = fetch_weather()
@@ -187,8 +210,8 @@ def monitor_metrics():
             else:
                 switch_content(degrade=False)
 
-            # Pause for 5 seconds before next reading
-            time.sleep(5)
+            # Pause for 15 seconds before next reading
+            time.sleep(15)
 
         except Exception as e:
             logging.error(f"Monitoring error: {e}")

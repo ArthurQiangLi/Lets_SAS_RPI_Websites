@@ -74,3 +74,23 @@ I tested with caching disabled and caching enabled.
 If there's an error, use 'sudo apachectl configtest' to see what it is
 
 Might need to enable ssl: sudo a2enmod ssl
+
+# Disabling
+
+sudo a2dismod cache
+sudo a2dismod cache_disk
+sudo a2dismod mem_cache
+sudo a2dismod file_cache
+sudo a2dismod socache_shmcb
+
+## Might need to disable ssl
+sudo a2dismod ssl
+
+## Comment out
+cache directives in 000-default.conf and apache2.conf
+
+CacheEnable disk /
+CacheRoot "/var/cache/apache2/mod_cache_disk"
+
+Stuff like LogLevel info ssl:debug
+
