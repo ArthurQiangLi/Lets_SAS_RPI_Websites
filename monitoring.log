@@ -1,0 +1,428 @@
+2024-11-24 00:59:13,959 - CPU: 4.9%, Memory: 26.88%, Temp: N/A°C, Latency: 22.42 ms
+2024-11-24 00:59:13,960 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 00:59:13,960 - Apache Metrics - ReqPerSec: 327.247, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 00:59:14,040 - Content switched back to normal_content.html
+2024-11-24 00:59:26,757 - CPU: 1.0%, Memory: 8.86%, Temp: N/A°C, Latency: 6.35 ms
+2024-11-24 00:59:26,758 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 00:59:26,759 - Apache Metrics - ReqPerSec: 323.408, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 00:59:26,779 - Content switched back to normal_content.html
+2024-11-24 00:59:39,521 - CPU: 3.0%, Memory: 11.24%, Temp: N/A°C, Latency: 35.56 ms
+2024-11-24 00:59:39,522 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 00:59:39,522 - Apache Metrics - ReqPerSec: 320.185, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 00:59:39,551 - Content switched back to normal_content.html
+2024-11-24 00:59:52,094 - CPU: 1.0%, Memory: 9.38%, Temp: N/A°C, Latency: 20.79 ms
+2024-11-24 00:59:52,095 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 00:59:52,095 - Apache Metrics - ReqPerSec: 316.767, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 00:59:52,119 - Content switched back to normal_content.html
+2024-11-24 01:00:04,372 - CPU: 0.0%, Memory: 6.26%, Temp: N/A°C, Latency: 0.55 ms
+2024-11-24 01:00:04,373 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:00:04,374 - Apache Metrics - ReqPerSec: 313.42, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:00:04,402 - Content switched back to normal_content.html
+2024-11-24 01:00:16,551 - CPU: 2.9%, Memory: 6.24%, Temp: N/A°C, Latency: 0.73 ms
+2024-11-24 01:00:16,552 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:00:16,553 - Apache Metrics - ReqPerSec: 310.393, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:00:16,581 - Content switched back to normal_content.html
+2024-11-24 01:00:28,856 - CPU: 2.0%, Memory: 6.34%, Temp: N/A°C, Latency: 8.26 ms
+2024-11-24 01:00:28,857 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:00:28,858 - Apache Metrics - ReqPerSec: 307.423, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:00:28,880 - Content switched back to normal_content.html
+2024-11-24 01:00:41,337 - CPU: 1.0%, Memory: 6.34%, Temp: N/A°C, Latency: 0.51 ms
+2024-11-24 01:00:41,338 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:00:41,339 - Apache Metrics - ReqPerSec: 304.51, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:00:41,364 - Content switched back to normal_content.html
+2024-11-24 01:00:53,267 - CPU: 0.0%, Memory: 6.32%, Temp: N/A°C, Latency: 11.29 ms
+2024-11-24 01:00:53,268 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:00:53,269 - Apache Metrics - ReqPerSec: 301.416, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:00:53,292 - Content switched back to normal_content.html
+2024-11-24 01:01:05,608 - CPU: 20.0%, Memory: 4.60%, Temp: N/A°C, Latency: 11.96 ms
+2024-11-24 01:01:05,608 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:01:05,609 - Apache Metrics - ReqPerSec: 298.615, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:01:05,655 - Content switched back to normal_content.html
+2024-11-24 01:01:18,024 - CPU: 6.1%, Memory: 7.28%, Temp: N/A°C, Latency: 12.65 ms
+2024-11-24 01:01:18,025 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:01:18,026 - Apache Metrics - ReqPerSec: 295.866, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:01:18,046 - Content switched back to normal_content.html
+2024-11-24 01:01:30,407 - CPU: 0.0%, Memory: 4.02%, Temp: N/A°C, Latency: 0.64 ms
+2024-11-24 01:01:30,408 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:01:30,408 - Apache Metrics - ReqPerSec: 292.944, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:01:30,433 - Content switched back to normal_content.html
+2024-11-24 01:01:42,610 - CPU: 1.0%, Memory: 6.26%, Temp: N/A°C, Latency: 7.18 ms
+2024-11-24 01:01:42,613 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:01:42,613 - Apache Metrics - ReqPerSec: 290.297, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:01:42,638 - Content switched back to normal_content.html
+2024-11-24 01:01:55,028 - CPU: 3.0%, Memory: 6.32%, Temp: N/A°C, Latency: 0.56 ms
+2024-11-24 01:01:55,029 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:01:55,029 - Apache Metrics - ReqPerSec: 287.699, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:01:55,053 - Content switched back to normal_content.html
+2024-11-24 01:02:07,402 - CPU: 1.0%, Memory: 6.48%, Temp: N/A°C, Latency: 0.63 ms
+2024-11-24 01:02:07,403 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:02:07,403 - Apache Metrics - ReqPerSec: 284.935, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:02:07,429 - Content switched back to normal_content.html
+2024-11-24 01:02:19,571 - CPU: 0.0%, Memory: 6.51%, Temp: N/A°C, Latency: 0.60 ms
+2024-11-24 01:02:19,572 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:02:19,573 - Apache Metrics - ReqPerSec: 282.431, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:02:19,598 - Content switched back to normal_content.html
+2024-11-24 01:02:32,046 - CPU: 1.0%, Memory: 6.56%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-24 01:02:32,047 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:02:32,047 - Apache Metrics - ReqPerSec: 279.97, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:02:32,078 - Content switched back to normal_content.html
+2024-11-24 01:02:44,340 - CPU: 4.0%, Memory: 6.57%, Temp: N/A°C, Latency: 0.53 ms
+2024-11-24 01:02:44,342 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:02:44,342 - Apache Metrics - ReqPerSec: 277.353, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:02:44,371 - Content switched back to normal_content.html
+2024-11-24 01:02:56,659 - CPU: 1.0%, Memory: 6.63%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-24 01:02:56,660 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:02:56,661 - Apache Metrics - ReqPerSec: 274.979, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:02:56,686 - Content switched back to normal_content.html
+2024-11-24 01:03:09,352 - CPU: 0.0%, Memory: 6.25%, Temp: N/A°C, Latency: 26.71 ms
+2024-11-24 01:03:09,353 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:03:09,353 - Apache Metrics - ReqPerSec: 272.646, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:03:09,381 - Content switched back to normal_content.html
+2024-11-24 01:03:21,859 - CPU: 0.0%, Memory: 6.86%, Temp: N/A°C, Latency: 0.52 ms
+2024-11-24 01:03:21,860 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:03:21,860 - Apache Metrics - ReqPerSec: 270.163, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:03:21,880 - Content switched back to normal_content.html
+2024-11-24 01:03:34,366 - CPU: 1.0%, Memory: 7.58%, Temp: N/A°C, Latency: 0.54 ms
+2024-11-24 01:03:34,367 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:03:34,368 - Apache Metrics - ReqPerSec: 267.911, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:03:34,392 - Content switched back to normal_content.html
+2024-11-24 01:03:46,600 - CPU: 1.0%, Memory: 8.04%, Temp: N/A°C, Latency: 0.41 ms
+2024-11-24 01:03:46,601 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:03:46,601 - Apache Metrics - ReqPerSec: 265.514, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:03:46,622 - Content switched back to normal_content.html
+2024-11-24 01:03:58,971 - CPU: 1.0%, Memory: 8.04%, Temp: N/A°C, Latency: 0.55 ms
+2024-11-24 01:03:58,972 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:03:58,972 - Apache Metrics - ReqPerSec: 263.338, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:03:58,993 - Content switched back to normal_content.html
+2024-11-24 01:04:11,173 - CPU: 4.0%, Memory: 8.01%, Temp: N/A°C, Latency: 0.61 ms
+2024-11-24 01:04:11,178 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:04:11,180 - Apache Metrics - ReqPerSec: 261.021, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:04:11,212 - Content switched back to normal_content.html
+2024-11-24 01:04:23,402 - CPU: 2.0%, Memory: 7.99%, Temp: N/A°C, Latency: 0.53 ms
+2024-11-24 01:04:23,405 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:04:23,405 - Apache Metrics - ReqPerSec: 258.918, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:04:23,427 - Content switched back to normal_content.html
+2024-11-24 01:04:37,984 - CPU: 90.6%, Memory: 9.46%, Temp: N/A°C, Latency: 0.34 ms
+2024-11-24 01:04:37,995 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:04:37,995 - Apache Metrics - ReqPerSec: 256.849, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:04:38,147 - Content degraded to high_load.html
+2024-11-24 01:05:24,431 - CPU: 100.0%, Memory: 17.23%, Temp: N/A°C, Latency: 0.07 ms
+2024-11-24 01:05:24,435 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:05:24,435 - Apache Metrics - ReqPerSec: 261.305, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:05:24,522 - Content degraded to high_load.html
+2024-11-24 01:05:37,831 - CPU: 0.0%, Memory: 24.89%, Temp: N/A°C, Latency: 29.28 ms
+2024-11-24 01:05:37,832 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:05:37,832 - Apache Metrics - ReqPerSec: 285.483, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:05:37,859 - Content switched back to normal_content.html
+2024-11-24 01:05:50,192 - CPU: 1.0%, Memory: 6.45%, Temp: N/A°C, Latency: 15.77 ms
+2024-11-24 01:05:50,193 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:05:50,193 - Apache Metrics - ReqPerSec: 283.127, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:05:50,214 - Content switched back to normal_content.html
+2024-11-24 01:06:02,384 - CPU: 1.0%, Memory: 6.50%, Temp: N/A°C, Latency: 1.04 ms
+2024-11-24 01:06:02,387 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:06:02,387 - Apache Metrics - ReqPerSec: 280.81, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:06:02,429 - Content switched back to normal_content.html
+2024-11-24 01:06:14,677 - CPU: 2.0%, Memory: 6.51%, Temp: N/A°C, Latency: 0.50 ms
+2024-11-24 01:06:14,677 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:06:14,678 - Apache Metrics - ReqPerSec: 278.704, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:06:14,698 - Content switched back to normal_content.html
+2024-11-24 01:06:26,979 - CPU: 9.8%, Memory: 6.65%, Temp: N/A°C, Latency: 1.24 ms
+2024-11-24 01:06:26,979 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:06:26,980 - Apache Metrics - ReqPerSec: 276.63, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:06:27,000 - Content switched back to normal_content.html
+2024-11-24 01:06:39,304 - CPU: 4.0%, Memory: 6.11%, Temp: N/A°C, Latency: 6.68 ms
+2024-11-24 01:06:39,304 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:06:39,305 - Apache Metrics - ReqPerSec: 274.418, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:06:39,328 - Content switched back to normal_content.html
+2024-11-24 01:06:51,892 - CPU: 8.0%, Memory: 5.63%, Temp: N/A°C, Latency: 0.69 ms
+2024-11-24 01:06:51,893 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:06:51,893 - Apache Metrics - ReqPerSec: 272.407, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:06:51,915 - Content switched back to normal_content.html
+2024-11-24 01:07:04,153 - CPU: 0.0%, Memory: 5.63%, Temp: N/A°C, Latency: 0.65 ms
+2024-11-24 01:07:04,153 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:07:04,156 - Apache Metrics - ReqPerSec: 270.425, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:07:04,179 - Content switched back to normal_content.html
+2024-11-24 01:07:16,433 - CPU: 2.0%, Memory: 5.78%, Temp: N/A°C, Latency: 10.92 ms
+2024-11-24 01:07:16,440 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:07:16,441 - Apache Metrics - ReqPerSec: 268.31, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:07:16,471 - Content switched back to normal_content.html
+2024-11-24 01:07:28,758 - CPU: 5.9%, Memory: 5.74%, Temp: N/A°C, Latency: 0.50 ms
+2024-11-24 01:07:28,759 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:07:28,759 - Apache Metrics - ReqPerSec: 266.388, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:07:28,781 - Content switched back to normal_content.html
+2024-11-24 01:07:43,642 - CPU: 83.7%, Memory: 6.55%, Temp: N/A°C, Latency: 13.62 ms
+2024-11-24 01:07:43,646 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:07:43,647 - Apache Metrics - ReqPerSec: 264.492, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:07:43,709 - Content degraded to high_load.html
+2024-11-24 01:08:19,577 - CPU: 100.0%, Memory: 12.69%, Temp: N/A°C, Latency: 2.77 ms
+2024-11-24 01:08:19,578 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:08:19,578 - Apache Metrics - ReqPerSec: 267.555, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:08:19,651 - Content degraded to high_load.html
+2024-11-24 01:08:32,609 - CPU: 0.0%, Memory: 10.71%, Temp: N/A°C, Latency: 0.69 ms
+2024-11-24 01:08:32,611 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:08:32,612 - Apache Metrics - ReqPerSec: 283.225, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:08:32,635 - Content switched back to normal_content.html
+2024-11-24 01:08:44,771 - CPU: 1.0%, Memory: 7.01%, Temp: N/A°C, Latency: 0.46 ms
+2024-11-24 01:08:44,771 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:08:44,771 - Apache Metrics - ReqPerSec: 281.122, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:08:44,800 - Content switched back to normal_content.html
+2024-11-24 01:08:57,091 - CPU: 8.8%, Memory: 7.01%, Temp: N/A°C, Latency: 0.56 ms
+2024-11-24 01:08:57,092 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:08:57,093 - Apache Metrics - ReqPerSec: 279.208, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:08:57,114 - Content switched back to normal_content.html
+2024-11-24 01:09:09,429 - CPU: 0.0%, Memory: 7.00%, Temp: N/A°C, Latency: 0.34 ms
+2024-11-24 01:09:09,430 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:09:09,430 - Apache Metrics - ReqPerSec: 277.163, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:09:09,454 - Content switched back to normal_content.html
+2024-11-24 01:09:21,959 - CPU: 0.0%, Memory: 7.02%, Temp: N/A°C, Latency: 0.51 ms
+2024-11-24 01:09:21,960 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:09:21,960 - Apache Metrics - ReqPerSec: 275.303, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:09:21,982 - Content switched back to normal_content.html
+2024-11-24 01:09:33,968 - CPU: 2.0%, Memory: 7.17%, Temp: N/A°C, Latency: 0.47 ms
+2024-11-24 01:09:33,969 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:09:33,970 - Apache Metrics - ReqPerSec: 273.467, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:09:33,987 - Content switched back to normal_content.html
+2024-11-24 01:09:46,378 - CPU: 0.0%, Memory: 6.34%, Temp: N/A°C, Latency: 0.66 ms
+2024-11-24 01:09:46,379 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:09:46,379 - Apache Metrics - ReqPerSec: 271.506, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:09:46,411 - Content switched back to normal_content.html
+2024-11-24 01:09:59,107 - CPU: 5.9%, Memory: 5.71%, Temp: N/A°C, Latency: 0.75 ms
+2024-11-24 01:09:59,108 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:09:59,108 - Apache Metrics - ReqPerSec: 269.72, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:09:59,128 - Content switched back to normal_content.html
+2024-11-24 01:10:11,185 - CPU: 1.0%, Memory: 4.16%, Temp: N/A°C, Latency: 0.61 ms
+2024-11-24 01:10:11,186 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:10:11,187 - Apache Metrics - ReqPerSec: 267.812, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:10:11,206 - Content switched back to normal_content.html
+2024-11-24 01:10:23,798 - CPU: 7.1%, Memory: 4.89%, Temp: N/A°C, Latency: 0.54 ms
+2024-11-24 01:10:23,799 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:10:23,800 - Apache Metrics - ReqPerSec: 266.074, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:10:23,833 - Content switched back to normal_content.html
+2024-11-24 01:10:36,243 - CPU: 1.0%, Memory: 4.95%, Temp: N/A°C, Latency: 0.73 ms
+2024-11-24 01:10:36,244 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:10:36,245 - Apache Metrics - ReqPerSec: 264.359, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:10:36,268 - Content switched back to normal_content.html
+2024-11-24 01:10:48,380 - CPU: 0.0%, Memory: 4.93%, Temp: N/A°C, Latency: 0.62 ms
+2024-11-24 01:10:48,381 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:10:48,381 - Apache Metrics - ReqPerSec: 262.526, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:10:48,410 - Content switched back to normal_content.html
+2024-11-24 01:11:00,731 - CPU: 7.0%, Memory: 5.09%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-24 01:11:00,732 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:11:00,732 - Apache Metrics - ReqPerSec: 260.856, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:11:00,752 - Content switched back to normal_content.html
+2024-11-24 01:11:12,799 - CPU: 5.9%, Memory: 4.99%, Temp: N/A°C, Latency: 0.36 ms
+2024-11-24 01:11:12,799 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:11:12,800 - Apache Metrics - ReqPerSec: 259.207, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:11:12,824 - Content switched back to normal_content.html
+2024-11-24 01:11:25,161 - CPU: 0.0%, Memory: 4.93%, Temp: N/A°C, Latency: 0.72 ms
+2024-11-24 01:11:25,162 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:11:25,163 - Apache Metrics - ReqPerSec: 257.579, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:11:25,187 - Content switched back to normal_content.html
+2024-11-24 01:11:37,716 - CPU: 2.0%, Memory: 4.97%, Temp: N/A°C, Latency: 14.91 ms
+2024-11-24 01:11:37,717 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:11:37,717 - Apache Metrics - ReqPerSec: 255.838, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:11:37,745 - Content switched back to normal_content.html
+2024-11-24 01:11:50,069 - CPU: 5.1%, Memory: 5.01%, Temp: N/A°C, Latency: 0.69 ms
+2024-11-24 01:11:50,070 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:11:50,070 - Apache Metrics - ReqPerSec: 254.252, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:11:50,091 - Content switched back to normal_content.html
+2024-11-24 01:12:02,363 - CPU: 0.0%, Memory: 5.12%, Temp: N/A°C, Latency: 0.67 ms
+2024-11-24 01:12:02,364 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:12:02,365 - Apache Metrics - ReqPerSec: 252.556, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:12:02,384 - Content switched back to normal_content.html
+2024-11-24 01:12:14,779 - CPU: 16.5%, Memory: 8.46%, Temp: N/A°C, Latency: 0.50 ms
+2024-11-24 01:12:14,780 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:12:14,781 - Apache Metrics - ReqPerSec: 251.01, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:12:14,878 - Content switched back to normal_content.html
+2024-11-24 01:12:27,343 - CPU: 2.0%, Memory: 10.10%, Temp: N/A°C, Latency: 0.70 ms
+2024-11-24 01:12:27,343 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:12:27,344 - Apache Metrics - ReqPerSec: 249.483, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:12:27,365 - Content switched back to normal_content.html
+2024-11-24 01:12:39,990 - CPU: 5.1%, Memory: 9.38%, Temp: N/A°C, Latency: 0.66 ms
+2024-11-24 01:12:39,991 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:12:39,992 - Apache Metrics - ReqPerSec: 247.85, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:12:40,013 - Content switched back to normal_content.html
+2024-11-24 01:12:52,243 - CPU: 8.1%, Memory: 8.07%, Temp: N/A°C, Latency: 0.60 ms
+2024-11-24 01:12:52,246 - Weather: Temp: 2.99°C, Humidity: 96%, Desc: overcast clouds
+2024-11-24 01:12:52,246 - Apache Metrics - ReqPerSec: 246.238, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:12:52,266 - Content switched back to normal_content.html
+2024-11-24 01:13:04,680 - CPU: 2.0%, Memory: 8.18%, Temp: N/A°C, Latency: 0.67 ms
+2024-11-24 01:13:04,681 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:13:04,681 - Apache Metrics - ReqPerSec: 244.768, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:13:04,706 - Content switched back to normal_content.html
+2024-11-24 01:13:15,833 - Error fetching Apache metrics: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /server-status?auto (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1aaa578730>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-11-24 01:13:17,277 - CPU: 0.0%, Memory: 7.62%, Temp: N/A°C, Latency: 0.67 ms
+2024-11-24 01:13:17,278 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:13:17,279 - Apache Metrics - ReqPerSec: N/A, BusyWorkers: N/A, IdleWorkers: N/A, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:13:17,343 - Content switched back to normal_content.html
+2024-11-24 01:13:28,505 - Error fetching Apache metrics: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /server-status?auto (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1aaa579b70>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-11-24 01:13:29,937 - CPU: 8.0%, Memory: 7.53%, Temp: N/A°C, Latency: 0.67 ms
+2024-11-24 01:13:29,938 - Weather: Temp: 2.99°C, Humidity: 97%, Desc: overcast clouds
+2024-11-24 01:13:29,938 - Apache Metrics - ReqPerSec: N/A, BusyWorkers: N/A, IdleWorkers: N/A, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:13:29,962 - Content switched back to normal_content.html
+2024-11-24 01:13:41,078 - Error fetching Apache metrics: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /server-status?auto (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f1aaa57a320>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-11-24 01:13:42,152 - CPU: 5.1%, Memory: 7.83%, Temp: N/A°C, Latency: 0.67 ms
+2024-11-24 01:13:42,153 - Weather: Temp: 2.99°C, Humidity: 97%, Desc: overcast clouds
+2024-11-24 01:13:42,154 - Apache Metrics - ReqPerSec: N/A, BusyWorkers: N/A, IdleWorkers: N/A, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:13:42,174 - Content switched back to normal_content.html
+2024-11-24 01:19:54,651 - Error fetching Apache metrics: HTTPConnectionPool(host='localhost', port=80): Max retries exceeded with url: /server-status?auto (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f9a05a39180>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2024-11-24 01:19:55,904 - CPU: 9.1%, Memory: 5.16%, Temp: N/A°C, Latency: 0.67 ms
+2024-11-24 01:19:55,905 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:19:55,906 - Apache Metrics - ReqPerSec: N/A, BusyWorkers: N/A, IdleWorkers: N/A, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:19:55,931 - Content switched back to normal_content.html
+2024-11-24 01:24:56,669 - CPU: 2.0%, Memory: 8.04%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-24 01:24:56,674 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:24:56,674 - Apache Metrics - ReqPerSec: .1, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:24:56,725 - Content switched back to normal_content.html
+2024-11-24 01:25:09,745 - CPU: 4.1%, Memory: 9.82%, Temp: N/A°C, Latency: 0.47 ms
+2024-11-24 01:25:09,746 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:25:09,746 - Apache Metrics - ReqPerSec: .0930233, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:25:09,770 - Content switched back to normal_content.html
+2024-11-24 01:25:22,467 - CPU: 0.0%, Memory: 6.92%, Temp: N/A°C, Latency: 0.40 ms
+2024-11-24 01:25:22,468 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:25:22,469 - Apache Metrics - ReqPerSec: .0892857, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:25:22,514 - Content switched back to normal_content.html
+2024-11-24 01:25:34,921 - CPU: 3.0%, Memory: 7.65%, Temp: N/A°C, Latency: 0.56 ms
+2024-11-24 01:25:34,922 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:25:34,923 - Apache Metrics - ReqPerSec: .0869565, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:25:34,943 - Content switched back to normal_content.html
+2024-11-24 01:25:47,244 - CPU: 1.0%, Memory: 6.40%, Temp: N/A°C, Latency: 0.73 ms
+2024-11-24 01:25:47,247 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:25:47,247 - Apache Metrics - ReqPerSec: .111111, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:25:47,267 - Content switched back to normal_content.html
+2024-11-24 01:25:59,481 - CPU: 24.5%, Memory: 7.16%, Temp: N/A°C, Latency: 0.32 ms
+2024-11-24 01:25:59,482 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:25:59,482 - Apache Metrics - ReqPerSec: .106383, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:25:59,502 - Content switched back to normal_content.html
+2024-11-24 01:26:11,800 - CPU: 1.0%, Memory: 7.72%, Temp: N/A°C, Latency: 0.50 ms
+2024-11-24 01:26:11,801 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:26:11,802 - Apache Metrics - ReqPerSec: .103774, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:26:11,822 - Content switched back to normal_content.html
+2024-11-24 01:26:26,172 - CPU: 84.4%, Memory: 8.19%, Temp: N/A°C, Latency: 0.31 ms
+2024-11-24 01:26:26,190 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:26:26,191 - Apache Metrics - ReqPerSec: .101695, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:26:26,294 - Content degraded to high_load.html
+2024-11-24 01:28:30,511 - CPU: 100.0%, Memory: 15.31%, Temp: N/A°C, Latency: 87.10 ms
+2024-11-24 01:28:30,513 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:28:30,513 - Apache Metrics - ReqPerSec: 70.0226, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:28:30,611 - Content degraded to high_load.html
+2024-11-24 01:28:44,069 - CPU: 5.1%, Memory: 23.38%, Temp: N/A°C, Latency: 0.25 ms
+2024-11-24 01:28:44,070 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:28:44,070 - Apache Metrics - ReqPerSec: 204.459, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:28:44,094 - Content switched back to normal_content.html
+2024-11-24 01:28:56,504 - CPU: 0.0%, Memory: 2.84%, Temp: N/A°C, Latency: 24.00 ms
+2024-11-24 01:28:56,505 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:28:56,506 - Apache Metrics - ReqPerSec: 194.63, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:28:56,534 - Content switched back to normal_content.html
+2024-11-24 01:29:08,990 - CPU: 6.1%, Memory: 2.87%, Temp: N/A°C, Latency: 6.54 ms
+2024-11-24 01:29:08,991 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:29:08,991 - Apache Metrics - ReqPerSec: 185.693, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:29:09,011 - Content switched back to normal_content.html
+2024-11-24 01:29:21,350 - CPU: 6.0%, Memory: 1.71%, Temp: N/A°C, Latency: 0.67 ms
+2024-11-24 01:29:21,351 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:29:21,351 - Apache Metrics - ReqPerSec: 178.142, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:29:21,372 - Content switched back to normal_content.html
+2024-11-24 01:29:33,468 - CPU: 2.0%, Memory: 2.89%, Temp: N/A°C, Latency: 1.65 ms
+2024-11-24 01:29:33,476 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:29:33,477 - Apache Metrics - ReqPerSec: 170.627, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:29:33,521 - Content switched back to normal_content.html
+2024-11-24 01:29:45,760 - CPU: 1.0%, Memory: 3.05%, Temp: N/A°C, Latency: 8.80 ms
+2024-11-24 01:29:45,761 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:29:45,762 - Apache Metrics - ReqPerSec: 164.231, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:29:45,787 - Content switched back to normal_content.html
+2024-11-24 01:29:58,166 - CPU: 1.0%, Memory: 3.16%, Temp: N/A°C, Latency: 7.99 ms
+2024-11-24 01:29:58,167 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:29:58,167 - Apache Metrics - ReqPerSec: 158.298, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:29:58,192 - Content switched back to normal_content.html
+2024-11-24 01:30:10,305 - CPU: 6.0%, Memory: 3.44%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-24 01:30:10,306 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:30:10,307 - Apache Metrics - ReqPerSec: 152.336, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:30:10,346 - Content switched back to normal_content.html
+2024-11-24 01:30:35,184 - CPU: 92.2%, Memory: 7.61%, Temp: N/A°C, Latency: 0.08 ms
+2024-11-24 01:30:35,187 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:30:35,194 - Apache Metrics - ReqPerSec: 147.395, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:30:35,566 - Content degraded to high_load.html
+2024-11-24 01:31:17,023 - CPU: 100.0%, Memory: 26.59%, Temp: N/A°C, Latency: 0.07 ms
+2024-11-24 01:31:17,033 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:31:17,035 - Apache Metrics - ReqPerSec: 230.016, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:31:17,352 - Content degraded to high_load.html
+2024-11-24 01:31:35,480 - CPU: 100.0%, Memory: 55.92%, Temp: N/A°C, Latency: 0.13 ms
+2024-11-24 01:31:35,481 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:31:35,482 - Apache Metrics - ReqPerSec: 375.95, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:31:35,532 - Content degraded to high_load.html
+2024-11-24 01:31:47,935 - CPU: 29.0%, Memory: 5.26%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-24 01:31:47,936 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:31:47,937 - Apache Metrics - ReqPerSec: 384.339, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:31:47,963 - Content switched back to normal_content.html
+2024-11-24 01:32:01,304 - CPU: 34.0%, Memory: 6.46%, Temp: N/A°C, Latency: 2.08 ms
+2024-11-24 01:32:01,305 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:32:01,306 - Apache Metrics - ReqPerSec: 374.183, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:32:01,374 - Content switched back to normal_content.html
+2024-11-24 01:32:12,535 - CPU: 16.7%, Memory: 6.48%, Temp: N/A°C, Latency: 5.44 ms
+2024-11-24 01:32:12,536 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:32:12,536 - Apache Metrics - ReqPerSec: 364.549, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:32:12,583 - Content switched back to normal_content.html
+2024-11-24 01:32:20,129 - CPU: 2.0%, Memory: 5.71%, Temp: N/A°C, Latency: 0.55 ms
+2024-11-24 01:32:20,130 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:32:20,131 - Apache Metrics - ReqPerSec: 358.399, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:32:20,154 - Content switched back to normal_content.html
+2024-11-24 01:32:29,335 - CPU: 42.3%, Memory: 3.87%, Temp: N/A°C, Latency: 0.41 ms
+2024-11-24 01:32:29,338 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:32:29,338 - Apache Metrics - ReqPerSec: 353.185, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:32:29,380 - Content switched back to normal_content.html
+2024-11-24 01:33:06,140 - CPU: 100.0%, Memory: 9.83%, Temp: N/A°C, Latency: 0.07 ms
+2024-11-24 01:33:06,154 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:33:06,162 - Apache Metrics - ReqPerSec: 349.33, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:33:06,687 - Content degraded to high_load.html
+2024-11-24 01:33:51,053 - CPU: 100.0%, Memory: 32.26%, Temp: N/A°C, Latency: 0.06 ms
+2024-11-24 01:33:51,077 - Weather: Temp: 2.63°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:33:51,082 - Apache Metrics - ReqPerSec: 444.973, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:33:51,704 - Content degraded to high_load.html
+2024-11-24 01:34:18,739 - CPU: 100.0%, Memory: 51.80%, Temp: N/A°C, Latency: 0.11 ms
+2024-11-24 01:34:18,743 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:34:18,744 - Apache Metrics - ReqPerSec: 553.068, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:34:18,882 - Content degraded to high_load.html
+2024-11-24 01:34:27,351 - CPU: 3.0%, Memory: 16.04%, Temp: N/A°C, Latency: 24.30 ms
+2024-11-24 01:34:27,352 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:34:27,352 - Apache Metrics - ReqPerSec: 592.483, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:34:27,376 - Content switched back to normal_content.html
+2024-11-24 01:34:34,737 - CPU: 0.0%, Memory: -2.53%, Temp: N/A°C, Latency: 0.34 ms
+2024-11-24 01:34:34,738 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:34:34,738 - Apache Metrics - ReqPerSec: 583.729, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:34:34,758 - Content switched back to normal_content.html
+2024-11-24 01:34:42,224 - CPU: 1.0%, Memory: -2.53%, Temp: N/A°C, Latency: 32.24 ms
+2024-11-24 01:34:42,225 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:34:42,225 - Apache Metrics - ReqPerSec: 577.097, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:34:42,249 - Content switched back to normal_content.html
+2024-11-24 01:34:49,462 - CPU: 2.0%, Memory: -2.69%, Temp: N/A°C, Latency: 0.30 ms
+2024-11-24 01:34:49,463 - Weather: Temp: 2.99°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:34:49,464 - Apache Metrics - ReqPerSec: 569.7, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:34:49,488 - Content switched back to normal_content.html
+2024-11-24 01:34:56,691 - CPU: 0.0%, Memory: -2.93%, Temp: N/A°C, Latency: 2.52 ms
+2024-11-24 01:34:56,692 - Weather: Temp: 2.63°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:34:56,693 - Apache Metrics - ReqPerSec: 563.382, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:34:56,714 - Content switched back to normal_content.html
+2024-11-24 01:35:04,376 - CPU: 1.0%, Memory: -2.63%, Temp: N/A°C, Latency: 0.40 ms
+2024-11-24 01:35:04,376 - Weather: Temp: 2.63°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:35:04,378 - Apache Metrics - ReqPerSec: 557.202, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:35:04,407 - Content switched back to normal_content.html
+2024-11-24 01:35:11,719 - CPU: 0.0%, Memory: -2.59%, Temp: N/A°C, Latency: 1.64 ms
+2024-11-24 01:35:11,720 - Weather: Temp: 2.63°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:35:11,721 - Apache Metrics - ReqPerSec: 550.303, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:35:11,749 - Content switched back to normal_content.html
+2024-11-24 01:35:19,067 - CPU: 1.0%, Memory: -3.07%, Temp: N/A°C, Latency: 1.58 ms
+2024-11-24 01:35:19,068 - Weather: Temp: 2.63°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:35:19,069 - Apache Metrics - ReqPerSec: 544.406, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:35:19,094 - Content switched back to normal_content.html
+2024-11-24 01:35:26,439 - CPU: 0.0%, Memory: -3.06%, Temp: N/A°C, Latency: 0.47 ms
+2024-11-24 01:35:26,440 - Weather: Temp: 2.63°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:35:26,442 - Apache Metrics - ReqPerSec: 538.633, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:35:26,520 - Content switched back to normal_content.html
+2024-11-24 01:35:33,854 - CPU: 0.0%, Memory: -3.34%, Temp: N/A°C, Latency: 0.59 ms
+2024-11-24 01:35:33,855 - Weather: Temp: 2.63°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:35:33,855 - Apache Metrics - ReqPerSec: 532.184, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:35:33,876 - Content switched back to normal_content.html
+2024-11-24 01:35:41,100 - CPU: 0.0%, Memory: -3.20%, Temp: N/A°C, Latency: 5.37 ms
+2024-11-24 01:35:41,103 - Weather: Temp: 2.63°C, Humidity: 94%, Desc: broken clouds
+2024-11-24 01:35:41,103 - Apache Metrics - ReqPerSec: 526.667, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-24 01:35:41,126 - Content switched back to normal_content.html

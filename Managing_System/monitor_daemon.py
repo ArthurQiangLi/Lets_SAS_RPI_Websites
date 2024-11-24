@@ -7,6 +7,7 @@ import os
 from datetime import datetime
 
 APACHE_STATUS_URL = "http://localhost/server-status?auto"
+ACCESS_LOG_FILE = "/var/log/apache2/access.log"
 
 # Configure logging
 logging.basicConfig(filename="monitoring.log", level=logging.INFO, format="%(asctime)s - %(message)s")
@@ -92,6 +93,19 @@ def fetch_apache_metrics():
         logging.error(f"Error fetching Apache metrics: {e}")
         return None
 
+# Function to fetch latency from access logs
+def get_latest_latency():
+    try:
+        with open(ACCESS_LOG_FILE, 'r') as file:
+            # Read the last line of the access log
+            last_line = file.readlines()[-1]
+            # Extract the latency (last value in the log entry)
+            latency = int(last_line.split()[-1])  # Latency is the last field
+            return latency / 1000  # Convert microseconds to milliseconds
+    except Exception as e:
+        logging.error(f"Error reading latency from access log: {e}")
+        return None
+
 # Function to monitor system metrics
 def monitor_metrics():
     while True:
@@ -112,8 +126,12 @@ def monitor_metrics():
             busy_workers = apache_metrics.get("BusyWorkers", "N/A") if apache_metrics else "N/A"
             idle_workers = apache_metrics.get("IdleWorkers", "N/A") if apache_metrics else "N/A"
 
+            # Fetch the latest latency from logs
+            latency = get_latest_latency()
+            latency_display = f"{latency:.2f} ms" if latency else "N/A"
+
             # Log the data
-            logging.info(f"CPU: {cpu_usage}%, Memory: {memory_usage:.2f}%, Temp: {temp}°C")
+            logging.info(f"CPU: {cpu_usage}%, Memory: {memory_usage:.2f}%, Temp: {temp}°C, Latency: {latency_display}")
             logging.info(f"Weather: Temp: {weather_temp}°C, Humidity: {humidity}%, Desc: {weather_desc}")
             logging.info(f"Apache Metrics - ReqPerSec: {req_per_sec}, BusyWorkers: {busy_workers}, IdleWorkers: {idle_workers}, Cache Hits: {cache_hits}, Cache Misses: {cache_misses}")
 
@@ -132,7 +150,8 @@ def monitor_metrics():
                     busy_workers, 
                     idle_workers, 
                     cache_hits, 
-                    cache_misses
+                    cache_misses, 
+                    latency
                 ])
 
             # Degrade content based on thresholds
@@ -142,7 +161,7 @@ def monitor_metrics():
                 switch_content(degrade=False)
 
             # Pause for 10 seconds before next reading
-            time.sleep(10)
+            time.sleep(5)
 
         except Exception as e:
             logging.error(f"Monitoring error: {e}")
@@ -166,7 +185,8 @@ if __name__ == "__main__":
                 "BusyWorkers", 
                 "IdleWorkers", 
                 "Cache Hits", 
-                "Cache Misses"
+                "Cache Misses", 
+                "Latency (ms)"
             ])
     except FileExistsError:
         pass
