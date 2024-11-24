@@ -10,7 +10,7 @@
       2. response time
       3. bandwidth
 2. Effectors (**Output**):
-   1. [ ] Adjust cpu clock [A]
+   1. [x] Adjust cpu clock [A]
    2. [ ] Content degration [D]
    3. [ ] Watchdog (to reboot) [A]
    4. [ ] Apache content caching [D]
