@@ -4,6 +4,7 @@ import time
 import logging
 import csv
 import os
+import shutil
 from datetime import datetime
 
 APACHE_STATUS_URL = "http://localhost/server-status?auto"
@@ -13,21 +14,25 @@ ACCESS_LOG_FILE = "/var/log/apache2/access.log"
 logging.basicConfig(filename="monitoring.log", level=logging.INFO, format="%(asctime)s - %(message)s")
 
 # Constants
-WEATHER_API_KEY = "7a8fdd951ab780e11ad83ac773f07e7f"  # API key
+WEATHER_API_KEY = "7a8fdd951ab780e11ad83ac773f07e7f"  # Replace with your actual API key
 WEATHER_API_URL = "http://api.openweathermap.org/data/2.5/weather"
 LOCATION = "Kitchener,CA"  # Replace with your city and country code
 CSV_FILE = "system_metrics.csv"
 
 # Degradation Thresholds
-CPU_THRESHOLD = 80  # in percentage
+CPU_THRESHOLD = 40  # in percentage
 MEMORY_THRESHOLD = 90  # in percentage
 
 # Paths to HTML files
-NORMAL_HTML = "/var/www/html/index.html"
+CURRENT_HTML = "/var/www/html/index.html"
 HIGH_LOAD_HTML = "/var/www/html/high_load.html"
+NORMAL_CONTENT_HTML = "/var/www/html/normal_content.html"
 
 # Flag to determine memory mode (True = total memory usage, False = actual memory usage)
 USE_TOTAL_MEMORY = False
+
+# Set timeouts for network requests
+NETWORK_TIMEOUT = 5  # seconds
 
 # Function to fetch weather data
 def fetch_weather():
@@ -36,7 +41,7 @@ def fetch_weather():
             "q": LOCATION,
             "appid": WEATHER_API_KEY,
             "units": "metric"
-        })
+        }, timeout=NETWORK_TIMEOUT)
         data = response.json()
         if response.status_code == 200:
             temp = data['main']['temp']
@@ -52,24 +57,41 @@ def fetch_weather():
 
 # Function to calculate memory usage
 def calculate_memory_usage():
-    memory = psutil.virtual_memory()
-    if USE_TOTAL_MEMORY:
-        return memory.percent
-    else:
-        actual_memory_percent = 100 * (memory.used - memory.buffers - memory.cached) / memory.total
-        return actual_memory_percent
-
-# Function to degrade content
-def switch_content(degrade=True):
     try:
-        if degrade:
-            os.system(f"sudo cp {HIGH_LOAD_HTML} {NORMAL_HTML}")
-            logging.info("Content degraded to high_load.html")
-            print("[ALERT] Content degraded to high_load.html due to high system load!")
+        memory = psutil.virtual_memory()
+        if USE_TOTAL_MEMORY:
+            return memory.percent
         else:
-            os.system(f"sudo cp /var/www/html/normal_content.html {NORMAL_HTML}")
-            logging.info("Content switched back to normal_content.html")
-            print("[INFO] Content switched back to normal_content.html as system load is normal.")
+            actual_memory_percent = 100 * (memory.used - memory.buffers - memory.cached) / memory.total
+            return actual_memory_percent
+    except Exception as e:
+        logging.error(f"Error calculating memory usage: {e}")
+        return 0  # Return 0 if unable to calculate
+
+# Function to switch content based on system load
+def switch_content(degrade=False):
+    try:
+        # Determine the target content
+        target_content_path = HIGH_LOAD_HTML if degrade else NORMAL_CONTENT_HTML
+
+        # Read the contents of CURRENT_HTML
+        with open(CURRENT_HTML, 'r') as current_file:
+            current_content = current_file.read()
+
+        # Read the contents of the target content
+        with open(target_content_path, 'r') as target_file:
+            target_content = target_file.read()
+
+        # Check if the contents are the same
+        if current_content == target_content:
+            logging.info("Content already matches the target. No changes made.")
+            print("[INFO] Content already matches the target. No changes made.")
+            return
+
+        # Switch the content by copying the target file to CURRENT_HTML
+        shutil.copyfile(target_content_path, CURRENT_HTML)
+        logging.info(f"Content switched to {'high_load.html' if degrade else 'normal_content.html'}")
+        print(f"[INFO] Content switched to {'high_load.html' if degrade else 'normal_content.html'}")
     except Exception as e:
         logging.error(f"Error switching content: {e}")
         print(f"[ERROR] Error switching content: {e}")
@@ -77,7 +99,7 @@ def switch_content(degrade=True):
 # Function to fetch Apache metrics
 def fetch_apache_metrics():
     try:
-        response = requests.get(APACHE_STATUS_URL)
+        response = requests.get(APACHE_STATUS_URL, timeout=NETWORK_TIMEOUT)
         if response.status_code == 200:
             data = response.text
             metrics = {}
@@ -97,9 +119,14 @@ def fetch_apache_metrics():
 def get_latest_latency():
     try:
         with open(ACCESS_LOG_FILE, 'r') as file:
-            # Read the last line of the access log
-            last_line = file.readlines()[-1]
-            # Extract the latency (last value in the log entry)
+            # Read the last few lines to minimize I/O
+            lines = file.readlines()[-100:]  # Adjust the number as needed
+            # Filter out requests made by the monitoring daemon (python-requests)
+            target_lines = [line for line in lines if 'python-requests' not in line]
+            if not target_lines:
+                return None  # No relevant log lines
+            # Extract the latency (last value in the log entry) from the most recent match
+            last_line = target_lines[-1]
             latency = int(last_line.split()[-1])  # Latency is the last field
             return latency / 1000  # Convert microseconds to milliseconds
     except Exception as e:
@@ -111,7 +138,7 @@ def monitor_metrics():
     while True:
         try:
             # Collect system metrics
-            cpu_usage = psutil.cpu_percent(interval=1)
+            cpu_usage = psutil.cpu_percent(interval=0)
             memory_usage = calculate_memory_usage()
             temp = psutil.sensors_temperatures().get('cpu-thermal', [{}])[0].get('current', 'N/A')
 
@@ -139,57 +166,59 @@ def monitor_metrics():
             with open(CSV_FILE, mode='a', newline='') as file:
                 writer = csv.writer(file)
                 writer.writerow([
-                    datetime.now(), 
-                    cpu_usage, 
-                    memory_usage, 
-                    temp, 
-                    weather_temp, 
-                    humidity, 
-                    weather_desc, 
-                    req_per_sec, 
-                    busy_workers, 
-                    idle_workers, 
-                    cache_hits, 
-                    cache_misses, 
+                    datetime.now(),
+                    cpu_usage,
+                    memory_usage,
+                    temp,
+                    weather_temp,
+                    humidity,
+                    weather_desc,
+                    req_per_sec,
+                    busy_workers,
+                    idle_workers,
+                    cache_hits,
+                    cache_misses,
                     latency
                 ])
 
             # Degrade content based on thresholds
-            if (cpu_usage > CPU_THRESHOLD or memory_usage > MEMORY_THRESHOLD):
+            if cpu_usage > CPU_THRESHOLD or memory_usage > MEMORY_THRESHOLD:
                 switch_content(degrade=True)
             else:
                 switch_content(degrade=False)
 
-            # Pause for 10 seconds before next reading
+            # Pause for 5 seconds before next reading
             time.sleep(5)
 
         except Exception as e:
             logging.error(f"Monitoring error: {e}")
-            print(f"[ERROR] Monitoring error: {e}")
-            time.sleep(10)
+            #print(f"[ERROR] Monitoring error: {e}")
+            time.sleep(5)
 
 if __name__ == "__main__":
     # Initialize CSV file with headers if it doesn't exist
-    try:
-        with open(CSV_FILE, mode='x', newline='') as file:
-            writer = csv.writer(file)
-            writer.writerow([
-                "Timestamp", 
-                "CPU Usage (%)", 
-                "Memory Usage (%)", 
-                "CPU Temp (°C)", 
-                "Weather Temp (°C)", 
-                "Humidity (%)", 
-                "Weather Description", 
-                "ReqPerSec", 
-                "BusyWorkers", 
-                "IdleWorkers", 
-                "Cache Hits", 
-                "Cache Misses", 
-                "Latency (ms)"
-            ])
-    except FileExistsError:
-        pass
+    if not os.path.exists(CSV_FILE):
+        try:
+            with open(CSV_FILE, mode='w', newline='') as file:
+                writer = csv.writer(file)
+                writer.writerow([
+                    "Timestamp",
+                    "CPU Usage (%)",
+                    "Memory Usage (%)",
+                    "CPU Temp (°C)",
+                    "Weather Temp (°C)",
+                    "Humidity (%)",
+                    "Weather Description",
+                    "ReqPerSec",
+                    "BusyWorkers",
+                    "IdleWorkers",
+                    "Cache Hits",
+                    "Cache Misses",
+                    "Latency (ms)"
+                ])
+        except Exception as e:
+            logging.error(f"Error initializing CSV file: {e}")
+            #print(f"[ERROR] Error initializing CSV file: {e}")
 
     # Start monitoring
     monitor_metrics()
