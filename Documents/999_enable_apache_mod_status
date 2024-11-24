@@ -1,0 +1,39 @@
+This will show how to enable apache metrics monitoring:
+
+# Step 1: Enable Apache mod_status
+allows to monitor metrics:
+
+- Current active connections
+- Requests per second
+- Server uptime
+- Traffic information (bytes served)
+
+### Enable mod_status:
+
+sudo a2enmod status
+sudo systemctl restart apache2
+
+### Configure mod_status: Open the configuration file for mod_status:
+
+sudo nano /etc/apache2/mods-enabled/status.conf
+
+Modify to include the following:
+
+<Location "/server-status">
+    SetHandler server-status
+    Require all granted
+</Location>
+
+limit access to specific IPs or localhost:
+
+    Require ip 127.0.0.1
+
+### Restart Apache2 to apply the changes:
+
+sudo systemctl restart apache2
+
+### Verify mod_status: Access the status page at:
+
+http://<your-server-ip>/server-status
+
+It should display detailed Apache metrics.

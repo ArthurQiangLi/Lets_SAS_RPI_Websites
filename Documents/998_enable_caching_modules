@@ -1,0 +1,54 @@
+# Step 1
+
+sudo a2enmod cache
+sudo a2enmod cache_disk
+sudo a2enmod headers
+sudo a2enmod expires
+
+# Step 2
+
+sudo systemctl restart apache2
+
+
+# Configurations
+
+Need to edit apache config file like so:
+
+sudo nano /etc/apache2/apache2.conf
+
+Add the following:
+
+<IfModule mod_cache.c>
+    # Enable caching
+    CacheEnable disk /
+    CacheRoot "/var/cache/apache2/mod_cache_disk"
+    CacheDirLevels 2
+    CacheDirLength 1
+
+    # Cache expiration times
+    ExpiresActive On
+    ExpiresByType text/html "access plus 1 hour"
+    ExpiresByType text/css "access plus 1 week"
+    ExpiresByType application/javascript "access plus 1 week"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType video/mp4 "access plus 1 day"
+</IfModule>
+
+Save and close.
+
+# Test caching
+
+sudo rm -rf /var/cache/apache2/mod_cache_disk/*
+
+sudo systemctl restart apache2
+
+Now that fresh start is ensured,
+
+sudo tail -f /var/log/apache2/access.log
+
+Checking the logs to ensure caching is working. Look for headers:
+
+curl -I http://localhost/
+
+Should look like: X-Cache: HIT or X-Cache: MISS
