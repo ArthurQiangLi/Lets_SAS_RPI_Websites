@@ -7,22 +7,57 @@
     <link rel="stylesheet" href="/static/style.css" />
   </head>
   <body>
+    <h1>Metrics</h1>
+
     <div class="container">
+      <div class="box age">
+        <h2>Age</h2>
+        <p id="age">Loading...</p>
+      </div>
       <div class="box weather">
-        <h2>Weather</h2>
+        <h2>Local Weather</h2>
         <p id="weather">Loading...</p>
       </div>
       <div class="box cpu">
         <h2>CPU Usage</h2>
         <p id="cpu">Loading...</p>
       </div>
+      <div class="box cputemperature">
+        <h2>CPU Temperature</h2>
+        <p id="cputemperature">Loading...</p>
+        <a>degree</a>
+      </div>
       <div class="box memory">
         <h2>Memory Usage</h2>
         <p id="memory">Loading...</p>
       </div>
-      <div class="box age">
-        <h2>Age</h2>
-        <p id="age">Loading...</p>
+
+      <div class="box apache2metrics">
+        <h2>Apache2 Metrics</h2>
+        <a>Access num:</a>
+        <p id="apache2-acces-snum">Loading...</p>
+        <br />
+        <a>Response time:</a>
+        <p id="apache2-response time:">Loading...</p>
+      </div>
+    </div>
+    <h1>Effectors</h1>
+    <div class="container">
+      <div class="box reboot">
+        <h2>Reboot</h2>
+        <button id="reboot-button">Reboot Raspberry Pi</button>
+      </div>
+      <div class="box setclock">
+        <h2>Set CPU clock</h2>
+        <button id="min-clock-button">Set Min</button>
+        <button id="max-clock-button">Set Max</button>
+      </div>
+      <div class="box watchdog">
+        <h2>Set WatchDog</h2>
+        <button id="enable-watchdog-button">Enable Watchdog</button>
+      </div>
+      <div class="box apache2caching">
+        <h2>Apache2 Content Caching</h2>
       </div>
     </div>
     <script src="/static/script.js"></script>

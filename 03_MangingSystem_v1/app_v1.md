@@ -111,3 +111,5 @@ setInterval(updateCpuStats, 1000); // Update CPU stats every second
 | Version or date | Screenshots                                                                                                      |
 | :-------------- | :--------------------------------------------------------------------------------------------------------------- |
 | v1.0            | Design the layout of the front gui. <br> ![v1.0](./markdown_media/Screenshot%20from%202024-11-24%2010-40-25.png) |
+| v1.1            | ![v1.1](./markdown_media/Screenshot%20from%202024-11-24%2012-19-30.png)                                          |
+| v1.2            | ![v1.2](./markdown_media/Screenshot%20from%202024-11-24%2013-26-32.png)                                          |
