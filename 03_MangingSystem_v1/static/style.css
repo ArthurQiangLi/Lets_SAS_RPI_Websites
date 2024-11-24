@@ -1,0 +1,58 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for the boxes */
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Allows wrapping to the next row */
+  gap: 20px; /* Spacing between boxes */
+  width: 1000px; /* Fixed width suitable for your 1280px screen */
+  margin: auto;
+}
+
+/* Box Styling */
+.box {
+  background-color: #202547; /* Dark blue background */
+  color: white; /* White text */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px;
+  text-align: center; /* Center-align text */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Slight shadow */
+}
+
+/* Specific Classes for Individual Boxes */
+.weather {
+  width: 40%; /* Adjust width for Weather box */
+}
+
+.cpu {
+  width: 30%; /* Adjust width for CPU box */
+}
+
+.memory {
+  width: 30%; /* Adjust width for Memory box */
+}
+
+.age {
+  width: 100%; /* Full width for Age box */
+}
+
+/* Box Content */
+.box h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.box p {
+  font-size: 2rem;
+  margin: 0;
+}
