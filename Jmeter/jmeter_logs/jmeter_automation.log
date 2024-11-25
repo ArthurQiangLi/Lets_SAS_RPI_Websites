@@ -8,3 +8,39 @@ Killed
 
 2024-11-25 03:18:25,473 - WARNING - Retrying JMeter test (1/3) after 60 seconds...
 2024-11-25 03:19:30,137 - INFO - Starting JMeter test: /mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/traffic_simulation.jmx
+2024-11-25 04:38:35,487 - INFO - JMeter test completed successfully. Results saved to /mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/jmeter_results/test_results_20241125_023245.jtl
+2024-11-25 04:38:35,521 - INFO - Sleeping for 299 seconds before next run.
+2024-11-25 04:43:58,148 - INFO - Starting JMeter test: /mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/traffic_simulation.jmx
+2024-11-25 06:03:02,980 - INFO - JMeter test completed successfully. Results saved to /mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/jmeter_results/test_results_20241125_044358.jtl
+2024-11-25 06:03:02,997 - INFO - Sleeping for 299 seconds before next run.
+2024-11-25 06:08:24,180 - INFO - Starting JMeter test: /mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/traffic_simulation.jmx
+2024-11-25 06:26:55,037 - ERROR - JMeter test failed with return code 137
+2024-11-25 06:26:55,064 - ERROR - Error Output: Warning: Nashorn engine is planned to be removed from a future JDK release
+Killed
+
+2024-11-25 06:26:55,067 - WARNING - Retrying JMeter test (1/3) after 60 seconds...
+2024-11-25 06:27:58,893 - INFO - Starting JMeter test: /mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/traffic_simulation.jmx
+2024-11-25 07:47:15,576 - INFO - JMeter test completed successfully. Results saved to /mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/jmeter_results/test_results_20241125_060824.jtl
+2024-11-25 07:47:15,604 - INFO - Sleeping for 299 seconds before next run.
+2024-11-25 07:52:15,718 - INFO - Starting JMeter test: /mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/traffic_simulation.jmx
+2024-11-25 09:11:20,849 - INFO - JMeter test completed successfully. Results saved to /mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/jmeter_results/test_results_20241125_075215.jtl
+2024-11-25 09:11:20,890 - INFO - Sleeping for 299 seconds before next run.
+2024-11-25 09:16:19,239 - INFO - Starting JMeter test: /mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/traffic_simulation.jmx
+2024-11-25 09:41:33,152 - ERROR - JMeter test failed with return code 137
+2024-11-25 09:41:33,179 - ERROR - Error Output: Warning: Nashorn engine is planned to be removed from a future JDK release
+Killed
+
+2024-11-25 09:41:33,183 - WARNING - Retrying JMeter test (1/3) after 60 seconds...
+2024-11-25 09:42:32,181 - INFO - Starting JMeter test: /mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/traffic_simulation.jmx
+2024-11-25 09:52:49,483 - ERROR - JMeter test failed with return code 137
+2024-11-25 09:52:49,546 - ERROR - Error Output: Warning: Nashorn engine is planned to be removed from a future JDK release
+Killed
+
+2024-11-25 09:52:49,555 - WARNING - Retrying JMeter test (2/3) after 60 seconds...
+2024-11-25 09:53:48,404 - INFO - Starting JMeter test: /mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/traffic_simulation.jmx
+2024-11-25 10:05:39,205 - ERROR - JMeter test failed with return code 137
+2024-11-25 10:05:39,257 - ERROR - Error Output: Warning: Nashorn engine is planned to be removed from a future JDK release
+Killed
+
+2024-11-25 10:05:39,262 - WARNING - Retrying JMeter test (3/3) after 60 seconds...
+2024-11-25 10:06:37,838 - ERROR - JMeter test failed after 3 retries. Exiting automation.
