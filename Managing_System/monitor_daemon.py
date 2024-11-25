@@ -23,7 +23,7 @@ LOCATION = "Kitchener,CA"  # Replace with your city and country code
 CSV_FILE = "system_metrics.csv"
 
 # Degradation Thresholds
-CPU_THRESHOLD = 15  # in percentage
+CPU_THRESHOLD = 90  # in percentage
 MEMORY_THRESHOLD = 90  # in percentage
 
 # Paths to HTML files
@@ -122,19 +122,21 @@ def fetch_apache_metrics():
         return None
 
 # Function to fetch latency from access logs
-def get_latest_latency():
+# Function to fetch average latency from the last n valid lines in access logs
+def get_average_latency(n=100):
     try:
-        lines_to_read = 100
+        lines_to_read = n
         block_size = 8192  # Adjust block size as needed
         data = bytearray()
         lines = []
+        latencies = []
 
         with open(ACCESS_LOG_FILE, 'rb') as f:
             f.seek(0, os.SEEK_END)
             file_size = f.tell()
             remaining_size = file_size
 
-            while len(lines) <= lines_to_read and remaining_size > 0:
+            while len(lines) < lines_to_read and remaining_size > 0:
                 # Determine how much to read
                 read_size = min(block_size, remaining_size)
                 # Move the cursor back
@@ -156,25 +158,48 @@ def get_latest_latency():
                 logging.warning("No valid lines found in the log.")
                 return None
 
-            # Get the last valid line
-            last_line = target_lines[0]
-            # print(f"Last line: {last_line.strip()}")
+            # Extract latencies from the last n valid lines
+            for line in target_lines[:n]:
+                try:
+                    # Parse latency based on your log format
+                    # Assuming the latency is the last field and in milliseconds
+                    latency_str = line.split()[-1]
+                    latency = float(latency_str)
+                    latencies.append(latency)
+                except (IndexError, ValueError) as parse_error:
+                    logging.error(f"Error parsing latency from line: {line.strip()} - {parse_error}")
+                    continue
 
-            # Parse latency (adjust based on your log format)
-            # Assuming the last field is latency
-            latency = int(last_line.split()[-1])
-            # print(f"Latency: {latency}")
-            return latency / 1000  # Convert to seconds if latency is in milliseconds
+            if not latencies:
+                logging.warning("No valid latency values found.")
+                return None
+
+            # Calculate average latency
+            average_latency = sum(latencies) / len(latencies)
+            
+            return average_latency / 1000
+
     except Exception as e:
         logging.error(f"Error reading latency from access log: {e}")
         return None
+    
+adaptation_history = deque(maxlen=10)  # Stores the last 10 adaptation states
+state_durations = {'normal': 0, 'degraded': 0}
+total_adaptations = 0
 
 # Function to monitor system metrics
 def monitor_metrics():
     previous_state = 'normal'  # Initialize the previous state
-    
+    current_state = 'normal'
+    last_check_time = time.time()
+    global adaptation_history, state_durations, total_adaptations  # Ensure these are accessible within the function
+
     while True:
         try:
+            current_time = time.time()
+            time_diff = current_time - last_check_time
+            last_check_time = current_time
+
             # Collect system metrics
             cpu_usage = psutil.cpu_percent(interval=0)
             memory_usage = calculate_memory_usage()
@@ -195,7 +220,7 @@ def monitor_metrics():
             idle_workers = apache_metrics.get("IdleWorkers", "N/A") if apache_metrics else "N/A"
 
             # Fetch the latest latency from logs
-            latency = get_latest_latency()
+            latency = get_average_latency(n=1000)
             latency_display = f"{latency:.2f} ms" if latency else "N/A"
 
             # Log the data
@@ -206,20 +231,28 @@ def monitor_metrics():
             # Determine if adaptation is needed
             adaptation_needed = cpu_usage > CPU_THRESHOLD or memory_usage > MEMORY_THRESHOLD
 
-            # Degrade content based on thresholds
-            if adaptation_needed:
-                switch_content(degrade=True)
-                current_state = 'degraded'
-            else:
-                switch_content(degrade=False)
-                current_state = 'normal'
+            # Accumulate duration in current state
+            state_durations[current_state] += time_diff
+
+            # Update adaptation state
+            previous_state = current_state
+            current_state = 'degraded' if adaptation_needed else 'normal'
 
             # Check if the state has changed (adaptation occurred)
             adaptation_occurred = int(previous_state != current_state)
-            previous_state = current_state
+
+            if adaptation_occurred:
+                # Update total adaptations count
+                total_adaptations += 1
+                # Update adaptation history
+                adaptation_history.append((current_time, current_state))
+
+            # Calculate adaptation frequency (number of adaptations in the last N entries)
+            adaptation_frequency = sum(1 for _, state in adaptation_history if state == 'degraded')
 
             # Log the data
-            logging.info(f"Adaptation Occurred: {adaptation_occurred}")
+            logging.info(f"Adaptation Occurred: {adaptation_occurred}, Total Adaptations: {total_adaptations}, Adaptation Frequency: {adaptation_frequency}")
+            logging.info(f"State Durations - Normal: {state_durations['normal']:.2f}s, Degraded: {state_durations['degraded']:.2f}s")
 
             # Save data to CSV
             with open(CSV_FILE, mode='a', newline='') as file:
@@ -233,16 +266,26 @@ def monitor_metrics():
                     humidity,
                     weather_desc,
                     req_per_sec,
-                    busy_workers,
-                    idle_workers,
-                    cache_hits,
-                    cache_misses,
+                    # busy_workers,
+                    # idle_workers,
+                    # cache_hits,
+                    # cache_misses,
                     latency,
-                    adaptation_occurred  # Log adaptation occurrence
+                    # adaptation_occurred,  # Log adaptation occurrence
+                    # total_adaptations,
+                    # state_durations['normal'],
+                    # state_durations['degraded'],
+                    # adaptation_frequency,
+                    # current_state,
+                    #CPU_THRESHOLD,       # Log current CPU threshold
+                    #MEMORY_THRESHOLD 
                 ])
 
-            # Pause for 15 seconds before next reading
-            time.sleep(15)
+            # Switch content based on adaptation_needed
+            switch_content(degrade=adaptation_needed)
+
+            # Pause for 10 seconds before next reading
+            time.sleep(10)
 
         except Exception as e:
             logging.error(f"Monitoring error: {e}")
@@ -263,12 +306,19 @@ if __name__ == "__main__":
                     "Humidity (%)",
                     "Weather Description",
                     "ReqPerSec",
-                    "BusyWorkers",
-                    "IdleWorkers",
-                    "Cache Hits",
-                    "Cache Misses",
-                    "Latency (ms)",
-                    "Adaptation Occurred"
+                    # "BusyWorkers",
+                    # "IdleWorkers",
+                    # "Cache Hits",
+                    # "Cache Misses",
+                    "Average Latency (ms)",
+                    # "Adaptation Occurred",
+                    # "Total Adaptations",
+                    # "Normal State Duration",
+                    # "Degraded State Duration",
+                    # "Adaptation Frequency",
+                    # "Adaptation State",
+                    #"CPU Threshold",      # New field
+                    #"Memory Threshold"    # New field
                 ])
         except Exception as e:
             logging.error(f"Error initializing CSV file: {e}")
