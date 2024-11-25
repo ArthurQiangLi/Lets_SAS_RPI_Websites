@@ -171,6 +171,8 @@ def get_latest_latency():
 
 # Function to monitor system metrics
 def monitor_metrics():
+    previous_state = 'normal'  # Initialize the previous state
+    
     while True:
         try:
             # Collect system metrics
@@ -201,6 +203,24 @@ def monitor_metrics():
             logging.info(f"Weather: Temp: {weather_temp}°C, Humidity: {humidity}%, Desc: {weather_desc}")
             logging.info(f"Apache Metrics - ReqPerSec: {req_per_sec}, BusyWorkers: {busy_workers}, IdleWorkers: {idle_workers}, Cache Hits: {cache_hits}, Cache Misses: {cache_misses}")
 
+            # Determine if adaptation is needed
+            adaptation_needed = cpu_usage > CPU_THRESHOLD or memory_usage > MEMORY_THRESHOLD
+
+            # Degrade content based on thresholds
+            if adaptation_needed:
+                switch_content(degrade=True)
+                current_state = 'degraded'
+            else:
+                switch_content(degrade=False)
+                current_state = 'normal'
+
+            # Check if the state has changed (adaptation occurred)
+            adaptation_occurred = int(previous_state != current_state)
+            previous_state = current_state
+
+            # Log the data
+            logging.info(f"Adaptation Occurred: {adaptation_occurred}")
+
             # Save data to CSV
             with open(CSV_FILE, mode='a', newline='') as file:
                 writer = csv.writer(file)
@@ -217,21 +237,15 @@ def monitor_metrics():
                     idle_workers,
                     cache_hits,
                     cache_misses,
-                    latency
+                    latency,
+                    adaptation_occurred  # Log adaptation occurrence
                 ])
-
-            # Degrade content based on thresholds
-            if cpu_usage > CPU_THRESHOLD or memory_usage > MEMORY_THRESHOLD:
-                switch_content(degrade=True)
-            else:
-                switch_content(degrade=False)
 
             # Pause for 15 seconds before next reading
             time.sleep(15)
 
         except Exception as e:
             logging.error(f"Monitoring error: {e}")
-            #print(f"[ERROR] Monitoring error: {e}")
             time.sleep(5)
 
 if __name__ == "__main__":
@@ -253,7 +267,8 @@ if __name__ == "__main__":
                     "IdleWorkers",
                     "Cache Hits",
                     "Cache Misses",
-                    "Latency (ms)"
+                    "Latency (ms)",
+                    "Adaptation Occurred"
                 ])
         except Exception as e:
             logging.error(f"Error initializing CSV file: {e}")
