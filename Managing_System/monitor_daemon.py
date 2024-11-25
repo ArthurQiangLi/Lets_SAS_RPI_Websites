@@ -10,6 +10,7 @@ import subprocess
 from datetime import datetime
 from collections import deque
 
+# APACHE_STATUS_URL = "http://172.28.191.215/server-status?auto"
 APACHE_STATUS_URL = "http://localhost/server-status?auto"
 ACCESS_LOG_FILE = "/var/log/apache2/access.log"
 
