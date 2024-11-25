@@ -44,3 +44,8 @@ Killed
 
 2024-11-25 10:05:39,262 - WARNING - Retrying JMeter test (3/3) after 60 seconds...
 2024-11-25 10:06:37,838 - ERROR - JMeter test failed after 3 retries. Exiting automation.
+2024-11-25 12:25:46,102 - INFO - JMeter automation started. Running for 3 days.
+2024-11-25 12:25:46,103 - INFO - Start Time: 2024-11-25 12:25:46
+2024-11-25 12:25:46,103 - INFO - End Time: 2024-11-28 12:25:46
+2024-11-25 12:25:46,106 - INFO - Spike scheduled to start at 2024-11-26 12:00:00
+2024-11-25 12:25:46,108 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx

@@ -1,0 +1,1845 @@
+2024-11-25 12:25:47,615 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-11-25 12:25:47,635 INFO o.a.j.JMeter: Loading user properties from: C:\Utils\apache-jmeter-5.6.3\bin\user.properties
+2024-11-25 12:25:47,637 INFO o.a.j.JMeter: Loading system properties from: C:\Utils\apache-jmeter-5.6.3\bin\system.properties
+2024-11-25 12:25:47,645 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-11-25 12:25:47,645 INFO o.a.j.JMeter: Version 5.6.3
+2024-11-25 12:25:47,646 INFO o.a.j.JMeter: java.version=19.0.1
+2024-11-25 12:25:47,646 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-11-25 12:25:47,646 INFO o.a.j.JMeter: os.name=Windows 10
+2024-11-25 12:25:47,647 INFO o.a.j.JMeter: os.arch=amd64
+2024-11-25 12:25:47,647 INFO o.a.j.JMeter: os.version=10.0
+2024-11-25 12:25:47,647 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-11-25 12:25:47,647 INFO o.a.j.JMeter: java.awt.headless=true
+2024-11-25 12:25:47,647 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-11-25 12:25:47,647 INFO o.a.j.JMeter: Available Processors =16
+2024-11-25 12:25:47,659 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-11-25 12:25:47,660 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-11-25 12:25:47,660 INFO o.a.j.JMeter: JMeterHome=C:\Utils\apache-jmeter-5.6.3
+2024-11-25 12:25:47,660 INFO o.a.j.JMeter: user.dir  =C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter
+2024-11-25 12:25:47,661 INFO o.a.j.JMeter: PWD       =C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter
+2024-11-25 12:25:52,197 INFO o.a.j.JMeter: IP: 169.254.5.254 Name: OlijebwaPC FullName: OlijebwaPC
+2024-11-25 12:25:52,215 INFO o.a.j.s.FileServer: Default base='C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter'
+2024-11-25 12:25:52,218 INFO o.a.j.s.FileServer: Set new base='C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter'
+2024-11-25 12:25:52,428 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-11-25 12:25:52,460 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-11-25 12:25:52,464 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-11-25 12:25:52,467 INFO o.a.j.s.SaveService: Loading file: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-25 12:25:52,540 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-25 12:25:52,540 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-25 12:25:52,540 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-25 12:25:52,541 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-25 12:25:52,541 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-11-25 12:25:52,541 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-11-25 12:25:52,572 INFO o.a.j.JMeter: Creating summariser <summary>
+2024-11-25 12:25:52,588 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-11-25 12:25:52,589 INFO o.a.j.s.SampleEvent: List of sample_variables: [FLIGHTTOCOUNT, FLIGHTRETCOUNT, ONEWAY]
+2024-11-25 12:25:52,589 INFO o.a.j.s.SampleEvent: List of sample_variables: [FLIGHTTOCOUNT, FLIGHTRETCOUNT, ONEWAY]
+2024-11-25 12:25:52,595 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-11-25 12:25:52,595 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-11-25 12:25:52,672 INFO o.a.j.r.ClassFinder: Will scan jar C:\Utils\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-25 12:25:52,685 INFO o.a.j.r.ClassFinder: Will scan jar C:\Utils\apache-jmeter-5.6.3\lib\ext\json-simple-1.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-25 12:25:52,688 INFO o.a.j.r.ClassFinder: Will scan jar C:\Utils\apache-jmeter-5.6.3\lib\ext\acmeair-jmeter-2.0.0-SNAPSHOT.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-25 12:25:52,696 INFO o.a.j.r.ClassFinder: Will scan jar C:\Utils\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-25 12:25:52,811 INFO o.a.j.r.ClassFinder: Will scan jar C:\Utils\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-25 12:25:52,823 INFO o.a.j.JMeter: Running test (1732555552823)
+2024-11-25 12:25:52,857 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Stepping Thread Group
+2024-11-25 12:25:52,857 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group jp@gc - Stepping Thread Group.
+2024-11-25 12:25:52,857 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-11-25 12:25:52,857 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 100
+2024-11-25 12:25:52,891 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2024-11-25 12:25:52,892 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-11-25 12:26:52,858 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-1
+2024-11-25 12:26:54,873 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = OlijebwaPC
+2024-11-25 12:26:54,879 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-11-25 12:26:54,881 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-11-25 12:26:54,881 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-11-25 12:26:54,881 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-11-25 12:26:54,881 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-11-25 12:26:55,044 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-25 12:26:55,078 INFO o.a.j.p.h.s.ResourcesDownloader: Creating ResourcesDownloader with keepalive_inseconds : 60
+2024-11-25 12:26:55,097 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2024-11-25 12:26:55,104 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2024-11-25 12:26:55,104 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2024-11-25 12:26:55,250 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2024-11-25 12:26:55,254 INFO o.a.j.u.SSLManager: KeyStore created OK
+2024-11-25 12:26:55,255 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2024-11-25 12:26:55,711 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2024-11-25 12:26:55,926 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:53250] starting at token ' ' until [5:53251] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 53251.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:55,940 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:70708] starting at token ' ' until [5:70709] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 70709.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:55,942 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:73407] starting at token ' ' until [5:73408] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 73408.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:55,946 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:79112] starting at token ' ' until [5:79113] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 79113.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:55,951 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87095] starting at token ' ' until [5:87096] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87096.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:55,951 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87122] starting at token ' ' until [5:87123] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87123.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:55,952 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87297] starting at token ' ' until [5:87298] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87298.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:55,952 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87520] starting at token ' ' until [5:87521] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87521.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:55,952 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87539] starting at token ' ' until [5:87540] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87540.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:55,952 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87557] starting at token ' ' until [5:87558] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87558.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:55,958 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:96851] starting at token ' ' until [5:96852] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 96852.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:55,959 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:96883] starting at token ' ' until [5:96884] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 96884.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:55,972 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:118914] starting at token ' ' until [5:118915] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 118915.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:55,974 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:120779] starting at token ' ' until [5:120780] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 120780.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:55,975 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:121417] starting at token ' ' until [5:121418] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 121418.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:55,980 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:126625] starting at token ' ' until [5:126626] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 126626.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:26:58,858 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-2
+2024-11-25 12:27:00,042 INFO o.a.j.r.Summariser: summary +      8 in 00:01:07 =    0.1/s Avg:   250 Min:   127 Max:   749 Err:     0 (0.00%) Active: 2 Started: 2 Finished: 0
+2024-11-25 12:27:04,857 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-3
+2024-11-25 12:27:10,857 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-4
+2024-11-25 12:27:16,858 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-5
+2024-11-25 12:27:30,050 INFO o.a.j.r.Summariser: summary +    122 in 00:00:30 =    4.1/s Avg:   163 Min:   120 Max:   403 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2024-11-25 12:27:30,050 INFO o.a.j.r.Summariser: summary =    130 in 00:01:37 =    1.3/s Avg:   168 Min:   120 Max:   749 Err:     0 (0.00%)
+2024-11-25 12:27:55,403 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:53250] starting at token ' ' until [5:53251] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 53251.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:27:55,419 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:70708] starting at token ' ' until [5:70709] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 70709.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:27:55,422 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:73407] starting at token ' ' until [5:73408] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 73408.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:27:55,426 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:79112] starting at token ' ' until [5:79113] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 79113.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:27:55,432 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87095] starting at token ' ' until [5:87096] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87096.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:27:55,432 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87122] starting at token ' ' until [5:87123] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87123.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:27:55,432 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87297] starting at token ' ' until [5:87298] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87298.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:27:55,432 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87520] starting at token ' ' until [5:87521] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87521.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:27:55,433 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87539] starting at token ' ' until [5:87540] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87540.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:27:55,433 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87557] starting at token ' ' until [5:87558] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87558.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:27:55,439 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:96851] starting at token ' ' until [5:96852] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 96852.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:27:55,439 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:96883] starting at token ' ' until [5:96884] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 96884.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:27:55,453 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:118914] starting at token ' ' until [5:118915] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 118915.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:27:55,455 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:120779] starting at token ' ' until [5:120780] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 120780.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:27:55,456 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:121417] starting at token ' ' until [5:121418] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 121418.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:27:55,462 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:126625] starting at token ' ' until [5:126626] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 126626.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:28:00,056 INFO o.a.j.r.Summariser: summary +    139 in 00:00:30 =    4.6/s Avg:   159 Min:   113 Max:   904 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2024-11-25 12:28:00,056 INFO o.a.j.r.Summariser: summary =    269 in 00:02:07 =    2.1/s Avg:   163 Min:   113 Max:   904 Err:     0 (0.00%)
+2024-11-25 12:28:22,858 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-6
+2024-11-25 12:28:28,857 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-7
+2024-11-25 12:28:30,162 INFO o.a.j.r.Summariser: summary +    148 in 00:00:30 =    4.9/s Avg:   160 Min:   114 Max:   370 Err:     0 (0.00%) Active: 7 Started: 7 Finished: 0
+2024-11-25 12:28:30,162 INFO o.a.j.r.Summariser: summary =    417 in 00:02:37 =    2.7/s Avg:   162 Min:   113 Max:   904 Err:     0 (0.00%)
+2024-11-25 12:28:34,858 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-8
+2024-11-25 12:28:40,858 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-9
+2024-11-25 12:28:46,857 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-10
+2024-11-25 12:29:00,026 INFO o.a.j.r.Summariser: summary +    237 in 00:00:30 =    7.9/s Avg:   202 Min:   113 Max:   539 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2024-11-25 12:29:00,026 INFO o.a.j.r.Summariser: summary =    654 in 00:03:07 =    3.5/s Avg:   177 Min:   113 Max:   904 Err:     0 (0.00%)
+2024-11-25 12:29:27,198 INFO o.a.j.r.ResultCollector: Shutdown hook started

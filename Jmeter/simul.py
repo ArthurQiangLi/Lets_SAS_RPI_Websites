@@ -7,16 +7,17 @@ import logging
 import sys
 import threading
 
+
 # ----------------------- Configuration -----------------------
 
 # Paths to JMeter executables and test plans
-JMETER_PATH = "/mnt/c/Utils/apache-jmeter-5.6.3/bin/jmeter"  # Update if different
-REGULAR_TEST_PLAN = "/mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/traffic_simulation.jmx"
-SPIKE_TEST_PLAN = "/mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/traffic_simulation_spike.jmx"
+JMETER_PATH = "C:\\Utils\\apache-jmeter-5.6.3\\bin\\jmeter.bat"
+REGULAR_TEST_PLAN = "C:\\Users\\danie\\Dropbox\\bonjr\\coding\\VSProjects\\Lets_SAS_RPI_Websites\\Jmeter\\traffic_simulation.jmx"
+SPIKE_TEST_PLAN = "C:\\Users\\danie\\Dropbox\\bonjr\\coding\\VSProjects\\Lets_SAS_RPI_Websites\\Jmeter\\traffic_simulation_spike.jmx"
 
 # Directories for storing results and logs
-RESULTS_DIR = "/mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/jmeter_results"
-LOG_DIR = "/mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/jmeter_logs"
+RESULTS_DIR = "C:\\Users\\danie\\Dropbox\\bonjr\\coding\\VSProjects\\Lets_SAS_RPI_Websites\\Jmeter\\jmeter_results"
+LOG_DIR = "C:\\Users\\danie\\Dropbox\\bonjr\\coding\\VSProjects\\Lets_SAS_RPI_Websites\\Jmeter\\jmeter_logs"
 
 # Total duration for automation (in days)
 TOTAL_DURATION_DAYS = 3
@@ -175,27 +176,6 @@ if __name__ == "__main__":
     # Create results and logs directories if they don't exist
     os.makedirs(RESULTS_DIR, exist_ok=True)
     os.makedirs(LOG_DIR, exist_ok=True)
-
-    # Initialize CSV file with headers if it doesn't exist
-    CSV_FILE = "/mnt/c/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/Jmeter/system_metrics.csv"
-    if not os.path.exists(CSV_FILE):
-        try:
-            with open(CSV_FILE, mode='w', newline='') as file:
-                writer = csv.writer(file)
-                writer.writerow([
-                    "Timestamp",
-                    "CPU Usage (%)",
-                    "Memory Usage (%)",
-                    "CPU Temp (°C)",
-                    "Weather Temp (°C)",
-                    "Humidity (%)",
-                    "Weather Description",
-                    "ReqPerSec",
-                    "Average Latency (ms)"
-                ])
-        except Exception as e:
-            logging.error(f"Error initializing CSV file: {e}")
-            sys.exit(f"Error initializing CSV file: {e}")
 
     # Start the monitoring and testing automation
     main()
