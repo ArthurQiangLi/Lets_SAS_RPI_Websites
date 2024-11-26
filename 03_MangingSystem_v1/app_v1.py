@@ -31,7 +31,7 @@ def cpu_stats():
     status = extern_get_cpu_memory_usage() # returns {"cpu": 22, "memory": 60} dictionary
     status["cpu_temperature"] = extern_get_cpu_temperature1() #return int 60 in celcuis
     status["arm_clock"] = extern_get_arm_clock() #return int 600, means 600Mhz
-    status["total_cpu"] = status["arm_clock"] * int(status["cpu"])
+    status["total_cpu"] = status["arm_clock"] * int(status["cpu"]) * 0.01 # because cpu is 0..100
     status["throttled_status"]= extern_get_pi_throttled_status() #return a boolean dictionary {"under_voltage": True, ...}
     status["color"] = extern_get_random_color() # return int 0xababab
     status["age"] = extern_get_age() #return string '5d, 0h, 52m, 53s'

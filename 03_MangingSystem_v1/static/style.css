@@ -87,7 +87,7 @@ h1 {
   width: 50%;
 }
 
-/* throttled */
+/***************** throttled ****************/
 .status-list {
   list-style: none; /* Remove default list styling */
   padding: 0;
@@ -95,19 +95,27 @@ h1 {
 }
 
 .status-list li {
-  display: flex;
-  justify-content: space-between; /* Space out label and value */
   padding: 5px 0;
   font-size: 1.2rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Subtle separator between items */
+  color: white; /* Default color for inactive warnings */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Subtle separator */
 }
 
 .status-list li:last-child {
   border-bottom: none; /* Remove border for the last item */
 }
 
-.status-list span {
+.status-list li.active {
+  color: #ff4d4d; /* Red color for active warnings */
   font-weight: bold;
-  color: #ffcc00; /* Default color for loading state */
+  position: relative;
 }
+
+.status-list li.active::after {
+  content: "✔ "; /* Red tick for active warnings */
+  color: #ff4d4d;
+  font-size: 1.2rem;
+  margin-right: 5px;
+}
+
 /* Effectors */

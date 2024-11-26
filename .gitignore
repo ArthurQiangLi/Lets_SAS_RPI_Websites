@@ -16,3 +16,4 @@ venv
 *.jtl
 /venv_win
 *.hprof
+/__pycache__

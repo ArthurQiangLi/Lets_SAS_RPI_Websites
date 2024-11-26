@@ -7,7 +7,7 @@ function updateEvery1s() {
       document.getElementById("age").textContent = `${data.age}`;
       document.getElementById(
         "cpu"
-      ).textContent = `${data.cpu}%, @${data.arm_clock}Mhz, total-${data.total_cpu}`;
+      ).textContent = `${data.cpu}%, @${data.arm_clock}Mhz, Total:${data.total_cpu}Mhz`;
       document.getElementById(
         "memory"
       ).textContent = `Memory: ${data.memory} %`;
@@ -24,8 +24,11 @@ function updateThrottledStatus(data) {
   for (const [key, value] of Object.entries(data)) {
     const element = document.getElementById(key);
     if (element) {
-      element.textContent = value ? "✔" : "✘"; // Display check or cross
-      element.style.color = value ? "#04aa6d" : "#ff4d4d"; // Green for true, red for false
+      if (value) {
+        element.classList.add("active"); // Add red tick and red text for warnings
+      } else {
+        element.classList.remove("active"); // Default style for inactive warnings
+      }
     }
   }
 }
