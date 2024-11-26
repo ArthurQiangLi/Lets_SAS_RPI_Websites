@@ -9,7 +9,7 @@ sys.path.append(utils_path)
 from module1_get_weather import extern_get_weather
 from module2_get_cpu_memory import extern_get_cpu_memory_usage
 from module3_get_random_color import extern_get_random_color
-
+from module5_get_cpu_temperature import extern_get_cpu_temperature1
 from module51_set_reboot import extern_set_reboot
 ## Reads config.json during startup 
 with open("config.json", "r") as f:
@@ -31,7 +31,10 @@ def weather():
 
 @app.route("/cpu_stats", methods=["GET"])
 def cpu_stats():
-    return jsonify(extern_get_cpu_memory_usage())
+    status = extern_get_cpu_memory_usage()
+    temperature = extern_get_cpu_temperature1() # tempearture = '60' in celcuis
+    status["cpu_temperature"] = temperature # add 'cpu-temperature' into status dictionary
+    return jsonify(status)
 
 @app.route("/reboot", methods=["POST"])
 def reboot():

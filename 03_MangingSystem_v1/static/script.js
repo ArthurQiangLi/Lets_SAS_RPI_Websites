@@ -29,6 +29,9 @@ function updateCpuStats() {
       document.getElementById(
         "memory"
       ).textContent = `Memory Usage: ${data.memory}%`;
+      document.getElementById(
+        "cputemperature"
+      ).textContent = `${data.cpu_temperature}°C`;
     })
     .catch((error) => console.error("Error updating CPU stats:", error));
 }
