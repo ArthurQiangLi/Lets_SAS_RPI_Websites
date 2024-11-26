@@ -62,17 +62,17 @@ def reboot():
     return "Rebooting the Raspberry Pi...", 200
 
 @app.route("/min_clock", methods=["POST"])
-def reboot():
+def min_clock():
     extern_set_governor2("powersave")
     return "Setting powersave (min clock)...", 200
 
 @app.route("/max_clock", methods=["POST"])
-def reboot():
+def max_clock():
     extern_set_governor2("performance")
     return "Setting max clock...", 200
 
 @app.route("/on_demand", methods=["POST"])
-def reboot():
+def auto_clock():
     extern_set_governor2("ondemand")
     return "Setting ondemand (default clock)...", 200
 

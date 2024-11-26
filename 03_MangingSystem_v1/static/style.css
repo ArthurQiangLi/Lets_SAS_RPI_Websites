@@ -61,7 +61,7 @@ h1 {
   margin: 10px;
   font-size: 1.2rem; /* Increase font size */
   cursor: pointer; /* Show pointer cursor */
-  border-radius: 10%; /* Rounded corners */
+  border-radius: 8px; /* Rounded corners */
   text-align: center;
   display: inline-block;
 }
