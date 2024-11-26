@@ -4,6 +4,7 @@ function updateBackgroundColor() {
     .then((response) => response.json())
     .then((data) => {
       document.querySelector(".box.age").style.backgroundColor = data.color;
+      document.getElementById("age").textContent = `${data.age}`;
     })
     .catch((error) => console.error("Error updating background color:", error));
 }

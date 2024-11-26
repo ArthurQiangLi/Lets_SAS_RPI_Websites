@@ -9,6 +9,7 @@ sys.path.append(utils_path)
 from module1_get_weather import extern_fetch_weather
 from module2_get_cpu_memory import extern_get_cpu_memory_usage
 from module3_get_random_color import extern_get_random_color
+from module4_get_run_age import extern_get_age
 from module5_get_cpu_temperature import extern_get_cpu_temperature1
 from module51_set_reboot import extern_set_reboot
 ## Reads config.json during startup 
@@ -23,7 +24,8 @@ def dashboard():
 
 @app.route("/background_color", methods=["GET"])
 def background_color():
-    return jsonify({"color": extern_get_random_color()})
+    age = extern_get_age()
+    return jsonify({"color": extern_get_random_color(), "age":age})
 
 @app.route("/weather", methods=["GET"])
 def weather():
