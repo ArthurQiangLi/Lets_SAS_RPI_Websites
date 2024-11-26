@@ -21,6 +21,8 @@ h1 {
   flex-wrap: wrap; /* Allows wrapping to the next row */
   gap: 25px; /* Spacing between boxes */
   width: 1200px; /* Fixed width suitable for your 1280px screen */
+  justify-content: center; /* Center boxes horizontally */
+  align-items: center; /* Align items vertically in their row */
   margin: auto;
 }
 
@@ -65,10 +67,10 @@ h1 {
 
 /* Specific Classes for Individual Boxes */
 .age {
-  width: 40%;
+  width: 30%;
 }
 .weather {
-  width: 40%; /* Adjust width for Weather box */
+  width: 50%; /* Adjust width for Weather box */
 }
 
 .cpu {
