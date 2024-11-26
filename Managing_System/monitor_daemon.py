@@ -18,9 +18,9 @@ ACCESS_LOG_FILE = "/var/log/apache2/access.log"
 logging.basicConfig(filename="monitoring.log", level=logging.INFO, format="%(asctime)s - %(message)s")
 
 # Constants
-WEATHER_API_KEY = "7a8fdd951ab780e11ad83ac773f07e7f"  # Replace with your actual API key
+WEATHER_API_KEY = "7a8fdd951ab780e11ad83ac773f07e7f"
 WEATHER_API_URL = "http://api.openweathermap.org/data/2.5/weather"
-LOCATION = "Kitchener,CA"  # Replace with your city and country code
+LOCATION = "Kitchener,CA"
 CSV_FILE = "system_metrics.csv"
 
 # Degradation Thresholds
@@ -190,10 +190,10 @@ total_adaptations = 0
 
 # Function to monitor system metrics
 def monitor_metrics():
-    previous_state = 'normal'  # Initialize the previous state
+    previous_state = 'normal'
     current_state = 'normal'
     last_check_time = time.time()
-    global adaptation_history, state_durations, total_adaptations  # Ensure these are accessible within the function
+    global adaptation_history, state_durations, total_adaptations 
 
     while True:
         try:
@@ -318,8 +318,8 @@ if __name__ == "__main__":
                     # "Degraded State Duration",
                     # "Adaptation Frequency",
                     # "Adaptation State",
-                    #"CPU Threshold",      # New field
-                    #"Memory Threshold"    # New field
+                    #"CPU Threshold",
+                    #"Memory Threshold"
                 ])
         except Exception as e:
             logging.error(f"Error initializing CSV file: {e}")

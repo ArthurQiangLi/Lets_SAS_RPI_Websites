@@ -200,5 +200,5 @@ if __name__ == "__main__":
             print("  python simul.py          # Run the full automation")
             print("  python simul.py manual_spike  # Trigger a manual spike")
     else:
-        # Start the regular automation
+        # Start the automation
         main()
