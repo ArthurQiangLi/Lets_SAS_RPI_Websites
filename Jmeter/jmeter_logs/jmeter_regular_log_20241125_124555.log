@@ -1,0 +1,2404 @@
+2024-11-25 12:45:57,077 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2024-11-25 12:45:57,098 INFO o.a.j.JMeter: Loading user properties from: C:\Utils\apache-jmeter-5.6.3\bin\user.properties
+2024-11-25 12:45:57,099 INFO o.a.j.JMeter: Loading system properties from: C:\Utils\apache-jmeter-5.6.3\bin\system.properties
+2024-11-25 12:45:57,107 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2024-11-25 12:45:57,108 INFO o.a.j.JMeter: Version 5.6.3
+2024-11-25 12:45:57,108 INFO o.a.j.JMeter: java.version=19.0.1
+2024-11-25 12:45:57,108 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2024-11-25 12:45:57,109 INFO o.a.j.JMeter: os.name=Windows 10
+2024-11-25 12:45:57,109 INFO o.a.j.JMeter: os.arch=amd64
+2024-11-25 12:45:57,109 INFO o.a.j.JMeter: os.version=10.0
+2024-11-25 12:45:57,109 INFO o.a.j.JMeter: file.encoding=UTF-8
+2024-11-25 12:45:57,110 INFO o.a.j.JMeter: java.awt.headless=true
+2024-11-25 12:45:57,110 INFO o.a.j.JMeter: Max memory     =1073741824
+2024-11-25 12:45:57,110 INFO o.a.j.JMeter: Available Processors =16
+2024-11-25 12:45:57,123 INFO o.a.j.JMeter: Default Locale=English (EN)
+2024-11-25 12:45:57,124 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2024-11-25 12:45:57,124 INFO o.a.j.JMeter: JMeterHome=C:\Utils\apache-jmeter-5.6.3
+2024-11-25 12:45:57,124 INFO o.a.j.JMeter: user.dir  =C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter
+2024-11-25 12:45:57,125 INFO o.a.j.JMeter: PWD       =C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter
+2024-11-25 12:46:01,699 INFO o.a.j.JMeter: IP: 169.254.5.254 Name: OlijebwaPC FullName: OlijebwaPC
+2024-11-25 12:46:01,714 INFO o.a.j.s.FileServer: Default base='C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter'
+2024-11-25 12:46:01,716 INFO o.a.j.s.FileServer: Set new base='C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter'
+2024-11-25 12:46:01,921 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2024-11-25 12:46:01,943 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2024-11-25 12:46:01,946 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2024-11-25 12:46:01,949 INFO o.a.j.s.SaveService: Loading file: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-25 12:46:02,004 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-25 12:46:02,004 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-25 12:46:02,004 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-25 12:46:02,004 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-25 12:46:02,004 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2024-11-25 12:46:02,004 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2024-11-25 12:46:02,026 INFO o.a.j.JMeter: Creating summariser <summary>
+2024-11-25 12:46:02,037 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2024-11-25 12:46:02,038 INFO o.a.j.s.SampleEvent: List of sample_variables: [FLIGHTTOCOUNT, FLIGHTRETCOUNT, ONEWAY]
+2024-11-25 12:46:02,039 INFO o.a.j.s.SampleEvent: List of sample_variables: [FLIGHTTOCOUNT, FLIGHTRETCOUNT, ONEWAY]
+2024-11-25 12:46:02,043 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2024-11-25 12:46:02,043 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2024-11-25 12:46:02,107 INFO o.a.j.r.ClassFinder: Will scan jar C:\Utils\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-casutg-2.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-25 12:46:02,119 INFO o.a.j.r.ClassFinder: Will scan jar C:\Utils\apache-jmeter-5.6.3\lib\ext\json-simple-1.1.1.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-25 12:46:02,123 INFO o.a.j.r.ClassFinder: Will scan jar C:\Utils\apache-jmeter-5.6.3\lib\ext\acmeair-jmeter-2.0.0-SNAPSHOT.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-25 12:46:02,131 INFO o.a.j.r.ClassFinder: Will scan jar C:\Utils\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.6.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-25 12:46:02,228 INFO o.a.j.r.ClassFinder: Will scan jar C:\Utils\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.10.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2024-11-25 12:46:02,238 INFO o.a.j.JMeter: Running test (1732556762238)
+2024-11-25 12:46:02,257 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : jp@gc - Stepping Thread Group
+2024-11-25 12:46:02,257 INFO o.a.j.e.StandardJMeterEngine: Starting 100 threads for group jp@gc - Stepping Thread Group.
+2024-11-25 12:46:02,257 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2024-11-25 12:46:02,257 INFO k.a.j.t.AbstractSimpleThreadGroup: Starting thread group number 1 threads 100
+2024-11-25 12:46:02,290 INFO k.a.j.t.AbstractSimpleThreadGroup: Started thread group number 1
+2024-11-25 12:46:02,290 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2024-11-25 12:47:02,262 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-1
+2024-11-25 12:47:02,902 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = OlijebwaPC
+2024-11-25 12:47:02,908 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2024-11-25 12:47:02,910 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2024-11-25 12:47:02,910 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2024-11-25 12:47:02,910 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2024-11-25 12:47:02,910 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2024-11-25 12:47:03,038 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2024-11-25 12:47:03,066 INFO o.a.j.p.h.s.ResourcesDownloader: Creating ResourcesDownloader with keepalive_inseconds : 60
+2024-11-25 12:47:03,085 INFO o.a.j.p.h.s.h.LazyLayeredConnectionSocketFactory: Setting up HTTPS TrustAll Socket Factory
+2024-11-25 12:47:03,090 INFO o.a.j.u.JsseSSLManager: Using default SSL protocol: TLS
+2024-11-25 12:47:03,090 INFO o.a.j.u.JsseSSLManager: SSL session context: per-thread
+2024-11-25 12:47:03,203 INFO o.a.j.u.SSLManager: JmeterKeyStore Location:  type JKS
+2024-11-25 12:47:03,207 INFO o.a.j.u.SSLManager: KeyStore created OK
+2024-11-25 12:47:03,207 WARN o.a.j.u.SSLManager: Keystore file not found, loading empty keystore
+2024-11-25 12:47:03,464 INFO o.a.j.p.h.p.BaseParser: Created org.apache.jmeter.protocol.http.parser.CssParser
+2024-11-25 12:47:03,663 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:53250] starting at token ' ' until [5:53251] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 53251.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,677 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:70708] starting at token ' ' until [5:70709] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 70709.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,679 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:73407] starting at token ' ' until [5:73408] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 73408.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,683 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:79112] starting at token ' ' until [5:79113] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 79113.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,688 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87095] starting at token ' ' until [5:87096] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87096.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,688 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87122] starting at token ' ' until [5:87123] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87123.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,688 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87297] starting at token ' ' until [5:87298] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87298.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,689 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87520] starting at token ' ' until [5:87521] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87521.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,689 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87539] starting at token ' ' until [5:87540] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87540.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,689 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87557] starting at token ' ' until [5:87558] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87558.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,695 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:96851] starting at token ' ' until [5:96852] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 96852.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,695 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:96883] starting at token ' ' until [5:96884] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 96884.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,709 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:118914] starting at token ' ' until [5:118915] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 118915.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,710 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:120779] starting at token ' ' until [5:120780] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 120780.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,711 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:121417] starting at token ' ' until [5:121418] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 121418.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,716 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:126625] starting at token ' ' until [5:126626] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 126626.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:47:03,851 INFO o.a.j.r.Summariser: summary +      1 in 00:01:02 =    0.0/s Avg:   490 Min:   490 Max:   490 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2024-11-25 12:47:08,257 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-2
+2024-11-25 12:47:14,257 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-3
+2024-11-25 12:47:20,258 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-4
+2024-11-25 12:47:26,257 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-5
+2024-11-25 12:47:30,042 INFO o.a.j.r.Summariser: summary +     70 in 00:00:26 =    2.7/s Avg:   183 Min:   115 Max:   569 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2024-11-25 12:47:30,043 INFO o.a.j.r.Summariser: summary =     71 in 00:01:28 =    0.8/s Avg:   187 Min:   115 Max:   569 Err:     0 (0.00%)
+2024-11-25 12:48:00,189 INFO o.a.j.r.Summariser: summary +    140 in 00:00:30 =    4.6/s Avg:   172 Min:   118 Max:   342 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2024-11-25 12:48:00,190 INFO o.a.j.r.Summariser: summary =    211 in 00:01:58 =    1.8/s Avg:   177 Min:   115 Max:   569 Err:     0 (0.00%)
+2024-11-25 12:48:03,311 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:53250] starting at token ' ' until [5:53251] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 53251.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:03,323 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:70708] starting at token ' ' until [5:70709] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 70709.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:03,324 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:73407] starting at token ' ' until [5:73408] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 73408.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:03,328 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:79112] starting at token ' ' until [5:79113] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 79113.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:03,332 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87095] starting at token ' ' until [5:87096] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87096.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:03,332 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87122] starting at token ' ' until [5:87123] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87123.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:03,333 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87297] starting at token ' ' until [5:87298] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87298.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:03,333 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87520] starting at token ' ' until [5:87521] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87521.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:03,333 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87539] starting at token ' ' until [5:87540] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87540.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:03,333 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:87557] starting at token ' ' until [5:87558] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 87558.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:03,338 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:96851] starting at token ' ' until [5:96852] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 96852.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:03,338 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:96883] starting at token ' ' until [5:96884] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 96884.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:03,350 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:118914] starting at token ' ' until [5:118915] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 118915.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:03,351 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:120779] starting at token ' ' until [5:120780] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 120780.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:03,352 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:121417] starting at token ' ' until [5:121418] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 121418.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:03,356 WARN c.h.c.r.e.LoggingCSSParseErrorHandler: Browser compliant mode skipped CSS from [5:126625] starting at token ' ' until [5:126626] to token ';' (based on com.helger.css.parser.ParseException: Encountered unexpected token: ";" ";"
+    at line 5, column 126626.
+
+Was expecting one of:
+
+    "+"
+    "-"
+    "["
+    "and"
+    "expression("
+    "from"
+    "inherit"
+    "not"
+    "only"
+    "or"
+    "to"
+    <ANGLE_DEG>
+    <ANGLE_GRAD>
+    <ANGLE_RAD>
+    <ANGLE_TURN>
+    <CH>
+    <DPCM>
+    <DPI>
+    <DPPX>
+    <EM>
+    <EX>
+    <FR>
+    <FREQ_HZ>
+    <FREQ_KHZ>
+    <FUNCTION>
+    <FUNCTION_CALC>
+    <HASH>
+    <IDENT>
+    <LENGTH_CM>
+    <LENGTH_IN>
+    <LENGTH_MM>
+    <LENGTH_PC>
+    <LENGTH_PT>
+    <LENGTH_Q>
+    <NUMBER>
+    <PERCENTAGE>
+    <PX>
+    <REM>
+    <S>
+    <STRING1>
+    <STRING2>
+    <TIME_MS>
+    <TIME_S>
+    <URANGE>
+    <URL>
+    <VH>
+    <VMAX>
+    <VMIN>
+    <VW>
+)
+2024-11-25 12:48:30,550 INFO o.a.j.r.Summariser: summary +    140 in 00:00:30 =    4.6/s Avg:   166 Min:   118 Max:   344 Err:     0 (0.00%) Active: 5 Started: 5 Finished: 0
+2024-11-25 12:48:30,550 INFO o.a.j.r.Summariser: summary =    351 in 00:02:28 =    2.4/s Avg:   173 Min:   115 Max:   569 Err:     0 (0.00%)
+2024-11-25 12:48:32,257 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-6
+2024-11-25 12:48:38,257 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-7
+2024-11-25 12:48:44,258 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-8
+2024-11-25 12:48:50,258 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-9
+2024-11-25 12:48:56,257 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-10
+2024-11-25 12:49:00,049 INFO o.a.j.r.Summariser: summary +    198 in 00:00:29 =    6.7/s Avg:   180 Min:   114 Max:   380 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2024-11-25 12:49:00,049 INFO o.a.j.r.Summariser: summary =    549 in 00:02:58 =    3.1/s Avg:   176 Min:   114 Max:   569 Err:     0 (0.00%)
+2024-11-25 12:49:30,019 INFO o.a.j.r.Summariser: summary +    286 in 00:00:30 =    9.5/s Avg:   225 Min:   117 Max:   440 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2024-11-25 12:49:30,019 INFO o.a.j.r.Summariser: summary =    835 in 00:03:28 =    4.0/s Avg:   192 Min:   114 Max:   569 Err:     0 (0.00%)
+2024-11-25 12:50:00,098 INFO o.a.j.r.Summariser: summary +    277 in 00:00:30 =    9.2/s Avg:   206 Min:   116 Max:   676 Err:     0 (0.00%) Active: 10 Started: 10 Finished: 0
+2024-11-25 12:50:00,099 INFO o.a.j.r.Summariser: summary =   1112 in 00:03:58 =    4.7/s Avg:   196 Min:   114 Max:   676 Err:     0 (0.00%)
+2024-11-25 12:50:02,257 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-11
+2024-11-25 12:50:08,258 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-12
+2024-11-25 12:50:14,258 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-13
+2024-11-25 12:50:20,258 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-14
+2024-11-25 12:50:26,258 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-15
+2024-11-25 12:50:30,107 INFO o.a.j.r.Summariser: summary +    336 in 00:00:30 =   11.2/s Avg:   266 Min:   115 Max:   672 Err:     0 (0.00%) Active: 15 Started: 15 Finished: 0
+2024-11-25 12:50:30,107 INFO o.a.j.r.Summariser: summary =   1448 in 00:04:28 =    5.4/s Avg:   212 Min:   114 Max:   676 Err:     0 (0.00%)
+2024-11-25 12:51:00,152 INFO o.a.j.r.Summariser: summary +    358 in 00:00:30 =   11.9/s Avg:   364 Min:   115 Max:  1552 Err:     0 (0.00%) Active: 15 Started: 15 Finished: 0
+2024-11-25 12:51:00,152 INFO o.a.j.r.Summariser: summary =   1806 in 00:04:58 =    6.1/s Avg:   242 Min:   114 Max:  1552 Err:     0 (0.00%)
+2024-11-25 12:51:30,198 INFO o.a.j.r.Summariser: summary +    373 in 00:00:30 =   12.4/s Avg:   308 Min:   113 Max:   870 Err:     0 (0.00%) Active: 15 Started: 15 Finished: 0
+2024-11-25 12:51:30,198 INFO o.a.j.r.Summariser: summary =   2179 in 00:05:28 =    6.6/s Avg:   253 Min:   113 Max:  1552 Err:     0 (0.00%)
+2024-11-25 12:51:32,257 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-16
+2024-11-25 12:51:38,258 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-17
+2024-11-25 12:51:44,259 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-18
+2024-11-25 12:51:50,258 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-19
+2024-11-25 12:51:56,257 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-20
+2024-11-25 12:52:00,072 INFO o.a.j.r.Summariser: summary +    386 in 00:00:30 =   12.9/s Avg:   478 Min:   115 Max:  1214 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2024-11-25 12:52:00,072 INFO o.a.j.r.Summariser: summary =   2565 in 00:05:58 =    7.2/s Avg:   287 Min:   113 Max:  1552 Err:     0 (0.00%)
+2024-11-25 12:52:30,007 INFO o.a.j.r.Summariser: summary +    394 in 00:00:30 =   13.2/s Avg:   627 Min:   113 Max:  1408 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2024-11-25 12:52:30,007 INFO o.a.j.r.Summariser: summary =   2959 in 00:06:28 =    7.6/s Avg:   333 Min:   113 Max:  1552 Err:     0 (0.00%)
+2024-11-25 12:53:00,002 INFO o.a.j.r.Summariser: summary +    392 in 00:00:30 =   13.1/s Avg:   602 Min:   122 Max:  1224 Err:     0 (0.00%) Active: 20 Started: 20 Finished: 0
+2024-11-25 12:53:00,003 INFO o.a.j.r.Summariser: summary =   3351 in 00:06:58 =    8.0/s Avg:   364 Min:   113 Max:  1552 Err:     0 (0.00%)
+2024-11-25 12:53:02,277 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-21
+2024-11-25 12:53:08,258 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-22
+2024-11-25 12:53:14,261 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-23
+2024-11-25 12:53:20,260 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-24
+2024-11-25 12:53:26,259 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-25
+2024-11-25 12:53:30,011 INFO o.a.j.r.Summariser: summary +    397 in 00:00:30 =   13.2/s Avg:   755 Min:   307 Max:  1611 Err:     0 (0.00%) Active: 25 Started: 25 Finished: 0
+2024-11-25 12:53:30,012 INFO o.a.j.r.Summariser: summary =   3748 in 00:07:28 =    8.4/s Avg:   405 Min:   113 Max:  1611 Err:     0 (0.00%)
+2024-11-25 12:54:00,132 INFO o.a.j.r.Summariser: summary +    393 in 00:00:30 =   13.0/s Avg:  1014 Min:   284 Max:  1808 Err:     0 (0.00%) Active: 25 Started: 25 Finished: 0
+2024-11-25 12:54:00,132 INFO o.a.j.r.Summariser: summary =   4141 in 00:07:58 =    8.7/s Avg:   463 Min:   113 Max:  1808 Err:     0 (0.00%)
+2024-11-25 12:54:30,192 INFO o.a.j.r.Summariser: summary +    393 in 00:00:30 =   13.1/s Avg:   952 Min:   194 Max:  1898 Err:     0 (0.00%) Active: 25 Started: 25 Finished: 0
+2024-11-25 12:54:30,193 INFO o.a.j.r.Summariser: summary =   4534 in 00:08:28 =    8.9/s Avg:   506 Min:   113 Max:  1898 Err:     0 (0.00%)
+2024-11-25 12:54:32,268 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-26
+2024-11-25 12:54:38,264 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-27
+2024-11-25 12:54:44,266 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-28
+2024-11-25 12:54:50,336 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-29
+2024-11-25 12:54:56,289 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-30
+2024-11-25 12:55:00,055 INFO o.a.j.r.Summariser: summary +    393 in 00:00:30 =   13.2/s Avg:  1145 Min:   437 Max:  2105 Err:     0 (0.00%) Active: 30 Started: 30 Finished: 0
+2024-11-25 12:55:00,056 INFO o.a.j.r.Summariser: summary =   4927 in 00:08:58 =    9.2/s Avg:   557 Min:   113 Max:  2105 Err:     0 (0.00%)
+2024-11-25 12:55:30,128 INFO o.a.j.r.Summariser: summary +    398 in 00:00:30 =   13.2/s Avg:  1367 Min:   193 Max:  2413 Err:     0 (0.00%) Active: 30 Started: 30 Finished: 0
+2024-11-25 12:55:30,128 INFO o.a.j.r.Summariser: summary =   5325 in 00:09:28 =    9.4/s Avg:   617 Min:   113 Max:  2413 Err:     0 (0.00%)
+2024-11-25 12:56:00,008 INFO o.a.j.r.Summariser: summary +    390 in 00:00:30 =   13.1/s Avg:  1429 Min:   503 Max:  2609 Err:     0 (0.00%) Active: 30 Started: 30 Finished: 0
+2024-11-25 12:56:00,008 INFO o.a.j.r.Summariser: summary =   5715 in 00:09:58 =    9.6/s Avg:   673 Min:   113 Max:  2609 Err:     0 (0.00%)
+2024-11-25 12:56:02,318 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-31
+2024-11-25 12:56:08,264 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-32
+2024-11-25 12:56:14,291 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-33
+2024-11-25 12:56:20,276 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-34
+2024-11-25 12:56:26,342 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-35
+2024-11-25 12:56:30,063 INFO o.a.j.r.Summariser: summary +    384 in 00:00:30 =   12.8/s Avg:  1570 Min:   374 Max:  2962 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0
+2024-11-25 12:56:30,064 INFO o.a.j.r.Summariser: summary =   6099 in 00:10:28 =    9.7/s Avg:   729 Min:   113 Max:  2962 Err:     0 (0.00%)
+2024-11-25 12:57:00,020 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.4/s Avg:  1718 Min:   250 Max:  3113 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0
+2024-11-25 12:57:00,021 INFO o.a.j.r.Summariser: summary =   6499 in 00:10:58 =    9.9/s Avg:   790 Min:   113 Max:  3113 Err:     0 (0.00%)
+2024-11-25 12:57:30,024 INFO o.a.j.r.Summariser: summary +    382 in 00:00:30 =   12.7/s Avg:  1814 Min:   653 Max:  3171 Err:     0 (0.00%) Active: 35 Started: 35 Finished: 0
+2024-11-25 12:57:30,024 INFO o.a.j.r.Summariser: summary =   6881 in 00:11:28 =   10.0/s Avg:   847 Min:   113 Max:  3171 Err:     0 (0.00%)
+2024-11-25 12:57:32,262 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-36
+2024-11-25 12:57:38,299 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-37
+2024-11-25 12:57:44,317 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-38
+2024-11-25 12:57:50,308 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-39
+2024-11-25 12:57:56,375 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-40
+2024-11-25 12:58:00,101 INFO o.a.j.r.Summariser: summary +    388 in 00:00:30 =   12.9/s Avg:  1931 Min:   551 Max:  3590 Err:     0 (0.00%) Active: 40 Started: 40 Finished: 0
+2024-11-25 12:58:00,102 INFO o.a.j.r.Summariser: summary =   7269 in 00:11:58 =   10.1/s Avg:   905 Min:   113 Max:  3590 Err:     0 (0.00%)
+2024-11-25 12:58:30,079 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.3/s Avg:  2157 Min:   939 Max:  3545 Err:     0 (0.00%) Active: 40 Started: 40 Finished: 0
+2024-11-25 12:58:30,079 INFO o.a.j.r.Summariser: summary =   7669 in 00:12:28 =   10.3/s Avg:   970 Min:   113 Max:  3590 Err:     0 (0.00%)
+2024-11-25 12:59:00,170 INFO o.a.j.r.Summariser: summary +    382 in 00:00:30 =   12.7/s Avg:  2076 Min:  1088 Max:  3497 Err:     0 (0.00%) Active: 40 Started: 40 Finished: 0
+2024-11-25 12:59:00,170 INFO o.a.j.r.Summariser: summary =   8051 in 00:12:58 =   10.3/s Avg:  1022 Min:   113 Max:  3590 Err:     0 (0.00%)
+2024-11-25 12:59:02,335 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-41
+2024-11-25 12:59:08,287 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-42
+2024-11-25 12:59:14,409 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-43
+2024-11-25 12:59:20,344 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-44
+2024-11-25 12:59:26,288 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-45
+2024-11-25 12:59:30,121 INFO o.a.j.r.Summariser: summary +    392 in 00:00:30 =   13.1/s Avg:  2308 Min:  1197 Max:  3936 Err:     0 (0.00%) Active: 45 Started: 45 Finished: 0
+2024-11-25 12:59:30,122 INFO o.a.j.r.Summariser: summary =   8443 in 00:13:28 =   10.5/s Avg:  1082 Min:   113 Max:  3936 Err:     0 (0.00%)
+2024-11-25 13:00:00,259 INFO o.a.j.r.Summariser: summary +    385 in 00:00:30 =   12.8/s Avg:  2507 Min:   726 Max:  6242 Err:     0 (0.00%) Active: 45 Started: 45 Finished: 0
+2024-11-25 13:00:00,259 INFO o.a.j.r.Summariser: summary =   8828 in 00:13:58 =   10.5/s Avg:  1144 Min:   113 Max:  6242 Err:     0 (0.00%)
+2024-11-25 13:00:30,065 INFO o.a.j.r.Summariser: summary +    397 in 00:00:30 =   13.3/s Avg:  2504 Min:   391 Max:  5488 Err:     0 (0.00%) Active: 45 Started: 45 Finished: 0
+2024-11-25 13:00:30,065 INFO o.a.j.r.Summariser: summary =   9225 in 00:14:28 =   10.6/s Avg:  1203 Min:   113 Max:  6242 Err:     0 (0.00%)
+2024-11-25 13:00:32,344 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-46
+2024-11-25 13:00:38,261 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-47
+2024-11-25 13:00:44,263 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-48
+2024-11-25 13:00:50,295 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-49
+2024-11-25 13:00:56,259 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-50
+2024-11-25 13:01:00,110 INFO o.a.j.r.Summariser: summary +    392 in 00:00:30 =   13.0/s Avg:  2642 Min:   519 Max:  5748 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2024-11-25 13:01:00,110 INFO o.a.j.r.Summariser: summary =   9617 in 00:14:58 =   10.7/s Avg:  1261 Min:   113 Max:  6242 Err:     0 (0.00%)
+2024-11-25 13:01:30,005 INFO o.a.j.r.Summariser: summary +    390 in 00:00:30 =   13.0/s Avg:  2843 Min:  1057 Max:  6092 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2024-11-25 13:01:30,006 INFO o.a.j.r.Summariser: summary =  10007 in 00:15:28 =   10.8/s Avg:  1323 Min:   113 Max:  6242 Err:     0 (0.00%)
+2024-11-25 13:02:00,003 INFO o.a.j.r.Summariser: summary +    382 in 00:00:30 =   12.7/s Avg:  2982 Min:   926 Max:  5795 Err:     0 (0.00%) Active: 50 Started: 50 Finished: 0
+2024-11-25 13:02:00,004 INFO o.a.j.r.Summariser: summary =  10389 in 00:15:58 =   10.8/s Avg:  1384 Min:   113 Max:  6242 Err:     0 (0.00%)
+2024-11-25 13:02:02,339 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-51
+2024-11-25 13:02:08,467 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-52
+2024-11-25 13:02:14,451 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-53
+2024-11-25 13:02:20,471 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-54
+2024-11-25 13:02:26,313 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-55
+2024-11-25 13:02:30,034 INFO o.a.j.r.Summariser: summary +    386 in 00:00:30 =   12.9/s Avg:  3003 Min:  1211 Max:  7153 Err:     0 (0.00%) Active: 55 Started: 55 Finished: 0
+2024-11-25 13:02:30,035 INFO o.a.j.r.Summariser: summary =  10775 in 00:16:28 =   10.9/s Avg:  1442 Min:   113 Max:  7153 Err:     0 (0.00%)
+2024-11-25 13:03:00,026 INFO o.a.j.r.Summariser: summary +    406 in 00:00:30 =   13.5/s Avg:  3250 Min:  1340 Max:  6223 Err:     0 (0.00%) Active: 55 Started: 55 Finished: 0
+2024-11-25 13:03:00,026 INFO o.a.j.r.Summariser: summary =  11181 in 00:16:58 =   11.0/s Avg:  1508 Min:   113 Max:  7153 Err:     0 (0.00%)
+2024-11-25 13:03:30,082 INFO o.a.j.r.Summariser: summary +    381 in 00:00:30 =   12.7/s Avg:  3263 Min:   995 Max:  6023 Err:     0 (0.00%) Active: 55 Started: 55 Finished: 0
+2024-11-25 13:03:30,083 INFO o.a.j.r.Summariser: summary =  11562 in 00:17:28 =   11.0/s Avg:  1566 Min:   113 Max:  7153 Err:     0 (0.00%)
+2024-11-25 13:03:32,344 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-56
+2024-11-25 13:03:38,267 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-57
+2024-11-25 13:03:44,261 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-58
+2024-11-25 13:03:50,419 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-59
+2024-11-25 13:03:56,367 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-60
+2024-11-25 13:04:00,311 INFO o.a.j.r.Summariser: summary +    392 in 00:00:30 =   13.0/s Avg:  3397 Min:   238 Max:  6796 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2024-11-25 13:04:00,312 INFO o.a.j.r.Summariser: summary =  11954 in 00:17:58 =   11.1/s Avg:  1626 Min:   113 Max:  7153 Err:     0 (0.00%)
+2024-11-25 13:04:30,357 INFO o.a.j.r.Summariser: summary +    381 in 00:00:30 =   12.7/s Avg:  3653 Min:  1585 Max:  6704 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2024-11-25 13:04:30,357 INFO o.a.j.r.Summariser: summary =  12335 in 00:18:28 =   11.1/s Avg:  1688 Min:   113 Max:  7153 Err:     0 (0.00%)
+2024-11-25 13:05:00,241 INFO o.a.j.r.Summariser: summary +    410 in 00:00:30 =   13.7/s Avg:  3620 Min:  1733 Max:  7015 Err:     0 (0.00%) Active: 60 Started: 60 Finished: 0
+2024-11-25 13:05:00,242 INFO o.a.j.r.Summariser: summary =  12745 in 00:18:58 =   11.2/s Avg:  1750 Min:   113 Max:  7153 Err:     0 (0.00%)
+2024-11-25 13:05:02,616 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-61
+2024-11-25 13:05:08,578 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-62
+2024-11-25 13:05:14,357 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-63
+2024-11-25 13:05:20,279 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-64
+2024-11-25 13:05:26,382 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-65
+2024-11-25 13:05:30,037 INFO o.a.j.r.Summariser: summary +    376 in 00:00:30 =   12.6/s Avg:  3769 Min:  1806 Max:  7256 Err:     0 (0.00%) Active: 65 Started: 65 Finished: 0
+2024-11-25 13:05:30,037 INFO o.a.j.r.Summariser: summary =  13121 in 00:19:28 =   11.2/s Avg:  1808 Min:   113 Max:  7256 Err:     0 (0.00%)
+2024-11-25 13:06:00,180 INFO o.a.j.r.Summariser: summary +    405 in 00:00:30 =   13.4/s Avg:  3955 Min:  1866 Max:  7963 Err:     0 (0.00%) Active: 65 Started: 65 Finished: 0
+2024-11-25 13:06:00,180 INFO o.a.j.r.Summariser: summary =  13526 in 00:19:58 =   11.3/s Avg:  1873 Min:   113 Max:  7963 Err:     0 (0.00%)
+2024-11-25 13:06:30,052 INFO o.a.j.r.Summariser: summary +    364 in 00:00:30 =   12.2/s Avg:  4047 Min:  1600 Max:  7726 Err:     0 (0.00%) Active: 65 Started: 65 Finished: 0
+2024-11-25 13:06:30,052 INFO o.a.j.r.Summariser: summary =  13890 in 00:20:28 =   11.3/s Avg:  1930 Min:   113 Max:  7963 Err:     0 (0.00%)
+2024-11-25 13:06:32,263 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-66
+2024-11-25 13:06:38,267 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-67
+2024-11-25 13:06:44,259 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-68
+2024-11-25 13:06:50,494 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-69
+2024-11-25 13:06:56,391 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-70
+2024-11-25 13:07:00,254 INFO o.a.j.r.Summariser: summary +    392 in 00:00:30 =   13.0/s Avg:  4134 Min:  1600 Max:  9036 Err:     0 (0.00%) Active: 70 Started: 70 Finished: 0
+2024-11-25 13:07:00,255 INFO o.a.j.r.Summariser: summary =  14282 in 00:20:58 =   11.4/s Avg:  1990 Min:   113 Max:  9036 Err:     0 (0.00%)
+2024-11-25 13:07:30,002 INFO o.a.j.r.Summariser: summary +    392 in 00:00:30 =   13.2/s Avg:  4455 Min:  1981 Max:  8918 Err:     0 (0.00%) Active: 70 Started: 70 Finished: 0
+2024-11-25 13:07:30,003 INFO o.a.j.r.Summariser: summary =  14674 in 00:21:28 =   11.4/s Avg:  2056 Min:   113 Max:  9036 Err:     0 (0.00%)
+2024-11-25 13:08:00,024 INFO o.a.j.r.Summariser: summary +    418 in 00:00:30 =   13.9/s Avg:  4293 Min:  1351 Max:  8367 Err:     0 (0.00%) Active: 70 Started: 70 Finished: 0
+2024-11-25 13:08:00,024 INFO o.a.j.r.Summariser: summary =  15092 in 00:21:58 =   11.5/s Avg:  2118 Min:   113 Max:  9036 Err:     0 (0.00%)
+2024-11-25 13:08:02,322 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-71
+2024-11-25 13:08:08,390 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-72
+2024-11-25 13:08:14,271 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-73
+2024-11-25 13:08:20,421 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-74
+2024-11-25 13:08:26,519 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-75
+2024-11-25 13:08:30,430 INFO o.a.j.r.Summariser: summary +    366 in 00:00:30 =   12.0/s Avg:  4591 Min:  2075 Max:  8725 Err:     0 (0.00%) Active: 75 Started: 75 Finished: 0
+2024-11-25 13:08:30,430 INFO o.a.j.r.Summariser: summary =  15458 in 00:22:28 =   11.5/s Avg:  2176 Min:   113 Max:  9036 Err:     0 (0.00%)
+2024-11-25 13:09:00,054 INFO o.a.j.r.Summariser: summary +    379 in 00:00:30 =   12.8/s Avg:  4775 Min:  2642 Max:  9435 Err:     0 (0.00%) Active: 75 Started: 75 Finished: 0
+2024-11-25 13:09:00,054 INFO o.a.j.r.Summariser: summary =  15837 in 00:22:58 =   11.5/s Avg:  2239 Min:   113 Max:  9435 Err:     0 (0.00%)
+2024-11-25 13:09:32,145 INFO o.a.j.r.Summariser: summary +    391 in 00:00:32 =   12.2/s Avg:  4688 Min:  1436 Max:  8153 Err:     0 (0.00%) Active: 75 Started: 75 Finished: 0
+2024-11-25 13:09:32,146 INFO o.a.j.r.Summariser: summary =  16228 in 00:23:30 =   11.5/s Avg:  2298 Min:   113 Max:  9435 Err:     0 (0.00%)
+2024-11-25 13:09:32,258 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-76
+2024-11-25 13:09:38,275 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-77
+2024-11-25 13:09:44,355 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-78
+2024-11-25 13:09:50,358 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-79
+2024-11-25 13:09:56,453 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-80
+2024-11-25 13:10:00,010 INFO o.a.j.r.Summariser: summary +    377 in 00:00:28 =   13.5/s Avg:  4682 Min:   336 Max:  9784 Err:     0 (0.00%) Active: 80 Started: 80 Finished: 0
+2024-11-25 13:10:00,011 INFO o.a.j.r.Summariser: summary =  16605 in 00:23:58 =   11.5/s Avg:  2352 Min:   113 Max:  9784 Err:     0 (0.00%)
+2024-11-25 13:10:30,014 INFO o.a.j.r.Summariser: summary +    410 in 00:00:30 =   13.7/s Avg:  5177 Min:  2637 Max:  8800 Err:     0 (0.00%) Active: 80 Started: 80 Finished: 0
+2024-11-25 13:10:30,014 INFO o.a.j.r.Summariser: summary =  17015 in 00:24:28 =   11.6/s Avg:  2420 Min:   113 Max:  9784 Err:     0 (0.00%)
+2024-11-25 13:11:00,005 INFO o.a.j.r.Summariser: summary +    390 in 00:00:30 =   13.0/s Avg:  5123 Min:  1927 Max:  9797 Err:     0 (0.00%) Active: 80 Started: 80 Finished: 0
+2024-11-25 13:11:00,005 INFO o.a.j.r.Summariser: summary =  17405 in 00:24:58 =   11.6/s Avg:  2480 Min:   113 Max:  9797 Err:     0 (0.00%)
+2024-11-25 13:11:02,484 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-81
+2024-11-25 13:11:08,336 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-82
+2024-11-25 13:11:14,367 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-83
+2024-11-25 13:11:20,386 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-84
+2024-11-25 13:11:26,309 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-85
+2024-11-25 13:11:30,090 INFO o.a.j.r.Summariser: summary +    405 in 00:00:30 =   13.5/s Avg:  5272 Min:  2180 Max: 18788 Err:     0 (0.00%) Active: 85 Started: 85 Finished: 0
+2024-11-25 13:11:30,090 INFO o.a.j.r.Summariser: summary =  17810 in 00:25:28 =   11.7/s Avg:  2544 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:12:00,056 INFO o.a.j.r.Summariser: summary +    374 in 00:00:30 =   12.5/s Avg:  5339 Min:  2157 Max: 10899 Err:     0 (0.00%) Active: 85 Started: 85 Finished: 0
+2024-11-25 13:12:00,056 INFO o.a.j.r.Summariser: summary =  18184 in 00:25:58 =   11.7/s Avg:  2601 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:12:30,178 INFO o.a.j.r.Summariser: summary +    387 in 00:00:30 =   12.8/s Avg:  5377 Min:  2542 Max:  9654 Err:     0 (0.00%) Active: 85 Started: 85 Finished: 0
+2024-11-25 13:12:30,178 INFO o.a.j.r.Summariser: summary =  18571 in 00:26:28 =   11.7/s Avg:  2659 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:12:32,290 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-86
+2024-11-25 13:12:38,569 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-87
+2024-11-25 13:12:44,259 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-88
+2024-11-25 13:12:50,464 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-89
+2024-11-25 13:12:56,356 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-90
+2024-11-25 13:13:00,009 INFO o.a.j.r.Summariser: summary +    387 in 00:00:30 =   13.0/s Avg:  5699 Min:  2204 Max: 11474 Err:     0 (0.00%) Active: 90 Started: 90 Finished: 0
+2024-11-25 13:13:00,009 INFO o.a.j.r.Summariser: summary =  18958 in 00:26:58 =   11.7/s Avg:  2721 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:13:30,045 INFO o.a.j.r.Summariser: summary +    408 in 00:00:30 =   13.6/s Avg:  5780 Min:  1182 Max: 11486 Err:     0 (0.00%) Active: 90 Started: 90 Finished: 0
+2024-11-25 13:13:30,045 INFO o.a.j.r.Summariser: summary =  19366 in 00:27:28 =   11.8/s Avg:  2786 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:14:00,079 INFO o.a.j.r.Summariser: summary +    370 in 00:00:30 =   12.3/s Avg:  5829 Min:  1586 Max: 12018 Err:     0 (0.00%) Active: 90 Started: 90 Finished: 0
+2024-11-25 13:14:00,080 INFO o.a.j.r.Summariser: summary =  19736 in 00:27:58 =   11.8/s Avg:  2843 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:14:02,278 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-91
+2024-11-25 13:14:08,257 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-92
+2024-11-25 13:14:14,693 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-93
+2024-11-25 13:14:20,696 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-94
+2024-11-25 13:14:26,264 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-95
+2024-11-25 13:14:30,438 INFO o.a.j.r.Summariser: summary +    406 in 00:00:30 =   13.4/s Avg:  6113 Min:  2626 Max: 13865 Err:     0 (0.00%) Active: 95 Started: 95 Finished: 0
+2024-11-25 13:14:30,438 INFO o.a.j.r.Summariser: summary =  20142 in 00:28:28 =   11.8/s Avg:  2909 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:15:00,210 INFO o.a.j.r.Summariser: summary +    358 in 00:00:30 =   12.0/s Avg:  6428 Min:   264 Max: 14749 Err:     0 (0.00%) Active: 95 Started: 95 Finished: 0
+2024-11-25 13:15:00,210 INFO o.a.j.r.Summariser: summary =  20500 in 00:28:58 =   11.8/s Avg:  2970 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:15:30,097 INFO o.a.j.r.Summariser: summary +    405 in 00:00:30 =   13.6/s Avg:  6281 Min:  2700 Max: 13658 Err:     0 (0.00%) Active: 95 Started: 95 Finished: 0
+2024-11-25 13:15:30,098 INFO o.a.j.r.Summariser: summary =  20905 in 00:29:28 =   11.8/s Avg:  3034 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:15:32,333 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-96
+2024-11-25 13:15:38,359 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-97
+2024-11-25 13:15:44,259 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-98
+2024-11-25 13:15:50,327 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-99
+2024-11-25 13:15:56,362 INFO o.a.j.t.JMeterThread: Thread started: jp@gc - Stepping Thread Group 1-100
+2024-11-25 13:16:01,354 INFO o.a.j.r.Summariser: summary +    418 in 00:00:31 =   13.4/s Avg:  6358 Min:  1930 Max: 12678 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:16:01,354 INFO o.a.j.r.Summariser: summary =  21323 in 00:29:59 =   11.9/s Avg:  3099 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:16:30,112 INFO o.a.j.r.Summariser: summary +    354 in 00:00:29 =   12.3/s Avg:  6629 Min:  2313 Max: 10918 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:16:30,112 INFO o.a.j.r.Summariser: summary =  21677 in 00:30:28 =   11.9/s Avg:  3157 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:17:00,097 INFO o.a.j.r.Summariser: summary +    384 in 00:00:30 =   12.8/s Avg:  6652 Min:  1838 Max: 13187 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:17:00,097 INFO o.a.j.r.Summariser: summary =  22061 in 00:30:58 =   11.9/s Avg:  3218 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:17:30,030 INFO o.a.j.r.Summariser: summary +    395 in 00:00:30 =   13.2/s Avg:  6685 Min:  1539 Max: 13935 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:17:30,030 INFO o.a.j.r.Summariser: summary =  22456 in 00:31:28 =   11.9/s Avg:  3279 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:18:00,033 INFO o.a.j.r.Summariser: summary +    385 in 00:00:30 =   12.8/s Avg:  6476 Min:  2154 Max: 12485 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:18:00,033 INFO o.a.j.r.Summariser: summary =  22841 in 00:31:58 =   11.9/s Avg:  3333 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:18:30,011 INFO o.a.j.r.Summariser: summary +    377 in 00:00:30 =   12.6/s Avg:  6407 Min:  2785 Max: 11599 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:18:30,016 INFO o.a.j.r.Summariser: summary =  23218 in 00:32:28 =   11.9/s Avg:  3383 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:19:00,140 INFO o.a.j.r.Summariser: summary +    424 in 00:00:30 =   14.1/s Avg:  6746 Min:  1775 Max: 13088 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:19:00,141 INFO o.a.j.r.Summariser: summary =  23642 in 00:32:58 =   12.0/s Avg:  3443 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:19:30,277 INFO o.a.j.r.Summariser: summary +    392 in 00:00:30 =   13.0/s Avg:  6674 Min:  2512 Max: 14777 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:19:30,277 INFO o.a.j.r.Summariser: summary =  24034 in 00:33:28 =   12.0/s Avg:  3496 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:20:00,037 INFO o.a.j.r.Summariser: summary +    383 in 00:00:30 =   12.9/s Avg:  6218 Min:   380 Max: 12892 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:20:00,037 INFO o.a.j.r.Summariser: summary =  24417 in 00:33:58 =   12.0/s Avg:  3538 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:20:30,013 INFO o.a.j.r.Summariser: summary +    392 in 00:00:30 =   13.1/s Avg:  6656 Min:  2166 Max: 13248 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:20:30,013 INFO o.a.j.r.Summariser: summary =  24809 in 00:34:28 =   12.0/s Avg:  3588 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:21:00,024 INFO o.a.j.r.Summariser: summary +    403 in 00:00:30 =   13.4/s Avg:  6521 Min:  2302 Max: 13842 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:21:00,024 INFO o.a.j.r.Summariser: summary =  25212 in 00:34:58 =   12.0/s Avg:  3635 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:21:30,010 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.3/s Avg:  6750 Min:  2118 Max: 13754 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:21:30,010 INFO o.a.j.r.Summariser: summary =  25612 in 00:35:28 =   12.0/s Avg:  3683 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:22:00,157 INFO o.a.j.r.Summariser: summary +    363 in 00:00:30 =   12.0/s Avg:  6556 Min:  1859 Max: 14385 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:22:00,157 INFO o.a.j.r.Summariser: summary =  25975 in 00:35:58 =   12.0/s Avg:  3723 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:22:30,112 INFO o.a.j.r.Summariser: summary +    412 in 00:00:30 =   13.8/s Avg:  6596 Min:  2891 Max: 13996 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:22:30,112 INFO o.a.j.r.Summariser: summary =  26387 in 00:36:28 =   12.1/s Avg:  3768 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:23:00,185 INFO o.a.j.r.Summariser: summary +    375 in 00:00:30 =   12.5/s Avg:  6508 Min:  2379 Max: 11933 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:23:00,185 INFO o.a.j.r.Summariser: summary =  26762 in 00:36:58 =   12.1/s Avg:  3807 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:23:30,835 INFO o.a.j.r.Summariser: summary +    405 in 00:00:31 =   13.2/s Avg:  6406 Min:  2439 Max: 14551 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:23:30,835 INFO o.a.j.r.Summariser: summary =  27167 in 00:37:29 =   12.1/s Avg:  3845 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:24:00,080 INFO o.a.j.r.Summariser: summary +    401 in 00:00:29 =   13.7/s Avg:  6627 Min:  1420 Max: 15046 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:24:00,080 INFO o.a.j.r.Summariser: summary =  27568 in 00:37:58 =   12.1/s Avg:  3886 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:24:30,190 INFO o.a.j.r.Summariser: summary +    384 in 00:00:30 =   12.8/s Avg:  6759 Min:  2376 Max: 12545 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:24:30,190 INFO o.a.j.r.Summariser: summary =  27952 in 00:38:28 =   12.1/s Avg:  3925 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:25:00,006 INFO o.a.j.r.Summariser: summary +    354 in 00:00:30 =   11.9/s Avg:  6754 Min:  1795 Max: 13326 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:25:00,006 INFO o.a.j.r.Summariser: summary =  28306 in 00:38:58 =   12.1/s Avg:  3961 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:25:30,185 INFO o.a.j.r.Summariser: summary +    407 in 00:00:30 =   13.5/s Avg:  6457 Min:   792 Max: 12587 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:25:30,185 INFO o.a.j.r.Summariser: summary =  28713 in 00:39:28 =   12.1/s Avg:  3996 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:26:00,003 INFO o.a.j.r.Summariser: summary +    393 in 00:00:30 =   13.2/s Avg:  6415 Min:  2309 Max: 13685 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:26:00,003 INFO o.a.j.r.Summariser: summary =  29106 in 00:39:58 =   12.1/s Avg:  4029 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:26:30,207 INFO o.a.j.r.Summariser: summary +    396 in 00:00:30 =   13.1/s Avg:  6784 Min:  1880 Max: 14054 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:26:30,207 INFO o.a.j.r.Summariser: summary =  29502 in 00:40:28 =   12.2/s Avg:  4066 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:27:00,039 INFO o.a.j.r.Summariser: summary +    399 in 00:00:30 =   13.4/s Avg:  6476 Min:  1709 Max: 13574 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:27:00,040 INFO o.a.j.r.Summariser: summary =  29901 in 00:40:58 =   12.2/s Avg:  4098 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:27:30,166 INFO o.a.j.r.Summariser: summary +    379 in 00:00:30 =   12.6/s Avg:  6632 Min:  2023 Max: 15152 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:27:30,166 INFO o.a.j.r.Summariser: summary =  30280 in 00:41:28 =   12.2/s Avg:  4130 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:28:00,223 INFO o.a.j.r.Summariser: summary +    410 in 00:00:30 =   13.6/s Avg:  6647 Min:  2624 Max: 14325 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:28:00,224 INFO o.a.j.r.Summariser: summary =  30690 in 00:41:58 =   12.2/s Avg:  4163 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:28:30,084 INFO o.a.j.r.Summariser: summary +    377 in 00:00:30 =   12.6/s Avg:  6839 Min:  1722 Max: 14803 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:28:30,084 INFO o.a.j.r.Summariser: summary =  31067 in 00:42:28 =   12.2/s Avg:  4196 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:29:00,528 INFO o.a.j.r.Summariser: summary +    398 in 00:00:30 =   13.1/s Avg:  6645 Min:  2726 Max: 14972 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:29:00,528 INFO o.a.j.r.Summariser: summary =  31465 in 00:42:58 =   12.2/s Avg:  4227 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:29:30,211 INFO o.a.j.r.Summariser: summary +    401 in 00:00:30 =   13.5/s Avg:  6538 Min:  1422 Max: 14287 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:29:30,211 INFO o.a.j.r.Summariser: summary =  31866 in 00:43:28 =   12.2/s Avg:  4256 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:30:00,098 INFO o.a.j.r.Summariser: summary +    374 in 00:00:30 =   12.5/s Avg:  6752 Min:  1958 Max: 14747 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:30:00,099 INFO o.a.j.r.Summariser: summary =  32240 in 00:43:58 =   12.2/s Avg:  4285 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:30:30,017 INFO o.a.j.r.Summariser: summary +    378 in 00:00:30 =   12.6/s Avg:  6479 Min:  2098 Max: 13130 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:30:30,017 INFO o.a.j.r.Summariser: summary =  32618 in 00:44:28 =   12.2/s Avg:  4310 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:31:00,031 INFO o.a.j.r.Summariser: summary +    385 in 00:00:30 =   12.8/s Avg:  6656 Min:  2590 Max: 12358 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:31:00,032 INFO o.a.j.r.Summariser: summary =  33003 in 00:44:58 =   12.2/s Avg:  4338 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:31:30,297 INFO o.a.j.r.Summariser: summary +    395 in 00:00:30 =   13.1/s Avg:  6539 Min:  2303 Max: 15245 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:31:30,297 INFO o.a.j.r.Summariser: summary =  33398 in 00:45:28 =   12.2/s Avg:  4364 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:32:01,068 INFO o.a.j.r.Summariser: summary +    396 in 00:00:31 =   12.9/s Avg:  6440 Min:  2021 Max: 13016 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:32:01,068 INFO o.a.j.r.Summariser: summary =  33794 in 00:45:59 =   12.2/s Avg:  4388 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:32:30,051 INFO o.a.j.r.Summariser: summary +    410 in 00:00:29 =   14.1/s Avg:  6804 Min:   951 Max: 13611 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:32:30,051 INFO o.a.j.r.Summariser: summary =  34204 in 00:46:28 =   12.3/s Avg:  4417 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:33:00,004 INFO o.a.j.r.Summariser: summary +    400 in 00:00:30 =   13.4/s Avg:  6520 Min:  2114 Max: 13693 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:33:00,005 INFO o.a.j.r.Summariser: summary =  34604 in 00:46:58 =   12.3/s Avg:  4441 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:33:30,051 INFO o.a.j.r.Summariser: summary +    373 in 00:00:30 =   12.4/s Avg:  6499 Min:   451 Max: 13510 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:33:30,051 INFO o.a.j.r.Summariser: summary =  34977 in 00:47:28 =   12.3/s Avg:  4463 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:34:00,033 INFO o.a.j.r.Summariser: summary +    370 in 00:00:30 =   12.3/s Avg:  6777 Min:  1957 Max: 13641 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:34:00,034 INFO o.a.j.r.Summariser: summary =  35347 in 00:47:58 =   12.3/s Avg:  4487 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:34:31,662 INFO o.a.j.r.Summariser: summary +    458 in 00:00:32 =   14.5/s Avg:  6030 Min:  2125 Max: 11687 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:34:31,663 INFO o.a.j.r.Summariser: summary =  35805 in 00:48:29 =   12.3/s Avg:  4507 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:35:00,319 INFO o.a.j.r.Summariser: summary +    478 in 00:00:29 =   16.7/s Avg:  5380 Min:  1712 Max: 11060 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:35:00,319 INFO o.a.j.r.Summariser: summary =  36283 in 00:48:58 =   12.3/s Avg:  4519 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:35:30,276 INFO o.a.j.r.Summariser: summary +    420 in 00:00:30 =   14.0/s Avg:  5556 Min:  2157 Max: 12614 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:35:30,276 INFO o.a.j.r.Summariser: summary =  36703 in 00:49:28 =   12.4/s Avg:  4530 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:36:00,324 INFO o.a.j.r.Summariser: summary +    461 in 00:00:30 =   15.3/s Avg:  5474 Min:  2426 Max: 10925 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:36:00,324 INFO o.a.j.r.Summariser: summary =  37164 in 00:49:58 =   12.4/s Avg:  4542 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:36:32,232 INFO o.a.j.r.Summariser: summary +    484 in 00:00:32 =   15.2/s Avg:  5415 Min:  1763 Max: 10237 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:36:32,232 INFO o.a.j.r.Summariser: summary =  37648 in 00:50:30 =   12.4/s Avg:  4553 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:37:00,014 INFO o.a.j.r.Summariser: summary +    439 in 00:00:28 =   15.8/s Avg:  5397 Min:  1636 Max: 10459 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:37:00,014 INFO o.a.j.r.Summariser: summary =  38087 in 00:50:58 =   12.5/s Avg:  4563 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:37:30,133 INFO o.a.j.r.Summariser: summary +    457 in 00:00:30 =   15.2/s Avg:  5464 Min:   313 Max: 11058 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:37:30,133 INFO o.a.j.r.Summariser: summary =  38544 in 00:51:28 =   12.5/s Avg:  4574 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:38:00,717 INFO o.a.j.r.Summariser: summary +    480 in 00:00:31 =   15.7/s Avg:  5471 Min:  1358 Max: 10710 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:38:00,717 INFO o.a.j.r.Summariser: summary =  39024 in 00:51:58 =   12.5/s Avg:  4585 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:38:30,205 INFO o.a.j.r.Summariser: summary +    454 in 00:00:29 =   15.4/s Avg:  5591 Min:  1359 Max: 11688 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:38:30,205 INFO o.a.j.r.Summariser: summary =  39478 in 00:52:28 =   12.5/s Avg:  4596 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:39:00,011 INFO o.a.j.r.Summariser: summary +    444 in 00:00:30 =   14.9/s Avg:  5509 Min:  2230 Max: 11132 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:39:00,011 INFO o.a.j.r.Summariser: summary =  39922 in 00:52:58 =   12.6/s Avg:  4606 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:39:30,014 INFO o.a.j.r.Summariser: summary +    449 in 00:00:30 =   15.0/s Avg:  5543 Min:  1817 Max: 10847 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:39:30,015 INFO o.a.j.r.Summariser: summary =  40371 in 00:53:28 =   12.6/s Avg:  4617 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:40:00,130 INFO o.a.j.r.Summariser: summary +    476 in 00:00:30 =   15.8/s Avg:  5829 Min:   544 Max: 12387 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:40:00,130 INFO o.a.j.r.Summariser: summary =  40847 in 00:53:58 =   12.6/s Avg:  4631 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:40:30,072 INFO o.a.j.r.Summariser: summary +    399 in 00:00:30 =   13.3/s Avg:  5478 Min:  1792 Max: 10860 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:40:30,072 INFO o.a.j.r.Summariser: summary =  41246 in 00:54:28 =   12.6/s Avg:  4639 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:41:00,084 INFO o.a.j.r.Summariser: summary +    483 in 00:00:30 =   16.1/s Avg:  5735 Min:  1421 Max: 10760 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:41:00,084 INFO o.a.j.r.Summariser: summary =  41729 in 00:54:58 =   12.7/s Avg:  4652 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:41:30,082 INFO o.a.j.r.Summariser: summary +    459 in 00:00:30 =   15.3/s Avg:  5597 Min:  2252 Max: 10708 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:41:30,082 INFO o.a.j.r.Summariser: summary =  42188 in 00:55:28 =   12.7/s Avg:  4662 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:42:00,307 INFO o.a.j.r.Summariser: summary +    486 in 00:00:30 =   16.1/s Avg:  5398 Min:  1894 Max: 10850 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:42:00,308 INFO o.a.j.r.Summariser: summary =  42674 in 00:55:58 =   12.7/s Avg:  4671 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:42:30,294 INFO o.a.j.r.Summariser: summary +    446 in 00:00:30 =   14.9/s Avg:  5516 Min:  1930 Max: 12408 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:42:30,294 INFO o.a.j.r.Summariser: summary =  43120 in 00:56:28 =   12.7/s Avg:  4679 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:43:00,268 INFO o.a.j.r.Summariser: summary +    425 in 00:00:30 =   14.2/s Avg:  5552 Min:   959 Max: 11613 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:43:00,268 INFO o.a.j.r.Summariser: summary =  43545 in 00:56:58 =   12.7/s Avg:  4688 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:43:30,170 INFO o.a.j.r.Summariser: summary +    496 in 00:00:30 =   16.6/s Avg:  5522 Min:  1890 Max: 11501 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:43:30,170 INFO o.a.j.r.Summariser: summary =  44041 in 00:57:28 =   12.8/s Avg:  4697 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:44:00,138 INFO o.a.j.r.Summariser: summary +    432 in 00:00:30 =   14.4/s Avg:  5596 Min:  2245 Max: 11083 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:44:00,138 INFO o.a.j.r.Summariser: summary =  44473 in 00:57:58 =   12.8/s Avg:  4706 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:44:30,112 INFO o.a.j.r.Summariser: summary +    446 in 00:00:30 =   14.9/s Avg:  5547 Min:  2049 Max: 10461 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:44:30,112 INFO o.a.j.r.Summariser: summary =  44919 in 00:58:28 =   12.8/s Avg:  4714 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:45:00,055 INFO o.a.j.r.Summariser: summary +    459 in 00:00:30 =   15.3/s Avg:  5475 Min:  2537 Max: 10391 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:45:00,055 INFO o.a.j.r.Summariser: summary =  45378 in 00:58:58 =   12.8/s Avg:  4722 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:45:32,212 INFO o.a.j.r.Summariser: summary +    473 in 00:00:32 =   14.7/s Avg:  5531 Min:   269 Max: 11623 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:45:32,212 INFO o.a.j.r.Summariser: summary =  45851 in 00:59:30 =   12.8/s Avg:  4730 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:46:00,141 INFO o.a.j.r.Summariser: summary +    448 in 00:00:28 =   16.0/s Avg:  5755 Min:  2267 Max: 13090 Err:     0 (0.00%) Active: 100 Started: 100 Finished: 0
+2024-11-25 13:46:00,141 INFO o.a.j.r.Summariser: summary =  46299 in 00:59:58 =   12.9/s Avg:  4740 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:46:02,242 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-4
+2024-11-25 13:46:02,510 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-1
+2024-11-25 13:46:02,510 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-1
+2024-11-25 13:46:02,563 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-3
+2024-11-25 13:46:02,563 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-3
+2024-11-25 13:46:07,533 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-2
+2024-11-25 13:46:07,533 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-2
+2024-11-25 13:46:10,403 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-5
+2024-11-25 13:46:10,403 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-5
+2024-11-25 13:46:30,451 INFO o.a.j.r.Summariser: summary +    446 in 00:00:30 =   14.7/s Avg:  5289 Min:   652 Max: 11508 Err:     0 (0.00%) Active: 95 Started: 100 Finished: 5
+2024-11-25 13:46:30,451 INFO o.a.j.r.Summariser: summary =  46745 in 01:00:28 =   12.9/s Avg:  4745 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:47:00,129 INFO o.a.j.r.Summariser: summary +    449 in 00:00:30 =   15.1/s Avg:  5258 Min:  2208 Max: 10022 Err:     0 (0.00%) Active: 95 Started: 100 Finished: 5
+2024-11-25 13:47:00,129 INFO o.a.j.r.Summariser: summary =  47194 in 01:00:58 =   12.9/s Avg:  4750 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:47:01,228 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-6
+2024-11-25 13:47:02,747 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-8
+2024-11-25 13:47:02,748 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-8
+2024-11-25 13:47:03,034 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-9
+2024-11-25 13:47:03,034 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-9
+2024-11-25 13:47:03,535 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-10
+2024-11-25 13:47:03,535 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-10
+2024-11-25 13:47:03,695 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-7
+2024-11-25 13:47:03,695 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-7
+2024-11-25 13:47:30,238 INFO o.a.j.r.Summariser: summary +    473 in 00:00:30 =   15.7/s Avg:  5076 Min:  1927 Max: 10319 Err:     0 (0.00%) Active: 90 Started: 100 Finished: 10
+2024-11-25 13:47:30,238 INFO o.a.j.r.Summariser: summary =  47667 in 01:01:28 =   12.9/s Avg:  4754 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:48:00,098 INFO o.a.j.r.Summariser: summary +    444 in 00:00:30 =   14.9/s Avg:  4879 Min:  1199 Max: 11041 Err:     0 (0.00%) Active: 90 Started: 100 Finished: 10
+2024-11-25 13:48:00,098 INFO o.a.j.r.Summariser: summary =  48111 in 01:01:58 =   12.9/s Avg:  4755 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:48:05,232 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-15
+2024-11-25 13:48:05,232 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-15
+2024-11-25 13:48:05,339 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-13
+2024-11-25 13:48:05,343 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-13
+2024-11-25 13:48:05,354 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-12
+2024-11-25 13:48:05,354 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-12
+2024-11-25 13:48:05,711 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-14
+2024-11-25 13:48:05,711 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-14
+2024-11-25 13:48:05,714 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-11
+2024-11-25 13:48:05,714 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-11
+2024-11-25 13:48:30,005 INFO o.a.j.r.Summariser: summary +    436 in 00:00:30 =   14.6/s Avg:  4887 Min:  1234 Max:  9500 Err:     0 (0.00%) Active: 85 Started: 100 Finished: 15
+2024-11-25 13:48:30,006 INFO o.a.j.r.Summariser: summary =  48547 in 01:02:28 =   13.0/s Avg:  4756 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:49:00,446 INFO o.a.j.r.Summariser: summary +    427 in 00:00:30 =   14.0/s Avg:  4581 Min:  1052 Max:  9423 Err:     0 (0.00%) Active: 85 Started: 100 Finished: 15
+2024-11-25 13:49:00,447 INFO o.a.j.r.Summariser: summary =  48974 in 01:02:58 =   13.0/s Avg:  4754 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:49:01,341 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-17
+2024-11-25 13:49:01,672 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-19
+2024-11-25 13:49:02,519 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-20
+2024-11-25 13:49:02,519 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-20
+2024-11-25 13:49:06,518 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-16
+2024-11-25 13:49:06,518 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-16
+2024-11-25 13:49:07,710 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-18
+2024-11-25 13:49:07,710 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-18
+2024-11-25 13:49:30,035 INFO o.a.j.r.Summariser: summary +    489 in 00:00:30 =   16.5/s Avg:  4525 Min:  1230 Max:  9321 Err:     0 (0.00%) Active: 80 Started: 100 Finished: 20
+2024-11-25 13:49:30,035 INFO o.a.j.r.Summariser: summary =  49463 in 01:03:28 =   13.0/s Avg:  4752 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:50:00,342 INFO o.a.j.r.Summariser: summary +    428 in 00:00:30 =   14.1/s Avg:  4470 Min:   855 Max:  8948 Err:     0 (0.00%) Active: 80 Started: 100 Finished: 20
+2024-11-25 13:50:00,342 INFO o.a.j.r.Summariser: summary =  49891 in 01:03:58 =   13.0/s Avg:  4750 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:50:03,914 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-21
+2024-11-25 13:50:03,914 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-21
+2024-11-25 13:50:04,538 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-23
+2024-11-25 13:50:04,538 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-23
+2024-11-25 13:50:04,708 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-25
+2024-11-25 13:50:04,708 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-25
+2024-11-25 13:50:05,137 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-24
+2024-11-25 13:50:05,137 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-24
+2024-11-25 13:50:07,459 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-22
+2024-11-25 13:50:07,459 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-22
+2024-11-25 13:50:30,045 INFO o.a.j.r.Summariser: summary +    412 in 00:00:30 =   13.9/s Avg:  4017 Min:   542 Max:  8571 Err:     0 (0.00%) Active: 75 Started: 100 Finished: 25
+2024-11-25 13:50:30,046 INFO o.a.j.r.Summariser: summary =  50303 in 01:04:28 =   13.0/s Avg:  4744 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:51:00,222 INFO o.a.j.r.Summariser: summary +    469 in 00:00:30 =   15.5/s Avg:  4075 Min:   737 Max:  6417 Err:     0 (0.00%) Active: 75 Started: 100 Finished: 25
+2024-11-25 13:51:00,222 INFO o.a.j.r.Summariser: summary =  50772 in 01:04:58 =   13.0/s Avg:  4738 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:51:02,927 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-27
+2024-11-25 13:51:02,928 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-27
+2024-11-25 13:51:02,955 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-29
+2024-11-25 13:51:02,955 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-29
+2024-11-25 13:51:03,232 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-28
+2024-11-25 13:51:03,232 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-28
+2024-11-25 13:51:03,414 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-26
+2024-11-25 13:51:03,414 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-26
+2024-11-25 13:51:03,655 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-30
+2024-11-25 13:51:03,655 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-30
+2024-11-25 13:51:30,060 INFO o.a.j.r.Summariser: summary +    428 in 00:00:30 =   14.3/s Avg:  3901 Min:   762 Max:  9182 Err:     0 (0.00%) Active: 70 Started: 100 Finished: 30
+2024-11-25 13:51:30,060 INFO o.a.j.r.Summariser: summary =  51200 in 01:05:28 =   13.0/s Avg:  4731 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:52:00,208 INFO o.a.j.r.Summariser: summary +    441 in 00:00:30 =   14.6/s Avg:  3780 Min:  1423 Max:  8480 Err:     0 (0.00%) Active: 70 Started: 100 Finished: 30
+2024-11-25 13:52:00,209 INFO o.a.j.r.Summariser: summary =  51641 in 01:05:58 =   13.0/s Avg:  4722 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:52:01,949 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-31
+2024-11-25 13:52:06,015 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-33
+2024-11-25 13:52:06,015 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-33
+2024-11-25 13:52:06,029 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-32
+2024-11-25 13:52:06,030 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-32
+2024-11-25 13:52:06,224 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-34
+2024-11-25 13:52:06,225 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-34
+2024-11-25 13:52:06,449 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-35
+2024-11-25 13:52:06,450 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-35
+2024-11-25 13:52:30,025 INFO o.a.j.r.Summariser: summary +    451 in 00:00:30 =   15.1/s Avg:  3502 Min:  1094 Max:  6382 Err:     0 (0.00%) Active: 65 Started: 100 Finished: 35
+2024-11-25 13:52:30,025 INFO o.a.j.r.Summariser: summary =  52092 in 01:06:28 =   13.1/s Avg:  4712 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:53:00,011 INFO o.a.j.r.Summariser: summary +    423 in 00:00:30 =   14.1/s Avg:  3383 Min:   598 Max:  6024 Err:     0 (0.00%) Active: 65 Started: 100 Finished: 35
+2024-11-25 13:53:00,012 INFO o.a.j.r.Summariser: summary =  52515 in 01:06:58 =   13.1/s Avg:  4701 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:53:04,400 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-39
+2024-11-25 13:53:04,400 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-39
+2024-11-25 13:53:04,852 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-36
+2024-11-25 13:53:04,853 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-36
+2024-11-25 13:53:05,504 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-40
+2024-11-25 13:53:05,504 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-40
+2024-11-25 13:53:05,536 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-38
+2024-11-25 13:53:05,537 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-38
+2024-11-25 13:53:05,544 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-37
+2024-11-25 13:53:05,545 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-37
+2024-11-25 13:53:30,237 INFO o.a.j.r.Summariser: summary +    453 in 00:00:30 =   15.0/s Avg:  3258 Min:   374 Max:  4649 Err:     0 (0.00%) Active: 60 Started: 100 Finished: 40
+2024-11-25 13:53:30,237 INFO o.a.j.r.Summariser: summary =  52968 in 01:07:28 =   13.1/s Avg:  4689 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:54:00,513 INFO o.a.j.r.Summariser: summary +    461 in 00:00:30 =   15.2/s Avg:  3120 Min:   394 Max:  5848 Err:     0 (0.00%) Active: 60 Started: 100 Finished: 40
+2024-11-25 13:54:00,513 INFO o.a.j.r.Summariser: summary =  53429 in 01:07:58 =   13.1/s Avg:  4675 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:54:03,128 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-45
+2024-11-25 13:54:03,129 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-45
+2024-11-25 13:54:03,233 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-43
+2024-11-25 13:54:03,233 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-43
+2024-11-25 13:54:03,350 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-42
+2024-11-25 13:54:03,350 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-42
+2024-11-25 13:54:03,471 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-44
+2024-11-25 13:54:03,471 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-44
+2024-11-25 13:54:03,694 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-41
+2024-11-25 13:54:03,694 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-41
+2024-11-25 13:54:30,003 INFO o.a.j.r.Summariser: summary +    431 in 00:00:29 =   14.6/s Avg:  2866 Min:   327 Max:  5050 Err:     0 (0.00%) Active: 55 Started: 100 Finished: 45
+2024-11-25 13:54:30,004 INFO o.a.j.r.Summariser: summary =  53860 in 01:08:28 =   13.1/s Avg:  4661 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:55:00,264 INFO o.a.j.r.Summariser: summary +    441 in 00:00:30 =   14.6/s Avg:  2867 Min:   370 Max:  6108 Err:     0 (0.00%) Active: 55 Started: 100 Finished: 45
+2024-11-25 13:55:00,264 INFO o.a.j.r.Summariser: summary =  54301 in 01:08:58 =   13.1/s Avg:  4646 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:55:02,311 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-49
+2024-11-25 13:55:02,311 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-49
+2024-11-25 13:55:03,490 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-48
+2024-11-25 13:55:03,491 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-48
+2024-11-25 13:55:03,768 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-50
+2024-11-25 13:55:03,768 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-50
+2024-11-25 13:55:04,146 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-47
+2024-11-25 13:55:04,147 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-47
+2024-11-25 13:55:04,671 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-46
+2024-11-25 13:55:04,671 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-46
+2024-11-25 13:55:30,050 INFO o.a.j.r.Summariser: summary +    421 in 00:00:30 =   14.1/s Avg:  2631 Min:   555 Max:  6068 Err:     0 (0.00%) Active: 50 Started: 100 Finished: 50
+2024-11-25 13:55:30,050 INFO o.a.j.r.Summariser: summary =  54722 in 01:09:28 =   13.1/s Avg:  4631 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:56:00,154 INFO o.a.j.r.Summariser: summary +    427 in 00:00:30 =   14.2/s Avg:  2524 Min:   290 Max:  5055 Err:     0 (0.00%) Active: 50 Started: 100 Finished: 50
+2024-11-25 13:56:00,154 INFO o.a.j.r.Summariser: summary =  55149 in 01:09:58 =   13.1/s Avg:  4614 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:56:02,489 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-55
+2024-11-25 13:56:02,489 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-55
+2024-11-25 13:56:02,522 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-53
+2024-11-25 13:56:02,522 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-53
+2024-11-25 13:56:02,563 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-51
+2024-11-25 13:56:02,563 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-51
+2024-11-25 13:56:02,771 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-52
+2024-11-25 13:56:02,772 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-52
+2024-11-25 13:56:02,806 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-54
+2024-11-25 13:56:02,806 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-54
+2024-11-25 13:56:30,665 INFO o.a.j.r.Summariser: summary +    433 in 00:00:31 =   14.2/s Avg:  2240 Min:   222 Max:  4927 Err:     0 (0.00%) Active: 45 Started: 100 Finished: 55
+2024-11-25 13:56:30,665 INFO o.a.j.r.Summariser: summary =  55582 in 01:10:28 =   13.1/s Avg:  4596 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:57:00,689 INFO o.a.j.r.Summariser: summary +    428 in 00:00:30 =   14.3/s Avg:  2143 Min:   172 Max:  4486 Err:     0 (0.00%) Active: 45 Started: 100 Finished: 55
+2024-11-25 13:57:00,689 INFO o.a.j.r.Summariser: summary =  56010 in 01:10:58 =   13.2/s Avg:  4577 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:57:02,000 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-60
+2024-11-25 13:57:02,102 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-57
+2024-11-25 13:57:02,146 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-56
+2024-11-25 13:57:02,159 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-59
+2024-11-25 13:57:02,434 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-58
+2024-11-25 13:57:02,434 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-58
+2024-11-25 13:57:30,125 INFO o.a.j.r.Summariser: summary +    424 in 00:00:29 =   14.4/s Avg:  1852 Min:   215 Max:  3245 Err:     0 (0.00%) Active: 40 Started: 100 Finished: 60
+2024-11-25 13:57:30,125 INFO o.a.j.r.Summariser: summary =  56434 in 01:11:28 =   13.2/s Avg:  4557 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:58:00,058 INFO o.a.j.r.Summariser: summary +    448 in 00:00:30 =   15.0/s Avg:  1835 Min:   198 Max:  3105 Err:     0 (0.00%) Active: 40 Started: 100 Finished: 60
+2024-11-25 13:58:00,058 INFO o.a.j.r.Summariser: summary =  56882 in 01:11:58 =   13.2/s Avg:  4535 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:58:02,271 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-62
+2024-11-25 13:58:02,271 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-62
+2024-11-25 13:58:02,373 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-64
+2024-11-25 13:58:02,373 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-64
+2024-11-25 13:58:02,413 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-65
+2024-11-25 13:58:02,413 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-65
+2024-11-25 13:58:02,572 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-61
+2024-11-25 13:58:02,572 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-61
+2024-11-25 13:58:02,577 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-63
+2024-11-25 13:58:02,577 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-63
+2024-11-25 13:58:30,016 INFO o.a.j.r.Summariser: summary +    425 in 00:00:30 =   14.2/s Avg:  1540 Min:   320 Max:  3312 Err:     0 (0.00%) Active: 35 Started: 100 Finished: 65
+2024-11-25 13:58:30,016 INFO o.a.j.r.Summariser: summary =  57307 in 01:12:28 =   13.2/s Avg:  4513 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:59:00,025 INFO o.a.j.r.Summariser: summary +    423 in 00:00:30 =   14.1/s Avg:  1534 Min:   179 Max:  2816 Err:     0 (0.00%) Active: 35 Started: 100 Finished: 65
+2024-11-25 13:59:00,025 INFO o.a.j.r.Summariser: summary =  57730 in 01:12:58 =   13.2/s Avg:  4491 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:59:01,294 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-68
+2024-11-25 13:59:01,850 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-70
+2024-11-25 13:59:03,915 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-67
+2024-11-25 13:59:03,915 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-67
+2024-11-25 13:59:03,918 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-66
+2024-11-25 13:59:03,918 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-66
+2024-11-25 13:59:04,003 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-69
+2024-11-25 13:59:04,003 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-69
+2024-11-25 13:59:30,191 INFO o.a.j.r.Summariser: summary +    434 in 00:00:30 =   14.4/s Avg:  1331 Min:   183 Max:  2967 Err:     0 (0.00%) Active: 30 Started: 100 Finished: 70
+2024-11-25 13:59:30,192 INFO o.a.j.r.Summariser: summary =  58164 in 01:13:28 =   13.2/s Avg:  4468 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 13:59:59,733 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-75
+2024-11-25 14:00:00,026 INFO o.a.j.r.Summariser: summary +    411 in 00:00:30 =   13.8/s Avg:  1270 Min:   114 Max:  2845 Err:     0 (0.00%) Active: 29 Started: 100 Finished: 71
+2024-11-25 14:00:00,026 INFO o.a.j.r.Summariser: summary =  58575 in 01:13:58 =   13.2/s Avg:  4445 Min:   113 Max: 18788 Err:     0 (0.00%)
+2024-11-25 14:00:01,816 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-74
+2024-11-25 14:00:01,884 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-71
+2024-11-25 14:00:02,016 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-73
+2024-11-25 14:00:03,103 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-72
+2024-11-25 14:00:03,103 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-72
+2024-11-25 14:00:30,262 INFO o.a.j.r.Summariser: summary +    426 in 00:00:30 =   14.1/s Avg:   842 Min:    97 Max:  1935 Err:     0 (0.00%) Active: 25 Started: 100 Finished: 75
+2024-11-25 14:00:30,262 INFO o.a.j.r.Summariser: summary =  59001 in 01:14:28 =   13.2/s Avg:  4419 Min:    97 Max: 18788 Err:     0 (0.00%)
+2024-11-25 14:01:00,011 INFO o.a.j.r.Summariser: summary +    455 in 00:00:30 =   15.3/s Avg:   760 Min:    98 Max:  1683 Err:     0 (0.00%) Active: 25 Started: 100 Finished: 75
+2024-11-25 14:01:00,011 INFO o.a.j.r.Summariser: summary =  59456 in 01:14:58 =   13.2/s Avg:  4391 Min:    97 Max: 18788 Err:     0 (0.00%)
+2024-11-25 14:01:00,150 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-80
+2024-11-25 14:01:00,426 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-77
+2024-11-25 14:01:00,917 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-79
+2024-11-25 14:01:01,488 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-76
+2024-11-25 14:01:02,105 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-78
+2024-11-25 14:01:30,011 INFO o.a.j.r.Summariser: summary +    442 in 00:00:30 =   14.7/s Avg:   468 Min:    95 Max:  1587 Err:     0 (0.00%) Active: 20 Started: 100 Finished: 80
+2024-11-25 14:01:30,012 INFO o.a.j.r.Summariser: summary =  59898 in 01:15:28 =   13.2/s Avg:  4362 Min:    95 Max: 18788 Err:     0 (0.00%)
+2024-11-25 14:02:00,128 INFO o.a.j.r.Summariser: summary +    439 in 00:00:30 =   14.6/s Avg:   449 Min:   100 Max:  1482 Err:     0 (0.00%) Active: 20 Started: 100 Finished: 80
+2024-11-25 14:02:00,129 INFO o.a.j.r.Summariser: summary =  60337 in 01:15:58 =   13.2/s Avg:  4334 Min:    95 Max: 18788 Err:     0 (0.00%)
+2024-11-25 14:02:01,906 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-84
+2024-11-25 14:02:01,908 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-81
+2024-11-25 14:02:01,952 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-82
+2024-11-25 14:02:02,364 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-85
+2024-11-25 14:02:02,364 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-85
+2024-11-25 14:02:02,744 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-83
+2024-11-25 14:02:02,744 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-83
+2024-11-25 14:02:30,061 INFO o.a.j.r.Summariser: summary +    396 in 00:00:30 =   13.2/s Avg:   300 Min:    97 Max:  1166 Err:     0 (0.00%) Active: 15 Started: 100 Finished: 85
+2024-11-25 14:02:30,061 INFO o.a.j.r.Summariser: summary =  60733 in 01:16:28 =   13.2/s Avg:  4307 Min:    95 Max: 18788 Err:     0 (0.00%)
+2024-11-25 14:02:59,838 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-87
+2024-11-25 14:03:00,007 INFO o.a.j.r.Summariser: summary +    402 in 00:00:30 =   13.4/s Avg:   248 Min:    95 Max:   963 Err:     0 (0.00%) Active: 14 Started: 100 Finished: 86
+2024-11-25 14:03:00,007 INFO o.a.j.r.Summariser: summary =  61135 in 01:16:58 =   13.2/s Avg:  4281 Min:    95 Max: 18788 Err:     0 (0.00%)
+2024-11-25 14:03:00,916 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-90
+2024-11-25 14:03:01,602 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-89
+2024-11-25 14:03:01,766 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-86
+2024-11-25 14:03:02,399 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: jp@gc - Stepping Thread Group 1-88
+2024-11-25 14:03:02,399 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-88
+2024-11-25 14:03:30,038 INFO o.a.j.r.Summariser: summary +    293 in 00:00:30 =    9.8/s Avg:   179 Min:    93 Max:   701 Err:     0 (0.00%) Active: 10 Started: 100 Finished: 90
+2024-11-25 14:03:30,038 INFO o.a.j.r.Summariser: summary =  61428 in 01:17:28 =   13.2/s Avg:  4261 Min:    93 Max: 18788 Err:     0 (0.00%)
+2024-11-25 14:04:00,071 INFO o.a.j.r.Summariser: summary +    308 in 00:00:30 =   10.3/s Avg:   154 Min:    95 Max:   404 Err:     0 (0.00%) Active: 10 Started: 100 Finished: 90
+2024-11-25 14:04:00,071 INFO o.a.j.r.Summariser: summary =  61736 in 01:17:58 =   13.2/s Avg:  4241 Min:    93 Max: 18788 Err:     0 (0.00%)
+2024-11-25 14:04:01,288 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-91
+2024-11-25 14:04:01,691 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-93
+2024-11-25 14:04:01,797 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-94
+2024-11-25 14:04:01,972 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-92
+2024-11-25 14:04:02,144 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-95
+2024-11-25 14:04:30,015 INFO o.a.j.r.Summariser: summary +    157 in 00:00:30 =    5.2/s Avg:   152 Min:    94 Max:   599 Err:     0 (0.00%) Active: 5 Started: 100 Finished: 95
+2024-11-25 14:04:30,015 INFO o.a.j.r.Summariser: summary =  61893 in 01:18:28 =   13.1/s Avg:  4230 Min:    93 Max: 18788 Err:     0 (0.00%)
+2024-11-25 14:05:00,395 INFO o.a.j.r.Summariser: summary +    152 in 00:00:30 =    5.0/s Avg:   140 Min:    93 Max:   567 Err:     0 (0.00%) Active: 5 Started: 100 Finished: 95
+2024-11-25 14:05:00,396 INFO o.a.j.r.Summariser: summary =  62045 in 01:18:58 =   13.1/s Avg:  4220 Min:    93 Max: 18788 Err:     0 (0.00%)
+2024-11-25 14:05:00,616 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-100
+2024-11-25 14:05:01,110 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-96
+2024-11-25 14:05:01,276 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-97
+2024-11-25 14:05:02,108 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-99
+2024-11-25 14:05:02,154 INFO o.a.j.t.JMeterThread: Thread finished: jp@gc - Stepping Thread Group 1-98
+2024-11-25 14:05:02,156 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2024-11-25 14:05:02,164 INFO o.a.j.r.Summariser: summary +      7 in 00:00:02 =    4.0/s Avg:   108 Min:   102 Max:   126 Err:     0 (0.00%) Active: 0 Started: 100 Finished: 100
+2024-11-25 14:05:02,164 INFO o.a.j.r.Summariser: summary =  62052 in 01:19:00 =   13.1/s Avg:  4220 Min:    93 Max: 18788 Err:     0 (0.00%)

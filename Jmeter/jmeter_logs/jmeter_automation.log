@@ -49,3 +49,345 @@ Killed
 2024-11-25 12:25:46,103 - INFO - End Time: 2024-11-28 12:25:46
 2024-11-25 12:25:46,106 - INFO - Spike scheduled to start at 2024-11-26 12:00:00
 2024-11-25 12:25:46,108 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-25 12:33:56,312 - INFO - JMeter automation started. Running for 3 days.
+2024-11-25 12:33:56,312 - INFO - Start Time: 2024-11-25 12:33:56
+2024-11-25 12:33:56,313 - INFO - End Time: 2024-11-28 12:33:56
+2024-11-25 12:33:56,316 - INFO - Spike scheduled to start at 2024-11-26 12:00:00
+2024-11-25 12:33:56,318 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-25 12:37:35,224 - ERROR - JMeter test failed with return code 3221225786
+2024-11-25 12:37:35,224 - ERROR - Error Output: ^C
+2024-11-25 12:37:35,224 - WARNING - Retrying JMeter test (1/3) after 60 seconds...
+2024-11-25 12:45:55,761 - INFO - JMeter automation started. Running for 3 days.
+2024-11-25 12:45:55,761 - INFO - Start Time: 2024-11-25 12:45:55
+2024-11-25 12:45:55,761 - INFO - End Time: 2024-11-28 12:45:55
+2024-11-25 12:45:55,764 - INFO - Spike scheduled to start at 2024-11-26 12:00:00
+2024-11-25 12:45:55,766 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-25 14:05:03,728 - INFO - JMeter test completed successfully. Results saved to C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\jmeter_results\test_results_regular_20241125_124555.jtl
+2024-11-25 14:05:03,728 - INFO - Regular JMeter run 1 completed.
+2024-11-25 14:05:03,728 - INFO - Sleeping for 300 seconds before next regular run.
+2024-11-25 14:10:03,730 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-25 14:18:36,349 - INFO - Manual spike triggered via command line.
+2024-11-25 14:18:36,350 - INFO - Triggering spike JMeter test.
+2024-11-25 14:18:36,407 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation_spike.jmx
+2024-11-25 14:20:57,461 - INFO - JMeter test completed successfully. Results saved to C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\jmeter_results\test_results_spike_20241125_141836.jtl
+2024-11-25 14:20:57,461 - INFO - Spike test completed within the expected duration.
+2024-11-25 15:29:11,300 - INFO - JMeter test completed successfully. Results saved to C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\jmeter_results\test_results_regular_20241125_141003.jtl
+2024-11-25 15:29:11,301 - INFO - Regular JMeter run 2 completed.
+2024-11-25 15:29:11,301 - INFO - Sleeping for 300 seconds before next regular run.
+2024-11-25 15:34:11,304 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-25 19:22:06,199 - INFO - Manual spike triggered via command line.
+2024-11-25 19:22:06,199 - INFO - Triggering spike JMeter test.
+2024-11-25 19:22:06,201 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation_spike.jmx
+2024-11-25 19:24:15,949 - INFO - JMeter test completed successfully. Results saved to C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\jmeter_results\test_results_spike_20241125_192206.jtl
+2024-11-25 19:24:15,950 - INFO - Spike test completed within the expected duration.
+2024-11-25 19:24:47,362 - INFO - JMeter automation started. Running for 3 days.
+2024-11-25 19:24:47,362 - INFO - Start Time: 2024-11-25 19:24:47
+2024-11-25 19:24:47,362 - INFO - End Time: 2024-11-28 19:24:47
+2024-11-25 19:24:47,367 - INFO - Spike scheduled to start at 2024-11-26 12:00:00
+2024-11-25 19:24:47,368 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-25 20:06:25,213 - INFO - Manual spike triggered via command line.
+2024-11-25 20:06:25,213 - INFO - Triggering spike JMeter test.
+2024-11-25 20:06:25,414 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation_spike.jmx
+2024-11-25 20:10:16,766 - INFO - JMeter test completed successfully. Results saved to C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\jmeter_results\test_results_spike_20241125_200625.jtl
+2024-11-25 20:10:16,766 - INFO - Spike test completed within the expected duration.
+2024-11-25 20:13:54,045 - INFO - Manual spike triggered via command line.
+2024-11-25 20:13:54,046 - INFO - Triggering spike JMeter test.
+2024-11-25 20:13:54,054 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation_spike.jmx
+2024-11-25 20:18:58,564 - INFO - JMeter test completed successfully. Results saved to C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\jmeter_results\test_results_spike_20241125_201354.jtl
+2024-11-25 20:18:58,564 - INFO - Spike test completed within the expected duration.
+2024-11-25 20:43:55,285 - INFO - JMeter test completed successfully. Results saved to C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\jmeter_results\test_results_regular_20241125_192447.jtl
+2024-11-25 20:43:55,286 - INFO - Regular JMeter run 1 completed.
+2024-11-25 20:43:55,286 - INFO - Sleeping for 300 seconds before next regular run.
+2024-11-25 20:48:55,287 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-25 20:51:32,127 - INFO - Manual spike triggered via command line.
+2024-11-25 20:51:32,127 - INFO - Triggering spike JMeter test.
+2024-11-25 20:51:32,129 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation_spike.jmx
+2024-11-25 20:56:29,998 - INFO - Manual spike triggered via command line.
+2024-11-25 20:56:29,998 - INFO - Triggering spike JMeter test.
+2024-11-25 20:56:29,999 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation_spike.jmx
+2024-11-25 20:56:32,356 - ERROR - JMeter test failed with return code 3221225786
+2024-11-25 20:56:32,356 - ERROR - Error Output: Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#254,Thread Group 1-204,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#368,Thread Group 1-318,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#519,Thread Group 1-469,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#360,Thread Group 1-310,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#159,Thread Group 1-109,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#447,Thread Group 1-397,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#549,Thread Group 1-499,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#301,Thread Group 1-251,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#350,Thread Group 1-300,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#446,Thread Group 1-396,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#524,Thread Group 1-474,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#186,Thread Group 1-136,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#457,Thread Group 1-407,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#438,Thread Group 1-388,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#463,Thread Group 1-413,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#448,Thread Group 1-398,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#305,Thread Group 1-255,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#313,Thread Group 1-263,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#442,Thread Group 1-392,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#347,Thread Group 1-297,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#544,Thread Group 1-494,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#998,ResDownload-Thread-448,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#456,Thread Group 1-406,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#286,Thread Group 1-236,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1810,ResDownload-Thread-1260,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#897,ResDownload-Thread-347,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#680,ResDownload-Thread-130,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1055,ResDownload-Thread-505,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#514,Thread Group 1-464,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#528,Thread Group 1-478,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#520,Thread Group 1-470,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#234,Thread Group 1-184,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#260,Thread Group 1-210,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1860,ResDownload-Thread-1310,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1025,ResDownload-Thread-475,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1285,ResDownload-Thread-735,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1583,ResDownload-Thread-1031,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1351,ResDownload-Thread-801,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#229,Thread Group 1-179,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#345,Thread Group 1-295,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#379,Thread Group 1-329,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#389,Thread Group 1-339,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1323,ResDownload-Thread-773,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#323,Thread Group 1-273,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#546,Thread Group 1-496,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#813,ResDownload-Thread-263,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#213,Thread Group 1-163,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#144,Thread Group 1-94,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1753,ResDownload-Thread-1201,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#156,Thread Group 1-106,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#451,Thread Group 1-401,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#292,Thread Group 1-242,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#508,Thread Group 1-458,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1825,ResDownload-Thread-1275,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#185,Thread Group 1-135,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#414,Thread Group 1-364,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#492,Thread Group 1-442,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#317,Thread Group 1-267,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#405,Thread Group 1-355,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#311,Thread Group 1-261,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1449,ResDownload-Thread-898,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1236,ResDownload-Thread-686,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1546,ResDownload-Thread-996,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#334,Thread Group 1-284,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1218,ResDownload-Thread-668,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#348,Thread Group 1-298,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#266,Thread Group 1-216,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#434,Thread Group 1-384,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#128,Thread Group 1-78,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#794,ResDownload-Thread-244,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#272,Thread Group 1-222,5,main]. See log file for details.
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-958"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-896"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-694"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-500"
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#521,Thread Group 1-471,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1822,ResDownload-Thread-1273,5,main]. See log file for details.
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-1287"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-742"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-654"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-933"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-941"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-810"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-93"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-238"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-259"
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1412,ResDownload-Thread-861,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#303,Thread Group 1-253,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#913,ResDownload-Thread-363,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#111,Thread Group 1-61,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1375,ResDownload-Thread-825,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1497,ResDownload-Thread-947,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#741,ResDownload-Thread-191,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1228,ResDownload-Thread-678,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1740,ResDownload-Thread-1188,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1413,ResDownload-Thread-862,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1073,ResDownload-Thread-523,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#362,Thread Group 1-312,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1512,ResDownload-Thread-962,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#543,Thread Group 1-493,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#170,Thread Group 1-120,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#763,ResDownload-Thread-213,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1268,ResDownload-Thread-718,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1156,ResDownload-Thread-606,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#766,ResDownload-Thread-216,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#324,Thread Group 1-274,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#318,Thread Group 1-268,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1012,ResDownload-Thread-462,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1531,ResDownload-Thread-981,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1565,ResDownload-Thread-1013,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#747,ResDownload-Thread-197,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1830,ResDownload-Thread-1280,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#410,Thread Group 1-360,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#329,Thread Group 1-279,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#161,Thread Group 1-111,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1208,ResDownload-Thread-658,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1302,ResDownload-Thread-752,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#297,Thread Group 1-247,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#417,Thread Group 1-367,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#249,Thread Group 1-199,5,main]. See log file for details.
+Uncaught Exception java.lang.AssertionError: java.lang.reflect.InvocationTargetException in thread Thread[#238,Thread Group 1-188,5,main]. See log file for details.
+Uncaught Exception java.lang.AssertionError: java.lang.reflect.InvocationTargetException in thread Thread[#173,Thread Group 1-123,5,main]. See log file for details.
+^C
+2024-11-25 21:03:35,402 - ERROR - JMeter test failed with return code 3221225786
+2024-11-25 21:03:35,402 - ERROR - Error Output: 
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "Thread Group 1-317"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-1315"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-1508"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-659"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-203"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-1111"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-697"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-916"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-1451"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-1329"
+
+Exception: java.lang.OutOfMemoryError thrown from the UncaughtExceptionHandler in thread "ResDownload-Thread-798"
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#100,Thread Group 1-50,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#511,Thread Group 1-461,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#462,Thread Group 1-412,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1254,ResDownload-Thread-704,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#265,Thread Group 1-215,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#479,Thread Group 1-429,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#968,ResDownload-Thread-418,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1723,ResDownload-Thread-1173,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1676,ResDownload-Thread-1126,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1967,ResDownload-Thread-1418,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#332,Thread Group 1-282,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#443,Thread Group 1-393,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#841,ResDownload-Thread-291,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1082,ResDownload-Thread-532,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1093,ResDownload-Thread-543,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#539,Thread Group 1-489,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#408,Thread Group 1-358,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1757,ResDownload-Thread-1207,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#808,ResDownload-Thread-258,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#513,Thread Group 1-463,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#429,Thread Group 1-379,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#812,ResDownload-Thread-262,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#512,Thread Group 1-462,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1169,ResDownload-Thread-619,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#349,Thread Group 1-299,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#140,Thread Group 1-90,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#112,Thread Group 1-62,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#216,Thread Group 1-166,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#399,Thread Group 1-349,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#241,Thread Group 1-191,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#544,Thread Group 1-494,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#413,Thread Group 1-363,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#431,Thread Group 1-381,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#57,Thread Group 1-7,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#2161,ResDownload-Thread-1608,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#474,Thread Group 1-424,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#392,Thread Group 1-342,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#522,Thread Group 1-472,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#117,Thread Group 1-67,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#268,Thread Group 1-218,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#337,Thread Group 1-287,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#484,Thread Group 1-434,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#492,Thread Group 1-442,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#293,Thread Group 1-243,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#425,Thread Group 1-375,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#494,Thread Group 1-444,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#267,Thread Group 1-217,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#300,Thread Group 1-250,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#2028,ResDownload-Thread-1478,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#372,Thread Group 1-322,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#463,Thread Group 1-413,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1268,ResDownload-Thread-718,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#378,Thread Group 1-328,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#163,Thread Group 1-113,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#537,Thread Group 1-487,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#457,Thread Group 1-407,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#379,Thread Group 1-329,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#504,Thread Group 1-454,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#436,Thread Group 1-386,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#508,Thread Group 1-458,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#301,Thread Group 1-251,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#396,Thread Group 1-346,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#523,Thread Group 1-473,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#54,Thread Group 1-4,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#409,Thread Group 1-359,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#159,Thread Group 1-109,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#319,Thread Group 1-269,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#350,Thread Group 1-300,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#176,Thread Group 1-126,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#535,Thread Group 1-485,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#345,Thread Group 1-295,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#328,Thread Group 1-278,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#192,Thread Group 1-142,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#496,Thread Group 1-446,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#224,Thread Group 1-174,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#528,Thread Group 1-478,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1634,ResDownload-Thread-1084,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#775,ResDownload-Thread-225,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#381,Thread Group 1-331,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1935,ResDownload-Thread-1385,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#2082,ResDownload-Thread-1532,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#355,Thread Group 1-305,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#852,ResDownload-Thread-302,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#721,ResDownload-Thread-171,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#2062,ResDownload-Thread-1512,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#734,ResDownload-Thread-184,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#174,Thread Group 1-124,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#2106,ResDownload-Thread-1554,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#103,Thread Group 1-53,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#489,Thread Group 1-439,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#2027,ResDownload-Thread-1477,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#383,Thread Group 1-333,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#2035,ResDownload-Thread-1485,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#2042,ResDownload-Thread-1492,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1148,ResDownload-Thread-597,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#452,Thread Group 1-402,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#610,ResDownload-Thread-60,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#912,ResDownload-Thread-362,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#2111,ResDownload-Thread-1559,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#2044,ResDownload-Thread-1494,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#2117,ResDownload-Thread-1565,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#324,Thread Group 1-274,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#2120,ResDownload-Thread-1568,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#2112,ResDownload-Thread-1560,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#817,ResDownload-Thread-267,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1201,ResDownload-Thread-651,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#917,ResDownload-Thread-367,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1180,ResDownload-Thread-630,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#445,Thread Group 1-395,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#532,Thread Group 1-482,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#357,Thread Group 1-307,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1651,ResDownload-Thread-1101,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#1380,ResDownload-Thread-828,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#95,Thread Group 1-45,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#155,Thread Group 1-105,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#430,Thread Group 1-380,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#99,Thread Group 1-49,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#331,Thread Group 1-281,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#194,Thread Group 1-144,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#358,Thread Group 1-308,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#510,Thread Group 1-460,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#469,Thread Group 1-419,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#373,Thread Group 1-323,5,main]. See log file for details.
+Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#302,Thread Group 1-252,5,main]. See log file for details.
+Uncaught Exception java.lang.AssertionError: java.lang.reflect.InvocationTargetException in thread Thread[#384,Thread Group 1-334,5,main]. See log file for details.
+^C

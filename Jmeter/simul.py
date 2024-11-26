@@ -115,6 +115,18 @@ def trigger_spike(spike_duration):
     else:
         logging.info("Spike test completed within the expected duration.")
 
+def manual_trigger_listener():
+    """
+    Listens for manual commands to trigger the spike test.
+    """
+    while True:
+        user_input = input("Type 'trigger_spike' to manually trigger a spike test:\n")
+        if user_input.strip().lower() == "trigger_spike":
+            logging.info("Manual spike trigger command received.")
+            trigger_spike(SPIKE_DURATION_SECONDS)
+        else:
+            print("Invalid command. Type 'trigger_spike' to trigger a spike.")
+
 # ------------------------------------------------------------
 
 # ----------------------- Main Function -----------------------
@@ -177,5 +189,16 @@ if __name__ == "__main__":
     os.makedirs(RESULTS_DIR, exist_ok=True)
     os.makedirs(LOG_DIR, exist_ok=True)
 
-    # Start the monitoring and testing automation
-    main()
+    # Check for command-line argument
+    if len(sys.argv) > 1:
+        if sys.argv[1].lower() == "manual_spike":
+            logging.info("Manual spike triggered via command line.")
+            trigger_spike(SPIKE_DURATION_SECONDS)
+        else:
+            print(f"Unknown command: {sys.argv[1]}")
+            print("Usage:")
+            print("  python simul.py          # Run the full automation")
+            print("  python simul.py manual_spike  # Trigger a manual spike")
+    else:
+        # Start the regular automation
+        main()
