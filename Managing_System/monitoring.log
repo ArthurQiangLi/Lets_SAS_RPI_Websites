@@ -22348,3 +22348,1388 @@
 2024-11-26 00:07:05,933 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
 2024-11-26 00:07:05,934 - State Durations - Normal: 41161.52s, Degraded: 0.00s
 2024-11-26 00:07:05,946 - Content already matches the target. No changes made.
+2024-11-26 02:17:28,650 - CPU: 11.4%, Memory: 63.70%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:17:28,651 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:17:28,652 - Apache Metrics - ReqPerSec: 14.222, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:17:28,652 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:17:28,652 - State Durations - Normal: 0.00s, Degraded: 0.00s
+2024-11-26 02:17:28,656 - Content already matches the target. No changes made.
+2024-11-26 02:17:35,877 - CPU: 2.1%, Memory: 64.08%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:17:35,877 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:17:35,877 - Apache Metrics - ReqPerSec: 14.22, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:17:35,878 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:17:35,878 - State Durations - Normal: 7.42s, Degraded: 0.00s
+2024-11-26 02:17:35,881 - Content already matches the target. No changes made.
+2024-11-26 02:17:46,004 - CPU: 0.8%, Memory: 63.98%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:17:46,004 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:17:46,004 - Apache Metrics - ReqPerSec: 14.2171, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:17:46,005 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:17:46,005 - State Durations - Normal: 17.55s, Degraded: 0.00s
+2024-11-26 02:17:46,009 - Content already matches the target. No changes made.
+2024-11-26 02:17:56,174 - CPU: 1.8%, Memory: 63.98%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:17:56,174 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:17:56,175 - Apache Metrics - ReqPerSec: 14.2142, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:17:56,175 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:17:56,175 - State Durations - Normal: 27.67s, Degraded: 0.00s
+2024-11-26 02:17:56,179 - Content already matches the target. No changes made.
+2024-11-26 02:18:03,350 - CPU: 1.3%, Memory: 64.11%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:18:03,350 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:18:03,351 - Apache Metrics - ReqPerSec: 14.2119, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:18:03,351 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:18:03,351 - State Durations - Normal: 34.90s, Degraded: 0.00s
+2024-11-26 02:18:03,355 - Content already matches the target. No changes made.
+2024-11-26 02:18:13,457 - CPU: 1.4%, Memory: 64.28%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:18:13,457 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:18:13,458 - Apache Metrics - ReqPerSec: 14.2091, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:18:13,458 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:18:13,458 - State Durations - Normal: 45.01s, Degraded: 0.00s
+2024-11-26 02:18:13,462 - Content already matches the target. No changes made.
+2024-11-26 02:18:23,609 - CPU: 1.5%, Memory: 64.23%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:18:23,609 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:18:23,609 - Apache Metrics - ReqPerSec: 14.2062, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:18:23,610 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:18:23,610 - State Durations - Normal: 55.11s, Degraded: 0.00s
+2024-11-26 02:18:23,613 - Content already matches the target. No changes made.
+2024-11-26 02:18:30,783 - CPU: 1.6%, Memory: 64.34%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:18:30,783 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:18:30,783 - Apache Metrics - ReqPerSec: 14.2042, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:18:30,784 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:18:30,784 - State Durations - Normal: 62.31s, Degraded: 0.00s
+2024-11-26 02:18:30,787 - Content already matches the target. No changes made.
+2024-11-26 02:18:40,904 - CPU: 1.9%, Memory: 64.24%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:18:40,904 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:18:40,904 - Apache Metrics - ReqPerSec: 14.2013, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:18:40,905 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:18:40,905 - State Durations - Normal: 72.45s, Degraded: 0.00s
+2024-11-26 02:18:40,909 - Content already matches the target. No changes made.
+2024-11-26 02:18:51,110 - CPU: 1.8%, Memory: 64.15%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:18:51,110 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:18:51,110 - Apache Metrics - ReqPerSec: 14.1984, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:18:51,111 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:18:51,111 - State Durations - Normal: 82.57s, Degraded: 0.00s
+2024-11-26 02:18:51,117 - Content already matches the target. No changes made.
+2024-11-26 02:18:58,268 - CPU: 1.3%, Memory: 64.04%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:18:58,269 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:18:58,269 - Apache Metrics - ReqPerSec: 14.1964, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:18:58,269 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:18:58,269 - State Durations - Normal: 89.83s, Degraded: 0.00s
+2024-11-26 02:18:58,273 - Content already matches the target. No changes made.
+2024-11-26 02:19:08,373 - CPU: 1.3%, Memory: 63.93%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:19:08,374 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:19:08,374 - Apache Metrics - ReqPerSec: 14.1933, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:19:08,374 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:19:08,374 - State Durations - Normal: 99.92s, Degraded: 0.00s
+2024-11-26 02:19:08,378 - Content already matches the target. No changes made.
+2024-11-26 02:19:18,538 - CPU: 2.4%, Memory: 64.45%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:19:18,539 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:19:18,539 - Apache Metrics - ReqPerSec: 14.1904, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:19:18,539 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:19:18,539 - State Durations - Normal: 110.03s, Degraded: 0.00s
+2024-11-26 02:19:18,545 - Content already matches the target. No changes made.
+2024-11-26 02:19:28,634 - CPU: 2.3%, Memory: 64.51%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:19:28,635 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:19:28,635 - Apache Metrics - ReqPerSec: 14.1875, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:19:28,635 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:19:28,635 - State Durations - Normal: 120.20s, Degraded: 0.00s
+2024-11-26 02:19:28,639 - Content already matches the target. No changes made.
+2024-11-26 02:19:35,802 - CPU: 0.9%, Memory: 64.36%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:19:35,802 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:19:35,803 - Apache Metrics - ReqPerSec: 14.1855, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:19:35,803 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:19:35,803 - State Durations - Normal: 127.37s, Degraded: 0.00s
+2024-11-26 02:19:35,807 - Content already matches the target. No changes made.
+2024-11-26 02:19:45,959 - CPU: 0.6%, Memory: 64.45%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:19:45,960 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:19:45,960 - Apache Metrics - ReqPerSec: 14.1827, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:19:45,960 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:19:45,961 - State Durations - Normal: 137.46s, Degraded: 0.00s
+2024-11-26 02:19:45,964 - Content already matches the target. No changes made.
+2024-11-26 02:19:56,070 - CPU: 0.8%, Memory: 65.66%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:19:56,070 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:19:56,071 - Apache Metrics - ReqPerSec: 14.1798, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:19:56,071 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:19:56,071 - State Durations - Normal: 147.62s, Degraded: 0.00s
+2024-11-26 02:19:56,075 - Content already matches the target. No changes made.
+2024-11-26 02:20:03,243 - CPU: 0.8%, Memory: 65.65%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:20:03,244 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:20:03,244 - Apache Metrics - ReqPerSec: 14.1778, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:20:03,244 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:20:03,244 - State Durations - Normal: 154.80s, Degraded: 0.00s
+2024-11-26 02:20:03,248 - Content already matches the target. No changes made.
+2024-11-26 02:20:13,463 - CPU: 0.7%, Memory: 65.57%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:20:13,463 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:20:13,464 - Apache Metrics - ReqPerSec: 14.1746, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:20:13,464 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:20:13,464 - State Durations - Normal: 164.90s, Degraded: 0.00s
+2024-11-26 02:20:13,468 - Content already matches the target. No changes made.
+2024-11-26 02:20:23,549 - CPU: 2.0%, Memory: 65.34%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:20:23,549 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:20:23,549 - Apache Metrics - ReqPerSec: 14.1718, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:20:23,550 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:20:23,550 - State Durations - Normal: 175.11s, Degraded: 0.00s
+2024-11-26 02:20:23,553 - Content already matches the target. No changes made.
+2024-11-26 02:20:30,709 - CPU: 1.7%, Memory: 65.47%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:20:30,710 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:20:30,710 - Apache Metrics - ReqPerSec: 14.1698, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:20:30,710 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:20:30,710 - State Durations - Normal: 182.27s, Degraded: 0.00s
+2024-11-26 02:20:30,715 - Content already matches the target. No changes made.
+2024-11-26 02:20:40,821 - CPU: 0.6%, Memory: 65.23%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:20:40,821 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:20:40,821 - Apache Metrics - ReqPerSec: 14.1669, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:20:40,821 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:20:40,822 - State Durations - Normal: 192.38s, Degraded: 0.00s
+2024-11-26 02:20:40,826 - Content already matches the target. No changes made.
+2024-11-26 02:20:50,917 - CPU: 1.7%, Memory: 65.08%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:20:50,917 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:20:50,917 - Apache Metrics - ReqPerSec: 14.1641, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:20:50,918 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:20:50,918 - State Durations - Normal: 202.48s, Degraded: 0.00s
+2024-11-26 02:20:50,921 - Content already matches the target. No changes made.
+2024-11-26 02:20:58,164 - CPU: 1.9%, Memory: 65.13%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:20:58,164 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:20:58,165 - Apache Metrics - ReqPerSec: 14.1621, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:20:58,165 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:20:58,165 - State Durations - Normal: 209.65s, Degraded: 0.00s
+2024-11-26 02:20:58,169 - Content already matches the target. No changes made.
+2024-11-26 02:21:08,258 - CPU: 0.8%, Memory: 65.26%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:21:08,258 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:21:08,259 - Apache Metrics - ReqPerSec: 14.1592, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:21:08,259 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:21:08,259 - State Durations - Normal: 219.82s, Degraded: 0.00s
+2024-11-26 02:21:08,263 - Content already matches the target. No changes made.
+2024-11-26 02:21:18,359 - CPU: 0.7%, Memory: 64.90%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:21:18,359 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:21:18,359 - Apache Metrics - ReqPerSec: 14.1561, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:21:18,359 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:21:18,359 - State Durations - Normal: 229.92s, Degraded: 0.00s
+2024-11-26 02:21:18,363 - Content already matches the target. No changes made.
+2024-11-26 02:21:25,594 - CPU: 0.9%, Memory: 64.92%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:21:25,595 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:21:25,595 - Apache Metrics - ReqPerSec: 14.1541, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:21:25,595 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:21:25,595 - State Durations - Normal: 237.08s, Degraded: 0.00s
+2024-11-26 02:21:25,599 - Content already matches the target. No changes made.
+2024-11-26 02:21:35,687 - CPU: 1.9%, Memory: 64.97%, Temp: N/A°C, Latency: 0.49 ms
+2024-11-26 02:21:35,688 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:21:35,688 - Apache Metrics - ReqPerSec: 14.1512, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:21:35,688 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:21:35,688 - State Durations - Normal: 247.25s, Degraded: 0.00s
+2024-11-26 02:21:35,693 - Content already matches the target. No changes made.
+2024-11-26 02:21:45,787 - CPU: 3.5%, Memory: 65.09%, Temp: N/A°C, Latency: 2.42 ms
+2024-11-26 02:21:45,788 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:21:45,788 - Apache Metrics - ReqPerSec: 14.1491, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:21:45,788 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:21:45,789 - State Durations - Normal: 257.34s, Degraded: 0.00s
+2024-11-26 02:21:45,793 - Content already matches the target. No changes made.
+2024-11-26 02:21:52,958 - CPU: 4.1%, Memory: 65.11%, Temp: N/A°C, Latency: 2.15 ms
+2024-11-26 02:21:52,958 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:21:52,959 - Apache Metrics - ReqPerSec: 14.1483, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:21:52,959 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:21:52,959 - State Durations - Normal: 264.52s, Degraded: 0.00s
+2024-11-26 02:21:52,963 - Content already matches the target. No changes made.
+2024-11-26 02:22:03,047 - CPU: 5.0%, Memory: 65.11%, Temp: N/A°C, Latency: 1.80 ms
+2024-11-26 02:22:03,047 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:22:03,047 - Apache Metrics - ReqPerSec: 14.1483, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:22:03,048 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:22:03,048 - State Durations - Normal: 274.61s, Degraded: 0.00s
+2024-11-26 02:22:03,052 - Content already matches the target. No changes made.
+2024-11-26 02:22:13,142 - CPU: 4.5%, Memory: 65.29%, Temp: N/A°C, Latency: 1.48 ms
+2024-11-26 02:22:13,143 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:22:13,143 - Apache Metrics - ReqPerSec: 14.1483, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:22:13,143 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:22:13,143 - State Durations - Normal: 284.70s, Degraded: 0.00s
+2024-11-26 02:22:13,148 - Content already matches the target. No changes made.
+2024-11-26 02:22:23,229 - CPU: 3.0%, Memory: 65.21%, Temp: N/A°C, Latency: 1.31 ms
+2024-11-26 02:22:23,229 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:22:23,230 - Apache Metrics - ReqPerSec: 14.1479, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:22:23,230 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:22:23,230 - State Durations - Normal: 294.80s, Degraded: 0.00s
+2024-11-26 02:22:23,234 - Content already matches the target. No changes made.
+2024-11-26 02:22:30,394 - CPU: 4.4%, Memory: 65.63%, Temp: N/A°C, Latency: 1.24 ms
+2024-11-26 02:22:30,395 - Weather: Temp: 5.52°C, Humidity: 99%, Desc: mist
+2024-11-26 02:22:30,395 - Apache Metrics - ReqPerSec: 14.1486, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:22:30,395 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:22:30,395 - State Durations - Normal: 301.95s, Degraded: 0.00s
+2024-11-26 02:22:30,400 - Content already matches the target. No changes made.
+2024-11-26 02:22:40,494 - CPU: 4.7%, Memory: 65.44%, Temp: N/A°C, Latency: 1.19 ms
+2024-11-26 02:22:40,495 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:22:40,495 - Apache Metrics - ReqPerSec: 14.1482, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:22:40,495 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:22:40,495 - State Durations - Normal: 312.05s, Degraded: 0.00s
+2024-11-26 02:22:40,500 - Content already matches the target. No changes made.
+2024-11-26 02:22:50,668 - CPU: 5.3%, Memory: 65.50%, Temp: N/A°C, Latency: 1.16 ms
+2024-11-26 02:22:50,668 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:22:50,668 - Apache Metrics - ReqPerSec: 14.1484, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:22:50,668 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:22:50,669 - State Durations - Normal: 322.15s, Degraded: 0.00s
+2024-11-26 02:22:50,672 - Content already matches the target. No changes made.
+2024-11-26 02:22:57,823 - CPU: 4.4%, Memory: 65.74%, Temp: N/A°C, Latency: 0.97 ms
+2024-11-26 02:22:57,824 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:22:57,824 - Apache Metrics - ReqPerSec: 14.1494, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:22:57,824 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:22:57,824 - State Durations - Normal: 329.39s, Degraded: 0.00s
+2024-11-26 02:22:57,829 - Content already matches the target. No changes made.
+2024-11-26 02:23:07,923 - CPU: 3.9%, Memory: 65.52%, Temp: N/A°C, Latency: 0.87 ms
+2024-11-26 02:23:07,923 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:23:07,924 - Apache Metrics - ReqPerSec: 14.1493, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:23:07,924 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:23:07,924 - State Durations - Normal: 339.48s, Degraded: 0.00s
+2024-11-26 02:23:07,928 - Content already matches the target. No changes made.
+2024-11-26 02:23:18,029 - CPU: 4.9%, Memory: 65.66%, Temp: N/A°C, Latency: 0.86 ms
+2024-11-26 02:23:18,029 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:23:18,029 - Apache Metrics - ReqPerSec: 14.1501, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:23:18,030 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:23:18,030 - State Durations - Normal: 349.58s, Degraded: 0.00s
+2024-11-26 02:23:18,034 - Content already matches the target. No changes made.
+2024-11-26 02:23:25,186 - CPU: 5.6%, Memory: 65.69%, Temp: N/A°C, Latency: 0.86 ms
+2024-11-26 02:23:25,186 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:23:25,186 - Apache Metrics - ReqPerSec: 14.1527, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:23:25,187 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:23:25,187 - State Durations - Normal: 356.75s, Degraded: 0.00s
+2024-11-26 02:23:25,191 - Content already matches the target. No changes made.
+2024-11-26 02:23:35,299 - CPU: 7.2%, Memory: 65.80%, Temp: N/A°C, Latency: 0.82 ms
+2024-11-26 02:23:35,300 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:23:35,300 - Apache Metrics - ReqPerSec: 14.1549, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:23:35,300 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:23:35,300 - State Durations - Normal: 366.84s, Degraded: 0.00s
+2024-11-26 02:23:35,306 - Content already matches the target. No changes made.
+2024-11-26 02:23:45,402 - CPU: 6.7%, Memory: 65.91%, Temp: N/A°C, Latency: 0.86 ms
+2024-11-26 02:23:45,403 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:23:45,403 - Apache Metrics - ReqPerSec: 14.1571, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:23:45,403 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:23:45,403 - State Durations - Normal: 376.95s, Degraded: 0.00s
+2024-11-26 02:23:45,407 - Content already matches the target. No changes made.
+2024-11-26 02:23:52,559 - CPU: 8.4%, Memory: 66.16%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:23:52,559 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:23:52,559 - Apache Metrics - ReqPerSec: 14.1606, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:23:52,564 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:23:52,565 - State Durations - Normal: 384.12s, Degraded: 0.00s
+2024-11-26 02:23:52,570 - Content already matches the target. No changes made.
+2024-11-26 02:24:02,662 - CPU: 7.1%, Memory: 65.90%, Temp: N/A°C, Latency: 0.90 ms
+2024-11-26 02:24:02,662 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:24:02,662 - Apache Metrics - ReqPerSec: 14.1637, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:24:02,663 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:24:02,663 - State Durations - Normal: 394.21s, Degraded: 0.00s
+2024-11-26 02:24:02,668 - Content already matches the target. No changes made.
+2024-11-26 02:24:12,765 - CPU: 6.7%, Memory: 65.92%, Temp: N/A°C, Latency: 0.86 ms
+2024-11-26 02:24:12,766 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:24:12,766 - Apache Metrics - ReqPerSec: 14.1665, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:24:12,767 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:24:12,767 - State Durations - Normal: 404.31s, Degraded: 0.00s
+2024-11-26 02:24:12,772 - Content already matches the target. No changes made.
+2024-11-26 02:24:19,947 - CPU: 5.3%, Memory: 65.85%, Temp: N/A°C, Latency: 0.89 ms
+2024-11-26 02:24:19,948 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:24:19,948 - Apache Metrics - ReqPerSec: 14.1696, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:24:19,948 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:24:19,949 - State Durations - Normal: 411.49s, Degraded: 0.00s
+2024-11-26 02:24:19,953 - Content already matches the target. No changes made.
+2024-11-26 02:24:30,046 - CPU: 5.8%, Memory: 65.83%, Temp: N/A°C, Latency: 0.86 ms
+2024-11-26 02:24:30,047 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:24:30,047 - Apache Metrics - ReqPerSec: 14.1718, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:24:30,047 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:24:30,047 - State Durations - Normal: 421.60s, Degraded: 0.00s
+2024-11-26 02:24:30,052 - Content already matches the target. No changes made.
+2024-11-26 02:24:40,177 - CPU: 5.8%, Memory: 66.07%, Temp: N/A°C, Latency: 0.87 ms
+2024-11-26 02:24:40,178 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:24:40,178 - Apache Metrics - ReqPerSec: 14.1745, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:24:40,178 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:24:40,179 - State Durations - Normal: 431.70s, Degraded: 0.00s
+2024-11-26 02:24:40,185 - Content already matches the target. No changes made.
+2024-11-26 02:24:50,268 - CPU: 6.8%, Memory: 66.35%, Temp: N/A°C, Latency: 0.83 ms
+2024-11-26 02:24:50,269 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:24:50,269 - Apache Metrics - ReqPerSec: 14.1781, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:24:50,269 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:24:50,269 - State Durations - Normal: 441.83s, Degraded: 0.00s
+2024-11-26 02:24:50,273 - Content already matches the target. No changes made.
+2024-11-26 02:24:57,427 - CPU: 6.9%, Memory: 65.96%, Temp: N/A°C, Latency: 0.81 ms
+2024-11-26 02:24:57,428 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:24:57,428 - Apache Metrics - ReqPerSec: 14.1827, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:24:57,428 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:24:57,428 - State Durations - Normal: 448.98s, Degraded: 0.00s
+2024-11-26 02:24:57,436 - Content already matches the target. No changes made.
+2024-11-26 02:25:07,553 - CPU: 8.3%, Memory: 65.94%, Temp: N/A°C, Latency: 0.80 ms
+2024-11-26 02:25:07,573 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:25:07,577 - Apache Metrics - ReqPerSec: 14.1867, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:25:07,583 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:25:07,621 - State Durations - Normal: 459.09s, Degraded: 0.00s
+2024-11-26 02:25:07,685 - Content already matches the target. No changes made.
+2024-11-26 02:25:17,786 - CPU: 9.9%, Memory: 65.82%, Temp: N/A°C, Latency: 0.83 ms
+2024-11-26 02:25:17,787 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:25:17,787 - Apache Metrics - ReqPerSec: 14.1915, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:25:17,787 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:25:17,788 - State Durations - Normal: 469.35s, Degraded: 0.00s
+2024-11-26 02:25:17,792 - Content already matches the target. No changes made.
+2024-11-26 02:25:24,963 - CPU: 10.3%, Memory: 65.94%, Temp: N/A°C, Latency: 0.89 ms
+2024-11-26 02:25:24,963 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:25:24,963 - Apache Metrics - ReqPerSec: 14.1963, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:25:24,964 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:25:24,964 - State Durations - Normal: 476.51s, Degraded: 0.00s
+2024-11-26 02:25:24,972 - Content already matches the target. No changes made.
+2024-11-26 02:25:35,056 - CPU: 10.6%, Memory: 65.91%, Temp: N/A°C, Latency: 0.99 ms
+2024-11-26 02:25:35,056 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:25:35,057 - Apache Metrics - ReqPerSec: 14.2011, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:25:35,057 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:25:35,058 - State Durations - Normal: 486.61s, Degraded: 0.00s
+2024-11-26 02:25:35,069 - Content already matches the target. No changes made.
+2024-11-26 02:25:45,170 - CPU: 7.8%, Memory: 65.86%, Temp: N/A°C, Latency: 0.96 ms
+2024-11-26 02:25:45,170 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:25:45,171 - Apache Metrics - ReqPerSec: 14.2055, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:25:45,171 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:25:45,171 - State Durations - Normal: 496.71s, Degraded: 0.00s
+2024-11-26 02:25:45,177 - Content already matches the target. No changes made.
+2024-11-26 02:25:52,331 - CPU: 8.7%, Memory: 66.08%, Temp: N/A°C, Latency: 0.94 ms
+2024-11-26 02:25:52,331 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:25:52,332 - Apache Metrics - ReqPerSec: 14.2111, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:25:52,333 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:25:52,333 - State Durations - Normal: 503.89s, Degraded: 0.00s
+2024-11-26 02:25:52,347 - Content already matches the target. No changes made.
+2024-11-26 02:26:03,253 - CPU: 11.7%, Memory: 66.30%, Temp: N/A°C, Latency: 0.96 ms
+2024-11-26 02:26:04,360 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:26:04,400 - Apache Metrics - ReqPerSec: 14.2157, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:26:04,427 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:26:04,435 - State Durations - Normal: 514.29s, Degraded: 0.00s
+2024-11-26 02:26:04,682 - Content already matches the target. No changes made.
+2024-11-26 02:26:16,530 - CPU: 17.5%, Memory: 66.59%, Temp: N/A°C, Latency: 1.12 ms
+2024-11-26 02:26:17,704 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:26:20,494 - Apache Metrics - ReqPerSec: 14.2209, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:26:20,513 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:26:20,517 - State Durations - Normal: 526.40s, Degraded: 0.00s
+2024-11-26 02:26:17,576 - Content already matches the target. No changes made.
+2024-11-26 02:26:27,861 - CPU: 33.5%, Memory: 68.58%, Temp: N/A°C, Latency: 4.00 ms
+2024-11-26 02:26:27,866 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:26:27,866 - Apache Metrics - ReqPerSec: 14.2319, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:26:27,867 - Adaptation Occurred: 1, Total Adaptations: 1, Adaptation Frequency: 1
+2024-11-26 02:26:27,867 - State Durations - Normal: 539.31s, Degraded: 0.00s
+2024-11-26 02:26:28,065 - Content switched to high_load.html
+2024-11-26 02:26:38,152 - CPU: 16.3%, Memory: 69.43%, Temp: N/A°C, Latency: 4.00 ms
+2024-11-26 02:26:38,158 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:26:38,158 - Apache Metrics - ReqPerSec: 14.2358, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:26:38,159 - Adaptation Occurred: 1, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 02:26:38,159 - State Durations - Normal: 539.31s, Degraded: 10.40s
+2024-11-26 02:26:38,168 - Content switched to normal_content.html
+2024-11-26 02:26:48,327 - CPU: 12.8%, Memory: 69.64%, Temp: N/A°C, Latency: 3.41 ms
+2024-11-26 02:26:48,358 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:26:48,409 - Apache Metrics - ReqPerSec: 14.2406, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:26:48,411 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 02:26:48,412 - State Durations - Normal: 549.41s, Degraded: 10.40s
+2024-11-26 02:26:48,536 - Content already matches the target. No changes made.
+2024-11-26 02:26:55,766 - CPU: 15.9%, Memory: 69.52%, Temp: N/A°C, Latency: 1.15 ms
+2024-11-26 02:26:55,766 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:26:55,788 - Apache Metrics - ReqPerSec: 14.2475, BusyWorkers: 23, IdleWorkers: 52, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:26:55,790 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 02:26:55,805 - State Durations - Normal: 556.90s, Degraded: 10.40s
+2024-11-26 02:26:55,810 - Content already matches the target. No changes made.
+2024-11-26 02:27:05,992 - CPU: 11.4%, Memory: 69.76%, Temp: N/A°C, Latency: 1.18 ms
+2024-11-26 02:27:05,995 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:27:06,006 - Apache Metrics - ReqPerSec: 14.2531, BusyWorkers: 43, IdleWorkers: 32, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:27:06,008 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 02:27:06,009 - State Durations - Normal: 567.10s, Degraded: 10.40s
+2024-11-26 02:27:06,184 - Content already matches the target. No changes made.
+2024-11-26 02:27:16,347 - CPU: 15.4%, Memory: 68.57%, Temp: N/A°C, Latency: 1.48 ms
+2024-11-26 02:27:16,357 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:27:16,384 - Apache Metrics - ReqPerSec: 14.2585, BusyWorkers: 25, IdleWorkers: 50, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:27:16,399 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 02:27:16,400 - State Durations - Normal: 577.47s, Degraded: 10.40s
+2024-11-26 02:27:16,424 - Content already matches the target. No changes made.
+2024-11-26 02:27:23,771 - CPU: 13.7%, Memory: 67.32%, Temp: N/A°C, Latency: 1.51 ms
+2024-11-26 02:27:23,783 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:27:23,801 - Apache Metrics - ReqPerSec: 14.2644, BusyWorkers: 17, IdleWorkers: 58, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:27:23,804 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 02:27:23,805 - State Durations - Normal: 584.77s, Degraded: 10.40s
+2024-11-26 02:27:23,891 - Content already matches the target. No changes made.
+2024-11-26 02:27:34,179 - CPU: 15.9%, Memory: 67.33%, Temp: N/A°C, Latency: 1.30 ms
+2024-11-26 02:27:34,372 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:27:34,425 - Apache Metrics - ReqPerSec: 14.2695, BusyWorkers: 12, IdleWorkers: 63, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:27:34,452 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 02:27:34,523 - State Durations - Normal: 595.14s, Degraded: 10.40s
+2024-11-26 02:27:34,568 - Content already matches the target. No changes made.
+2024-11-26 02:27:44,743 - CPU: 16.1%, Memory: 66.97%, Temp: N/A°C, Latency: 1.23 ms
+2024-11-26 02:27:44,745 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:27:44,769 - Apache Metrics - ReqPerSec: 14.2748, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:27:44,801 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 02:27:44,803 - State Durations - Normal: 605.82s, Degraded: 10.40s
+2024-11-26 02:27:44,816 - Content already matches the target. No changes made.
+2024-11-26 02:27:52,516 - CPU: 12.6%, Memory: 66.58%, Temp: N/A°C, Latency: 1.29 ms
+2024-11-26 02:27:52,598 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:27:52,620 - Apache Metrics - ReqPerSec: 14.2807, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:27:52,621 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 02:27:52,622 - State Durations - Normal: 613.12s, Degraded: 10.40s
+2024-11-26 02:27:52,760 - Content already matches the target. No changes made.
+2024-11-26 02:28:04,036 - CPU: 9.0%, Memory: 66.60%, Temp: N/A°C, Latency: 3.27 ms
+2024-11-26 02:28:04,202 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:28:04,333 - Apache Metrics - ReqPerSec: 14.2848, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:28:04,533 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 02:28:04,578 - State Durations - Normal: 624.01s, Degraded: 10.40s
+2024-11-26 02:28:04,702 - Content already matches the target. No changes made.
+2024-11-26 02:28:18,453 - CPU: 9.0%, Memory: 69.85%, Temp: N/A°C, Latency: 8.46 ms
+2024-11-26 02:28:15,869 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:28:16,285 - Apache Metrics - ReqPerSec: 14.2858, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:28:16,368 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 02:28:16,795 - State Durations - Normal: 635.95s, Degraded: 10.40s
+2024-11-26 02:28:17,492 - Content already matches the target. No changes made.
+2024-11-26 02:28:27,713 - CPU: 30.6%, Memory: 75.15%, Temp: N/A°C, Latency: 19.02 ms
+2024-11-26 02:28:27,714 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:28:27,715 - Apache Metrics - ReqPerSec: 14.2891, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:28:27,715 - Adaptation Occurred: 1, Total Adaptations: 3, Adaptation Frequency: 2
+2024-11-26 02:28:27,716 - State Durations - Normal: 648.75s, Degraded: 10.40s
+2024-11-26 02:28:27,724 - Content switched to high_load.html
+2024-11-26 02:28:37,823 - CPU: 5.8%, Memory: 73.00%, Temp: N/A°C, Latency: 19.14 ms
+2024-11-26 02:28:37,823 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:28:37,825 - Apache Metrics - ReqPerSec: 14.2892, BusyWorkers: 2, IdleWorkers: 73, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:28:37,825 - Adaptation Occurred: 1, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:28:37,825 - State Durations - Normal: 648.75s, Degraded: 20.62s
+2024-11-26 02:28:37,834 - Content switched to normal_content.html
+2024-11-26 02:28:47,925 - CPU: 7.8%, Memory: 71.43%, Temp: N/A°C, Latency: 19.27 ms
+2024-11-26 02:28:47,926 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:28:47,926 - Apache Metrics - ReqPerSec: 14.2885, BusyWorkers: 11, IdleWorkers: 64, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:28:47,936 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:28:47,938 - State Durations - Normal: 658.86s, Degraded: 20.62s
+2024-11-26 02:28:47,948 - Content already matches the target. No changes made.
+2024-11-26 02:28:55,711 - CPU: 12.0%, Memory: 70.08%, Temp: N/A°C, Latency: 17.17 ms
+2024-11-26 02:28:55,823 - Weather: Temp: 5.49°C, Humidity: 99%, Desc: mist
+2024-11-26 02:28:55,851 - Apache Metrics - ReqPerSec: 14.2927, BusyWorkers: 32, IdleWorkers: 43, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:28:55,861 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:28:55,865 - State Durations - Normal: 666.48s, Degraded: 20.62s
+2024-11-26 02:28:56,095 - Content already matches the target. No changes made.
+2024-11-26 02:29:06,516 - CPU: 25.3%, Memory: 69.06%, Temp: N/A°C, Latency: 1.31 ms
+2024-11-26 02:29:06,524 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:29:06,525 - Apache Metrics - ReqPerSec: 14.2987, BusyWorkers: 4, IdleWorkers: 71, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:29:06,526 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:29:06,527 - State Durations - Normal: 677.18s, Degraded: 20.62s
+2024-11-26 02:29:06,649 - Content already matches the target. No changes made.
+2024-11-26 02:29:17,073 - CPU: 23.1%, Memory: 70.59%, Temp: N/A°C, Latency: 1.18 ms
+2024-11-26 02:29:17,090 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:29:17,141 - Apache Metrics - ReqPerSec: 14.3048, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:29:17,179 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:29:17,181 - State Durations - Normal: 687.68s, Degraded: 20.62s
+2024-11-26 02:29:17,234 - Content already matches the target. No changes made.
+2024-11-26 02:29:24,619 - CPU: 12.9%, Memory: 71.04%, Temp: N/A°C, Latency: 1.01 ms
+2024-11-26 02:29:24,774 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:29:24,886 - Apache Metrics - ReqPerSec: 14.3117, BusyWorkers: 2, IdleWorkers: 73, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:29:24,982 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:29:24,984 - State Durations - Normal: 695.33s, Degraded: 20.62s
+2024-11-26 02:29:25,086 - Content already matches the target. No changes made.
+2024-11-26 02:29:35,303 - CPU: 18.5%, Memory: 67.35%, Temp: N/A°C, Latency: 8.74 ms
+2024-11-26 02:29:35,343 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:29:35,422 - Apache Metrics - ReqPerSec: 14.3184, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:29:35,488 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:29:35,489 - State Durations - Normal: 706.16s, Degraded: 20.62s
+2024-11-26 02:29:35,676 - Content already matches the target. No changes made.
+2024-11-26 02:29:45,934 - CPU: 14.0%, Memory: 67.69%, Temp: N/A°C, Latency: 8.86 ms
+2024-11-26 02:29:45,962 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:29:46,016 - Apache Metrics - ReqPerSec: 14.3246, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:29:46,059 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:29:46,089 - State Durations - Normal: 716.70s, Degraded: 20.62s
+2024-11-26 02:29:46,410 - Content already matches the target. No changes made.
+2024-11-26 02:29:53,775 - CPU: 11.4%, Memory: 67.71%, Temp: N/A°C, Latency: 0.95 ms
+2024-11-26 02:29:53,815 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:29:53,839 - Apache Metrics - ReqPerSec: 14.3318, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:29:53,856 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:29:53,856 - State Durations - Normal: 724.65s, Degraded: 20.62s
+2024-11-26 02:29:53,873 - Content already matches the target. No changes made.
+2024-11-26 02:30:04,336 - CPU: 10.0%, Memory: 67.96%, Temp: N/A°C, Latency: 0.82 ms
+2024-11-26 02:30:04,504 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:30:04,601 - Apache Metrics - ReqPerSec: 14.338, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:30:04,693 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:30:04,752 - State Durations - Normal: 734.90s, Degraded: 20.62s
+2024-11-26 02:30:04,969 - Content already matches the target. No changes made.
+2024-11-26 02:30:15,610 - CPU: 14.1%, Memory: 67.96%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:30:15,644 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:30:15,674 - Apache Metrics - ReqPerSec: 14.3446, BusyWorkers: 2, IdleWorkers: 73, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:30:15,688 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:30:15,691 - State Durations - Normal: 746.00s, Degraded: 20.62s
+2024-11-26 02:30:15,828 - Content already matches the target. No changes made.
+2024-11-26 02:30:23,502 - CPU: 11.8%, Memory: 67.90%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:30:23,572 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:30:23,680 - Apache Metrics - ReqPerSec: 14.3521, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:30:23,763 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:30:23,855 - State Durations - Normal: 753.96s, Degraded: 20.62s
+2024-11-26 02:30:24,109 - Content already matches the target. No changes made.
+2024-11-26 02:30:34,301 - CPU: 12.4%, Memory: 68.04%, Temp: N/A°C, Latency: 0.89 ms
+2024-11-26 02:30:34,390 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:30:34,478 - Apache Metrics - ReqPerSec: 14.3587, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:30:34,504 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:30:34,532 - State Durations - Normal: 765.19s, Degraded: 20.62s
+2024-11-26 02:30:34,708 - Content already matches the target. No changes made.
+2024-11-26 02:30:45,006 - CPU: 12.7%, Memory: 67.97%, Temp: N/A°C, Latency: 0.97 ms
+2024-11-26 02:30:45,064 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:30:45,171 - Apache Metrics - ReqPerSec: 14.3649, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:30:45,218 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:30:45,326 - State Durations - Normal: 775.74s, Degraded: 20.62s
+2024-11-26 02:30:45,707 - Content already matches the target. No changes made.
+2024-11-26 02:30:52,920 - CPU: 12.1%, Memory: 68.03%, Temp: N/A°C, Latency: 0.95 ms
+2024-11-26 02:30:53,003 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:30:53,056 - Apache Metrics - ReqPerSec: 14.3724, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:30:53,131 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:30:53,176 - State Durations - Normal: 783.80s, Degraded: 20.62s
+2024-11-26 02:30:53,619 - Content already matches the target. No changes made.
+2024-11-26 02:31:03,860 - CPU: 9.0%, Memory: 68.24%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:31:03,861 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:31:03,861 - Apache Metrics - ReqPerSec: 14.3762, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:31:03,861 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:31:03,861 - State Durations - Normal: 794.79s, Degraded: 20.62s
+2024-11-26 02:31:03,865 - Content already matches the target. No changes made.
+2024-11-26 02:31:13,970 - CPU: 2.9%, Memory: 68.10%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:31:13,970 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:31:13,970 - Apache Metrics - ReqPerSec: 14.3734, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:31:13,971 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:31:13,971 - State Durations - Normal: 804.89s, Degraded: 20.62s
+2024-11-26 02:31:13,975 - Content already matches the target. No changes made.
+2024-11-26 02:31:21,176 - CPU: 2.7%, Memory: 67.96%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:31:21,177 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:31:21,177 - Apache Metrics - ReqPerSec: 14.3714, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:31:21,177 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:31:21,177 - State Durations - Normal: 812.10s, Degraded: 20.62s
+2024-11-26 02:31:21,182 - Content already matches the target. No changes made.
+2024-11-26 02:31:31,286 - CPU: 1.8%, Memory: 67.88%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:31:31,286 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:31:31,287 - Apache Metrics - ReqPerSec: 14.3685, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:31:31,287 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:31:31,287 - State Durations - Normal: 822.21s, Degraded: 20.62s
+2024-11-26 02:31:31,291 - Content already matches the target. No changes made.
+2024-11-26 02:31:41,389 - CPU: 1.2%, Memory: 67.71%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:31:41,389 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:31:41,389 - Apache Metrics - ReqPerSec: 14.3654, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:31:41,390 - Adaptation Occurred: 0, Total Adaptations: 4, Adaptation Frequency: 2
+2024-11-26 02:31:41,390 - State Durations - Normal: 832.32s, Degraded: 20.62s
+2024-11-26 02:31:41,394 - Content already matches the target. No changes made.
+2024-11-26 02:50:29,795 - CPU: 10.1%, Memory: 68.89%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:50:29,797 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:50:29,797 - Apache Metrics - ReqPerSec: 0, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:50:29,798 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:50:34,911 - CPU: 5.3%, Memory: 68.99%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:50:34,911 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:50:34,912 - Apache Metrics - ReqPerSec: .0294118, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:50:34,912 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:50:40,070 - CPU: 2.0%, Memory: 69.04%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:50:40,070 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:50:40,071 - Apache Metrics - ReqPerSec: .0512821, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:50:40,071 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:50:45,174 - CPU: 14.0%, Memory: 71.38%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:50:45,174 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:50:45,175 - Apache Metrics - ReqPerSec: .0681818, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:50:45,176 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:50:47,431 - CPU: 5.3%, Memory: 71.40%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:50:47,431 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:50:47,432 - Apache Metrics - ReqPerSec: .0851064, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:50:47,432 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:50:52,546 - CPU: 6.2%, Memory: 71.83%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:50:52,546 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:50:52,547 - Apache Metrics - ReqPerSec: .0961538, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:50:52,547 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:50:57,643 - CPU: 2.2%, Memory: 72.00%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:50:57,644 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:50:57,644 - Apache Metrics - ReqPerSec: .105263, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:50:57,645 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:51:02,787 - CPU: 9.0%, Memory: 71.83%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:51:02,787 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:51:02,788 - Apache Metrics - ReqPerSec: .112903, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:51:02,788 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:51:07,913 - CPU: 20.6%, Memory: 74.61%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:51:07,914 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:51:07,915 - Apache Metrics - ReqPerSec: .119403, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:51:07,915 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:51:13,008 - CPU: 25.6%, Memory: 75.48%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:51:13,008 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:51:13,008 - Apache Metrics - ReqPerSec: .125, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:51:13,009 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:51:15,225 - CPU: 9.6%, Memory: 75.48%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:51:15,226 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:51:15,226 - Apache Metrics - ReqPerSec: .133333, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:51:15,227 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:51:20,332 - CPU: 3.5%, Memory: 75.75%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:51:20,333 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:51:20,334 - Apache Metrics - ReqPerSec: .1375, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:51:20,336 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:51:25,438 - CPU: 4.2%, Memory: 75.72%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:51:25,438 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:51:25,439 - Apache Metrics - ReqPerSec: .141176, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:51:25,439 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:51:30,617 - CPU: 2.3%, Memory: 75.91%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:51:30,619 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:51:30,619 - Apache Metrics - ReqPerSec: .144444, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:51:30,620 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:51:35,843 - CPU: 9.1%, Memory: 74.76%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:51:35,844 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:51:35,844 - Apache Metrics - ReqPerSec: .147368, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:51:35,845 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:51:40,952 - CPU: 3.9%, Memory: 74.51%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:51:40,953 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:51:40,954 - Apache Metrics - ReqPerSec: .15, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:51:40,954 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:51:46,175 - CPU: 3.3%, Memory: 74.58%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:51:46,175 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:51:46,176 - Apache Metrics - ReqPerSec: .152381, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:51:46,176 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:51:48,352 - CPU: 2.1%, Memory: 74.60%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:51:48,353 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:51:48,353 - Apache Metrics - ReqPerSec: .157407, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:51:48,354 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:51:53,445 - CPU: 4.0%, Memory: 74.44%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:51:53,446 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:51:53,446 - Apache Metrics - ReqPerSec: .159292, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:51:53,446 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:51:58,647 - CPU: 2.4%, Memory: 74.45%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:51:58,648 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:51:58,648 - Apache Metrics - ReqPerSec: .161017, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:51:58,649 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:52:03,750 - CPU: 2.5%, Memory: 74.52%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:52:03,750 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:52:03,751 - Apache Metrics - ReqPerSec: .162602, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:52:03,751 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:52:08,929 - CPU: 3.7%, Memory: 74.59%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:52:08,930 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:52:08,930 - Apache Metrics - ReqPerSec: .164063, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:52:08,931 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:52:14,033 - CPU: 6.6%, Memory: 71.64%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:52:14,034 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:52:14,034 - Apache Metrics - ReqPerSec: .165414, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:52:14,035 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:52:16,190 - CPU: 5.0%, Memory: 72.15%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:52:16,191 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:52:16,191 - Apache Metrics - ReqPerSec: .17037, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:52:16,191 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:52:21,344 - CPU: 7.9%, Memory: 71.83%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:52:21,344 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:52:21,345 - Apache Metrics - ReqPerSec: .170213, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:52:21,345 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:52:26,476 - CPU: 2.9%, Memory: 71.91%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:52:26,477 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:52:26,477 - Apache Metrics - ReqPerSec: .171233, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:52:26,478 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:52:31,560 - CPU: 11.8%, Memory: 72.42%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:52:31,560 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:52:31,560 - Apache Metrics - ReqPerSec: .172185, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:52:31,561 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:52:36,707 - CPU: 6.5%, Memory: 72.79%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:52:36,707 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:52:36,708 - Apache Metrics - ReqPerSec: .173077, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:52:36,708 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:52:41,051 - Avg CPU: 11.10%, Avg Memory: 72.05%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:52:41,052 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:52:41,052 - Apache Metrics - ReqPerSec: .175, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:52:41,053 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:52:43,225 - Avg CPU: 7.80%, Avg Memory: 72.18%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:52:43,226 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:52:43,226 - Apache Metrics - ReqPerSec: .177914, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:52:43,227 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:52:48,352 - Avg CPU: 8.90%, Avg Memory: 72.68%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:52:48,353 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:52:48,353 - Apache Metrics - ReqPerSec: .178571, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:52:48,354 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:52:53,493 - Avg CPU: 7.52%, Avg Memory: 73.08%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:52:53,493 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:52:53,494 - Apache Metrics - ReqPerSec: .179191, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:52:53,494 - Monitoring error: name 'CPU_THRESHOLD_UPPER' is not defined
+2024-11-26 02:54:00,030 - Avg CPU: 8.40%, Avg Memory: 73.79%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:54:00,031 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:54:00,031 - Apache Metrics - ReqPerSec: .133891, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:54:00,032 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:54:00,033 - State Durations - Normal: 0.00s, Degraded: 0.00s
+2024-11-26 02:54:00,054 - Content already matches the target. No changes made.
+2024-11-26 02:54:10,275 - Avg CPU: 7.00%, Avg Memory: 74.42%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:54:10,276 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:54:10,277 - Apache Metrics - ReqPerSec: .132, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:54:10,277 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:54:10,277 - State Durations - Normal: 10.13s, Degraded: 0.00s
+2024-11-26 02:54:10,284 - Content already matches the target. No changes made.
+2024-11-26 02:54:17,455 - Avg CPU: 7.07%, Avg Memory: 73.94%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:54:17,455 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:54:17,456 - Apache Metrics - ReqPerSec: .132296, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:54:17,456 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:54:17,456 - State Durations - Normal: 17.42s, Degraded: 0.00s
+2024-11-26 02:54:17,463 - Content already matches the target. No changes made.
+2024-11-26 02:54:27,589 - Avg CPU: 5.70%, Avg Memory: 73.56%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:54:27,590 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:54:27,590 - Apache Metrics - ReqPerSec: .131086, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:54:27,590 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:54:27,591 - State Durations - Normal: 27.54s, Degraded: 0.00s
+2024-11-26 02:54:27,596 - Content already matches the target. No changes made.
+2024-11-26 02:54:37,773 - Avg CPU: 4.92%, Avg Memory: 73.32%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:54:37,774 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:54:37,774 - Apache Metrics - ReqPerSec: .129964, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:54:37,775 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:54:37,775 - State Durations - Normal: 37.66s, Degraded: 0.00s
+2024-11-26 02:54:37,795 - Content already matches the target. No changes made.
+2024-11-26 02:54:45,085 - Avg CPU: 4.35%, Avg Memory: 73.16%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:54:45,085 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:54:45,086 - Apache Metrics - ReqPerSec: .130282, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:54:45,086 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:54:45,087 - State Durations - Normal: 44.93s, Degraded: 0.00s
+2024-11-26 02:54:45,092 - Content already matches the target. No changes made.
+2024-11-26 02:54:55,192 - Avg CPU: 3.20%, Avg Memory: 72.92%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:54:55,193 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:54:55,193 - Apache Metrics - ReqPerSec: .129252, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:54:55,193 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:54:55,194 - State Durations - Normal: 55.17s, Degraded: 0.00s
+2024-11-26 02:54:55,199 - Content already matches the target. No changes made.
+2024-11-26 02:55:05,332 - Avg CPU: 2.48%, Avg Memory: 72.48%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:55:05,333 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:55:05,333 - Apache Metrics - ReqPerSec: .127869, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:55:05,334 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:55:05,335 - State Durations - Normal: 65.28s, Degraded: 0.00s
+2024-11-26 02:55:05,342 - Content already matches the target. No changes made.
+2024-11-26 02:55:12,679 - Avg CPU: 1.57%, Avg Memory: 72.18%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:55:12,680 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:55:12,680 - Apache Metrics - ReqPerSec: .128205, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:55:12,680 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:55:12,681 - State Durations - Normal: 72.49s, Degraded: 0.00s
+2024-11-26 02:55:12,687 - Content already matches the target. No changes made.
+2024-11-26 02:55:22,841 - Avg CPU: 1.77%, Avg Memory: 72.06%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:55:22,842 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:55:22,842 - Apache Metrics - ReqPerSec: .127329, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:55:22,842 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:55:22,843 - State Durations - Normal: 82.78s, Degraded: 0.00s
+2024-11-26 02:55:22,851 - Content already matches the target. No changes made.
+2024-11-26 02:55:32,961 - Avg CPU: 1.70%, Avg Memory: 71.84%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:55:32,962 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:55:32,962 - Apache Metrics - ReqPerSec: .126506, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:55:32,963 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:55:32,963 - State Durations - Normal: 92.93s, Degraded: 0.00s
+2024-11-26 02:55:32,968 - Content already matches the target. No changes made.
+2024-11-26 02:55:40,171 - Avg CPU: 2.52%, Avg Memory: 71.88%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:55:40,172 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:55:40,172 - Apache Metrics - ReqPerSec: .126844, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:55:40,173 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:55:40,173 - State Durations - Normal: 100.12s, Degraded: 0.00s
+2024-11-26 02:55:40,180 - Content already matches the target. No changes made.
+2024-11-26 02:55:50,399 - Avg CPU: 3.05%, Avg Memory: 71.93%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:55:50,400 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:55:50,400 - Apache Metrics - ReqPerSec: .125714, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:55:50,401 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:55:50,401 - State Durations - Normal: 110.26s, Degraded: 0.00s
+2024-11-26 02:55:50,407 - Content already matches the target. No changes made.
+2024-11-26 02:56:00,508 - Avg CPU: 3.25%, Avg Memory: 71.94%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:56:00,509 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:56:00,509 - Apache Metrics - ReqPerSec: .125, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:56:00,510 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:56:00,510 - State Durations - Normal: 120.47s, Degraded: 0.00s
+2024-11-26 02:56:00,516 - Content already matches the target. No changes made.
+2024-11-26 02:56:07,679 - Avg CPU: 3.57%, Avg Memory: 72.11%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:56:07,679 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:56:07,680 - Apache Metrics - ReqPerSec: .125341, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:56:07,680 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:56:07,681 - State Durations - Normal: 127.64s, Degraded: 0.00s
+2024-11-26 02:56:07,687 - Content already matches the target. No changes made.
+2024-11-26 02:56:17,897 - Avg CPU: 3.57%, Avg Memory: 72.22%, Temp: N/A°C, Latency: 0.88 ms
+2024-11-26 02:56:17,898 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:56:17,898 - Apache Metrics - ReqPerSec: .124668, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:56:17,899 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:56:17,899 - State Durations - Normal: 137.76s, Degraded: 0.00s
+2024-11-26 02:56:17,909 - Content already matches the target. No changes made.
+2024-11-26 02:56:28,121 - Avg CPU: 4.17%, Avg Memory: 72.48%, Temp: N/A°C, Latency: 0.94 ms
+2024-11-26 02:56:28,121 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:56:28,122 - Apache Metrics - ReqPerSec: .271318, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:56:28,122 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:56:28,122 - State Durations - Normal: 147.99s, Degraded: 0.00s
+2024-11-26 02:56:28,128 - Content already matches the target. No changes made.
+2024-11-26 02:56:38,218 - Avg CPU: 4.17%, Avg Memory: 72.48%, Temp: N/A°C, Latency: 1.04 ms
+2024-11-26 02:56:38,218 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:56:38,219 - Apache Metrics - ReqPerSec: .620603, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:56:38,219 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:56:38,220 - State Durations - Normal: 158.19s, Degraded: 0.00s
+2024-11-26 02:56:38,226 - Content already matches the target. No changes made.
+2024-11-26 02:56:45,404 - Avg CPU: 4.83%, Avg Memory: 72.54%, Temp: N/A°C, Latency: -1.97 ms
+2024-11-26 02:56:45,404 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:56:45,404 - Apache Metrics - ReqPerSec: 1.19753, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:56:45,405 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:56:45,405 - State Durations - Normal: 165.36s, Degraded: 0.00s
+2024-11-26 02:56:45,410 - Content already matches the target. No changes made.
+2024-11-26 02:56:55,509 - Avg CPU: 6.17%, Avg Memory: 72.78%, Temp: N/A°C, Latency: -1.76 ms
+2024-11-26 02:56:55,509 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:56:55,510 - Apache Metrics - ReqPerSec: 1.86506, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:56:55,510 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:56:55,511 - State Durations - Normal: 175.48s, Degraded: 0.00s
+2024-11-26 02:56:55,517 - Content already matches the target. No changes made.
+2024-11-26 02:57:05,611 - Avg CPU: 7.05%, Avg Memory: 73.00%, Temp: N/A°C, Latency: -1.66 ms
+2024-11-26 02:57:05,611 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:57:05,612 - Apache Metrics - ReqPerSec: 2.62353, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:57:05,612 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:57:05,613 - State Durations - Normal: 185.58s, Degraded: 0.00s
+2024-11-26 02:57:05,619 - Content already matches the target. No changes made.
+2024-11-26 02:57:12,800 - Avg CPU: 8.40%, Avg Memory: 73.17%, Temp: N/A°C, Latency: 1.12 ms
+2024-11-26 02:57:12,821 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:57:12,834 - Apache Metrics - ReqPerSec: 3.4213, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:57:12,860 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:57:12,894 - State Durations - Normal: 192.76s, Degraded: 0.00s
+2024-11-26 02:57:12,976 - Content already matches the target. No changes made.
+2024-11-26 02:57:23,450 - Avg CPU: 9.65%, Avg Memory: 73.27%, Temp: N/A°C, Latency: 1.32 ms
+2024-11-26 02:57:23,492 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:57:23,530 - Apache Metrics - ReqPerSec: 4.27539, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:57:23,576 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:57:23,680 - State Durations - Normal: 203.06s, Degraded: 0.00s
+2024-11-26 02:57:25,153 - Content already matches the target. No changes made.
+2024-11-26 02:57:36,416 - Avg CPU: 12.75%, Avg Memory: 73.71%, Temp: N/A°C, Latency: 8.32 ms
+2024-11-26 02:57:36,527 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:57:36,629 - Apache Metrics - ReqPerSec: 5.43202, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:57:36,640 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:57:36,659 - State Durations - Normal: 216.35s, Degraded: 0.00s
+2024-11-26 02:57:36,721 - Content already matches the target. No changes made.
+2024-11-26 02:57:45,955 - Avg CPU: 16.53%, Avg Memory: 74.38%, Temp: N/A°C, Latency: 16.69 ms
+2024-11-26 02:57:45,956 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:57:45,958 - Apache Metrics - ReqPerSec: 5.93763, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:57:46,050 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:57:46,070 - State Durations - Normal: 224.05s, Degraded: 0.00s
+2024-11-26 02:57:48,407 - Content already matches the target. No changes made.
+2024-11-26 02:57:59,940 - Avg CPU: 22.62%, Avg Memory: 75.03%, Temp: N/A°C, Latency: 16.49 ms
+2024-11-26 02:58:00,676 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:58:01,417 - Apache Metrics - ReqPerSec: 7.21712, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:58:01,474 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:58:01,596 - State Durations - Normal: 239.71s, Degraded: 0.00s
+2024-11-26 02:58:03,168 - Content already matches the target. No changes made.
+2024-11-26 02:58:10,868 - Avg CPU: 26.87%, Avg Memory: 75.74%, Temp: N/A°C, Latency: 1.48 ms
+2024-11-26 02:58:10,958 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:58:10,978 - Apache Metrics - ReqPerSec: 7.90816, BusyWorkers: 1, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:58:11,037 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:58:11,049 - State Durations - Normal: 250.35s, Degraded: 0.00s
+2024-11-26 02:58:11,688 - Content already matches the target. No changes made.
+2024-11-26 02:58:22,833 - Avg CPU: 29.15%, Avg Memory: 76.33%, Temp: N/A°C, Latency: -0.50 ms
+2024-11-26 02:58:22,976 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:58:22,992 - Apache Metrics - ReqPerSec: 8.5259, BusyWorkers: 25, IdleWorkers: 25, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:58:22,993 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 02:58:23,061 - State Durations - Normal: 262.05s, Degraded: 0.00s
+2024-11-26 02:58:23,347 - Content already matches the target. No changes made.
+2024-11-26 02:58:34,361 - Avg CPU: 31.88%, Avg Memory: 77.04%, Temp: N/A°C, Latency: 2.04 ms
+2024-11-26 02:58:34,588 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:58:35,211 - Apache Metrics - ReqPerSec: 9.09338, BusyWorkers: 7, IdleWorkers: 68, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:58:35,368 - Adaptation Occurred: 1, Total Adaptations: 1, Adaptation Frequency: 1
+2024-11-26 02:58:35,562 - State Durations - Normal: 273.80s, Degraded: 0.00s
+2024-11-26 02:58:34,185 - Content switched to high_load.html
+2024-11-26 02:58:44,370 - Avg CPU: 31.40%, Avg Memory: 77.17%, Temp: N/A°C, Latency: 1.57 ms
+2024-11-26 02:58:44,373 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 02:58:44,375 - Apache Metrics - ReqPerSec: 10.063, BusyWorkers: 4, IdleWorkers: 71, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:58:44,375 - Adaptation Occurred: 0, Total Adaptations: 1, Adaptation Frequency: 1
+2024-11-26 02:58:44,381 - State Durations - Normal: 273.80s, Degraded: 10.49s
+2024-11-26 02:58:44,438 - Content already matches the target. No changes made.
+2024-11-26 02:58:54,600 - Avg CPU: 28.67%, Avg Memory: 76.79%, Temp: N/A°C, Latency: 0.61 ms
+2024-11-26 02:58:54,603 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 02:58:54,609 - Apache Metrics - ReqPerSec: 10.7547, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:58:54,610 - Adaptation Occurred: 0, Total Adaptations: 1, Adaptation Frequency: 1
+2024-11-26 02:58:54,611 - State Durations - Normal: 273.80s, Degraded: 20.71s
+2024-11-26 02:58:54,634 - Content already matches the target. No changes made.
+2024-11-26 02:59:04,796 - Avg CPU: 23.58%, Avg Memory: 76.12%, Temp: N/A°C, Latency: 0.44 ms
+2024-11-26 02:59:04,852 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 02:59:04,973 - Apache Metrics - ReqPerSec: 11.4743, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:59:05,102 - Cooldown period active. Skipping adaptation.
+2024-11-26 02:59:05,180 - Adaptation Occurred: 0, Total Adaptations: 1, Adaptation Frequency: 1
+2024-11-26 02:59:05,194 - State Durations - Normal: 273.80s, Degraded: 30.92s
+2024-11-26 02:59:05,433 - Content already matches the target. No changes made.
+2024-11-26 02:59:13,120 - Avg CPU: 19.43%, Avg Memory: 75.41%, Temp: N/A°C, Latency: 0.32 ms
+2024-11-26 02:59:13,611 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 02:59:16,023 - Apache Metrics - ReqPerSec: 12.1413, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:59:17,205 - Cooldown period active. Skipping adaptation.
+2024-11-26 02:59:18,440 - Adaptation Occurred: 0, Total Adaptations: 1, Adaptation Frequency: 1
+2024-11-26 02:59:19,623 - State Durations - Normal: 273.80s, Degraded: 38.81s
+2024-11-26 02:59:23,031 - Content already matches the target. No changes made.
+2024-11-26 02:59:33,246 - Avg CPU: 18.55%, Avg Memory: 74.83%, Temp: N/A°C, Latency: 0.16 ms
+2024-11-26 02:59:33,246 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 02:59:33,246 - Apache Metrics - ReqPerSec: 14.2147, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:59:33,247 - Cooldown period active. Skipping adaptation.
+2024-11-26 02:59:33,247 - Adaptation Occurred: 0, Total Adaptations: 1, Adaptation Frequency: 1
+2024-11-26 02:59:33,247 - State Durations - Normal: 273.80s, Degraded: 59.30s
+2024-11-26 02:59:33,253 - Content already matches the target. No changes made.
+2024-11-26 02:59:40,585 - Avg CPU: 16.28%, Avg Memory: 74.16%, Temp: N/A°C, Latency: 0.18 ms
+2024-11-26 02:59:40,595 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 02:59:40,600 - Apache Metrics - ReqPerSec: 14.9983, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:59:40,601 - Adaptation Occurred: 1, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 02:59:40,602 - State Durations - Normal: 273.80s, Degraded: 66.57s
+2024-11-26 02:59:40,611 - Content switched to normal_content.html
+2024-11-26 02:59:51,140 - Avg CPU: 15.82%, Avg Memory: 73.80%, Temp: N/A°C, Latency: 0.58 ms
+2024-11-26 02:59:51,533 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 02:59:51,798 - Apache Metrics - ReqPerSec: 15.3627, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 02:59:52,373 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 02:59:52,853 - State Durations - Normal: 284.24s, Degraded: 66.57s
+2024-11-26 02:59:53,165 - Content already matches the target. No changes made.
+2024-11-26 03:00:03,710 - Avg CPU: 17.52%, Avg Memory: 73.43%, Temp: N/A°C, Latency: 9.60 ms
+2024-11-26 03:00:04,005 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:00:04,154 - Apache Metrics - ReqPerSec: 15.8027, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:00:04,502 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:00:04,701 - State Durations - Normal: 296.67s, Degraded: 66.57s
+2024-11-26 03:00:02,854 - Content already matches the target. No changes made.
+2024-11-26 03:00:13,681 - Avg CPU: 17.78%, Avg Memory: 73.00%, Temp: N/A°C, Latency: 19.41 ms
+2024-11-26 03:00:13,699 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:00:13,707 - Apache Metrics - ReqPerSec: 16.2316, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:00:13,759 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:00:13,813 - State Durations - Normal: 306.36s, Degraded: 66.57s
+2024-11-26 03:00:15,872 - Content already matches the target. No changes made.
+2024-11-26 03:00:26,899 - Avg CPU: 20.32%, Avg Memory: 72.92%, Temp: N/A°C, Latency: 13.70 ms
+2024-11-26 03:00:27,001 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:00:27,021 - Apache Metrics - ReqPerSec: 16.6006, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:00:27,063 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:00:27,097 - State Durations - Normal: 319.40s, Degraded: 66.57s
+2024-11-26 03:00:27,280 - Content already matches the target. No changes made.
+2024-11-26 03:00:35,751 - Avg CPU: 21.48%, Avg Memory: 72.58%, Temp: N/A°C, Latency: 1.70 ms
+2024-11-26 03:00:36,012 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:00:36,696 - Apache Metrics - ReqPerSec: 17.1024, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:00:37,081 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:00:37,281 - State Durations - Normal: 327.87s, Degraded: 66.57s
+2024-11-26 03:00:39,015 - Content already matches the target. No changes made.
+2024-11-26 03:00:51,002 - Avg CPU: 21.75%, Avg Memory: 72.09%, Temp: N/A°C, Latency: 1.46 ms
+2024-11-26 03:00:51,448 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:00:51,582 - Apache Metrics - ReqPerSec: 17.5231, BusyWorkers: 4, IdleWorkers: 71, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:00:52,188 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:00:52,670 - State Durations - Normal: 343.00s, Degraded: 66.57s
+2024-11-26 03:00:57,921 - Content already matches the target. No changes made.
+2024-11-26 03:01:05,795 - Avg CPU: 21.15%, Avg Memory: 71.71%, Temp: N/A°C, Latency: 1.99 ms
+2024-11-26 03:01:05,873 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:01:06,027 - Apache Metrics - ReqPerSec: 18.0211, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:01:06,195 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:01:06,258 - State Durations - Normal: 358.75s, Degraded: 66.57s
+2024-11-26 03:01:09,039 - Content already matches the target. No changes made.
+2024-11-26 03:01:20,317 - Avg CPU: 20.35%, Avg Memory: 71.97%, Temp: N/A°C, Latency: 7.32 ms
+2024-11-26 03:01:20,435 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:01:20,756 - Apache Metrics - ReqPerSec: 18.3985, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:01:21,414 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:01:21,647 - State Durations - Normal: 373.62s, Degraded: 66.57s
+2024-11-26 03:01:25,176 - Content already matches the target. No changes made.
+2024-11-26 03:01:33,581 - Avg CPU: 22.25%, Avg Memory: 71.91%, Temp: N/A°C, Latency: 12.31 ms
+2024-11-26 03:01:34,297 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:01:34,898 - Apache Metrics - ReqPerSec: 18.9365, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:01:35,572 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:01:35,769 - State Durations - Normal: 385.78s, Degraded: 66.57s
+2024-11-26 03:01:38,169 - Content already matches the target. No changes made.
+2024-11-26 03:01:48,965 - Avg CPU: 20.87%, Avg Memory: 71.58%, Temp: N/A°C, Latency: 6.97 ms
+2024-11-26 03:01:49,473 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:01:49,640 - Apache Metrics - ReqPerSec: 19.3475, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:01:49,845 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:01:50,266 - State Durations - Normal: 401.78s, Degraded: 66.57s
+2024-11-26 03:01:51,532 - Content already matches the target. No changes made.
+2024-11-26 03:01:59,691 - Avg CPU: 18.62%, Avg Memory: 71.54%, Temp: N/A°C, Latency: 3.86 ms
+2024-11-26 03:01:59,691 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:01:59,692 - Apache Metrics - ReqPerSec: 19.6634, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:01:59,692 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:01:59,693 - State Durations - Normal: 415.05s, Degraded: 66.57s
+2024-11-26 03:01:59,699 - Content already matches the target. No changes made.
+2024-11-26 03:02:10,349 - Avg CPU: 18.60%, Avg Memory: 71.67%, Temp: N/A°C, Latency: 1.31 ms
+2024-11-26 03:02:10,649 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:02:11,367 - Apache Metrics - ReqPerSec: 19.9397, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:02:11,592 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:02:12,164 - State Durations - Normal: 423.20s, Degraded: 66.57s
+2024-11-26 03:02:15,077 - Content already matches the target. No changes made.
+2024-11-26 03:02:26,524 - Avg CPU: 18.90%, Avg Memory: 71.53%, Temp: N/A°C, Latency: 1.60 ms
+2024-11-26 03:02:26,808 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:02:27,357 - Apache Metrics - ReqPerSec: 20.2587, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:02:27,617 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:02:28,144 - State Durations - Normal: 439.01s, Degraded: 66.57s
+2024-11-26 03:02:31,022 - Content already matches the target. No changes made.
+2024-11-26 03:02:39,056 - Avg CPU: 18.17%, Avg Memory: 71.04%, Temp: N/A°C, Latency: 1.48 ms
+2024-11-26 03:02:39,347 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:02:39,348 - Apache Metrics - ReqPerSec: 20.715, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:02:39,436 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:02:39,476 - State Durations - Normal: 451.75s, Degraded: 66.57s
+2024-11-26 03:02:39,872 - Content already matches the target. No changes made.
+2024-11-26 03:02:52,466 - Avg CPU: 17.18%, Avg Memory: 71.22%, Temp: N/A°C, Latency: 19.94 ms
+2024-11-26 03:02:52,468 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:02:52,471 - Apache Metrics - ReqPerSec: 21.0052, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:02:52,475 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:02:52,494 - State Durations - Normal: 463.58s, Degraded: 66.57s
+2024-11-26 03:02:56,509 - Content already matches the target. No changes made.
+2024-11-26 03:03:08,205 - Avg CPU: 18.22%, Avg Memory: 71.32%, Temp: N/A°C, Latency: 2.36 ms
+2024-11-26 03:03:08,544 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:03:08,996 - Apache Metrics - ReqPerSec: 21.4041, BusyWorkers: 14, IdleWorkers: 61, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:03:09,488 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:03:10,123 - State Durations - Normal: 479.21s, Degraded: 66.57s
+2024-11-26 03:03:13,084 - Content already matches the target. No changes made.
+2024-11-26 03:03:23,968 - Avg CPU: 21.10%, Avg Memory: 71.37%, Temp: N/A°C, Latency: 2.99 ms
+2024-11-26 03:03:23,968 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:03:23,969 - Apache Metrics - ReqPerSec: 21.7161, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:03:23,969 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:03:23,970 - State Durations - Normal: 497.03s, Degraded: 66.57s
+2024-11-26 03:03:23,976 - Content already matches the target. No changes made.
+2024-11-26 03:03:31,313 - Avg CPU: 18.72%, Avg Memory: 71.37%, Temp: N/A°C, Latency: 2.99 ms
+2024-11-26 03:03:31,313 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:03:31,314 - Apache Metrics - ReqPerSec: 21.5031, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:03:31,314 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:03:31,314 - State Durations - Normal: 504.73s, Degraded: 66.57s
+2024-11-26 03:03:31,320 - Content already matches the target. No changes made.
+2024-11-26 03:03:41,495 - Avg CPU: 16.10%, Avg Memory: 71.33%, Temp: N/A°C, Latency: 2.99 ms
+2024-11-26 03:03:41,496 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:03:41,496 - Apache Metrics - ReqPerSec: 21.2424, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:03:41,496 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:03:41,497 - State Durations - Normal: 514.83s, Degraded: 66.57s
+2024-11-26 03:03:41,502 - Content already matches the target. No changes made.
+2024-11-26 03:03:51,614 - Avg CPU: 13.72%, Avg Memory: 71.23%, Temp: N/A°C, Latency: 2.99 ms
+2024-11-26 03:03:51,614 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:03:51,615 - Apache Metrics - ReqPerSec: 20.988, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:03:51,615 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:03:51,616 - State Durations - Normal: 525.00s, Degraded: 66.57s
+2024-11-26 03:03:51,622 - Content already matches the target. No changes made.
+2024-11-26 03:03:58,778 - Avg CPU: 10.43%, Avg Memory: 71.02%, Temp: N/A°C, Latency: 2.99 ms
+2024-11-26 03:03:58,779 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:03:58,779 - Apache Metrics - ReqPerSec: 20.8138, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:03:58,779 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:03:58,780 - State Durations - Normal: 532.19s, Degraded: 66.57s
+2024-11-26 03:03:58,788 - Content already matches the target. No changes made.
+2024-11-26 03:04:08,873 - Avg CPU: 7.43%, Avg Memory: 70.66%, Temp: N/A°C, Latency: 2.99 ms
+2024-11-26 03:04:08,873 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:04:08,874 - Apache Metrics - ReqPerSec: 20.5696, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:04:08,874 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:04:08,875 - State Durations - Normal: 542.29s, Degraded: 66.57s
+2024-11-26 03:04:08,882 - Content already matches the target. No changes made.
+2024-11-26 03:04:19,049 - Avg CPU: 3.50%, Avg Memory: 70.34%, Temp: N/A°C, Latency: 2.99 ms
+2024-11-26 03:04:19,050 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:04:19,050 - Apache Metrics - ReqPerSec: 20.331, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:04:19,051 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:04:19,052 - State Durations - Normal: 552.38s, Degraded: 66.57s
+2024-11-26 03:04:19,059 - Content already matches the target. No changes made.
+2024-11-26 03:04:29,166 - Avg CPU: 3.62%, Avg Memory: 70.13%, Temp: N/A°C, Latency: 2.99 ms
+2024-11-26 03:04:29,167 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:04:29,167 - Apache Metrics - ReqPerSec: 20.0979, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:04:29,167 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:04:29,168 - State Durations - Normal: 562.55s, Degraded: 66.57s
+2024-11-26 03:04:29,174 - Content already matches the target. No changes made.
+2024-11-26 03:04:36,346 - Avg CPU: 4.48%, Avg Memory: 70.01%, Temp: N/A°C, Latency: 2.99 ms
+2024-11-26 03:04:36,347 - Weather: Temp: 5.85°C, Humidity: 99%, Desc: mist
+2024-11-26 03:04:36,347 - Apache Metrics - ReqPerSec: 19.9155, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:04:36,348 - Adaptation Occurred: 0, Total Adaptations: 2, Adaptation Frequency: 1
+2024-11-26 03:04:36,348 - State Durations - Normal: 569.75s, Degraded: 66.57s
+2024-11-26 03:04:36,353 - Content already matches the target. No changes made.
+2024-11-26 03:21:39,115 - Avg CPU: 11.30%, Avg Memory: 70.63%, Temp: N/A°C, Latency: 2.99 ms
+2024-11-26 03:21:39,115 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:21:39,116 - Apache Metrics - ReqPerSec: 9.19231, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:21:39,117 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:21:39,117 - State Durations - Normal: 0.00s, Degraded: 0.00s
+2024-11-26 03:21:39,123 - Content already matches the target. No changes made.
+2024-11-26 03:21:49,220 - Avg CPU: 6.40%, Avg Memory: 70.71%, Temp: N/A°C, Latency: 3.02 ms
+2024-11-26 03:21:49,221 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:21:49,221 - Apache Metrics - ReqPerSec: 9.14144, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:21:49,222 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:21:49,222 - State Durations - Normal: 10.14s, Degraded: 0.00s
+2024-11-26 03:21:49,228 - Content already matches the target. No changes made.
+2024-11-26 03:21:59,316 - Avg CPU: 5.50%, Avg Memory: 71.02%, Temp: N/A°C, Latency: 3.03 ms
+2024-11-26 03:21:59,317 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:21:59,318 - Apache Metrics - ReqPerSec: 9.13653, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:21:59,318 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:21:59,318 - State Durations - Normal: 20.25s, Degraded: 0.00s
+2024-11-26 03:21:59,325 - Content already matches the target. No changes made.
+2024-11-26 03:22:06,478 - Avg CPU: 5.55%, Avg Memory: 71.07%, Temp: N/A°C, Latency: 2.98 ms
+2024-11-26 03:22:06,478 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:22:06,479 - Apache Metrics - ReqPerSec: 9.19367, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:22:06,479 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:22:06,479 - State Durations - Normal: 27.40s, Degraded: 0.00s
+2024-11-26 03:22:06,498 - Content already matches the target. No changes made.
+2024-11-26 03:22:16,600 - Avg CPU: 5.78%, Avg Memory: 71.10%, Temp: N/A°C, Latency: 1.72 ms
+2024-11-26 03:22:16,601 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:22:16,601 - Apache Metrics - ReqPerSec: 9.26343, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:22:16,601 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:22:16,602 - State Durations - Normal: 37.52s, Degraded: 0.00s
+2024-11-26 03:22:16,610 - Content already matches the target. No changes made.
+2024-11-26 03:22:26,734 - Avg CPU: 6.85%, Avg Memory: 71.10%, Temp: N/A°C, Latency: 1.57 ms
+2024-11-26 03:22:26,734 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:22:26,735 - Apache Metrics - ReqPerSec: 9.37924, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:22:26,735 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:22:26,736 - State Durations - Normal: 47.63s, Degraded: 0.00s
+2024-11-26 03:22:26,746 - Content already matches the target. No changes made.
+2024-11-26 03:22:33,926 - Avg CPU: 6.90%, Avg Memory: 71.24%, Temp: N/A°C, Latency: 0.94 ms
+2024-11-26 03:22:33,932 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:22:33,943 - Apache Metrics - ReqPerSec: 9.51459, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:22:33,943 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:22:33,946 - State Durations - Normal: 54.82s, Degraded: 0.00s
+2024-11-26 03:22:33,959 - Content already matches the target. No changes made.
+2024-11-26 03:22:44,073 - Avg CPU: 9.12%, Avg Memory: 71.25%, Temp: N/A°C, Latency: 0.96 ms
+2024-11-26 03:22:44,110 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:22:44,151 - Apache Metrics - ReqPerSec: 9.65716, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:22:44,274 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:22:44,395 - State Durations - Normal: 64.97s, Degraded: 0.00s
+2024-11-26 03:22:44,598 - Content already matches the target. No changes made.
+2024-11-26 03:22:54,714 - Avg CPU: 10.37%, Avg Memory: 71.23%, Temp: N/A°C, Latency: 0.99 ms
+2024-11-26 03:22:54,749 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:22:54,823 - Apache Metrics - ReqPerSec: 9.80041, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:22:54,889 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:22:54,951 - State Durations - Normal: 75.61s, Degraded: 0.00s
+2024-11-26 03:22:55,182 - Content already matches the target. No changes made.
+2024-11-26 03:23:02,426 - Avg CPU: 11.73%, Avg Memory: 71.25%, Temp: N/A°C, Latency: 0.99 ms
+2024-11-26 03:23:02,427 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:23:02,429 - Apache Metrics - ReqPerSec: 9.96014, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:23:02,430 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:23:02,431 - State Durations - Normal: 83.33s, Degraded: 0.00s
+2024-11-26 03:23:02,475 - Content already matches the target. No changes made.
+2024-11-26 03:23:12,740 - Avg CPU: 12.75%, Avg Memory: 71.34%, Temp: N/A°C, Latency: 0.90 ms
+2024-11-26 03:23:12,885 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:23:12,993 - Apache Metrics - ReqPerSec: 10.0934, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:23:13,082 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:23:13,088 - State Durations - Normal: 93.50s, Degraded: 0.00s
+2024-11-26 03:23:13,311 - Content already matches the target. No changes made.
+2024-11-26 03:23:23,559 - Avg CPU: 13.18%, Avg Memory: 71.53%, Temp: N/A°C, Latency: 0.96 ms
+2024-11-26 03:23:23,710 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:23:24,825 - Apache Metrics - ReqPerSec: 10.2341, BusyWorkers: 2, IdleWorkers: 73, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:23:24,944 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:23:24,995 - State Durations - Normal: 104.33s, Degraded: 0.00s
+2024-11-26 03:23:25,560 - Content already matches the target. No changes made.
+2024-11-26 03:23:32,894 - Avg CPU: 13.67%, Avg Memory: 71.63%, Temp: N/A°C, Latency: 1.00 ms
+2024-11-26 03:23:32,953 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:23:33,018 - Apache Metrics - ReqPerSec: 10.415, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:23:33,127 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:23:33,178 - State Durations - Normal: 113.64s, Degraded: 0.00s
+2024-11-26 03:23:33,734 - Content already matches the target. No changes made.
+2024-11-26 03:23:43,915 - Avg CPU: 14.05%, Avg Memory: 71.85%, Temp: N/A°C, Latency: 1.08 ms
+2024-11-26 03:23:44,027 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:23:44,194 - Apache Metrics - ReqPerSec: 10.5571, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:23:44,379 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:23:44,578 - State Durations - Normal: 124.79s, Degraded: 0.00s
+2024-11-26 03:23:45,975 - Content already matches the target. No changes made.
+2024-11-26 03:23:56,646 - Avg CPU: 14.60%, Avg Memory: 71.97%, Temp: N/A°C, Latency: 1.13 ms
+2024-11-26 03:23:56,647 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:23:57,005 - Apache Metrics - ReqPerSec: 10.7127, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:23:57,175 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:23:57,492 - State Durations - Normal: 137.32s, Degraded: 0.00s
+2024-11-26 03:23:58,065 - Content already matches the target. No changes made.
+2024-11-26 03:24:05,394 - Avg CPU: 15.30%, Avg Memory: 72.19%, Temp: N/A°C, Latency: 1.36 ms
+2024-11-26 03:24:05,409 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:24:05,612 - Apache Metrics - ReqPerSec: 10.8782, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:24:05,776 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:24:05,795 - State Durations - Normal: 146.15s, Degraded: 0.00s
+2024-11-26 03:24:06,101 - Content already matches the target. No changes made.
+2024-11-26 03:24:16,521 - Avg CPU: 16.40%, Avg Memory: 72.25%, Temp: N/A°C, Latency: 1.60 ms
+2024-11-26 03:24:16,530 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:24:16,549 - Apache Metrics - ReqPerSec: 11.017, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:24:16,550 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:24:16,552 - State Durations - Normal: 157.26s, Degraded: 0.00s
+2024-11-26 03:24:16,714 - Content already matches the target. No changes made.
+2024-11-26 03:24:27,000 - Avg CPU: 16.63%, Avg Memory: 72.31%, Temp: N/A°C, Latency: 1.61 ms
+2024-11-26 03:24:27,216 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:24:27,392 - Apache Metrics - ReqPerSec: 11.1462, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:24:27,496 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:24:27,622 - State Durations - Normal: 167.74s, Degraded: 0.00s
+2024-11-26 03:24:29,234 - Content already matches the target. No changes made.
+2024-11-26 03:24:37,760 - Avg CPU: 16.85%, Avg Memory: 72.39%, Temp: N/A°C, Latency: 1.33 ms
+2024-11-26 03:24:37,928 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:24:38,070 - Apache Metrics - ReqPerSec: 11.3471, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:24:38,072 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:24:38,082 - State Durations - Normal: 177.57s, Degraded: 0.00s
+2024-11-26 03:24:38,561 - Content already matches the target. No changes made.
+2024-11-26 03:24:48,933 - Avg CPU: 17.40%, Avg Memory: 72.45%, Temp: N/A°C, Latency: 1.52 ms
+2024-11-26 03:24:48,934 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:24:49,151 - Apache Metrics - ReqPerSec: 11.5316, BusyWorkers: 26, IdleWorkers: 49, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:24:49,191 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:24:49,216 - State Durations - Normal: 189.63s, Degraded: 0.00s
+2024-11-26 03:24:49,730 - Content already matches the target. No changes made.
+2024-11-26 03:25:00,651 - Avg CPU: 18.22%, Avg Memory: 72.58%, Temp: N/A°C, Latency: 1.48 ms
+2024-11-26 03:25:00,664 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:25:00,686 - Apache Metrics - ReqPerSec: 11.7233, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:24:57,996 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:24:58,262 - State Durations - Normal: 200.77s, Degraded: 0.00s
+2024-11-26 03:24:59,516 - Content already matches the target. No changes made.
+2024-11-26 03:25:10,115 - Avg CPU: 19.45%, Avg Memory: 72.58%, Temp: N/A°C, Latency: -0.30 ms
+2024-11-26 03:25:10,227 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:25:10,231 - Apache Metrics - ReqPerSec: 11.955, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:25:10,231 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:25:10,232 - State Durations - Normal: 210.55s, Degraded: 0.00s
+2024-11-26 03:25:12,093 - Content already matches the target. No changes made.
+2024-11-26 03:25:22,561 - Avg CPU: 19.72%, Avg Memory: 72.67%, Temp: N/A°C, Latency: 3.28 ms
+2024-11-26 03:25:22,724 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:25:23,175 - Apache Metrics - ReqPerSec: 12.1451, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:25:23,176 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:25:23,207 - State Durations - Normal: 223.32s, Degraded: 0.00s
+2024-11-26 03:25:24,428 - Content already matches the target. No changes made.
+2024-11-26 03:25:31,916 - Avg CPU: 20.12%, Avg Memory: 72.72%, Temp: N/A°C, Latency: 2.06 ms
+2024-11-26 03:25:32,101 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:25:32,365 - Apache Metrics - ReqPerSec: 12.3252, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:25:32,365 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:25:32,366 - State Durations - Normal: 232.53s, Degraded: 0.00s
+2024-11-26 03:25:32,839 - Content already matches the target. No changes made.
+2024-11-26 03:25:43,358 - Avg CPU: 20.95%, Avg Memory: 72.67%, Temp: N/A°C, Latency: 1.24 ms
+2024-11-26 03:25:43,366 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:25:43,367 - Apache Metrics - ReqPerSec: 12.4741, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:25:43,370 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:25:43,398 - State Durations - Normal: 243.97s, Degraded: 0.00s
+2024-11-26 03:25:43,528 - Content already matches the target. No changes made.
+2024-11-26 03:25:55,393 - Avg CPU: 20.30%, Avg Memory: 72.69%, Temp: N/A°C, Latency: 1.08 ms
+2024-11-26 03:25:57,640 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:25:57,861 - Apache Metrics - ReqPerSec: 12.6353, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:25:58,018 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:25:58,021 - State Durations - Normal: 254.55s, Degraded: 0.00s
+2024-11-26 03:25:58,067 - Content already matches the target. No changes made.
+2024-11-26 03:26:05,522 - Avg CPU: 19.93%, Avg Memory: 72.82%, Temp: N/A°C, Latency: 2.74 ms
+2024-11-26 03:26:05,595 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:26:05,638 - Apache Metrics - ReqPerSec: 12.7603, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:26:05,681 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:26:05,729 - State Durations - Normal: 266.23s, Degraded: 0.00s
+2024-11-26 03:26:05,842 - Content already matches the target. No changes made.
+2024-11-26 03:26:27,776 - Avg CPU: 21.38%, Avg Memory: 73.24%, Temp: N/A°C, Latency: 2.74 ms
+2024-11-26 03:26:27,945 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:26:27,948 - Apache Metrics - ReqPerSec: 12.7021, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:26:27,964 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:26:27,986 - State Durations - Normal: 276.89s, Degraded: 0.00s
+2024-11-26 03:26:28,242 - Content already matches the target. No changes made.
+2024-11-26 03:26:38,681 - Avg CPU: 22.42%, Avg Memory: 74.01%, Temp: N/A°C, Latency: 4.61 ms
+2024-11-26 03:26:38,753 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:26:38,802 - Apache Metrics - ReqPerSec: 12.9354, BusyWorkers: 21, IdleWorkers: 54, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:26:38,806 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:26:38,809 - State Durations - Normal: 299.26s, Degraded: 0.00s
+2024-11-26 03:26:38,930 - Content already matches the target. No changes made.
+2024-11-26 03:26:49,759 - Avg CPU: 27.40%, Avg Memory: 74.81%, Temp: N/A°C, Latency: 3.55 ms
+2024-11-26 03:26:49,967 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:26:50,112 - Apache Metrics - ReqPerSec: 13.0539, BusyWorkers: 15, IdleWorkers: 60, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:26:50,151 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:26:50,250 - State Durations - Normal: 310.13s, Degraded: 0.00s
+2024-11-26 03:26:50,432 - Content already matches the target. No changes made.
+2024-11-26 03:26:58,196 - Avg CPU: 31.65%, Avg Memory: 75.82%, Temp: N/A°C, Latency: -2.44 ms
+2024-11-26 03:26:58,197 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: moderate rain
+2024-11-26 03:26:58,197 - Apache Metrics - ReqPerSec: 13.2237, BusyWorkers: 20, IdleWorkers: 55, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:26:58,198 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:26:58,198 - State Durations - Normal: 318.48s, Degraded: 0.00s
+2024-11-26 03:26:58,211 - Content already matches the target. No changes made.
+2024-11-26 03:27:10,865 - Avg CPU: 36.78%, Avg Memory: 76.38%, Temp: N/A°C, Latency: 3.49 ms
+2024-11-26 03:27:10,877 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:27:10,883 - Apache Metrics - ReqPerSec: 13.3439, BusyWorkers: 36, IdleWorkers: 39, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:27:10,954 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:27:10,969 - State Durations - Normal: 329.22s, Degraded: 0.00s
+2024-11-26 03:27:11,095 - Content already matches the target. No changes made.
+2024-11-26 03:27:22,203 - Avg CPU: 41.25%, Avg Memory: 76.78%, Temp: N/A°C, Latency: 27.19 ms
+2024-11-26 03:27:22,320 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:27:22,328 - Apache Metrics - ReqPerSec: 13.4757, BusyWorkers: 7, IdleWorkers: 68, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:27:22,362 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:27:22,383 - State Durations - Normal: 342.50s, Degraded: 0.00s
+2024-11-26 03:27:22,413 - Content already matches the target. No changes made.
+2024-11-26 03:27:30,218 - Avg CPU: 40.98%, Avg Memory: 76.22%, Temp: N/A°C, Latency: 35.45 ms
+2024-11-26 03:27:30,346 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:27:30,462 - Apache Metrics - ReqPerSec: 13.6204, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:27:30,495 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:27:30,597 - State Durations - Normal: 350.91s, Degraded: 0.00s
+2024-11-26 03:27:30,649 - Content already matches the target. No changes made.
+2024-11-26 03:27:55,194 - Avg CPU: 40.02%, Avg Memory: 75.32%, Temp: N/A°C, Latency: 1.48 ms
+2024-11-26 03:27:55,251 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:27:55,260 - Apache Metrics - ReqPerSec: 13.9345, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:27:55,271 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:27:55,274 - State Durations - Normal: 361.67s, Degraded: 0.00s
+2024-11-26 03:27:55,286 - Content already matches the target. No changes made.
+2024-11-26 03:28:03,292 - Avg CPU: 35.53%, Avg Memory: 74.55%, Temp: N/A°C, Latency: 2.41 ms
+2024-11-26 03:28:04,287 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:28:04,649 - Apache Metrics - ReqPerSec: 14.2146, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:28:04,940 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:28:05,054 - State Durations - Normal: 383.37s, Degraded: 0.00s
+2024-11-26 03:28:05,082 - Content already matches the target. No changes made.
+2024-11-26 03:28:15,824 - Avg CPU: 32.02%, Avg Memory: 73.52%, Temp: N/A°C, Latency: 1.91 ms
+2024-11-26 03:28:16,154 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:28:16,301 - Apache Metrics - ReqPerSec: 14.3664, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:28:16,388 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:28:16,404 - State Durations - Normal: 396.11s, Degraded: 0.00s
+2024-11-26 03:28:17,711 - Content already matches the target. No changes made.
+2024-11-26 03:28:25,931 - Avg CPU: 28.62%, Avg Memory: 72.97%, Temp: N/A°C, Latency: 2.84 ms
+2024-11-26 03:28:26,157 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:28:26,212 - Apache Metrics - ReqPerSec: 14.5644, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:28:26,662 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:28:26,693 - State Durations - Normal: 405.81s, Degraded: 0.00s
+2024-11-26 03:28:30,387 - Content already matches the target. No changes made.
+2024-11-26 03:28:41,409 - Avg CPU: 24.47%, Avg Memory: 72.38%, Temp: N/A°C, Latency: 2.74 ms
+2024-11-26 03:28:42,624 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:28:42,979 - Apache Metrics - ReqPerSec: 14.7324, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:28:43,193 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:28:43,331 - State Durations - Normal: 421.46s, Degraded: 0.00s
+2024-11-26 03:28:44,301 - Content already matches the target. No changes made.
+2024-11-26 03:28:55,280 - Avg CPU: 22.90%, Avg Memory: 72.42%, Temp: N/A°C, Latency: 4.23 ms
+2024-11-26 03:28:55,463 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:28:55,663 - Apache Metrics - ReqPerSec: 14.8891, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:28:55,889 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:28:56,129 - State Durations - Normal: 435.65s, Degraded: 0.00s
+2024-11-26 03:28:53,835 - Content already matches the target. No changes made.
+2024-11-26 03:29:05,444 - Avg CPU: 22.53%, Avg Memory: 72.85%, Temp: N/A°C, Latency: 4.63 ms
+2024-11-26 03:29:05,916 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:29:06,360 - Apache Metrics - ReqPerSec: 15.0836, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:29:06,709 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:29:06,958 - State Durations - Normal: 444.87s, Degraded: 0.00s
+2024-11-26 03:29:07,338 - Content already matches the target. No changes made.
+2024-11-26 03:29:18,461 - Avg CPU: 22.05%, Avg Memory: 72.86%, Temp: N/A°C, Latency: 2.57 ms
+2024-11-26 03:29:19,662 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:29:20,712 - Apache Metrics - ReqPerSec: 15.2328, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:29:22,100 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:29:22,668 - State Durations - Normal: 458.73s, Degraded: 0.00s
+2024-11-26 03:29:23,058 - Content already matches the target. No changes made.
+2024-11-26 03:29:30,875 - Avg CPU: 22.17%, Avg Memory: 72.85%, Temp: N/A°C, Latency: 1.83 ms
+2024-11-26 03:29:31,164 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:29:32,746 - Apache Metrics - ReqPerSec: 15.4527, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:29:32,892 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:29:33,731 - State Durations - Normal: 471.23s, Degraded: 0.00s
+2024-11-26 03:29:36,073 - Content already matches the target. No changes made.
+2024-11-26 03:29:49,153 - Avg CPU: 20.52%, Avg Memory: 72.76%, Temp: N/A°C, Latency: 1.48 ms
+2024-11-26 03:29:49,346 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:29:49,646 - Apache Metrics - ReqPerSec: 15.6541, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:29:49,735 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:29:49,863 - State Durations - Normal: 487.31s, Degraded: 0.00s
+2024-11-26 03:29:53,154 - Content already matches the target. No changes made.
+2024-11-26 03:30:00,605 - Avg CPU: 22.68%, Avg Memory: 72.76%, Temp: N/A°C, Latency: 2.04 ms
+2024-11-26 03:30:01,257 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:30:01,273 - Apache Metrics - ReqPerSec: 15.8308, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:30:01,309 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:30:01,312 - State Durations - Normal: 501.09s, Degraded: 0.00s
+2024-11-26 03:30:01,353 - Content already matches the target. No changes made.
+2024-11-26 03:30:12,139 - Avg CPU: 21.63%, Avg Memory: 72.69%, Temp: N/A°C, Latency: 1.86 ms
+2024-11-26 03:30:12,500 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:30:13,213 - Apache Metrics - ReqPerSec: 15.9826, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:30:13,505 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:30:13,513 - State Durations - Normal: 512.38s, Degraded: 0.00s
+2024-11-26 03:30:13,544 - Content already matches the target. No changes made.
+2024-11-26 03:30:24,446 - Avg CPU: 21.53%, Avg Memory: 72.26%, Temp: N/A°C, Latency: 1.86 ms
+2024-11-26 03:30:24,596 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:30:22,131 - Apache Metrics - ReqPerSec: 16.1089, BusyWorkers: 12, IdleWorkers: 63, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:30:22,246 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:30:22,300 - State Durations - Normal: 524.57s, Degraded: 0.00s
+2024-11-26 03:30:23,457 - Content already matches the target. No changes made.
+2024-11-26 03:30:33,843 - Avg CPU: 20.83%, Avg Memory: 72.13%, Temp: N/A°C, Latency: 2.64 ms
+2024-11-26 03:30:33,865 - Weather: Temp: 6.2°C, Humidity: 99%, Desc: light rain
+2024-11-26 03:30:34,170 - Apache Metrics - ReqPerSec: 16.2778, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:30:34,532 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:30:34,908 - State Durations - Normal: 534.50s, Degraded: 0.00s
+2024-11-26 03:30:35,266 - Content already matches the target. No changes made.
+2024-11-26 03:30:45,746 - Avg CPU: 18.67%, Avg Memory: 72.21%, Temp: N/A°C, Latency: 0.94 ms
+2024-11-26 03:30:45,922 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 03:30:46,163 - Apache Metrics - ReqPerSec: 16.411, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:30:46,328 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:30:46,512 - State Durations - Normal: 546.32s, Degraded: 0.00s
+2024-11-26 03:30:46,700 - Content already matches the target. No changes made.
+2024-11-26 03:30:53,958 - Avg CPU: 18.03%, Avg Memory: 72.21%, Temp: N/A°C, Latency: 0.87 ms
+2024-11-26 03:30:53,961 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 03:30:53,980 - Apache Metrics - ReqPerSec: 16.5585, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:30:53,992 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:30:54,000 - State Durations - Normal: 554.81s, Degraded: 0.00s
+2024-11-26 03:30:54,020 - Content already matches the target. No changes made.
+2024-11-26 03:31:04,139 - Avg CPU: 14.35%, Avg Memory: 72.12%, Temp: N/A°C, Latency: 0.82 ms
+2024-11-26 03:31:04,139 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 03:31:04,139 - Apache Metrics - ReqPerSec: 16.6634, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:31:04,139 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:31:04,140 - State Durations - Normal: 565.04s, Degraded: 0.00s
+2024-11-26 03:31:04,144 - Content already matches the target. No changes made.
+2024-11-26 03:31:14,256 - Avg CPU: 12.82%, Avg Memory: 72.26%, Temp: N/A°C, Latency: 0.82 ms
+2024-11-26 03:31:14,256 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 03:31:14,256 - Apache Metrics - ReqPerSec: 16.7106, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:31:14,257 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:31:14,257 - State Durations - Normal: 575.18s, Degraded: 0.00s
+2024-11-26 03:31:14,261 - Content already matches the target. No changes made.
+2024-11-26 03:31:21,440 - Avg CPU: 10.18%, Avg Memory: 72.29%, Temp: N/A°C, Latency: 0.81 ms
+2024-11-26 03:31:21,441 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 03:31:21,441 - Apache Metrics - ReqPerSec: 16.6864, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:31:21,441 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:31:21,441 - State Durations - Normal: 582.35s, Degraded: 0.00s
+2024-11-26 03:31:21,446 - Content already matches the target. No changes made.
+2024-11-26 03:31:31,543 - Avg CPU: 8.08%, Avg Memory: 72.20%, Temp: N/A°C, Latency: 0.81 ms
+2024-11-26 03:31:31,544 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 03:31:31,544 - Apache Metrics - ReqPerSec: 16.6198, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:31:31,544 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:31:31,545 - State Durations - Normal: 592.46s, Degraded: 0.00s
+2024-11-26 03:31:31,549 - Content already matches the target. No changes made.
+2024-11-26 03:31:41,652 - Avg CPU: 6.32%, Avg Memory: 72.07%, Temp: N/A°C, Latency: 0.81 ms
+2024-11-26 03:31:41,652 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 03:31:41,653 - Apache Metrics - ReqPerSec: 16.5538, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:31:41,653 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:31:41,653 - State Durations - Normal: 602.57s, Degraded: 0.00s
+2024-11-26 03:31:41,658 - Content already matches the target. No changes made.
+2024-11-26 03:31:51,766 - Avg CPU: 4.50%, Avg Memory: 72.00%, Temp: N/A°C, Latency: 0.81 ms
+2024-11-26 03:31:51,766 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 03:31:51,766 - Apache Metrics - ReqPerSec: 16.4883, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:31:51,767 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:31:51,767 - State Durations - Normal: 612.69s, Degraded: 0.00s
+2024-11-26 03:31:51,771 - Content already matches the target. No changes made.
+2024-11-26 03:31:58,930 - Avg CPU: 2.98%, Avg Memory: 71.95%, Temp: N/A°C, Latency: 0.81 ms
+2024-11-26 03:31:58,931 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 03:31:58,931 - Apache Metrics - ReqPerSec: 16.4428, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:31:58,931 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:31:58,931 - State Durations - Normal: 619.85s, Degraded: 0.00s
+2024-11-26 03:31:58,935 - Content already matches the target. No changes made.
+2024-11-26 03:32:09,045 - Avg CPU: 1.93%, Avg Memory: 71.80%, Temp: N/A°C, Latency: 0.81 ms
+2024-11-26 03:32:09,046 - Weather: Temp: 5.84°C, Humidity: 99%, Desc: mist
+2024-11-26 03:32:09,046 - Apache Metrics - ReqPerSec: 16.3782, BusyWorkers: 1, IdleWorkers: 74, Cache Hits: N/A, Cache Misses: N/A
+2024-11-26 03:32:09,046 - Adaptation Occurred: 0, Total Adaptations: 0, Adaptation Frequency: 0
+2024-11-26 03:32:09,046 - State Durations - Normal: 629.96s, Degraded: 0.00s
+2024-11-26 03:32:09,051 - Content already matches the target. No changes made.

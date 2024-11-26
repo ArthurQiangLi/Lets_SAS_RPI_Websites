@@ -24,8 +24,14 @@ LOCATION = "Kitchener,CA"
 CSV_FILE = "system_metrics.csv"
 
 # Degradation Thresholds
-CPU_THRESHOLD = 90  # in percentage
-MEMORY_THRESHOLD = 90  # in percentage
+CPU_THRESHOLD_UPPER = 90  # Trigger degradation
+CPU_THRESHOLD_LOWER = 25  # Return to normal
+
+MEMORY_THRESHOLD_UPPER = 90  # Trigger degradation
+MEMORY_THRESHOLD_LOWER = 40  # Return to normal
+
+# Cooldown Settings
+COOLDOWN_PERIOD = 60  # seconds
 
 # Paths to HTML files
 CURRENT_HTML = "/var/www/html/index.html"
@@ -194,6 +200,11 @@ def monitor_metrics():
     current_state = 'normal'
     last_check_time = time.time()
     global adaptation_history, state_durations, total_adaptations 
+    last_adaptation_time = 0
+
+    # Initialize moving average deques
+    CPU_HISTORY = deque(maxlen=6)  # e.g., last 1 minute if interval is 10s
+    MEMORY_HISTORY = deque(maxlen=6)
 
     while True:
         try:
@@ -206,8 +217,13 @@ def monitor_metrics():
             memory_usage = calculate_memory_usage()
             temp = psutil.sensors_temperatures().get('cpu-thermal', [{}])[0].get('current', 'N/A')
 
-            # print(cpu_usage)
-            # print(memory_usage)
+            # Append to moving averages
+            CPU_HISTORY.append(cpu_usage)
+            MEMORY_HISTORY.append(memory_usage)
+
+            # Compute moving averages
+            avg_cpu = sum(CPU_HISTORY) / len(CPU_HISTORY)
+            avg_memory = sum(MEMORY_HISTORY) / len(MEMORY_HISTORY)
 
             # Fetch weather data
             weather_temp, humidity, weather_desc = fetch_weather()
@@ -225,19 +241,39 @@ def monitor_metrics():
             latency_display = f"{latency:.2f} ms" if latency else "N/A"
 
             # Log the data
-            logging.info(f"CPU: {cpu_usage}%, Memory: {memory_usage:.2f}%, Temp: {temp}°C, Latency: {latency_display}")
+            logging.info(f"Avg CPU: {avg_cpu:.2f}%, Avg Memory: {avg_memory:.2f}%, Temp: {temp}°C, Latency: {latency_display}")
             logging.info(f"Weather: Temp: {weather_temp}°C, Humidity: {humidity}%, Desc: {weather_desc}")
             logging.info(f"Apache Metrics - ReqPerSec: {req_per_sec}, BusyWorkers: {busy_workers}, IdleWorkers: {idle_workers}, Cache Hits: {cache_hits}, Cache Misses: {cache_misses}")
 
-            # Determine if adaptation is needed
-            adaptation_needed = cpu_usage > CPU_THRESHOLD or memory_usage > MEMORY_THRESHOLD
+            # Determine if adaptation is needed based on hysteresis
+            adaptation_needed = False
+            switch_back = False
+
+            if current_state == 'normal':
+                if avg_cpu > CPU_THRESHOLD_UPPER or avg_memory > MEMORY_THRESHOLD_UPPER:
+                    adaptation_needed = True
+            elif current_state == 'degraded':
+                if avg_cpu < CPU_THRESHOLD_LOWER and avg_memory < MEMORY_THRESHOLD_LOWER:
+                    switch_back = True
+
+            # Check cooldown
+            time_since_last_adaptation = current_time - last_adaptation_time
+            if (adaptation_needed or switch_back) and (time_since_last_adaptation < COOLDOWN_PERIOD):
+                logging.info("Cooldown period active. Skipping adaptation.")
+                adaptation_needed = False
+                switch_back = False
 
             # Accumulate duration in current state
             state_durations[current_state] += time_diff
 
             # Update adaptation state
             previous_state = current_state
-            current_state = 'degraded' if adaptation_needed else 'normal'
+            if adaptation_needed:
+                current_state = 'degraded'
+                last_adaptation_time = current_time
+            elif switch_back:
+                current_state = 'normal'
+                last_adaptation_time = current_time
 
             # Check if the state has changed (adaptation occurred)
             adaptation_occurred = int(previous_state != current_state)
@@ -260,8 +296,8 @@ def monitor_metrics():
                 writer = csv.writer(file)
                 writer.writerow([
                     datetime.now(),
-                    cpu_usage,
-                    memory_usage,
+                    avg_cpu,
+                    avg_memory,
                     temp,
                     weather_temp,
                     humidity,
@@ -282,8 +318,8 @@ def monitor_metrics():
                     #MEMORY_THRESHOLD 
                 ])
 
-            # Switch content based on adaptation_needed
-            switch_content(degrade=adaptation_needed)
+            # Switch content based on adaptation_needed or switch_back
+            switch_content(degrade=(current_state == 'degraded'))
 
             # Pause for 10 seconds before next reading
             time.sleep(10)

@@ -391,3 +391,42 @@ Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[
 Uncaught Exception java.lang.OutOfMemoryError: Java heap space in thread Thread[#302,Thread Group 1-252,5,main]. See log file for details.
 Uncaught Exception java.lang.AssertionError: java.lang.reflect.InvocationTargetException in thread Thread[#384,Thread Group 1-334,5,main]. See log file for details.
 ^C
+2024-11-26 02:20:30,714 - INFO - JMeter automation started. Running for 3 days.
+2024-11-26 02:20:30,715 - INFO - Start Time: 2024-11-26 02:20:30
+2024-11-26 02:20:30,715 - INFO - End Time: 2024-11-29 02:20:30
+2024-11-26 02:20:30,719 - INFO - Spike scheduled to start at 2024-11-27 12:00:00
+2024-11-26 02:20:30,721 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-26 02:25:53,581 - INFO - Manual spike triggered via command line.
+2024-11-26 02:25:53,581 - INFO - Triggering spike JMeter test.
+2024-11-26 02:25:53,583 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation_spike.jmx
+2024-11-26 02:29:11,915 - INFO - JMeter test completed successfully. Results saved to C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\jmeter_results\test_results_spike_20241126_022553.jtl
+2024-11-26 02:29:11,915 - INFO - Spike test completed within the expected duration.
+2024-11-26 02:31:04,451 - ERROR - JMeter test failed with return code 3221225786
+2024-11-26 02:31:04,451 - ERROR - Error Output: ^C
+2024-11-26 02:31:04,451 - WARNING - Retrying JMeter test (1/3) after 60 seconds...
+2024-11-26 02:55:10,860 - INFO - JMeter automation started. Running for 3 days.
+2024-11-26 02:55:10,861 - INFO - Start Time: 2024-11-26 02:55:10
+2024-11-26 02:55:10,861 - INFO - End Time: 2024-11-29 02:55:10
+2024-11-26 02:55:10,868 - INFO - Spike scheduled to start at 2024-11-27 12:00:00
+2024-11-26 02:55:10,871 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-26 02:57:14,406 - INFO - Manual spike triggered via command line.
+2024-11-26 02:57:14,406 - INFO - Triggering spike JMeter test.
+2024-11-26 02:57:14,441 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation_spike.jmx
+2024-11-26 02:59:29,180 - INFO - JMeter test completed successfully. Results saved to C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\jmeter_results\test_results_spike_20241126_025714.jtl
+2024-11-26 02:59:29,180 - INFO - Spike test completed within the expected duration.
+2024-11-26 03:03:29,984 - ERROR - JMeter test failed with return code 3221225786
+2024-11-26 03:03:29,984 - ERROR - Error Output: ^C
+2024-11-26 03:03:29,984 - WARNING - Retrying JMeter test (1/3) after 60 seconds...
+2024-11-26 03:20:40,595 - INFO - JMeter automation started. Running for 3 days.
+2024-11-26 03:20:40,596 - INFO - Start Time: 2024-11-26 03:20:40
+2024-11-26 03:20:40,596 - INFO - End Time: 2024-11-29 03:20:40
+2024-11-26 03:20:40,604 - INFO - Spike scheduled to start at 2024-11-27 12:00:00
+2024-11-26 03:20:40,607 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-26 03:24:44,346 - INFO - Manual spike triggered via command line.
+2024-11-26 03:24:44,346 - INFO - Triggering spike JMeter test.
+2024-11-26 03:24:44,448 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation_spike.jmx
+2024-11-26 03:28:03,504 - INFO - JMeter test completed successfully. Results saved to C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\jmeter_results\test_results_spike_20241126_032444.jtl
+2024-11-26 03:28:03,504 - INFO - Spike test completed within the expected duration.
+2024-11-26 03:31:19,985 - INFO - JMeter test completed successfully. Results saved to C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\jmeter_results\test_results_regular_20241126_032040.jtl
+2024-11-26 03:31:19,985 - INFO - Regular JMeter run 1 completed.
+2024-11-26 03:31:19,985 - INFO - Sleeping for 300 seconds before next regular run.
