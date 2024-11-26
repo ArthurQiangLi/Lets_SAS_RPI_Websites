@@ -15,7 +15,7 @@ function updateWeather() {
     .then((data) => {
       document.getElementById(
         "weather"
-      ).textContent = `Weather: ${data.weather}`;
+      ).textContent = `Temp: ${data.temp} °C, Humidity: ${data.humidity} %, ${data.weather}`;
     })
     .catch((error) => console.error("Error updating weather:", error));
 }
@@ -25,13 +25,11 @@ function updateCpuStats() {
   fetch("/cpu_stats")
     .then((response) => response.json())
     .then((data) => {
-      document.getElementById("cpu").textContent = `CPU Usage: ${data.cpu}%`;
-      document.getElementById(
-        "memory"
-      ).textContent = `Memory Usage: ${data.memory}%`;
+      document.getElementById("cpu").textContent = `${data.cpu} %`;
+      document.getElementById("memory").textContent = `${data.memory} %`;
       document.getElementById(
         "cputemperature"
-      ).textContent = `${data.cpu_temperature}°C`;
+      ).textContent = `${data.cpu_temperature} °C`;
     })
     .catch((error) => console.error("Error updating CPU stats:", error));
 }
