@@ -23,10 +23,13 @@ def extern_fetch_weather():
             temp = data['main']['temp']
             humidity = data['main']['humidity']
             weather = data['weather'][0]['description']
-            return temp, humidity, weather
+            return {"temp":temp, "humidity": humidity, "weather":weather}
         else:
             logging.error(f"Weather API Error: {data.get('message', 'Unknown error')}")
-            return None, None, None
+            return {"temp":None, "humidity": None, "weather":None}
     except Exception as e:
         logging.error(f"Error fetching weather data: {e}")
-        return None, None, None
+        return {"temp":None, "humidity": None, "weather":None}
+
+#usage
+# weather = extern_fetch_weather() #return {"temp":-3, "humidity": 98, "weather":mist}

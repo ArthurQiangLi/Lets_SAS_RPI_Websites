@@ -6,3 +6,6 @@ def extern_get_random_color():
     g = random.randint(0, 100)
     b = random.randint(0, 100)
     return f"#{r:02x}{g:02x}{b:02x}"
+
+#usage
+# status["color"] = extern_get_random_color() # return int 0xababab

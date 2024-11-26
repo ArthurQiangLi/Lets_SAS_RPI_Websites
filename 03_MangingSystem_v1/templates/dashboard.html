@@ -11,7 +11,7 @@
 
     <div class="container">
       <div class="box age">
-        <h2>Age</h2>
+        <h2>Age/Running Indicator</h2>
         <p id="age">Loading...</p>
       </div>
       <div class="box weather">
@@ -21,18 +21,22 @@
       <div class="box cpu">
         <h2>CPU Usage</h2>
         <p id="cpu">Loading...</p>
+        <br />
+        <p id="memory">Loading...</p>
       </div>
       <div class="box cputemperature">
         <h2>CPU Temperature</h2>
         <p id="cputemperature">Loading...</p>
       </div>
-      <div class="box memory">
-        <h2>Memory Usage</h2>
-        <p id="memory">Loading...</p>
+      <div class="box throttled">
+        <h2>Throttled Status</h2>
+        <p id="throttled_status">Loading...</p>
       </div>
 
       <div class="box apache2metrics">
         <h2>Apache2 Metrics</h2>
+        <a>Status:</a>
+        <p id="apache2-active">/</p>
         <a>Access num:</a>
         <p id="apache2-acces-snum">Loading...</p>
         <br />

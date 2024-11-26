@@ -27,4 +27,7 @@ def extern_get_age(json_file_path = "config.json"):
     seconds = (seconds_in_day % 3600) % 60
     
     # Return formatted age string
-    return f"{days} d, {hours} h, {minutes} m, {seconds} s"
+    return f"{days}d, {hours}h, {minutes}m, {seconds}s"
+
+#usage
+#    status["age"] = extern_get_age() #return string '5d, 0h, 52m, 53s'

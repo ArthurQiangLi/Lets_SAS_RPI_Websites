@@ -79,7 +79,7 @@ h1 {
 .cputemperature {
   width: 30%;
 }
-.memory {
+.throttled {
   width: 30%;
 }
 .apache2metrics {

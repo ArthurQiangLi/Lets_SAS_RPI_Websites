@@ -1,45 +1,53 @@
-// Function to update the background color every 3 seconds
-function updateBackgroundColor() {
-  fetch("/background_color")
+// Function to update CPU and memory stats every second
+function updateEvery1s() {
+  fetch("/update_1s")
     .then((response) => response.json())
     .then((data) => {
       document.querySelector(".box.age").style.backgroundColor = data.color;
       document.getElementById("age").textContent = `${data.age}`;
+      document.getElementById(
+        "cpu"
+      ).textContent = `${data.cpu}%, @${data.arm_clock}Mhz, total-${data.total_cpu}`;
+      document.getElementById(
+        "memory"
+      ).textContent = `Memory: ${data.memory} %`;
+      document.getElementById(
+        "cputemperature"
+      ).textContent = `${data.cpu_temperature} °C`;
+      document.getElementById(
+        "throttled_status"
+      ).textContent = `${data.throttled_status} %`;
+    })
+    .catch((error) => console.error("Error updating CPU stats:", error));
+}
+// Function to update the background color every 3 seconds
+function updateEvery10s() {
+  fetch("/update_10s")
+    .then((response) => response.json())
+    .then((data) => {
+      document.getElementById(
+        "apache2-active"
+      ).textContent = `${data.apache_active}`;
     })
     .catch((error) => console.error("Error updating background color:", error));
 }
 
 // Function to update weather data every 30 seconds
-function updateWeather() {
-  fetch("/weather")
+function updateEvery30s() {
+  fetch("/update_30s")
     .then((response) => response.json())
     .then((data) => {
       document.getElementById(
         "weather"
-      ).textContent = `Temp: ${data.temp} °C, Humidity: ${data.humidity} %, ${data.weather}`;
+      ).textContent = `${data.temp} °C, ${data.humidity} % Humidity, ${data.weather}`;
     })
     .catch((error) => console.error("Error updating weather:", error));
 }
 
-// Function to update CPU and memory stats every second
-function updateCpuStats() {
-  fetch("/cpu_stats")
-    .then((response) => response.json())
-    .then((data) => {
-      document.getElementById("cpu").textContent = `${data.cpu} %`;
-      document.getElementById("memory").textContent = `${data.memory} %`;
-      document.getElementById(
-        "cputemperature"
-      ).textContent = `${data.cpu_temperature} °C`;
-    })
-    .catch((error) => console.error("Error updating CPU stats:", error));
-}
-
 // Set intervals for updates
-setInterval(updateBackgroundColor, 1000); // Every 3 seconds
-setInterval(updateWeather, 30000); // Every 30 seconds
-setInterval(updateCpuStats, 1000); // Every 1 second
-S;
+setInterval(updateEvery10s, 10000); // Every 3 seconds
+setInterval(updateEvery30s, 30000); // Every 30 seconds
+setInterval(updateEvery1s, 1000); // Every 1 second
 
 // Function to handle the reboot button click
 function setupRebootButton() {
