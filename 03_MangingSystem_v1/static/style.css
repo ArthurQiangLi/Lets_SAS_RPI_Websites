@@ -45,6 +45,7 @@ h1 {
 }
 
 .box p {
+  font-family: monospace;
   display: inline;
   font-size: 2rem;
   margin: 10px;

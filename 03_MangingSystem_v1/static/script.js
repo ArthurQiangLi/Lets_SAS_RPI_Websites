@@ -5,12 +5,16 @@ function updateEvery1s() {
     .then((data) => {
       document.querySelector(".box.age").style.backgroundColor = data.color;
       document.getElementById("age").textContent = `${data.age}`;
-      document.getElementById(
-        "cpu"
-      ).textContent = `${data.cpu}%, @${data.arm_clock}Mhz, Total:${data.total_cpu}Mhz`;
+      document.getElementById("cpu").textContent = `${data.cpu
+        .toFixed(1)
+        .padStart(4, " ")}%, @${data.arm_clock
+        .toString()
+        .padStart(4, " ")}Mhz, Total:${data.total_cpu
+        .toString()
+        .padStart(4, " ")}Mhz`;
       document.getElementById(
         "memory"
-      ).textContent = `Memory: ${data.memory} %`;
+      ).textContent = `Memory: ${data.memory.toFixed(1)} %`;
       document.getElementById(
         "cputemperature"
       ).textContent = `${data.cpu_temperature} °C`;
