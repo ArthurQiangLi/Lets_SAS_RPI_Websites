@@ -30,7 +30,26 @@
       </div>
       <div class="box throttled">
         <h2>Throttled Status</h2>
-        <p id="throttled_status">Loading...</p>
+        <ul class="status-list">
+          <li>Under Voltage: <span id="under_voltage">Loading...</span></li>
+          <li>
+            Currently Throttled:
+            <span id="currently_throttled">Loading...</span>
+          </li>
+          <li>Frequency Capped: <span id="freq_capped">Loading...</span></li>
+          <li>
+            Under Voltage Occurred:
+            <span id="under_voltage_occurred">Loading...</span>
+          </li>
+          <li>
+            Throttling Occurred:
+            <span id="throttling_occurred">Loading...</span>
+          </li>
+          <li>
+            Frequency Capped Occurred:
+            <span id="freq_capped_occurred">Loading...</span>
+          </li>
+        </ul>
       </div>
 
       <div class="box apache2metrics">

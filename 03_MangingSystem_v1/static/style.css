@@ -81,8 +81,33 @@ h1 {
 }
 .throttled {
   width: 30%;
+  text-align: left; /* Align text to the left for better readability */
 }
 .apache2metrics {
   width: 50%;
+}
+
+/* throttled */
+.status-list {
+  list-style: none; /* Remove default list styling */
+  padding: 0;
+  margin: 0;
+}
+
+.status-list li {
+  display: flex;
+  justify-content: space-between; /* Space out label and value */
+  padding: 5px 0;
+  font-size: 1.2rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Subtle separator between items */
+}
+
+.status-list li:last-child {
+  border-bottom: none; /* Remove border for the last item */
+}
+
+.status-list span {
+  font-weight: bold;
+  color: #ffcc00; /* Default color for loading state */
 }
 /* Effectors */

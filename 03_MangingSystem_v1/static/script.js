@@ -14,12 +14,22 @@ function updateEvery1s() {
       document.getElementById(
         "cputemperature"
       ).textContent = `${data.cpu_temperature} °C`;
-      document.getElementById(
-        "throttled_status"
-      ).textContent = `${data.throttled_status} %`;
+      updateThrottledStatus(data.throttled_status);
     })
     .catch((error) => console.error("Error updating CPU stats:", error));
 }
+
+// Function to update the throttled status box
+function updateThrottledStatus(data) {
+  for (const [key, value] of Object.entries(data)) {
+    const element = document.getElementById(key);
+    if (element) {
+      element.textContent = value ? "✔" : "✘"; // Display check or cross
+      element.style.color = value ? "#04aa6d" : "#ff4d4d"; // Green for true, red for false
+    }
+  }
+}
+
 // Function to update the background color every 3 seconds
 function updateEvery10s() {
   fetch("/update_10s")
