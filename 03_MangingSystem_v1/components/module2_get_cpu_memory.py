@@ -9,11 +9,18 @@ def extern_get_cpu_memory_usage():
 
 
 def extern_get_arm_clock():
+    # try:
+    #     output = os.popen("vcgencmd measure_clock arm").readline()
+    #     return int(output.split("=")[1]) // 1_000_000  # Convert Hz to MHz
+    # except Exception as e:
+    #     return 0 #f"Error: {e}"
     try:
-        output = os.popen("vcgencmd measure_clock arm").readline()
-        return int(output.split("=")[1]) // 1_000_000  # Convert Hz to MHz
+        # Read the current CPU frequency from scaling_cur_freq
+        with open("/sys/devices/system/cpu/cpu0/cpufreq/scaling_cur_freq", "r") as f:
+            freq = int(f.read().strip())
+        return (freq / 1000)
     except Exception as e:
-        return 0 #f"Error: {e}"
+        return 0
 
 def extern_get_apache_active():
     try:

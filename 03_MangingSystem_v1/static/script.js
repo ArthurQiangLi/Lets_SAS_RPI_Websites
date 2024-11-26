@@ -18,6 +18,9 @@ function updateEvery1s() {
       document.getElementById(
         "cputemperature"
       ).textContent = `${data.cpu_temperature} °C`;
+      document.getElementById("watchdog_status").textContent = data.watchdog
+        ? "Enabled"
+        : "Disabled";
       updateThrottledStatus(data.throttled_status);
     })
     .catch((error) => console.error("Error updating CPU stats:", error));
@@ -42,12 +45,14 @@ function updateEvery10s() {
   fetch("/update_10s")
     .then((response) => response.json())
     .then((data) => {
-      document.getElementById("apache2-active").textContent = data.apache_active
-        ? "✔"
-        : "✘";
-      document.getElementById("watchdog_status").textContent = data.watchdog
-        ? "Enabled"
-        : "Disabled";
+      const apache2ActiveElement = document.getElementById("apache2-active");
+      if (data.apache_active) {
+        apache2ActiveElement.textContent = "✔";
+        apache2ActiveElement.style.color = "#04aa6d"; // Green for activ
+      } else {
+        apache2ActiveElement.textContent = "✘";
+        apache2ActiveElement.style.color = "#ff4d4d"; // Red for inactive
+      }
     })
     .catch((error) => console.error("Error updating background color:", error));
 }
