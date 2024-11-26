@@ -7,11 +7,11 @@ function updateEvery1s() {
       document.getElementById("age").textContent = `${data.age}`;
       document.getElementById("cpu").textContent = `${data.cpu
         .toFixed(1)
-        .padStart(4, " ")}%, @${data.arm_clock
+        .padStart(4, "0")}%, @${data.arm_clock
         .toString()
-        .padStart(4, " ")}Mhz, Total:${data.total_cpu
+        .padStart(4, "0")}Mhz, Total:${data.total_cpu
         .toString()
-        .padStart(4, " ")}Mhz`;
+        .padStart(4, "0")}Mhz`;
       document.getElementById(
         "memory"
       ).textContent = `Memory: ${data.memory.toFixed(1)} %`;

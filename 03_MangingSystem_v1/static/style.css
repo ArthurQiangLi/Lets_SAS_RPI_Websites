@@ -45,7 +45,7 @@ h1 {
 }
 
 .box p {
-  font-family: monospace;
+  /* font-family: "Courier New", Courier, monospace; */
   display: inline;
   font-size: 2rem;
   margin: 10px;
