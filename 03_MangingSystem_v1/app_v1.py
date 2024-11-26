@@ -1,6 +1,5 @@
 from flask import Flask, render_template, jsonify, request
 import requests
-from datetime import datetime
 import os, time, threading, sys
 import json
 from datetime import datetime
@@ -10,6 +9,8 @@ sys.path.append(utils_path)
 from module1_get_weather import extern_get_weather
 from module2_get_cpu_memory import extern_get_cpu_memory_usage
 from module3_get_random_color import extern_get_random_color
+
+from module51_set_reboot import extern_set_reboot
 ## Reads config.json during startup 
 with open("config.json", "r") as f:
     config = json.load(f)
@@ -34,7 +35,7 @@ def cpu_stats():
 
 @app.route("/reboot", methods=["POST"])
 def reboot():
-    os.system("sudo reboot")
+    extern_set_reboot()
     return "Rebooting the Raspberry Pi...", 200
 
 ### Extern functions 
