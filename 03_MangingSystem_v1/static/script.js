@@ -42,9 +42,12 @@ function updateEvery10s() {
   fetch("/update_10s")
     .then((response) => response.json())
     .then((data) => {
-      document.getElementById(
-        "apache2-active"
-      ).textContent = `${data.apache_active}`;
+      document.getElementById("apache2-active").textContent = data.apache_active
+        ? "✔"
+        : "✘";
+      document.getElementById("watchdog_status").textContent = data.watchdog
+        ? "Enabled"
+        : "Disabled";
     })
     .catch((error) => console.error("Error updating background color:", error));
 }
@@ -81,7 +84,62 @@ function setupRebootButton() {
   });
 }
 
+function setupMinClcokButton() {
+  const minButton = document.getElementById("min-clock-button");
+  minButton.addEventListener("click", () => {
+    fetch("/min_clock", { method: "POST" })
+      .then(() => {
+        alert("Setting min cpu clock...");
+      })
+      .catch((error) => {
+        console.error("Error sending min-clock request:", error);
+      });
+  });
+}
+function setupMaxClcokButton() {
+  const maxButton = document.getElementById("max-clock-button");
+  maxButton.addEventListener("click", () => {
+    fetch("/max_clock", { method: "POST" })
+      .then(() => {
+        alert("Setting max cpu clock...");
+      })
+      .catch((error) => {
+        console.error("Error sending max-clock request:", error);
+      });
+  });
+}
+
+function setupOnDemandButton() {
+  const autoButton = document.getElementById("auto-clock-button");
+  autoButton.addEventListener("click", () => {
+    fetch("/on_demand", { method: "POST" })
+      .then(() => {
+        alert("Setting auto ondemand cpu clock...");
+      })
+      .catch((error) => {
+        console.error("Error sending on_demand request:", error);
+      });
+  });
+}
+
+function setupWatchdogButton() {
+  const watchdogButton = document.getElementById("watchdog-button");
+  watchdogButton.addEventListener("click", () => {
+    fetch("/watchdog", { method: "POST" })
+      .then(() => {
+        alert("Switch watchdog...");
+      })
+      .catch((error) => {
+        console.error("Error sending watchdog on/off request:", error);
+      });
+  });
+}
+
 // Set up the reboot button functionality on page load
 document.addEventListener("DOMContentLoaded", () => {
   setupRebootButton();
+  setupMinClcokButton();
+  setupMaxClcokButton();
+  setupOnDemandButton();
+  setupWatchdogButton();
 });

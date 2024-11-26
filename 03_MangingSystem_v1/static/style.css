@@ -61,7 +61,7 @@ h1 {
   margin: 10px;
   font-size: 1.2rem; /* Increase font size */
   cursor: pointer; /* Show pointer cursor */
-
+  border-radius: 10%; /* Rounded corners */
   text-align: center;
   display: inline-block;
 }
@@ -97,7 +97,7 @@ h1 {
 
 .status-list li {
   padding: 5px 0;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: white; /* Default color for inactive warnings */
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* Subtle separator */
 }
@@ -115,8 +115,7 @@ h1 {
 .status-list li.active::after {
   content: "✔ "; /* Red tick for active warnings */
   color: #ff4d4d;
-  font-size: 1.2rem;
-  margin-right: 5px;
+  margin-left: 5px;
 }
 
 /* Effectors */

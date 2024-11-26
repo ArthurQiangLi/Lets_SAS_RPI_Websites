@@ -3,6 +3,7 @@ import requests
 import os, time, threading, sys
 import json
 from datetime import datetime
+
 ## Import external functions
 utils_path = os.path.join(os.path.dirname(__file__), '.', 'components')
 sys.path.append(utils_path)
@@ -15,10 +16,13 @@ from module3_get_random_color import extern_get_random_color
 from module4_get_run_age import extern_get_age
 from module5_get_cpu_temperature import extern_get_cpu_temperature1
 from module51_set_reboot import extern_set_reboot
+from module52_set_cpu_clock import extern_set_governor2
+from module53_set_watchdog import extern_watchdog
 ## Reads config.json during startup 
 with open("config.json", "r") as f:
     config = json.load(f)
-
+### local global data.
+contraol_data = {"is_watchdog": False}
 app = Flask(__name__)
 ### get on starting
 @app.route("/")
@@ -42,6 +46,7 @@ def cpu_stats():
 def background_color():
     status = {}
     status["apache_active"] = extern_get_apache_active() # bool, true=active, false=stopped
+    status["watchdog"] = contraol_data["is_watchdog"]
     return jsonify(status)
 
 ### get every 30s
@@ -56,19 +61,37 @@ def reboot():
     extern_set_reboot()
     return "Rebooting the Raspberry Pi...", 200
 
-### Extern functions 
+@app.route("/min_clock", methods=["POST"])
+def reboot():
+    extern_set_governor2("powersave")
+    return "Setting powersave (min clock)...", 200
 
-def extern_foo1_dummy_task():
-    print(f'## this is {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}')
+@app.route("/max_clock", methods=["POST"])
+def reboot():
+    extern_set_governor2("performance")
+    return "Setting max clock...", 200
 
-# Periodic task for foo1
-def run_foo1_periodically():
+@app.route("/on_demand", methods=["POST"])
+def reboot():
+    extern_set_governor2("ondemand")
+    return "Setting ondemand (default clock)...", 200
+
+@app.route("/watchdog", methods=["POST"])
+def switch_watchdog():
+    en = not contraol_data["is_watchdog"]
+    contraol_data["is_watchdog"] =  en
+    return f"Now watched dog is {en} status.", 200
+
+# Periodic task for foo1: watchdog thread
+def foo1_thread():
     while True:
-        extern_foo1_dummy_task()  # Call foo1
-        time.sleep(10)  # Wait 10 seconds
+        check_interval_seconds = 10  # Check every 10 seconds
+        downtime_threshold = 120  # Reboot if service is down for 120 seconds
+        extern_watchdog("apache2", downtime_threshold, check_interval_seconds)  # Call foo1
+        time.sleep(check_interval_seconds)  # Wait 10 seconds
 
 
 if __name__ == "__main__":
-    threading.Thread(target=run_foo1_periodically, daemon=True).start() #daemon=True ensures that the threads terminate automatically when the main program exits
+    threading.Thread(target=foo1_thread, daemon=True).start() #daemon=True ensures that the threads terminate automatically when the main program exits
     app.run(host="0.0.0.0", port=5000)
 
