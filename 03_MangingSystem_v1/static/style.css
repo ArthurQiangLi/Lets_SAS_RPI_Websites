@@ -88,6 +88,13 @@ h1 {
   width: 50%;
 }
 
+.box.watchdog p,
+.box.watchdog button {
+  display: inline-block; /* Ensure both are inline-block elements */
+  vertical-align: middle; /* Align their vertical centers */
+  margin: 0; /* Remove unnecessary margins */
+}
+
 /***************** throttled ****************/
 .status-list {
   list-style: none; /* Remove default list styling */

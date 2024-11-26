@@ -18,14 +18,22 @@ function updateEvery1s() {
       document.getElementById(
         "cputemperature"
       ).textContent = `${data.cpu_temperature} °C`;
-      document.getElementById("watchdog_status").textContent = data.watchdog
-        ? "Enabled"
-        : "Disabled";
+      updateWatchdogStatus(data);
       updateThrottledStatus(data.throttled_status);
     })
     .catch((error) => console.error("Error updating CPU stats:", error));
 }
-
+// Function to update watchdog status
+function updateWatchdogStatus(data) {
+  const ele = document.getElementById("watchdog_status");
+  if (data.watchdog) {
+    ele.textContent = "Enabled ✔";
+    ele.style.color = "#04aa6d"; // Green for activ
+  } else {
+    ele.textContent = "Disabled ✘";
+    ele.style.color = "#ff4d4d"; // Red for inactive
+  }
+}
 // Function to update the throttled status box
 function updateThrottledStatus(data) {
   for (const [key, value] of Object.entries(data)) {
@@ -74,77 +82,59 @@ setInterval(updateEvery10s, 10000); // Every 3 seconds
 setInterval(updateEvery30s, 30000); // Every 30 seconds
 setInterval(updateEvery1s, 1000); // Every 1 second
 
-// Function to handle the reboot button click
-function setupRebootButton() {
-  const rebootButton = document.getElementById("reboot-button");
-  rebootButton.addEventListener("click", () => {
-    fetch("/reboot", { method: "POST" })
-      .then(() => {
-        alert("Rebooting the Raspberry Pi...");
-      })
-      .catch((error) => {
-        console.error("Error sending reboot request:", error);
-        alert("Failed to reboot the Raspberry Pi. Please try again.");
-      });
-  });
+// Generic function to set up a button with an event listener
+function setupButton(buttonId, endpoint, successMessage, errorMessage) {
+  const button = document.getElementById(buttonId);
+  if (button) {
+    button.addEventListener("click", () => {
+      fetch(endpoint, { method: "POST" })
+        .then(() => {
+          alert(successMessage);
+        })
+        .catch((error) => {
+          console.error(`Error sending request to ${endpoint}:`, error);
+          alert(errorMessage || "An error occurred. Please try again.");
+        });
+    });
+  } else {
+    console.warn(`Button with ID '${buttonId}' not found.`);
+  }
 }
 
-function setupMinClcokButton() {
-  const minButton = document.getElementById("min-clock-button");
-  minButton.addEventListener("click", () => {
-    fetch("/min_clock", { method: "POST" })
-      .then(() => {
-        alert("Setting min cpu clock...");
-      })
-      .catch((error) => {
-        console.error("Error sending min-clock request:", error);
-      });
-  });
-}
-function setupMaxClcokButton() {
-  const maxButton = document.getElementById("max-clock-button");
-  maxButton.addEventListener("click", () => {
-    fetch("/max_clock", { method: "POST" })
-      .then(() => {
-        alert("Setting max cpu clock...");
-      })
-      .catch((error) => {
-        console.error("Error sending max-clock request:", error);
-      });
-  });
-}
-
-function setupOnDemandButton() {
-  const autoButton = document.getElementById("auto-clock-button");
-  autoButton.addEventListener("click", () => {
-    fetch("/on_demand", { method: "POST" })
-      .then(() => {
-        alert("Setting auto ondemand cpu clock...");
-      })
-      .catch((error) => {
-        console.error("Error sending on_demand request:", error);
-      });
-  });
-}
-
-function setupWatchdogButton() {
-  const watchdogButton = document.getElementById("watchdog-button");
-  watchdogButton.addEventListener("click", () => {
-    fetch("/watchdog", { method: "POST" })
-      .then(() => {
-        alert("Switch watchdog...");
-      })
-      .catch((error) => {
-        console.error("Error sending watchdog on/off request:", error);
-      });
-  });
-}
-
-// Set up the reboot button functionality on page load
+// Set up buttons on page load
 document.addEventListener("DOMContentLoaded", () => {
-  setupRebootButton();
-  setupMinClcokButton();
-  setupMaxClcokButton();
-  setupOnDemandButton();
-  setupWatchdogButton();
+  setupButton(
+    "reboot-button",
+    "/reboot",
+    "Rebooting the Raspberry Pi...",
+    "Failed to reboot the Raspberry Pi. Please try again."
+  );
+
+  setupButton(
+    "min-clock-button",
+    "/min_clock",
+    "Setting min CPU clock...",
+    "Failed to set min CPU clock."
+  );
+
+  setupButton(
+    "max-clock-button",
+    "/max_clock",
+    "Setting max CPU clock...",
+    "Failed to set max CPU clock."
+  );
+
+  setupButton(
+    "auto-clock-button",
+    "/on_demand",
+    "Setting auto on-demand CPU clock...",
+    "Failed to set auto on-demand CPU clock."
+  );
+
+  setupButton(
+    "watchdog-button",
+    "/watchdog",
+    "Switching watchdog...",
+    "Failed to switch watchdog on/off."
+  );
 });

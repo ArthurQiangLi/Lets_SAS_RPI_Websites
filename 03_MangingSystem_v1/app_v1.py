@@ -22,7 +22,7 @@ from module53_set_watchdog import extern_watchdog
 with open("config.json", "r") as f:
     config = json.load(f)
 ### local global data.
-contraol_data = {"is_watchdog": False}
+contraol_data = {"is_watchdog": True}
 app = Flask(__name__)
 ### get on starting
 @app.route("/")
@@ -39,6 +39,8 @@ def cpu_stats():
     status["throttled_status"]= extern_get_pi_throttled_status() #return a boolean dictionary {"under_voltage": True, ...}
     status["color"] = extern_get_random_color() # return int 0xababab
     status["age"] = extern_get_age() #return string '5d, 0h, 52m, 53s'
+    status["watchdog"] = contraol_data["is_watchdog"]
+    print(f"### watchdog = {status['watchdog']}, control data= {contraol_data['is_watchdog']}.")
     return jsonify(status)
 
 ### get every 10s
@@ -46,7 +48,6 @@ def cpu_stats():
 def background_color():
     status = {}
     status["apache_active"] = extern_get_apache_active() # bool, true=active, false=stopped
-    status["watchdog"] = contraol_data["is_watchdog"]
     return jsonify(status)
 
 ### get every 30s
@@ -78,13 +79,14 @@ def auto_clock():
 
 @app.route("/watchdog", methods=["POST"])
 def switch_watchdog():
-    en = not contraol_data["is_watchdog"]
-    contraol_data["is_watchdog"] =  en
-    return f"Now watched dog is {en} status.", 200
+    en = contraol_data["is_watchdog"]
+    contraol_data["is_watchdog"] =  not en
+    print(f"### route setting en = {en}.")
+    return f"Now switching watchdog.", 200
 
 # Periodic task for foo1: watchdog thread
 def foo1_thread():
-    while True:
+    while contraol_data["is_watchdog"]:
         check_interval_seconds = 10  # Check every 10 seconds
         downtime_threshold = 120  # Reboot if service is down for 120 seconds
         extern_watchdog("apache2", downtime_threshold, check_interval_seconds)  # Call foo1
