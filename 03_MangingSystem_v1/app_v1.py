@@ -48,14 +48,14 @@ def cpu_stats():
 def background_color():
     status = {}
     status["apache_active"] = extern_get_apache_active() # bool, true=active, false=stopped
-    status["apache2metrics"] = extern_get_apache2metrics()
     return jsonify(status)
 
 ### get every 30s
 @app.route("/update_30s", methods=["GET"]) 
 def weather():
-    weather = extern_fetch_weather() #return {"temp":-3, "humidity": 98, "weather":mist}
-    return jsonify(weather)
+    status = extern_fetch_weather() #return {"temp":-3, "humidity": 98, "weather":mist}
+    status["apache2metrics"] = extern_get_apache2metrics()
+    return jsonify(status)
 
 ### On click
 @app.route("/reboot", methods=["POST"])

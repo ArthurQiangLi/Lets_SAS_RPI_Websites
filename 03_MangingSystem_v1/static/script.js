@@ -80,10 +80,7 @@ function updateEvery30s() {
 
 function populateApacheMetrics(metrics) {
   const metricsList = document.getElementById("apache-metrics"); // Target the <ul> element
-
-  // Clear existing content in case it's being refreshed
-  metricsList.innerHTML = "";
-
+  metricsList.innerHTML = ""; // Clear existing content in case it's being refreshed
   // Populate the <ul> with key-value pairs from the metrics object
   for (const [key, value] of Object.entries(metrics)) {
     const listItem = document.createElement("li");

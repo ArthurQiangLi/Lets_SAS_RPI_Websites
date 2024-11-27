@@ -52,7 +52,7 @@ def extern_get_apache2metrics():
     m = extern_fetch_apache_metrics()
     i = extract_specific_metrics(m)
     return i
-
+    # return {'ServerUptime': '2 days 23 hours 7 minutes 8 seconds', 'TotalAccesses': 664, 'TotalkBytes': 3973, 'BusyWorkers': 1, 'IdleWorkers': 49, 'Processes': 2, 'ConnsTotal': 1}
 # Apache status text
 # apache_status_text = """
 # localhost
