@@ -25,7 +25,23 @@
 ## Updated every 30s
 
 1. extern_fetch_weather {"temp":-3, "humidity": 98, "weather":mist}
+2. extern_get_apache2metrics
+   ```
+   {'ServerUptime': '2 days 23 hours 7 minutes 8 seconds',
+   'TotalAccesses': 664,
+   'TotalkBytes': 3973,
+   'BusyWorkers': 1,
+   'IdleWorkers': 49,
+   'Processes': 2,
+   'ConnsTotal': 1,
+   DurationPerReq: 2.7,
+   Load1: 0.66,
+   Load5: 0.64}
+   ```
 
 # 2. Effectors
 
 1. extern_set_reboot()
+2. extern_set_clock(min, max)
+3. extern_enable_watchdog(apache2alive)
+4. extern_content_degration(True/False)

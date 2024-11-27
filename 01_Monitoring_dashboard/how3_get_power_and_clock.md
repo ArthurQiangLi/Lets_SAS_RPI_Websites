@@ -36,16 +36,16 @@ throttled=0x50005
 
 Returns the throttled state of the system. This is a bit pattern.
 
-| Bit | Meaning                             |
-| :-: | ----------------------------------- |
-|  0  | Under-voltage detected              |
-|  1  | Arm frequency capped                |
-|  2  | Currently throttled                 |
-|  3  | Soft temperature limit active       |
-| 16  | Under-voltage has occurred          |
-| 17  | Arm frequency capped has occurred   |
-| 18  | Throttling has occurred             |
-| 19  | Soft temperature limit has occurred |
+| Bit | Meaning                                                                                                                             |
+| :-: | ----------------------------------------------------------------------------------------------------------------------------------- |
+|  0  | Under-voltage detected                                                                                                              |
+|  1  | Arm frequency capped <br> meaning its performance (e.g., CPU/GPU frequency) has been reduced to prevent damage or ensure stability. |
+|  2  | Currently throttled                                                                                                                 |
+|  3  | Soft temperature limit active                                                                                                       |
+| 16  | Under-voltage has occurred                                                                                                          |
+| 17  | Arm frequency capped has occurred                                                                                                   |
+| 18  | Throttling has occurred <br>Indicates that the Raspberry Pi was throttled at some point in the past since the last reboot.          |
+| 19  | Soft temperature limit has occurred                                                                                                 |
 
 ### cpu clock
 
