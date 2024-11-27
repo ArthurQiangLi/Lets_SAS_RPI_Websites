@@ -43,6 +43,9 @@ def extract_specific_metrics(status_dict):
         "IdleWorkers",
         "Processes",
         "ConnsTotal",
+        "DurationPerReq",
+        "Load1",
+        "Load5"
     ]
     m = {key: status_dict[key] for key in keys_to_extract if key in status_dict}
     return m
