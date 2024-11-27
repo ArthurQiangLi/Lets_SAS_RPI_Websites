@@ -21,3 +21,4 @@ def fetch_apache_metrics():
     except Exception as e:
         logging.error(f"Error fetching Apache metrics: {e}")
         return None
+
