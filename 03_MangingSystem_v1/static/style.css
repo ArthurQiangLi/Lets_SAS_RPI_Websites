@@ -99,6 +99,8 @@ h1 {
 /* Styling for the Apache Metrics Box */
 .apache2metrics ul {
   list-style: none; /* Remove bullet points */
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(2, 1fr); /* Create two equal-width columns */
   padding: 0; /* Remove default padding */
   margin: 10px 0; /* Add some margin for spacing */
   text-align: left; /* Align text to the left */
@@ -106,11 +108,12 @@ h1 {
 
 .apache2metrics li {
   font-size: 1rem; /* Adjust font size */
-  margin: 5px 0; /* Add some vertical spacing */
-  padding: 5px; /* Add padding for better readability */
+  margin: 1px 0; /* Add some vertical spacing */
+  padding: 3px 5px; /* Add padding for better readability */
   background-color: rgb(49, 51, 93); /* lighter background */
   border-radius: 4px; /* Rounded corners */
 }
+
 /***************** throttled ****************/
 .status-list {
   list-style: none; /* Remove default list styling */

@@ -36,7 +36,7 @@ def parse_apache_status(status_text):
 # Extracts specific metrics into a sub-dictionary.
 def extract_specific_metrics(status_dict):
     keys_to_extract = [
-        "ServerUptime",
+        "ServerUptimeSeconds",
         "TotalAccesses",
         "TotalkBytes",
         "BusyWorkers",
@@ -48,10 +48,24 @@ def extract_specific_metrics(status_dict):
     return m
 
 
+def format_seconds_to_readable(seconds):
+    """
+    Convert seconds into a human-readable format of 'Xd Xh Xm Xs'.
+    """
+    days = seconds // (24 * 3600)
+    seconds %= (24 * 3600)
+    hours = seconds // 3600
+    seconds %= 3600
+    minutes = seconds // 60
+    seconds %= 60
+    return f"{days}d {hours}h {minutes}m {seconds}s"
+
 def extern_get_apache2metrics():
     m = extern_fetch_apache_metrics()
-    i = extract_specific_metrics(m)
-    return i
+    a = extract_specific_metrics(m)
+    server_uptime_seconds = a.pop("ServerUptimeSeconds")  # Remove the old key
+    a["ServerUptime"] = format_seconds_to_readable(server_uptime_seconds)  # Add the new key    
+    return a
     # return {'ServerUptime': '2 days 23 hours 7 minutes 8 seconds', 'TotalAccesses': 664, 'TotalkBytes': 3973, 'BusyWorkers': 1, 'IdleWorkers': 49, 'Processes': 2, 'ConnsTotal': 1}
 # Apache status text
 # apache_status_text = """
