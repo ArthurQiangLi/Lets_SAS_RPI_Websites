@@ -73,8 +73,24 @@ function updateEvery30s() {
       document.getElementById(
         "weather"
       ).textContent = `${data.temp} °C, ${data.humidity} % Humidity, ${data.weather}`;
+      displayApacheMetrics(data.apache2metrics);
     })
     .catch((error) => console.error("Error updating weather:", error));
+}
+
+function displayApacheMetrics(metrics) {
+  // Find the target div where metrics will be displayed
+  const metricsDiv = document.getElementById("apache2-metrics");
+
+  // Clear any existing content
+  metricsDiv.innerHTML = "";
+
+  // Iterate through the dictionary and create <p> elements for each metric
+  for (const [key, value] of Object.entries(metrics)) {
+    const metricItem = document.createElement("p");
+    metricItem.textContent = `${key}: ${value}`;
+    metricsDiv.appendChild(metricItem);
+  }
 }
 
 // Set intervals for updates

@@ -15,6 +15,7 @@ from module2_get_cpu_memory import extern_get_apache_active
 from module3_get_random_color import extern_get_random_color
 from module4_get_run_age import extern_get_age
 from module5_get_cpu_temperature import extern_get_cpu_temperature1
+from module6_get_apache2metrics import extern_get_apache2metrics
 from module51_set_reboot import extern_set_reboot
 from module52_set_cpu_clock import extern_set_governor2
 from module53_set_watchdog import extern_watchdog
@@ -48,6 +49,7 @@ def cpu_stats():
 def background_color():
     status = {}
     status["apache_active"] = extern_get_apache_active() # bool, true=active, false=stopped
+    status["apache2metrics"] = extern_get_apache2metrics()
     return jsonify(status)
 
 ### get every 30s
