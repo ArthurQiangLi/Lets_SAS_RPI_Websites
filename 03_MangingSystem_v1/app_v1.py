@@ -19,13 +19,13 @@ from module6_get_apache2metrics import extern_get_apache2metrics
 from module51_set_reboot import extern_set_reboot
 from module52_set_cpu_clock import extern_set_governor2
 from module53_set_watchdog import extern_watchdog
-from module80_logging import extern_log_a10_data, extern_log_a30_data
+from module80_logging import extern_log_a10_data, extern_log_a30_data, extern_flatten_dict
 ## Reads config.json during startup 
 with open("config.json", "r") as f:
     config = json.load(f)
 ### local global data.
-contraol_data = {"is_watchdog": True}
-status1 = {}
+control_data = {"is_watchdog": True}
+status1s = {}
 
 app = Flask(__name__)
 ### get on starting
@@ -36,35 +36,37 @@ def dashboard():
 ### get every 1s
 @app.route("/update_1s", methods=["GET"]) 
 def cpu_stats():
-    status1 = {}
-    status1 = extern_get_cpu_memory_usage() # returns {"cpu": 22, "memory": 60} dictionary
-    status1["cpu_temperature"] = extern_get_cpu_temperature1() #return int 60 in celcuis
-    status1["arm_clock"] = extern_get_arm_clock() #return int 600, means 600Mhz
-    status1["total_cpu"] = status1["arm_clock"] * int(status1["cpu"]) * 0.01 # because cpu is 0..100
-    status1["throttled_status"]= extern_get_pi_throttled_status() #return a boolean dictionary {"under_voltage": True, ...}
-    status1["color"] = extern_get_random_color() # return int 0xababab
-    status1["age"] = extern_get_age() #return string '5d, 0h, 52m, 53s'
-    status1["watchdog"] = contraol_data["is_watchdog"]
-    return jsonify(status1)
+    global status1s
+    status1s = extern_get_cpu_memory_usage() # returns {"cpu": 22, "memory": 60} dictionary
+    status1s["cpu_temperature"] = extern_get_cpu_temperature1() #return int 60 in celcuis
+    status1s["arm_clock"] = extern_get_arm_clock() #return int 600, means 600Mhz
+    status1s["total_cpu"] = status1s["arm_clock"] * int(status1s["cpu"]) * 0.01 # because cpu is 0..100
+    status1s["throttled_status"]= extern_get_pi_throttled_status() #return a boolean dictionary {"under_voltage": True, ...}
+    status1s["color"] = extern_get_random_color() # return int 0xababab
+    status1s["age"] = extern_get_age() #return string '5d, 0h, 52m, 53s'
+    status1s["watchdog"] = control_data["is_watchdog"]
+    status1s["apache_active"] = extern_get_apache_active()
+    return jsonify(status1s)
 
 ### get every 10s
 @app.route("/update_10s", methods=["GET"])
 def background_color():
-    status10s = {}
-    status10s["apache_active"] = extern_get_apache_active() # bool, true=active, false=stopped
-    log_d10s = status10s.update(status1)#d1.update(d2) #add d2 into d1
-    extern_log_a10_data(log_d10s)
+    status10s = extern_fetch_weather() #return {"temp":-3, "humidity": 98, "weather":mist}
+    status10s["apache2metrics"] = extern_get_apache2metrics()
+    flat_d30s = extern_flatten_dict(status10s)
+    flat_d1s = extern_flatten_dict(status1s)
+    extern_log_a10_data(flat_d1s|flat_d30s)
     return jsonify(status10s)
 
 ### get every 30s
 @app.route("/update_30s", methods=["GET"]) 
 def weather():
-    status = extern_fetch_weather() #return {"temp":-3, "humidity": 98, "weather":mist}
-    log_d30s = status
-    status["apache2metrics"] = extern_get_apache2metrics()
-    log_d30s.update(status["apache2metrics"])
-    extern_log_a30_data(log_d30s)
-    return jsonify(status)
+    status30s = extern_fetch_weather() #return {"temp":-3, "humidity": 98, "weather":mist}
+    # status30s["apache2metrics"] = extern_get_apache2metrics()
+    flat_d30s = extern_flatten_dict(status30s)
+    flat_d1s = extern_flatten_dict(status1s)
+    extern_log_a10_data(flat_d1s|flat_d30s)
+    return jsonify(status30s)
 
 ### On click
 @app.route("/reboot", methods=["POST"])
@@ -89,13 +91,13 @@ def auto_clock():
 
 @app.route("/watchdog", methods=["POST"])
 def switch_watchdog():
-    en = contraol_data["is_watchdog"]
-    contraol_data["is_watchdog"] =  not en
+    en = control_data["is_watchdog"]
+    control_data["is_watchdog"] =  not en
     return f"Now switching watchdog.", 200
 
 # Periodic task for foo1: watchdog thread
 def foo1_thread():
-    while contraol_data["is_watchdog"]:
+    while control_data["is_watchdog"]:
         check_interval_seconds = 10  # Check every 10 seconds
         downtime_threshold = 120  # Reboot if service is down for 120 seconds
         extern_watchdog("apache2", downtime_threshold, check_interval_seconds)  # Call foo1

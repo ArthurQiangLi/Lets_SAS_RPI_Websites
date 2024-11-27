@@ -20,6 +20,7 @@ function updateEvery1s() {
       ).textContent = `${data.cpu_temperature} °C`;
       updateWatchdogStatus(data);
       updateThrottledStatus(data.throttled_status);
+      update_apache_active(data);
     })
     .catch((error) => console.error("Error updating CPU stats:", error));
 }
@@ -53,16 +54,23 @@ function updateEvery10s() {
   fetch("/update_10s")
     .then((response) => response.json())
     .then((data) => {
-      const apache2ActiveElement = document.getElementById("apache2-active");
-      if (data.apache_active) {
-        apache2ActiveElement.textContent = "Active ✔";
-        apache2ActiveElement.style.color = "#04aa6d"; // Green for activ
-      } else {
-        apache2ActiveElement.textContent = "Stopped ✘";
-        apache2ActiveElement.style.color = "#ff4d4d"; // Red for inactive
-      }
+      document.getElementById(
+        "weather"
+      ).textContent = `${data.temp} °C, ${data.humidity} % Humidity, ${data.weather}`;
+      populateApacheMetrics(data.apache2metrics);
     })
     .catch((error) => console.error("Error updating background color:", error));
+}
+
+function update_apache_active(data) {
+  const apache2ActiveElement = document.getElementById("apache2-active");
+  if (data.apache_active) {
+    apache2ActiveElement.textContent = "Active ✔";
+    apache2ActiveElement.style.color = "#04aa6d"; // Green for activ
+  } else {
+    apache2ActiveElement.textContent = "Stopped ✘";
+    apache2ActiveElement.style.color = "#ff4d4d"; // Red for inactive
+  }
 }
 
 // Function to update weather data every 30 seconds
@@ -90,9 +98,9 @@ function populateApacheMetrics(metrics) {
 }
 
 // Set intervals for updates
-setInterval(updateEvery10s, 10000); // Every 3 seconds
-setInterval(updateEvery30s, 30000); // Every 30 seconds
 setInterval(updateEvery1s, 1000); // Every 1 second
+setInterval(updateEvery10s, 10000); // Every 10 seconds
+// setInterval(updateEvery30s, 30000); // Every 30 seconds
 
 // Generic function to set up a button with an event listener
 function setupButton(buttonId, endpoint, successMessage, errorMessage) {

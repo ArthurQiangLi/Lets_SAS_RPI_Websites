@@ -2,31 +2,88 @@ import os
 import csv
 from datetime import datetime
 
+# Global variables to track current log files
+current_a10_file = None
+current_a30_file = None
+
+# Function to check file size and create a new file if needed
+def check_or_create_file(prefix):
+    global current_a10_file, current_a30_file
+    
+    # Determine the file to check
+    if prefix == "a10":
+        current_file = current_a10_file
+    elif prefix == "a30":
+        current_file = current_a30_file
+    else:
+        raise ValueError("Invalid prefix. Use 'a10' or 'a30'.")
+
+    # Create a new file if no file exists or file exceeds 2 MB
+    if current_file is None or not os.path.exists(current_file) or os.path.getsize(current_file) > 2 * 1024 * 1024:
+        filename = f"logged_data/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}_{prefix}.csv"
+        os.makedirs("logged_data", exist_ok=True)  # Ensure directory exists
+        if prefix == "a10":
+            current_a10_file = filename
+        elif prefix == "a30":
+            current_a30_file = filename
+        return filename
+
+    return current_file
+
+
 # Function to log a10 data every 10 seconds
 def extern_log_a10_data(a10):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    filename = f"logged_data/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}_a10.csv"
-    os.makedirs("logged_data", exist_ok=True)  # Ensure directory exists
+    global current_a10_file
+    current_a10_file = check_or_create_file("a10")  # Get or create a valid file
 
     # Write data to the CSV file
-    with open(filename, mode="w", newline="") as file:
+    with open(current_a10_file, mode="a", newline="") as file:  # Append mode
         writer = csv.writer(file)
-        writer.writerow(["Timestamp"] + list(a10.keys()))  # Header row
-        writer.writerow([timestamp] + list(a10.values()))  # Data row
-    print(f"a10 data logged to {filename}")
+        if file.tell() == 0:  # If the file is empty, write the header
+            writer.writerow(["Timestamp"] + list(a10.keys()))
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        writer.writerow([timestamp] + list(a10.values()))
+    print(f"a10 data logged to {current_a10_file}")
+
 
 # Function to log a30 data every 30 seconds
 def extern_log_a30_data(a30):
-    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    filename = f"logged_data/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}_a30.csv"
-    os.makedirs("logged_data", exist_ok=True)  # Ensure directory exists
+    global current_a30_file
+    current_a30_file = check_or_create_file("a30")  # Get or create a valid file
 
     # Write data to the CSV file
-    with open(filename, mode="w", newline="") as file:
+    with open(current_a30_file, mode="a", newline="") as file:  # Append mode
         writer = csv.writer(file)
-        writer.writerow(["Timestamp"] + list(a30.keys()))  # Header row
-        writer.writerow([timestamp] + list(a30.values()))  # Data row
-    print(f"a30 data logged to {filename}")
+        if file.tell() == 0:  # If the file is empty, write the header
+            writer.writerow(["Timestamp"] + list(a30.keys()))
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        writer.writerow([timestamp] + list(a30.values()))
+    print(f"a30 data logged to {current_a30_file}")
+
+
+def extern_flatten_dict(d, parent_key='', sep='_'):
+    """
+    Flattens a multi-level dictionary into a single-layer dictionary.
+    
+    :param d: Dictionary to flatten
+    :param parent_key: String to use as prefix for keys (used for recursion)
+    :param sep: Separator to use for nested keys
+    :return: Flattened dictionary
+    """
+    items = []
+    for k, v in d.items():
+        new_key = f"{parent_key}{sep}{k}" if parent_key else k  # Create new key
+        if isinstance(v, dict):  # If value is a dictionary, recurse
+            items.extend(extern_flatten_dict(v, new_key, sep=sep).items())
+        else:
+            items.append((new_key, v))
+    return dict(items)
+
+# Example usage
+# a = {"a": 1, "b": 2, "c": {"d": True, "e": False}}
+# flattened_a = flatten_dict(a)
+# print(flattened_a)
+
 
 
 # 📦03_MangingSystem_v1

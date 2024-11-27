@@ -17,10 +17,9 @@
    ```
 5. extern_get_random_color {"color": 0x1234ab}
 6. extern_get_age {"age": '5d, 0h, 52m, 53s'}
+7. extern_get_apache_active {"apache_active": True}
 
 ## Updated every 10s
-
-1.extern_get_apache_active {"apache_active": True}
 
 ## Updated every 30s
 
