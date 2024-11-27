@@ -55,10 +55,10 @@ function updateEvery10s() {
     .then((data) => {
       const apache2ActiveElement = document.getElementById("apache2-active");
       if (data.apache_active) {
-        apache2ActiveElement.textContent = "✔";
+        apache2ActiveElement.textContent = "Active ✔";
         apache2ActiveElement.style.color = "#04aa6d"; // Green for activ
       } else {
-        apache2ActiveElement.textContent = "✘";
+        apache2ActiveElement.textContent = "Stopped ✘";
         apache2ActiveElement.style.color = "#ff4d4d"; // Red for inactive
       }
     })
@@ -73,23 +73,22 @@ function updateEvery30s() {
       document.getElementById(
         "weather"
       ).textContent = `${data.temp} °C, ${data.humidity} % Humidity, ${data.weather}`;
-      displayApacheMetrics(data.apache2metrics);
+      populateApacheMetrics(data.apache2metrics);
     })
     .catch((error) => console.error("Error updating weather:", error));
 }
 
-function displayApacheMetrics(metrics) {
-  // Find the target div where metrics will be displayed
-  const metricsDiv = document.getElementById("apache2-metrics");
+function populateApacheMetrics(metrics) {
+  const metricsList = document.getElementById("apache-metrics"); // Target the <ul> element
 
-  // Clear any existing content
-  metricsDiv.innerHTML = "";
+  // Clear existing content in case it's being refreshed
+  metricsList.innerHTML = "";
 
-  // Iterate through the dictionary and create <p> elements for each metric
+  // Populate the <ul> with key-value pairs from the metrics object
   for (const [key, value] of Object.entries(metrics)) {
-    const metricItem = document.createElement("p");
-    metricItem.textContent = `${key}: ${value}`;
-    metricsDiv.appendChild(metricItem);
+    const listItem = document.createElement("li");
+    listItem.textContent = `${key}: ${value}`; // Format as "key: value"
+    metricsList.appendChild(listItem); // Add the list item to the <ul>
   }
 }
 

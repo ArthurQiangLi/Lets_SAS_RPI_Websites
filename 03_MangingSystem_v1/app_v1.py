@@ -41,7 +41,6 @@ def cpu_stats():
     status["color"] = extern_get_random_color() # return int 0xababab
     status["age"] = extern_get_age() #return string '5d, 0h, 52m, 53s'
     status["watchdog"] = contraol_data["is_watchdog"]
-    print(f"### watchdog = {status['watchdog']}, control data= {contraol_data['is_watchdog']}.")
     return jsonify(status)
 
 ### get every 10s
@@ -83,7 +82,6 @@ def auto_clock():
 def switch_watchdog():
     en = contraol_data["is_watchdog"]
     contraol_data["is_watchdog"] =  not en
-    print(f"### route setting en = {en}.")
     return f"Now switching watchdog.", 200
 
 # Periodic task for foo1: watchdog thread

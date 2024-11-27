@@ -54,51 +54,51 @@ def extern_get_apache2metrics():
     return i
 
 # Apache status text
-apache_status_text = """
-localhost
-ServerVersion: Apache/2.4.62 (Raspbian)
-ServerMPM: event
-Server Built: 2024-10-04T15:21:08
-CurrentTime: Tuesday, 26-Nov-2024 18:29:51 CST
-RestartTime: Saturday, 23-Nov-2024 19:22:42 CST
-ParentServerConfigGeneration: 4
-ParentServerMPMGeneration: 3
-ServerUptimeSeconds: 256028
-ServerUptime: 2 days 23 hours 7 minutes 8 seconds
-Load1: 0.39
-Load5: 0.48
-Load15: 0.50
-Total Accesses: 664
-Total kBytes: 3973
-Total Duration: 1372
-CPUUser: 10.35
-CPUSystem: 16.46
-CPUChildrenUser: .82
-CPUChildrenSystem: .67
-CPULoad: .0110535
-Uptime: 256028
-ReqPerSec: .00259347
-BytesPerSec: 15.8903
-BytesPerReq: 6127.04
-DurationPerReq: 2.06627
-BusyWorkers: 1
-GracefulWorkers: 0
-IdleWorkers: 49
-Processes: 2
-Stopping: 0
-ConnsTotal: 1
-ConnsAsyncWriting: 0
-ConnsAsyncKeepAlive: 1
-ConnsAsyncClosing: 0
-Scoreboard: _W________________________________________________....................................................................................................
-"""
+# apache_status_text = """
+# localhost
+# ServerVersion: Apache/2.4.62 (Raspbian)
+# ServerMPM: event
+# Server Built: 2024-10-04T15:21:08
+# CurrentTime: Tuesday, 26-Nov-2024 18:29:51 CST
+# RestartTime: Saturday, 23-Nov-2024 19:22:42 CST
+# ParentServerConfigGeneration: 4
+# ParentServerMPMGeneration: 3
+# ServerUptimeSeconds: 256028
+# ServerUptime: 2 days 23 hours 7 minutes 8 seconds
+# Load1: 0.39
+# Load5: 0.48
+# Load15: 0.50
+# Total Accesses: 664
+# Total kBytes: 3973
+# Total Duration: 1372
+# CPUUser: 10.35
+# CPUSystem: 16.46
+# CPUChildrenUser: .82
+# CPUChildrenSystem: .67
+# CPULoad: .0110535
+# Uptime: 256028
+# ReqPerSec: .00259347
+# BytesPerSec: 15.8903
+# BytesPerReq: 6127.04
+# DurationPerReq: 2.06627
+# BusyWorkers: 1
+# GracefulWorkers: 0
+# IdleWorkers: 49
+# Processes: 2
+# Stopping: 0
+# ConnsTotal: 1
+# ConnsAsyncWriting: 0
+# ConnsAsyncKeepAlive: 1
+# ConnsAsyncClosing: 0
+# Scoreboard: _W________________________________________________....................................................................................................
+# """
 
-# Step 1: Parse the text into a dictionary
-status_dict = parse_apache_status(apache_status_text)
-print("Parsed Dictionary:")
-print(status_dict)
+# # Step 1: Parse the text into a dictionary
+# status_dict = parse_apache_status(apache_status_text)
+# print("Parsed Dictionary:")
+# print(status_dict)
 
-# Step 2: Extract specific metrics
-metrics = extract_specific_metrics(status_dict)
-print("\nExtracted Metrics:")
-print(metrics)
+# # Step 2: Extract specific metrics
+# metrics = extract_specific_metrics(status_dict)
+# print("\nExtracted Metrics:")
+# print(metrics)
