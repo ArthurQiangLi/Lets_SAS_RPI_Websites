@@ -495,3 +495,17 @@ Uncaught Exception java.lang.AssertionError: java.lang.reflect.InvocationTargetE
 2024-11-27 22:35:41,769 - ERROR - JMeter test failed with return code 3221225786
 2024-11-27 22:35:41,769 - ERROR - Error Output: ^C
 2024-11-27 22:35:41,769 - WARNING - Retrying JMeter test (1/3) after 60 seconds...
+2024-11-28 02:12:34,187 - INFO - JMeter automation started. Running for 3 days.
+2024-11-28 02:12:34,188 - INFO - Start Time: 2024-11-28 02:12:34
+2024-11-28 02:12:34,188 - INFO - End Time: 2024-12-01 02:12:34
+2024-11-28 02:12:34,191 - INFO - Spike scheduled to start at 2024-11-29 12:00:00
+2024-11-28 02:12:34,192 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-28 02:23:25,937 - INFO - JMeter automation started. Running for 3 days.
+2024-11-28 02:23:25,937 - INFO - Start Time: 2024-11-28 02:23:25
+2024-11-28 02:23:25,937 - INFO - End Time: 2024-12-01 02:23:25
+2024-11-28 02:23:25,940 - INFO - Spike scheduled to start at 2024-11-29 12:00:00
+2024-11-28 02:23:25,942 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-28 02:29:35,324 - ERROR - JMeter test failed with return code 3221225786
+2024-11-28 02:29:35,324 - ERROR - Error Output: Java HotSpot(TM) 64-Bit Server VM warning: Exception java.lang.OutOfMemoryError occurred dispatching signal UNKNOWN to handler- the VM may need to be forcibly terminated
+^C
+2024-11-28 02:29:35,324 - WARNING - Retrying JMeter test (1/3) after 60 seconds...

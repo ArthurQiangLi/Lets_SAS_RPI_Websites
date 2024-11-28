@@ -37,7 +37,7 @@ def train_isolation_forest(scaled_features):
     try:
         model = IsolationForest(
             n_estimators=100,
-            contamination=0.07,
+            contamination=0.08,
             random_state=42
         )
         model.fit(scaled_features)
