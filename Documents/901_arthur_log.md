@@ -22,3 +22,28 @@
    1. [ ] get some data to feed the AI function.
 5. Design the poster.
    1. [ ] designer the first version.
+
+# Planning the Slides
+
+1. Uncertainties
+   1. Changes of Ambient Temperature
+   2. Fluctuation of incoming Requests
+   3. Different size of the hosted website
+2. Models
+   1. Managed system: like a boxing fighter
+      1. ways to crash down RPI
+         1. Heat cpu up to 80 deg
+         2. Bring cpu/memory usage to 99%
+3. Goals
+   1. serve full content + all visitors + no downtime
+   2. serve degraded content + all visitors + no downtime
+   3. serve degraded content + limited visitors + no downtime
+   4. X X X shortest downtime (watchdog reboot cycle time)
+4. Feedback loop
+5. Metrics and Effectors
+   1. Utility functions
+6. Implementation Framework and Technologies
+7. Adaptation methods
+   1. AI
+8. Results and analysis
+9. Future works.
