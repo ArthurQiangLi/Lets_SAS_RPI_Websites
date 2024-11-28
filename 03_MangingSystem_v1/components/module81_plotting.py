@@ -214,8 +214,8 @@ def plot_a10_data_4(filtered_file, parameter_groups2, height=3, width=5, title_f
 #############################################################################################################################
 # Example Usage
 DO_WHAT = 4
-file_path = "logged_data/2024-11-27_15-57-47_a10.csv"  # Replace with your actual file path
-filtered_file = "logged_data/2024-11-27_15-57-47_a10_filtered_conditioned.csv"  # Replace with your actual file path
+file_path = "logged_data/heavy.csv"  # Replace with your actual file path
+filtered_file = "logged_data/heavy_filtered_conditioned.csv"  # Replace with your actual file path
 
     # Step 1: Filter data and save it
 if (DO_WHAT==1):
@@ -230,7 +230,7 @@ if (DO_WHAT==2):
     }
 
     if filtered_file:
-        plot_a10_data(filtered_file, parameter_groups1)moCan 
+        plot_a10_data(filtered_file, parameter_groups1)
 
 if (DO_WHAT==3):
     parameter_groups2 = [
@@ -248,7 +248,7 @@ if (DO_WHAT==4):
         ["memory", "apache2metrics_Load5", "apache2metrics_DurationPerReq"]
     ]
 
-    plot_a10_data_4(filtered_file, parameter_groups2, height=3, width=5, title_fontsize=18)
+    plot_a10_data_4(filtered_file, parameter_groups2, height=3, width=5, title_fontsize=30)
 #############################################################################################################################
 
 

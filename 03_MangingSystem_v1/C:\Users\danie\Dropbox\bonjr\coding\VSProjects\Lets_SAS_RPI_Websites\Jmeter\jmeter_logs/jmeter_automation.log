@@ -1,0 +1,10 @@
+2024-11-27 22:43:10,743 - INFO - JMeter automation started. Running for 3 days.
+2024-11-27 22:43:10,743 - INFO - Start Time: 2024-11-27 22:43:10
+2024-11-27 22:43:10,743 - INFO - End Time: 2024-11-30 22:43:10
+2024-11-27 22:43:10,747 - INFO - Spike scheduled to start at 2024-11-28 12:00:00
+2024-11-27 22:43:10,748 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-27 22:43:10,749 - ERROR - Exception occurred while running JMeter: [Errno 2] No such file or directory: 'C:\\Utils\\apache-jmeter-5.6.3\\bin\\jmeter.bat'
+2024-11-27 22:43:10,749 - WARNING - Retrying JMeter test (1/3) after 60 seconds...
+2024-11-27 22:44:10,790 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-27 22:44:10,791 - ERROR - Exception occurred while running JMeter: [Errno 2] No such file or directory: 'C:\\Utils\\apache-jmeter-5.6.3\\bin\\jmeter.bat'
+2024-11-27 22:44:10,791 - WARNING - Retrying JMeter test (2/3) after 60 seconds...
