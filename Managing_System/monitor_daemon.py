@@ -6,6 +6,10 @@ import csv
 import os
 import shutil
 import subprocess
+import joblib
+import pandas as pd
+import numpy as np
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
 from datetime import datetime
 from collections import deque
@@ -43,6 +47,39 @@ USE_TOTAL_MEMORY = False
 
 # Set timeouts for network requests
 NETWORK_TIMEOUT = 5  # seconds
+
+# Paths to the trained model and scaler
+MODEL_PATH = 'isolation_forest_model.pkl'
+SCALER_PATH = 'scaler.pkl'
+ENCODER_PATH = 'encoder.pkl'  # Save the encoder during data preparation
+
+try:
+    # Load the Isolation Forest model
+    model = joblib.load(MODEL_PATH)
+    logging.info("Isolation Forest model loaded successfully.")
+except Exception as e:
+    logging.error(f"Error loading Isolation Forest model: {e}")
+    exit(1)
+
+try:
+    # Load the scaler and encoder
+    scaler = joblib.load(SCALER_PATH)
+    encoder = joblib.load('encoder.pkl')
+    logging.info("Scaler and OneHotEncoder loaded successfully.")
+except Exception as e:
+    logging.error(f"Error loading scaler or encoder: {e}")
+    exit(1)
+
+# After loading the encoder
+FEATURES = [
+    'CPU Usage (%)',
+    'Memory Usage (%)',
+    'CPU Temp (°C)',
+    'Weather Temp (°C)',
+    'Humidity (%)',
+    'ReqPerSec',
+    'Average Latency (ms)',
+] + list(encoder.get_feature_names_out(['Weather Description']))
 
 # Function to fetch weather data
 def fetch_weather():
@@ -189,6 +226,81 @@ def get_average_latency(n=100):
     except Exception as e:
         logging.error(f"Error reading latency from access log: {e}")
         return None
+
+def adjust_thresholds(anomaly_label):
+    """
+    Adjust CPU and Memory thresholds based on anomaly detection.
+    """
+    global CPU_THRESHOLD_UPPER, MEMORY_THRESHOLD_UPPER, CPU_THRESHOLD_LOWER, MEMORY_THRESHOLD_LOWER
+
+    if anomaly_label == -1:
+        # Anomaly detected: decrease thresholds with a safety buffer
+        safety_buffer_cpu = 5  # Percentage points
+        safety_buffer_memory = 5  # Percentage points
+
+        new_cpu_threshold_upper = max(CPU_THRESHOLD_UPPER - safety_buffer_cpu, 50)  # MIN_CPU_THRESHOLD = 50
+        new_memory_threshold_upper = max(MEMORY_THRESHOLD_UPPER - safety_buffer_memory, 50)  # MIN_MEMORY_THRESHOLD = 50
+
+        logging.info(f"Anomaly detected. Adjusting CPU Threshold Upper to {new_cpu_threshold_upper}%, Memory Threshold Upper to {new_memory_threshold_upper}%")
+        print(f"[INFO] Anomaly detected. Adjusting CPU Threshold Upper to {new_cpu_threshold_upper}%, Memory Threshold Upper to {new_memory_threshold_upper}%")
+
+        # Update global thresholds
+        CPU_THRESHOLD_UPPER = new_cpu_threshold_upper
+        MEMORY_THRESHOLD_UPPER = new_memory_threshold_upper
+    else:
+        # Normal operation: gradually increase thresholds if below maximum
+        increment_cpu = 1  # Percentage points
+        increment_memory = 1  # Percentage points
+
+        new_cpu_threshold_upper = min(CPU_THRESHOLD_UPPER + increment_cpu, 90)  # MAX_CPU_THRESHOLD = 90
+        new_memory_threshold_upper = min(MEMORY_THRESHOLD_UPPER + increment_memory, 90)  # MAX_MEMORY_THRESHOLD = 90
+
+        logging.info(f"Normal operation. Adjusting CPU Threshold Upper to {new_cpu_threshold_upper}%, Memory Threshold Upper to {new_memory_threshold_upper}%")
+        print(f"[INFO] Normal operation. Adjusting CPU Threshold Upper to {new_cpu_threshold_upper}%, Memory Threshold Upper to {new_memory_threshold_upper}%")
+
+        # Update global thresholds
+        CPU_THRESHOLD_UPPER = new_cpu_threshold_upper
+        MEMORY_THRESHOLD_UPPER = new_memory_threshold_upper
+
+    return CPU_THRESHOLD_UPPER, MEMORY_THRESHOLD_UPPER
+
+# Function to create feature vector using OneHotEncoder
+def create_feature_vector(avg_cpu, avg_memory, temp, weather_temp, humidity, req_per_sec, latency, weather_desc):
+    try:
+        # Prepare the categorical feature as a DataFrame with the correct column name
+        weather_desc_df = pd.DataFrame({'Weather Description': [weather_desc]})
+        weather_encoded = encoder.transform(weather_desc_df)
+        weather_encoded_df = pd.DataFrame(
+            weather_encoded, 
+            columns=encoder.get_feature_names_out(['Weather Description'])
+        )
+        
+        # Create the feature dictionary
+        feature_vector = {
+            'CPU Usage (%)': avg_cpu,
+            'Memory Usage (%)': avg_memory,
+            'CPU Temp (°C)': temp if temp != 'N/A' else 0,
+            'Weather Temp (°C)': weather_temp if weather_temp else 0,
+            'Humidity (%)': humidity if humidity else 0,
+            'ReqPerSec': float(req_per_sec) if req_per_sec not in [None, 'N/A'] else 0,
+            'Average Latency (ms)': float(latency) if latency else 0
+        }
+        
+        # Combine with one-hot encoded weather descriptions
+        feature_df = pd.concat([pd.DataFrame([feature_vector]), weather_encoded_df], axis=1)
+        
+        # Ensure all features are present
+        for feature in FEATURES:
+            if feature not in feature_df.columns:
+                feature_df[feature] = 0  # Add missing features as 0
+        
+        # Reorder columns to match training
+        feature_df = feature_df[FEATURES]
+        
+        return feature_df
+    except Exception as e:
+        logging.error(f"Error creating feature vector: {e}")
+        return None
     
 adaptation_history = deque(maxlen=10)  # Stores the last 10 adaptation states
 state_durations = {'normal': 0, 'degraded': 0}
@@ -245,39 +357,72 @@ def monitor_metrics():
             logging.info(f"Weather: Temp: {weather_temp}°C, Humidity: {humidity}%, Desc: {weather_desc}")
             logging.info(f"Apache Metrics - ReqPerSec: {req_per_sec}, BusyWorkers: {busy_workers}, IdleWorkers: {idle_workers}, Cache Hits: {cache_hits}, Cache Misses: {cache_misses}")
 
-            # Determine if adaptation is needed based on hysteresis
+            # Create feature vector for the model
+            feature_df = create_feature_vector(avg_cpu, avg_memory, temp, weather_temp, humidity, req_per_sec, latency, weather_desc)
+
+            if feature_df is None:
+                logging.error("Feature vector creation failed. Skipping this iteration.")
+                time.sleep(10)
+                continue
+
+            # Scale features
+            try:
+                scaled_features = scaler.transform(feature_df)
+            except Exception as e:
+                logging.error(f"Error scaling features: {e}")
+                scaled_features = None
+
+            if scaled_features is not None:
+                # Log feature values
+                logging.info(f"Feature Values: {feature_df.to_dict(orient='records')[0]}")
+
+                # Predict anomaly
+                try:
+                    anomaly_label = model.predict(scaled_features)[0]  # -1 for anomaly, 1 for normal
+                    logging.info(f"Anomaly Detection: {'Anomaly' if anomaly_label == -1 else 'Normal'}")
+                except Exception as e:
+                    logging.error(f"Error during anomaly prediction: {e}")
+                    anomaly_label = 1  # Assume normal if prediction fails
+            else:
+                anomaly_label = 1  # Assume normal if scaling fails
+
+            # Determine if adaptation is needed based on anomaly
             adaptation_needed = False
             switch_back = False
 
             if current_state == 'normal':
-                if avg_cpu > CPU_THRESHOLD_UPPER or avg_memory > MEMORY_THRESHOLD_UPPER:
+                if anomaly_label == -1:
                     adaptation_needed = True
             elif current_state == 'degraded':
-                if avg_cpu < CPU_THRESHOLD_LOWER and avg_memory < MEMORY_THRESHOLD_LOWER:
+                if anomaly_label == 1:
                     switch_back = True
-
+            
             # Check cooldown
             time_since_last_adaptation = current_time - last_adaptation_time
-            if (adaptation_needed or switch_back) and (time_since_last_adaptation < COOLDOWN_PERIOD):
-                logging.info("Cooldown period active. Skipping adaptation.")
-                adaptation_needed = False
-                switch_back = False
+            if (adaptation_needed or switch_back) and (time_since_last_adaptation >= COOLDOWN_PERIOD):
+                # Adjust thresholds only if not in cooldown
+                new_cpu_threshold, new_memory_threshold = adjust_thresholds(anomaly_label)
+                # Update last adaptation time
+                last_adaptation_time = current_time
+            else:
+                if (adaptation_needed or switch_back):
+                    logging.info("Cooldown period active. Skipping adaptation.")
+                    adaptation_needed = False
+                    switch_back = False
 
             # Accumulate duration in current state
             state_durations[current_state] += time_diff
 
-            # Update adaptation state
             previous_state = current_state
+            # Proceed with updating adaptation state based on adaptation_needed and switch_back
             if adaptation_needed:
                 current_state = 'degraded'
-                last_adaptation_time = current_time
             elif switch_back:
                 current_state = 'normal'
-                last_adaptation_time = current_time
 
             # Check if the state has changed (adaptation occurred)
             adaptation_occurred = int(previous_state != current_state)
-
+            
             if adaptation_occurred:
                 # Update total adaptations count
                 total_adaptations += 1
@@ -287,11 +432,12 @@ def monitor_metrics():
             # Calculate adaptation frequency (number of adaptations in the last N entries)
             adaptation_frequency = sum(1 for _, state in adaptation_history if state == 'degraded')
 
-            # Log the data
+            # Log the adaptation details
             logging.info(f"Adaptation Occurred: {adaptation_occurred}, Total Adaptations: {total_adaptations}, Adaptation Frequency: {adaptation_frequency}")
             logging.info(f"State Durations - Normal: {state_durations['normal']:.2f}s, Degraded: {state_durations['degraded']:.2f}s")
 
-            # Save data to CSV
+            # Save data to CSV with anomaly label and current thresholds
+            # Save data to CSV with anomaly label and current thresholds
             with open(CSV_FILE, mode='a', newline='') as file:
                 writer = csv.writer(file)
                 writer.writerow([
@@ -303,22 +449,13 @@ def monitor_metrics():
                     humidity,
                     weather_desc,
                     req_per_sec,
-                    # busy_workers,
-                    # idle_workers,
-                    # cache_hits,
-                    # cache_misses,
                     latency,
-                    # adaptation_occurred,  # Log adaptation occurrence
-                    # total_adaptations,
-                    # state_durations['normal'],
-                    # state_durations['degraded'],
-                    # adaptation_frequency,
-                    # current_state,
-                    #CPU_THRESHOLD,       # Log current CPU threshold
-                    #MEMORY_THRESHOLD 
+                    anomaly_label,
+                    CPU_THRESHOLD_UPPER,
+                    MEMORY_THRESHOLD_UPPER
                 ])
 
-            # Switch content based on adaptation_needed or switch_back
+            # Switch content based on anomaly
             switch_content(degrade=(current_state == 'degraded'))
 
             # Pause for 10 seconds before next reading
@@ -355,7 +492,10 @@ if __name__ == "__main__":
                     # "Adaptation Frequency",
                     # "Adaptation State",
                     #"CPU Threshold",
-                    #"Memory Threshold"
+                    #"Memory Threshold",
+                    "Anomaly Label",
+                    "CPU Threshold Upper",
+                    "Memory Threshold Upper"
                 ])
         except Exception as e:
             logging.error(f"Error initializing CSV file: {e}")

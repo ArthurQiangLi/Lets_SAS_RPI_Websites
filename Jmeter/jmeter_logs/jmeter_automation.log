@@ -430,3 +430,68 @@ Uncaught Exception java.lang.AssertionError: java.lang.reflect.InvocationTargetE
 2024-11-26 03:31:19,985 - INFO - JMeter test completed successfully. Results saved to C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\jmeter_results\test_results_regular_20241126_032040.jtl
 2024-11-26 03:31:19,985 - INFO - Regular JMeter run 1 completed.
 2024-11-26 03:31:19,985 - INFO - Sleeping for 300 seconds before next regular run.
+2024-11-27 16:28:59,447 - INFO - JMeter automation started. Running for 3 days.
+2024-11-27 16:28:59,448 - INFO - Start Time: 2024-11-27 16:28:59
+2024-11-27 16:28:59,448 - INFO - End Time: 2024-11-30 16:28:59
+2024-11-27 16:28:59,459 - INFO - Spike scheduled to start at 2024-11-28 12:00:00
+2024-11-27 16:28:59,463 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-27 20:10:46,002 - INFO - JMeter automation started. Running for 3 days.
+2024-11-27 20:10:46,003 - INFO - Start Time: 2024-11-27 20:10:46
+2024-11-27 20:10:46,003 - INFO - End Time: 2024-11-30 20:10:46
+2024-11-27 20:10:46,007 - INFO - Spike scheduled to start at 2024-11-28 12:00:00
+2024-11-27 20:10:46,009 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-27 20:12:01,612 - ERROR - JMeter test failed with return code 3221225786
+2024-11-27 20:12:01,612 - ERROR - Error Output: ^C
+2024-11-27 20:12:01,612 - WARNING - Retrying JMeter test (1/3) after 60 seconds...
+2024-11-27 20:40:43,730 - INFO - JMeter automation started. Running for 3 days.
+2024-11-27 20:40:43,730 - INFO - Start Time: 2024-11-27 20:40:43
+2024-11-27 20:40:43,730 - INFO - End Time: 2024-11-30 20:40:43
+2024-11-27 20:40:43,734 - INFO - Spike scheduled to start at 2024-11-28 12:00:00
+2024-11-27 20:40:43,736 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-27 20:45:05,131 - ERROR - JMeter test failed with return code 3221225786
+2024-11-27 20:45:05,131 - ERROR - Error Output: ^C
+2024-11-27 20:45:05,131 - WARNING - Retrying JMeter test (1/3) after 60 seconds...
+2024-11-27 20:45:45,055 - INFO - JMeter automation started. Running for 3 days.
+2024-11-27 20:45:45,056 - INFO - Start Time: 2024-11-27 20:45:45
+2024-11-27 20:45:45,056 - INFO - End Time: 2024-11-30 20:45:45
+2024-11-27 20:45:45,058 - INFO - Spike scheduled to start at 2024-11-28 12:00:00
+2024-11-27 20:45:45,060 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-27 20:48:45,546 - INFO - Manual spike triggered via command line.
+2024-11-27 20:48:45,546 - INFO - Triggering spike JMeter test.
+2024-11-27 20:48:50,953 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation_spike.jmx
+2024-11-27 20:53:33,913 - ERROR - JMeter test failed with return code 3221225786
+2024-11-27 20:53:33,913 - ERROR - Error Output: ^C
+2024-11-27 20:53:33,913 - WARNING - Retrying JMeter test (1/3) after 60 seconds...
+2024-11-27 20:53:36,777 - ERROR - JMeter test failed with return code 3221225786
+2024-11-27 20:53:36,778 - ERROR - Error Output: ^C
+2024-11-27 20:53:36,778 - INFO - Spike test completed within the expected duration.
+2024-11-27 21:11:05,026 - INFO - JMeter automation started. Running for 3 days.
+2024-11-27 21:11:05,026 - INFO - Start Time: 2024-11-27 21:11:05
+2024-11-27 21:11:05,026 - INFO - End Time: 2024-11-30 21:11:05
+2024-11-27 21:11:05,028 - INFO - Spike scheduled to start at 2024-11-28 12:00:00
+2024-11-27 21:11:05,030 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-27 21:14:43,711 - ERROR - JMeter test failed with return code 3221225786
+2024-11-27 21:14:43,711 - ERROR - Error Output: ^C
+2024-11-27 21:14:43,711 - WARNING - Retrying JMeter test (1/3) after 60 seconds...
+2024-11-27 22:12:43,051 - INFO - JMeter automation started. Running for 3 days.
+2024-11-27 22:12:43,052 - INFO - Start Time: 2024-11-27 22:12:43
+2024-11-27 22:12:43,052 - INFO - End Time: 2024-11-30 22:12:43
+2024-11-27 22:12:43,055 - INFO - Spike scheduled to start at 2024-11-28 12:00:00
+2024-11-27 22:12:43,056 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-27 22:18:22,584 - INFO - Manual spike triggered via command line.
+2024-11-27 22:18:22,584 - INFO - Triggering spike JMeter test.
+2024-11-27 22:18:22,589 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation_spike.jmx
+2024-11-27 22:21:46,551 - ERROR - JMeter test failed with return code 3221225786
+2024-11-27 22:21:46,552 - ERROR - Error Output: ^C
+2024-11-27 22:21:46,552 - WARNING - Retrying JMeter test (1/3) after 60 seconds...
+2024-11-27 22:21:49,572 - ERROR - JMeter test failed with return code 3221225786
+2024-11-27 22:21:49,573 - ERROR - Error Output: ^C
+2024-11-27 22:21:49,573 - INFO - Spike test completed within the expected duration.
+2024-11-27 22:29:42,628 - INFO - JMeter automation started. Running for 3 days.
+2024-11-27 22:29:42,629 - INFO - Start Time: 2024-11-27 22:29:42
+2024-11-27 22:29:42,629 - INFO - End Time: 2024-11-30 22:29:42
+2024-11-27 22:29:42,631 - INFO - Spike scheduled to start at 2024-11-28 12:00:00
+2024-11-27 22:29:42,633 - INFO - Starting JMeter test: C:\Users\danie\Dropbox\bonjr\coding\VSProjects\Lets_SAS_RPI_Websites\Jmeter\traffic_simulation.jmx
+2024-11-27 22:35:41,769 - ERROR - JMeter test failed with return code 3221225786
+2024-11-27 22:35:41,769 - ERROR - Error Output: ^C
+2024-11-27 22:35:41,769 - WARNING - Retrying JMeter test (1/3) after 60 seconds...
