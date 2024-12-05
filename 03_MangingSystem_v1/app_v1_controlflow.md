@@ -5,14 +5,6 @@
    2. Flask App Initialization [app = Flask(__name__) enables the program to handle HTTP requests.]
 2.
 
----
-
----
-
----
-
----
-
 ### **Control Flow of the Python Program**
 
 This program is a Flask web application that serves as a backend to handle requests from a frontend dashboard. The control flow can be described in the following steps:

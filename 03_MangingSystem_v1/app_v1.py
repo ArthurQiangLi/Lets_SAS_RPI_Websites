@@ -95,12 +95,21 @@ def switch_watchdog():
     control_data["is_watchdog"] =  not en
     return f"Now switching watchdog.", 200
 
-# Periodic task for foo1: watchdog thread
+# Periodic task for foo1: watchdog thread, executed every 10 second.
 def foo1_thread():
-    while control_data["is_watchdog"]:
+    while control_data["is_watchdog"]: # when the switch is on (by default)
+        ##[1] watchdog
         check_interval_seconds = 10  # Check every 10 seconds
         downtime_threshold = 120  # Reboot if service is down for 120 seconds
-        extern_watchdog("apache2", downtime_threshold, check_interval_seconds)  # Call foo1
+        extern_watchdog("apache2", downtime_threshold, check_interval_seconds) 
+
+        ##[2] Rule-based adaptation
+        # collect metrics: cpu, memory, cpu-temperature/  apache-load1, busyworkers(1~50), durationPerReq(ms)
+        # calculate utilities
+        # planning
+        # executing
+
+
         time.sleep(check_interval_seconds)  # Wait 10 seconds
 
 
