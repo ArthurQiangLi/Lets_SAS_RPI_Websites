@@ -106,14 +106,17 @@ def switch_watchdog():
 
 # Periodic task for foo1: watchdog thread, executed every 10 second.
 def foo1_thread():
-    global mapek  # use this global data here and log in '@30s'
-    global plan
     while control_data["is_watchdog"]: # when the switch is on (by default)
         ##[1] watchdog
         check_interval_seconds = 10  # Check every 10 seconds
         downtime_threshold = 120  # Reboot if service is down for 120 seconds
         extern_watchdog("apache2", downtime_threshold, check_interval_seconds) 
 
+
+def foo2_thread():
+    global mapek  # use this global data here and log in '@30s'
+    global plan
+    while True:
         ##[2] Rule-based adaptation
         # collect metrics: cpu, memory, cpu-temperature/  apache-load1, busyworkers(1~50), durationPerReq(ms)
         metric = mape_monitoring(dic_flat_allmatrics)
@@ -123,11 +126,12 @@ def foo1_thread():
         plan = mape_planning(metric, state, plan)
         # executing
         mapek = state | plan  # log data to plot
+        print(mapek)
 
-        time.sleep(check_interval_seconds)  # Wait 10 seconds
-
+        time.sleep(10)  # Wait 10 seconds
 
 if __name__ == "__main__":
     threading.Thread(target=foo1_thread, daemon=True).start() #daemon=True ensures that the threads terminate automatically when the main program exits
+    threading.Thread(target=foo2_thread, daemon=True).start() #daemon=True ensures that the threads terminate automatically when the main program exits
     app.run(host="0.0.0.0", port=5000)
 
