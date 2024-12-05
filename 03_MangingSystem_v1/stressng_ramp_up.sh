@@ -2,6 +2,8 @@
 #How to use it?
 #1. chmod +x stressng_ramp_up.sh  -----> to make this script executable
 #2. ./ramp_up_stress.sh   -----> to execute it
+#
+# Ref: https://wiki.ubuntu.com/Kernel/Reference/stress-ng
 
 
 # Total duration of stress in seconds

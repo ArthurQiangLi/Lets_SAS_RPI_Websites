@@ -26,6 +26,9 @@ with open("config.json", "r") as f:
 ### local global data.
 control_data = {"is_watchdog": True}
 status1s = {}
+mapek = {}
+flat_d30s = {}
+flat_d1s = {}
 
 app = Flask(__name__)
 ### get on starting
@@ -51,18 +54,19 @@ def cpu_stats():
 ### get every 10s
 @app.route("/update_10s", methods=["GET"])
 def background_color():
+    global flat_d1s
+    global flat_d30s # set global to let mape() uses it.
     status10s = extern_fetch_weather() #return {"temp":-3, "humidity": 98, "weather":mist}
     status10s["apache2metrics"] = extern_get_apache2metrics()
     flat_d30s = extern_flatten_dict(status10s)
     flat_d1s = extern_flatten_dict(status1s)
-    extern_log_a10_data(flat_d1s|flat_d30s)
+    extern_log_a10_data(flat_d1s|flat_d30s|mapek) ## log data
     return jsonify(status10s)
 
 ### get every 30s
 @app.route("/update_30s", methods=["GET"]) 
 def weather():
     status30s = extern_fetch_weather() #return {"temp":-3, "humidity": 98, "weather":mist}
-    # status30s["apache2metrics"] = extern_get_apache2metrics()
     flat_d30s = extern_flatten_dict(status30s)
     flat_d1s = extern_flatten_dict(status1s)
     extern_log_a10_data(flat_d1s|flat_d30s)
@@ -97,6 +101,7 @@ def switch_watchdog():
 
 # Periodic task for foo1: watchdog thread, executed every 10 second.
 def foo1_thread():
+    global mapek  # use this global data here and log in '@30s'
     while control_data["is_watchdog"]: # when the switch is on (by default)
         ##[1] watchdog
         check_interval_seconds = 10  # Check every 10 seconds
