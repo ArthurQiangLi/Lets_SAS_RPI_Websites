@@ -1,5 +1,7 @@
 
 def mape_monitoring(dic):
+    if(dic == {}):
+        return {}
     metric = {"cpu": float(dic['cpu']), # 3.8
               "memory": float(dic['memory']), # 44.7
               "cpu_temp": float(dic['cpu_temperature']),  # 58.5
@@ -10,6 +12,8 @@ def mape_monitoring(dic):
 
 
 def mape_analyzing(metric):
+    if not metric:
+        return {}
     state = {"health": 'good',  # = good/medium/critical
              "performance": 'good'}  # = good/bad
     if(metric['cpu_temp'] > 70):
@@ -28,6 +32,8 @@ def mape_analyzing(metric):
 
 
 def mape_planning(metric, state, plan):
+    if not metric or not state:
+        return {}
     # plan = {"no": 1,  # = 1/2/3/4
     #         "clock": 'min'} # = min/max
 
