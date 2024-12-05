@@ -19,6 +19,7 @@ from module6_get_apache2metrics import extern_get_apache2metrics
 from module51_set_reboot import extern_set_reboot
 from module52_set_cpu_clock import extern_set_governor2
 from module53_set_watchdog import extern_watchdog
+from module70_mapek import mape_monitoring, mape_analyzing, mape_planning
 from module80_logging import extern_log_a10_data, extern_log_a30_data, extern_flatten_dict
 ## Reads config.json during startup 
 with open("config.json", "r") as f:
@@ -29,7 +30,9 @@ status1s = {}
 mapek = {}
 flat_d30s = {}
 flat_d1s = {}
-
+dic_flat_allmatrics = {}
+plan = {"no": 1,  # = 1/2/3/4
+        "clock": 'min'} # = min/max
 app = Flask(__name__)
 ### get on starting
 @app.route("/")
@@ -56,10 +59,12 @@ def cpu_stats():
 def background_color():
     global flat_d1s
     global flat_d30s # set global to let mape() uses it.
+    global dic_flat_allmatrics
     status10s = extern_fetch_weather() #return {"temp":-3, "humidity": 98, "weather":mist}
     status10s["apache2metrics"] = extern_get_apache2metrics()
     flat_d30s = extern_flatten_dict(status10s)
     flat_d1s = extern_flatten_dict(status1s)
+    dic_flat_allmatrics = flat_d1s|flat_d30s
     extern_log_a10_data(flat_d1s|flat_d30s|mapek) ## log data
     return jsonify(status10s)
 
@@ -102,6 +107,7 @@ def switch_watchdog():
 # Periodic task for foo1: watchdog thread, executed every 10 second.
 def foo1_thread():
     global mapek  # use this global data here and log in '@30s'
+    global plan
     while control_data["is_watchdog"]: # when the switch is on (by default)
         ##[1] watchdog
         check_interval_seconds = 10  # Check every 10 seconds
@@ -110,10 +116,13 @@ def foo1_thread():
 
         ##[2] Rule-based adaptation
         # collect metrics: cpu, memory, cpu-temperature/  apache-load1, busyworkers(1~50), durationPerReq(ms)
+        metric = mape_monitoring(dic_flat_allmatrics)
         # calculate utilities
+        state = mape_analyzing(metric)
         # planning
+        plan = mape_planning(metric, state, plan)
         # executing
-
+        mapek = state | plan  # log data to plot
 
         time.sleep(check_interval_seconds)  # Wait 10 seconds
 
