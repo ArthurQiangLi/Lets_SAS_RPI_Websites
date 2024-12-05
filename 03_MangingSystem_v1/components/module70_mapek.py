@@ -33,7 +33,7 @@ def mape_analyzing(metric):
 
 def mape_planning(metric, state, plan):
     if not metric or not state:
-        return {}
+        return plan
     # plan = {"no": 1,  # = 1/2/3/4
     #         "clock": 'min'} # = min/max
 
@@ -44,10 +44,10 @@ def mape_planning(metric, state, plan):
         plan['clock'] = 'min' 
 
     if state['performance'] == 'bad':
-        plan['no'] = max(1, plan['no'] - 1)  # Decrease by 1 but not below 1
+        plan['no'] = max(1, plan['no'] + 1)  # Decrease by 1 but not below 1
 
     if state['performance'] == 'good':
-        plan['no'] = min(4, plan['no'] + 1)  # Increase by 1 but not above 4
+        plan['no'] = min(4, plan['no'] - 1)  # Increase by 1 but not above 4
 
     return plan
 
