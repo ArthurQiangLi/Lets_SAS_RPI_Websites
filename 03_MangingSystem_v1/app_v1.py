@@ -129,6 +129,8 @@ def foo2_thread():
         print(mapek)
         if(plan['clock'] == 'min'):
             extern_set_governor2("powersave")
+        elif(plan['clock'] == 'max'):
+            extern_set_governor2("performance")
 
         time.sleep(60)  # Wait 10 seconds
 
