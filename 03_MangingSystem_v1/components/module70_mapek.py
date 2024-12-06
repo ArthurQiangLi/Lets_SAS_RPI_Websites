@@ -19,7 +19,7 @@ def mape_analyzing(metric):
     if(metric['cpu_temp'] > 70):
         state['health'] = 'critical'
     elif(metric['cpu'] > 60 or metric['memory']>60 or metric['cpu_temp']>60):
-        state['health'] = 'bad'
+        state['health'] = 'medium'
     else:
         state['health'] = 'good'
 
@@ -56,7 +56,7 @@ def mape_planning(metric, state, plan):
 # Testing
 
 
-
+'''
 
 dic = {
  'Timestamp': '2024-11-27 15:57:47',
@@ -102,4 +102,4 @@ plan = mape_planning(metric, state, plan)
 
 mapek = state | plan  # log data to plot
 print(mapek)
-
+'''

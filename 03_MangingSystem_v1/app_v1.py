@@ -127,6 +127,8 @@ def foo2_thread():
         # executing
         mapek = state | plan  # log data to plot
         print(mapek)
+        if(plan['clock'] == 'min'):
+            extern_set_governor2("powersave")
 
         time.sleep(60)  # Wait 10 seconds
 

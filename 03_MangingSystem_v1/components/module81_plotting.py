@@ -214,8 +214,8 @@ def plot_a10_data_4(filtered_file, parameter_groups2, height=3, width=5, title_f
 #############################################################################################################################
 # Example Usage
 DO_WHAT = 4
-file_path = "logged_data/2024-12-05_21-03-16_a10.csv"  # Replace with your actual file path
-filtered_file = "logged_data/2024-12-05_21-03-16_a10_filtered_conditioned.csv"  # Replace with your actual file path
+file_path = "logged_data/2024-12-05_22-21-26_a10.csv"  # Replace with your actual file path
+filtered_file = "logged_data/2024-12-05_22-21-26_a10_filtered_conditioned.csv"  # Replace with your actual file path
 
     # Step 1: Filter data and save it
 if (DO_WHAT==1):
