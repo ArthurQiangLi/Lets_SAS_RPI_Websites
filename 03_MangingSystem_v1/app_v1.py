@@ -20,7 +20,7 @@ from module51_set_reboot import extern_set_reboot
 from module52_set_cpu_clock import extern_set_governor2
 from module53_set_watchdog import extern_watchdog
 from module70_mapek import mape_monitoring, mape_analyzing, mape_planning
-from module80_logging import extern_log_a10_data, extern_log_a30_data, extern_flatten_dict
+from module80_logging import extern_log_a10_data, extern_log_a30_data, extern_flatten_dict, pick_wanted
 ## Reads config.json during startup 
 with open("config.json", "r") as f:
     config = json.load(f)
@@ -64,8 +64,8 @@ def background_color():
     status10s["apache2metrics"] = extern_get_apache2metrics()
     flat_d30s = extern_flatten_dict(status10s)
     flat_d1s = extern_flatten_dict(status1s)
-    dic_flat_allmatrics = flat_d1s|flat_d30s
-    extern_log_a10_data(flat_d1s|flat_d30s|mapek) ## log data
+    dic_flat_allmatrics = pick_wanted(flat_d1s|flat_d30s|mapek)
+    extern_log_a10_data(dic_flat_allmatrics) ## log data
     return jsonify(status10s)
 
 ### get every 30s
