@@ -60,7 +60,7 @@ However, there are many issues often associated with self-hosting services on th
 While commercial cloud services and mainframes do provide a robust solution to the many issues presented, the significant cost and complexity may make them inaccessible for DIY applications with limited budgets looking to provide high quality services, thus a novel approach is required. This leads us to the exploration of a self-adaptive solution; aiming to enhance RPi capabilities and achieve higher levels of system stability and reliability.
 
 \section{\textbf{Proposed Solution}}\label{proposed_solution}
-The presented solution explores how a self-adaptive RPi website hosting setup (RPiWeb) could bridge the gap between the aforementioned benefits of the RPi, the stability, reliability, security, and performance of traditional cloud services like AWS as well as the resiliency of IBM mainframes. That is, how a RPi could also—at a much smaller scale—be considered unbeatable. For this project, a 2019 Model B, featuring 4 CPU cores @ 1.5GHz, 2GB of RAM, and a Linux-based operating system is selected and acts as the managed element. The RPi is hosting a React based website that was also prepared. This website contains a combination of simple content, such as plain text, as well as high resolution images and videos. Duplications of said content were made to mirror the size and complexity of websites that are expected to be hosted by the RPi in real scenarios. This hardware setup serves as the foundation for testing our self-adaptive framework in an environment where resources are limited. In many cases, users with a similar setup might opt to mitigate the issues by simply over-provisioning resources, but this approach, on top of the added manual labour, can quickly become costly and inefficient. Instead, a self-adaptive approach aims to equip the RPi with Self-CHOP (Self-Configuring, Self-Healing, Self-Optimizing, and Self-Protecting) capabilities:
+The presented solution explores how a self-adaptive RPi website hosting setup (RPiWeb) could bridge the gap between the aforementioned benefits of the RPi, the stability, reliability, security, and performance of traditional cloud services like AWS as well as the resiliency of IBM mainframes. That is, how a RPi could also—at a much smaller scale—be considered unbeatable. For this project, a 2019 Model B, featuring 4 CPU cores @ 1.5GHz, 2GB of RAM, and a Linux-based operating system is selected and acts as the managed element. The RPi is hosting a React based website that was also prepared specifically for this study. This website contains a combination of simple content, such as plain text, as well as high resolution images and videos. Duplications of said content were made to mirror the size and complexity of websites that are expected to be hosted by the RPi in real scenarios. This hardware setup serves as the foundation for testing our self-adaptive framework in an environment where resources are limited. In many cases, users with a similar setup might opt to mitigate the issues by simply over-provisioning resources, but this approach, on top of the added manual labour, can quickly become costly and inefficient. Instead, a self-adaptive approach aims to equip the RPi with Self-CHOP (Self-Configuring, Self-Healing, Self-Optimizing, and Self-Protecting) capabilities:
 
 \begin{itemize}
     \item \textbf{Self-Configuring:}
@@ -91,39 +91,39 @@ To achieve this, we first distill the discussions of section \ref{intro} into cl
           Reduce or eliminate manual intervention through self-healing and adaptive mechanisms.
 \end{itemize}
 
-To design the SAS for the RPiWeb, the system should embody the principles of Self-CHOP, enabling it to gather runtime knowledge, address uncertainties and reason about its internal state and external environment. To achieve this, we implement an autonomic element (Managing System) which integrates the MAPE-K (Monitor, Analyze, Plan, Execute and Knowledge) feedback loop. Each component of the managing system will play a role in ensuring the system's adaptability, and are implemented as described below:
+To design the SAS for the RPiWeb, the system should embody the principles of Self-CHOP, enabling it to gather runtime knowledge, address uncertainties and reason about its internal state and external environment. To achieve this, we implement an autonomic element (Managing System) which integrates the MAPE-K (Monitor, Analyze, Plan, Execute and Knowledge) feedback loop. Each component of the managing system will play a role in ensuring the system's adaptability and are implemented as described below:
 
 \begin{itemize}
     \item \textbf{Monitor:}
-          Using Python, a monitoring daemon is implemented. It is responsible for collecting system and environmental metrics which reflect the RPi's current state and guide the self-adaptive process. This monitoring daemon runs in a loop that collects the metrics every 10 seconds. The chosen metrics are:
+          Using Python, a monitoring daemon is implemented. It is responsible for collecting system and environmental metrics which reflect the RPi's current state and guide the self-adaptive process. The data is saved in .csv format for logging and parsing. This monitoring daemon runs in a loop that collects the metrics every 10 seconds. The chosen metrics are:
 
           \begin{itemize}
               \item \textbf{CPU Usage, Clock Speed and Voltage:}
-                    These metrics, collected by the functions provided by the psutil library, are essential and reflect the RPi's computational load and power consumption. When CPU usage is high, it may suggest the need to degrade content or limit traffic to maintain stability. Voltage on the other hand, will provide insights for managing energy consumption, ensuring efficiency during periods of varying demand. Clock speeds will give a measure of overall balance of processing performance and thermal management. Together, the proper management of these factors will ensure that both system performance and thermals are optimized even under fluctuating workloads.
+                    These metrics, collected by the functions provided by the $psutil$ and $os$ libraries, are essential and reflect the RPi's computational load and power consumption. When CPU usage is high, it may suggest the need to degrade content or limit traffic to maintain stability. Voltage on the other hand, will provide insights for managing energy consumption, ensuring efficiency during periods of varying demand. Clock speeds will give a measure of overall balance of processing performance and thermal management. Together, the proper management of these factors will ensure that both system performance and thermals are optimized even under fluctuating workloads.
               \item \textbf{CPU Temperature:}
-                    Monitoring CPU temperature will allow for adaptation in the event that the system is nearing overheating conditions that could result in degraded performance or system failure/crash. This is also collected using psutil.
+                    Monitoring CPU temperature will allow for adaptation in the event that the system is nearing overheating conditions that could result in degraded performance or system failure/crash. This is collected using the $os$ library.
               \item \textbf{Memory Usage:}
-                    The memory metric will be monitored to assist in detecting potential bottlenecks or resource exhaustion. When memory load is high, caching or content degradation could offset the demand and maintain system stability. This metric is accessible using psutil.
+                    The memory metric will be monitored to assist in detecting potential bottlenecks or resource exhaustion. When memory load is high, caching or content degradation could offset the demand and maintain system stability. This metric is accessible using $psutil$.
               \item \textbf{Latency (ms):}
-                    Latency measures the overall responsiveness of the website when users are interacting with it. The metric is provided by Apache's built in status page, and can assist in proactive adaptation as increasing latency could be indicative of a potential overload that could result in a system crash.
+                    Latency measures the overall responsiveness of the website when users are interacting with it. The metric is obtained by parsing Apache's built in status page, and can assist in proactive adaptation as increasing latency could be indicative of a potential overload that could result in a system crash.
               \item \textbf{Local Weather Conditions:}
                     External weather conditions are also collected, as a RPi operating in, for example, a remote location using satellite internet, could directly result in network fluctuations that may affect availability and responsiveness of the website. Through knowledge of the system behavior, perhaps a connection between seasons and tendency for high CPU temps may also be established. Weather metrics are collected using the OpenWeather API.
           \end{itemize}
 
-          To better visualize these metrics, a simple dashboard was also implemented using Flask, and is illustrated by \ref{fig:metrics_dashboard}. This dashboard features all essential metrics, while also providing adaptation status indicators that highlight effector states. In addition to this, the monitoring daemon loop is also equipped with fault tolerance logic, retrying data collection in the event of failures due to external API errors or downtime. And lastly, a watchdog mechanism is also monitoring the system and is responsible for identifying scenarios where a reboot is required as a last ditch effort to ensure system availability.
+          To better visualize these metrics, a simple dashboard was also implemented using Flask, and is illustrated by Figure \ref{fig:metrics_dashboard}. This dashboard features all essential metrics, while also providing adaptation status indicators that highlight effector states. In addition to this, the monitoring daemon loop is also equipped with fault tolerance logic; retrying data collection in the event of failures due to external API errors or downtime. And lastly, a watchdog mechanism (implemented using the $subprocess$ library) is also monitoring the system and is responsible for identifying scenarios where a reboot is required as a last ditch effort to ensure system availability.
 
           \begin{figure}[H]
               \centering
               \includegraphics[width=0.45\textwidth]{./media/metrics_dashboard.png}
-              \caption{Unbeatable Pi: Metrics Dashboard}
+              \caption{Unbeatable Pi: Metrics and Effectors Dashboard}
               \label{fig:metrics_dashboard}
           \end{figure}
 
     \item \textbf{Analyze:}
-          The analyze component is responsible for interpreting the metrics measured in the monitoring phase in preparation for planning and the adaptation signal output. Two main approaches have been explored:
+          The analyze component is responsible for interpreting the metrics measured in the monitoring phase, in preparation for planning and the adaptation signal output. Two main approaches have been explored:
 
           \begin{itemize}
-              \item \textbf{Utility Function:} The utility function asses two key areas. The first, is machine health, focusing on CPU usage and temperature thresholds. The second, is website performance, focusing on network metrics. The following table summarizes the thresholds:
+              \item \textbf{Utility Function:} The utility function asses two key areas. The first being machine health, focusing on CPU usage and temperature thresholds. The second, is website performance, focusing on network metrics. Table \ref{tab:utility-thresholds} summarizes the thresholds that were determined based on experimentation with the RPi:
               
               \begin{table}[ht]
                 \centering
@@ -143,6 +143,15 @@ To design the SAS for the RPiWeb, the system should embody the principles of Sel
                 \bottomrule
                 \end{tabular}
                 \end{table}
+
+                To calculate utility, we assign weights to each metric based on their importance to achieving the adaptation goals. The utility component \( u_i \) for each metric is then calculated and a final utility score is found using Equation \ref{utility_formula},
+
+                \begin{equation}
+                U = w_{\text{CPU}} \cdot u_{\text{CPU}} + w_{\text{MEM}} \cdot u_{\text{MEM}}+ ...
+                \label{utility_formula}
+                \end{equation}
+
+                where Equation \ref{utility_formula} is a shortened version of the full equation that would include all the relevant metrics.
                 
               \item \textbf{Anomaly Detection:}
                     An Isolation Forest algorithm is trained on the historical data collected by the monitoring daemon. This algorithm isolates anomalies by looking at splits in data space that separate rare/unexpected points from normal ones. Over time, the aggregation of data should reveal a distinction between normal and unexpected operation. Using this model that is trained on this distinction, a check against the current data collected by the monitoring daemon is made. If the model identifies the data as an anomaly, then this serves as an indicator for the adaptation. To obtain this model, it was first necessary to prepare the data using the $prepare\_data.py$ script. Raw data from the monitoring daemon is preprocessed. Missing values are handled by dropping the rows. Categorical weather data was one-hot encoded to transform it into format that can be used for model training. Lastly, a StandardScaler is used to ensure uniformity in scale and improve model performance. Following the data preparation, the $train\_model.py$ script is invoked. This script takes the preprocessed data and uses it to train the Isolation Forest model that is used by the monitoring daemon for real-time detection. The contamination (expected portion of anomalies) hyperparameter was tweaked to 0.08, achieving a suitable balance for the model when working with our limited test data. The second hyperparameter, n\_estimators (number of trees), was left in its default value of 100.
@@ -158,14 +167,14 @@ To design the SAS for the RPiWeb, the system should embody the principles of Sel
           \end{figure}
 
     \item \textbf{Execute:}
-          Using the same python library, it is possible to execute the plans to enact the system adaptation. For content degradation, a python script interacts with the HTML files served by Apache HTTP Server.
+          Using the same python libraries $psutil$ and $os$, it is possible to execute the plans to enact the system adaptation. For content degradation, a python script interacts with the HTML files served by Apache HTTP Server. For...
 \end{itemize}
 
-The environment, which is also monitored by the SAS, consists of...
+For added clarification, the environment, which is also monitored by the SAS, can be broken down into key components. The hardware constraints of the RPi itself and its specifications and external conditions are the two main environments that then encapsulate other components. The Apache HTTP Server which hosts the target website, connecting the RPi to users is an environment that connects the RPi to the external world/users.
 
-Operation of the full feedback loop could be summarized as follows:
+Operation of the full feedback loop could be summarized as follows: the monitoring daemon starts by collecting system metrics and external metrics at a regular interval. These are the real-time snapshots of the system's state. The metrics collected are stored in a .csv file and evaluated against the thresholds defined by a utility function or alternatively, the Isolation Forest model. Each reading is evaluated and given a flag representing the health status (Good, Medium, or Critical) of both the machine and website performance. Based on the results, an appropriate adaptation plan is selected as described earlier. For example, the plan could be to increase CPU clock speed when both machine health and website performance are good. Lastly, the selected adaptation plan is implemented through the effectors.
 
-This feedback loop implementation is further illustrated by Figures \ref{fig:three_layer_framework} and \ref{fig:high_level_framework}. In Figure \ref{fig:three_layer_framework}, ... In Figure \ref{fig:high_level_framework}, ...
+This feedback loop implementation is illustrated by Figures \ref{fig:three_layer_framework} and \ref{fig:high_level_framework}. In Figure \ref{fig:three_layer_framework}, the adaptation goals are summarized in the Goal Management layer. Plans are then identified in the Change Management layer, and finally, the managed system and its various components are found in the Component Control layer. The Environment layer (not labelled) is found at the very bottom of the figure. In Figure \ref{fig:high_level_framework}, we are given another perspective of the framework and its various interactions between components in a more abstracted form.
 
 \begin{figure}[H]
     \centering
@@ -181,9 +190,31 @@ This feedback loop implementation is further illustrated by Figures \ref{fig:thr
     \label{fig:high_level_framework}
 \end{figure}
 
-For reference, the project's source code may be found in the GitHub repository \cite{arthur_github}. The many technologies mentioned are also briefly summarized by the following table:
+For reference, the project's source code may be found in the GitHub repository \cite{arthur_github}. The many technologies mentioned (and others) are also briefly summarized by the following table:
 
-
+\begin{table}[ht]
+    \centering
+    \caption{Summary of Technologies Used in the Project}
+    \label{tab:technologies}
+    \small
+    \begin{tabular}{ll}
+    \toprule
+    \textbf{Technology} & \textbf{Purpose} \\
+    \midrule
+    RPi                    & Hardware platform hosting website \\
+    Apache HTTP Server     & Web server hosts website and manages requests \\
+    Python                 & Implementation language \\
+    Flask                  & Framework for dashboard and exposing APIs \\
+    OpenWeather API        & Fetching environmental metrics \\
+    psutil                 & Library for monitoring system metrics \\
+    JMeter                 & Tool for simulating web traffic and testing system \\
+    Isolation Forest       & Machine learning algorithm for detecting anomalies \\
+    StandardScaler         & Scaling numeric data to improve model accuracy \\
+    OneHotEncoder          & Encoding categorical data \\
+    joblib                 & Serialization and deserialization of ML models \\
+    \bottomrule
+    \end{tabular}
+    \end{table}    
 
 \begin{thebibliography}{00}
 

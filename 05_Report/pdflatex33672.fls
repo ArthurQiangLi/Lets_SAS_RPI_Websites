@@ -1,0 +1,5 @@
+PWD c:/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/05_Report
+INPUT c:/texlive/2024/texmf.cnf
+INPUT c:/texlive/2024/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/05_Report/r1.tex
