@@ -178,7 +178,7 @@ def plot_a10_data_4(filtered_file, parameter_groups2, height=3, width=5, title_f
 
     # Prepare data for plotting
     timestamps = [datetime.strptime(row["Timestamp"], "%Y-%m-%d %H:%M:%S") for row in rows]
-    plot_data = {key: [float(row[key]) for row in rows if key in row] for group in parameter_groups2 for key in group}
+    plot_data = {key: [(row[key]) for row in rows if key in row] for group in parameter_groups2 for key in group}
 
     # Calculate grid size
     num_rows = len(parameter_groups2)
@@ -215,7 +215,7 @@ def plot_a10_data_4(filtered_file, parameter_groups2, height=3, width=5, title_f
 # Example Usage
 DO_WHAT = 4
 file_path = "logged_data/2024-12-05_23-08-21_a10.csv"  # Replace with your actual file path
-filtered_file = "logged_data/2024-12-05_23-08-21_a10_filtered_conditioned.csv"  # Replace with your actual file path
+filtered_file = "logged_data/2024-12-06_00-50-26_a10.csv"  # Replace with your actual file path
 
     # Step 1: Filter data and save it
 if (DO_WHAT==1):
@@ -246,9 +246,9 @@ if (DO_WHAT==3):
 
 if (DO_WHAT==4):
     parameter_groups2 = [
-        ["cpu", "total_cpu", "apache2metrics_TotalkBytes"],
-        ["cpu_temperature", "apache2metrics_Load1", "apache2metrics_TotalAccesses"],
-        ["memory", "apache2metrics_Load5", "apache2metrics_DurationPerReq"]
+        ["cpu", "cpu_temperature", "memory"],
+        [ "apache2metrics_BusyWorkers","apache2metrics_Load1", "apache2metrics_DurationPerReq" ],
+        ["health", "performance", "no"]
     ]
 
     plot_a10_data_4(filtered_file, parameter_groups2, height=3, width=5, title_fontsize=30)
