@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.5)  5 DEC 2024 21:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.5)  6 DEC 2024 12:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -412,33 +412,34 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip59
 )
-Package translations Info: No language package found. I am going to use `english' as default language. on input line 19.
+Package hyperref Info: Option `breaklinks' set `true' on input line 15.
+Package translations Info: No language package found. I am going to use `english' as default language. on input line 21.
  (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count325
 \l__pdf_internal_box=\box68
-)
-No file r1.aux.
+) (./r1.aux)
 \openout1 = `r1.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
-LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
+LaTeX Font Info:    ... okay on input line 21.
+
 -- Lines per column: 56 (exact).
 (c:/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -461,795 +462,74 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 )) (c:/texlive/2024/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 19.
-Package hyperref Info: Link coloring OFF on input line 19.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 21.
+Package hyperref Info: Link coloring OFF on input line 21.
+ (./r1.out) (./r1.out)
 \@outlinefile=\write3
 \openout3 = `r1.out'.
 
 
 
-LaTeX Warning: Citation `quiz_pdf' on page 1 undefined on input line 44.
-
-
-Underfull \hbox (badness 2189) in paragraph at lines 44--45
-\OT1/ptm/m/n/10 sys-tems. That is, due to the in-creas-ing com-plex-ity of
- []
-
-
-Underfull \hbox (badness 2334) in paragraph at lines 44--45
-\OT1/ptm/m/n/10 sys-tems and un-cer-tain op-er-at-ing con-di-tions, main-tain-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--45
-
- []
-
-
-LaTeX Warning: Citation `quiz_pdf' on page 1 undefined on input line 46.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 46--47
-
- []
-
-
-LaTeX Warning: Citation `quiz_pdf' on page 1 undefined on input line 48.
-
-
-LaTeX Warning: Citation `DARTS_pdf' on page 1 undefined on input line 48.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
 (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 50.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
  (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-LaTeX Warning: Citation `DARTS_pdf' on page 1 undefined on input line 54.
-
-
-LaTeX Warning: Citation `SAVE_pdf' on page 1 undefined on input line 54.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--55
-
- []
-
-
-LaTeX Warning: Citation `DARTS_pdf' on page 1 undefined on input line 57.
-
-
-
-
-LaTeX Warning: Citation `DARTS_pdf' on page 1 undefined on input line 61.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 64--65
-
- []
-
-
-LaTeX Warning: Citation `quiz_pdf' on page 1 undefined on input line 66.
-
-
-Underfull \hbox (badness 1546) in paragraph at lines 66--67
-\OT1/ptm/b/n/10 Compression rate con-trol: \OT1/ptm/m/n/10 In-flu-enc-ing size and im-age
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 66--67
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
-
- []
-
-
-LaTeX Warning: Citation `DARTS_pdf' on page 1 undefined on input line 70.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-
-LaTeX Warning: Citation `quiz_pdf' on page 1 undefined on input line 72.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-
-Underfull \hbox (badness 2875) in paragraph at lines 77--78
-[]\OT1/ptm/m/n/10 The man-ag-ing sys-tem will con-sist of the fol-low-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
-
- []
-
-
 
 [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-
-LaTeX Warning: Citation `SAVE_pdf' on page 2 undefined on input line 79.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
-
- []
-
-
-LaTeX Warning: Citation `SAVE_pdf' on page 2 undefined on input line 93.
-
-
-Underfull \hbox (badness 5847) in paragraph at lines 93--94
-\OT1/ptm/m/n/10 script us-ing the $\OML/cmm/m/it/10 compute[]ssim\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 img[]in; img[]out\OT1/cmr/m/n/10 )$ \OT1/ptm/m/n/10 and
- []
-
-
-Underfull \hbox (badness 1762) in paragraph at lines 93--94
-\OML/cmm/m/it/10 os:path:getsize\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 img[]out\OT1/cmr/m/n/10 )$ \OT1/ptm/m/n/10 func-tions in an it-er-a-tive loop
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 93--94
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
-
- []
-
-
-LaTeX Warning: Citation `SAVE_pdf' on page 2 undefined on input line 97.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 97--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
-
- []
-
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 140--141
-
- []
-
-
-LaTeX Warning: Reference `utility_formula' on page 2 undefined on input line 142.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--148
-
- []
-
-
-LaTeX Warning: Citation `SAVE_pdf' on page 2 undefined on input line 149.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--150
-
- []
-
-
-LaTeX Warning: Reference `size_utility' on page 2 undefined on input line 170.
-
-
-LaTeX Warning: Reference `SSIM_utility' on page 2 undefined on input line 170.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--171
-
- []
-
-
-
-[2]
-Underfull \hbox (badness 1584) in paragraph at lines 174--175
-[]\OT1/ptm/m/n/10 The \OT1/ptm/b/n/10 Noise Re-duc-tion Fil-ter\OT1/ptm/m/n/10 , like sharp-en-ing, also
- []
-
-
-Underfull \hbox (badness 4765) in paragraph at lines 174--175
-\OT1/ptm/m/n/10 pri-mar-ily im-pacts SSIM by re-duc-ing com-pres-sion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
-
- []
-
-
-LaTeX Warning: Citation `SAVE_pdf' on page 3 undefined on input line 182.
-
-
-Underfull \hbox (badness 1975) in paragraph at lines 182--183
- \OT1/ptm/m/it/10 1) \OT1/ptm/b/it/10 Iden-ti-fi-ca-tion\OT1/ptm/m/it/10 : [][][] \OT1/ptm/m/n/10 The video streams are as-sumed to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
-
- []
-
-
-Underfull \hbox (badness 1472) in paragraph at lines 185--186
- \OT1/ptm/m/it/10 2) \OT1/ptm/b/it/10 Re-spon-si-bil-ity\OT1/ptm/m/it/10 : [][][] \OT1/ptm/m/n/10 The en-vi-ron-ment pro-vides the con-
- []
-
-
-LaTeX Warning: Citation `lecture1_pdf' on page 3 undefined on input line 188.
-
-
-LaTeX Warning: Reference `MS' on page 3 undefined on input line 188.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
-
- []
-
-
-LaTeX Warning: Reference `utility_formula' on page 3 undefined on input line 190.
-
-
-Underfull \hbox (badness 1521) in paragraph at lines 190--191
-\OT1/ptm/m/n/10 af-ter each en-cod-ing cy-cle. These val-ues are in-ter-preted
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 190--191
-
- []
-
-
-LaTeX Warning: Citation `SAVE_pdf' on page 3 undefined on input line 192.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 192--193
-
- []
-
-
-
-
-Underfull \hbox (badness 2189) in paragraph at lines 194--195
-\OT1/ptm/m/n/10 con-straints. With caching, we could take ad-van-tage of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 194--195
-
- []
-
-
-LaTeX Warning: Reference `fig:q1_conc_model' on page 3 undefined on input line 199.
-
-
-LaTeX Warning: File `./q1_conc_model.png' not found on input line 203.
-
-
-c:/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/05_Report/r1.tex:203: Package pdftex.def Error: File `./q1_conc_model.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.203 ...idth=0.45\textwidth]{./q1_conc_model.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 203.
-(c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
-File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
-)
-
-LaTeX Warning: Reference `video_encoder_section' on page 3 undefined on input line 209.
-
-
-LaTeX Warning: Citation `lecture5_pdf' on page 3 undefined on input line 209.
-
-
-Underfull \hbox (badness 2671) in paragraph at lines 209--210
-\OT1/ptm/m/n/10 fo-cused on a sin-gle sys-tem im-ple-ment-ing the MAPE-
- []
-
-
-Underfull \hbox (badness 2126) in paragraph at lines 209--210
-\OT1/ptm/m/n/10 K loop tar-get-ing spe-cific, pre-de-fined pa-ram-e-ters and a
- []
-
-
-Underfull \hbox (badness 3029) in paragraph at lines 209--210
-\OT1/ptm/m/n/10 spe-cific ap-pli-ca-tion. The ap-proach was tightly cou-pled
- []
-
-
-Underfull \hbox (badness 4084) in paragraph at lines 209--210
-\OT1/ptm/m/n/10 Adap-ta-tion (ABA) is in-tro-duced. While software-based
- []
-
-
-Underfull \hbox (badness 3907) in paragraph at lines 209--210
-\OT1/ptm/m/n/10 com-po-nents or lay-ers in a dis-tributed man-ner, where
- []
-
-
-Underfull \hbox (badness 1748) in paragraph at lines 209--210
-\OT1/ptm/m/n/10 com-po-nents can make in-de-pen-dent lo-cal or co-or-di-nated
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 209--210
-
- []
-
-
-
-[3]
-
-LaTeX Warning: Citation `lecture5_pdf' on page 4 undefined on input line 211.
-
-
-Underfull \hbox (badness 1968) in paragraph at lines 211--212
-\OT1/ptm/m/n/10 in-spired by the clas-sic ar-chi-tec-ture of robotic sys-tems,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 211--212
-
- []
-
-
-LaTeX Warning: Citation `lecture5_pdf' on page 4 undefined on input line 213.
-
-
-Underfull \hbox (badness 2343) in paragraph at lines 213--214
-\OT1/ptm/b/n/10 Goal Man-age-ment (GM): \OT1/ptm/m/n/10 Fo-cuses on high-level goal
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 213--214
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 215--216
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
-
- []
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 4 undefined on input line 219.
-
-
-LaTeX Warning: Citation `quiz_pdf' on page 4 undefined on input line 219.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 4 undefined on input line 219.
-
-
-
-
-LaTeX Warning: Reference `fig:q2_three_layer_model' on page 4 undefined on input line 222.
-
-
-LaTeX Warning: File `./q2_three_layer_model.png' not found on input line 226.
-
-
-c:/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/05_Report/r1.tex:226: Package pdftex.def Error: File `./q2_three_layer_model.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.226 ...58\textwidth]{./q2_three_layer_model.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Overfull \hbox (47.28094pt too wide) in paragraph at lines 226--227
- [][] 
- []
-
-
-Underfull \hbox (badness 2103) in paragraph at lines 231--232
-\OT1/ptm/m/n/10 Repos-i-tory, Qual-ity of Ser-vice (QoS) Man-ager, Ser-vice
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
-
- []
-
-
-Underfull \hbox (badness 2384) in paragraph at lines 233--234
-\OT1/ptm/m/n/10 Con-fig-u-ra-tion Ex-ecu-tor, Adap-ta-tion Con-troller, Re-mot-ing
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 233--234
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--236
-
- []
-
-
-LaTeX Warning: Reference `fig:q2_three_layer_model' on page 4 undefined on input line 240.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 4 undefined on input line 240.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
-
- []
-
-
-
-[4]
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 243.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 245.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 247.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 249.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 251.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 253.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 255.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 257.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 259.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 261.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 263.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 265.
-
-
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 267.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 269.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 271.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 273.
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 275.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 279--280
-
- []
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 281.
-
-
-Underfull \hbox (badness 1694) in paragraph at lines 281--282
-\OT1/ptm/m/n/10 plan by Dis-cov-ery Lis-ten-ers, rep-re-sent-ing an al-ter-na-tive
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
-
- []
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 5 undefined on input line 283.
-
-
-Underfull \hbox (badness 2205) in paragraph at lines 283--284
-[]\OT1/ptm/m/n/10 In the CM layer, con-text mon-i-tor-ing and adap-ta-tion
- []
-
-
-Underfull \hbox (badness 2529) in paragraph at lines 283--284
-\OT1/ptm/m/n/10 trig-ger-ing oc-cur. The Con-text Man-ager is con-tin-u-ously
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
-
- []
-
-
-
-[5]
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 6 undefined on input line 285.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
-
- []
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 6 undefined on input line 287.
-
-
-Underfull \hbox (badness 1629) in paragraph at lines 287--288
-\OT1/ptm/m/n/10 Con-fig-u-ra-tion Ex-ecu-tor evokes the Re-mot-ing Ser-vice to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
-
- []
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 6 undefined on input line 289.
-
-
-Underfull \hbox (badness 5741) in paragraph at lines 289--290
-\OT1/ptm/m/n/10 dis-con-nec-tion de-tec-tion al-go-rithm in-spired by am-bi-ent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
-
- []
-
-
-Underfull \hbox (badness 4660) in paragraph at lines 291--292
-\OT1/ptm/m/n/10 up-dated con-fig-u-ra-tion. And SLA Mon-i-tor-ing con-tin-ues
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
-
- []
-
-
-LaTeX Warning: Citation `MUSIC_pdf' on page 6 undefined on input line 293.
-
-
-
-
-LaTeX Warning: Citation `lecture6_pdf' on page 6 undefined on input line 296.
-
-
-LaTeX Warning: Citation `quiz_pdf' on page 6 undefined on input line 296.
-
-
-LaTeX Warning: Citation `MORE_pdf' on page 6 undefined on input line 296.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
-
- []
-
-
-LaTeX Warning: Citation `MORE_pdf' on page 6 undefined on input line 302.
-
-
-Underfull \hbox (badness 2790) in paragraph at lines 302--303
-\OT1/ptm/m/n/10 fea-ture mod-els rep-re-sent the pos-si-ble con-fig-u-ra-tion
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 302--303
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 304--305
-
- []
-
-
-LaTeX Warning: Citation `MORE_pdf' on page 6 undefined on input line 306.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
-\OT1/ptm/m/n/10 tech-nolo-gies at run-time (dy-namic product-line
- []
-
-
-Underfull \hbox (badness 3019) in paragraph at lines 306--307
-\OT1/ptm/m/n/10 ar-chi-tec-ture) us-ing the XML Meta-data In-ter-change
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 306--307
-
- []
-
-
-Underfull \hbox (badness 2435) in paragraph at lines 309--310
-[]\OT1/ptm/m/n/10 More thor-oughly, the re-spon-si-bil-i-ties of the dif-fer-ent
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
-
- []
-
-
-LaTeX Warning: Citation `MORE_pdf' on page 6 undefined on input line 312.
-
-
-LaTeX Warning: Citation `MORE_pdf' on page 6 undefined on input line 314.
-
-
-
-[6]
-
-LaTeX Warning: Citation `MORE_pdf' on page 7 undefined on input line 316.
-
-
-LaTeX Warning: Citation `MORE_pdf' on page 7 undefined on input line 318.
-
-
-LaTeX Warning: Citation `MORE_pdf' on page 7 undefined on input line 320.
-
-
-LaTeX Warning: Citation `MORE_pdf' on page 7 undefined on input line 322.
-
-
-LaTeX Warning: Citation `MORE_pdf' on page 7 undefined on input line 324.
-
-
-LaTeX Warning: Citation `MORE_pdf' on page 7 undefined on input line 326.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 330--331
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 335--336
-
- []
-
-
-Underfull \hbox (badness 1377) in paragraph at lines 338--339
-\OT1/ptm/m/n/10 based on con-text changes. The MoRE en-gine (An-a-lyze
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+[]\OT1/ptm/m/n/8 L. Pounder, "Rasp-berry Pi cel-e-brates 12 years as sales
  []
 
 
-Underfull \hbox (badness 3189) in paragraph at lines 338--339
-\OT1/ptm/m/n/10 adap-ta-tions and gen-er-ate the re-con-fig-u-ra-tion plan. The
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+\OT1/ptm/m/n/8 break 61 mil-lion units," Tom's Hard-ware, Feb. 29, 2024.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
-
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+\OT1/ptm/m/n/8 [On-line]. Avail-able: []$https : / / www . tomshardware . com / raspberry-[]pi /
  []
-
 
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
-
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+\OT1/ptm/m/n/8 raspberry-[]pi-[]celebrates-[]12-[]years-[]as-[]sales-[]break-[]61-[]million-[]units$[].
  []
-
 
-LaTeX Warning: Citation `lecture6_pdf' on page 7 undefined on input line 342.
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
-
+Underfull \hbox (badness 1776) in paragraph at lines 82--83
+\OT1/ptm/m/n/8 Mar. 14, 2024. [On-line]. Avail-able: []$https : / / www . onlogic . com / blog /
  []
-
-
-LaTeX Warning: Citation `MORE_pdf' on page 7 undefined on input line 344.
-
-
-LaTeX Warning: Reference `fig:MORE_workflow' on page 7 undefined on input line 347.
-
-
-LaTeX Warning: File `./MORE_workflow.png' not found on input line 351.
-
-
-c:/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/05_Report/r1.tex:351: Package pdftex.def Error: File `./MORE_workflow.png' not found: using draft setting.
 
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.351 ...width=0.5\textwidth]{./MORE_workflow.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
-
-Overfull \hbox (6.0pt too wide) in paragraph at lines 351--352
- [][] 
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+\OT1/ptm/m/n/8 industrial-[]raspberry-[]pi-[]a-[]brief-[]history-[]and-[]current-[]state/$[]. [Ac-cessed:
  []
-
-
-LaTeX Warning: Citation `MORE_pdf' on page 7 undefined on input line 356.
-
-
-LaTeX Warning: Reference `fig:MORE_workflow' on page 7 undefined on input line 356.
-
 
-Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+[]\OT1/ptm/m/n/8 https://www.makeuseof.com/raspberry-pi-difficulties-self-hosting-
  []
 
 
-
-[7]
-
-LaTeX Warning: Citation `MORE_pdf' on page 8 undefined on input line 358.
-
-
-LaTeX Warning: Reference `eq:MotionSensorFailure' on page 8 undefined on input line 358.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
-[]\OT1/ptm/m/n/10 where $\OML/cmm/m/it/10 MotionSensorFeature$ \OT1/ptm/m/n/10 is the func-
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+[]\OT1/ptm/m/n/8 https://fastercapital.com/content/Web-Server--Hosting-a-Website-with-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
-\OT1/ptm/m/n/10 tion-al-ity pro-vided by the mo-tion sen-sor, and
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+\OT1/ptm/m/n/8 Raspberry-Pi.html#Troubleshooting-common-issues-when-hosting-a-
  []
-
 
-Underfull \hbox (badness 10000) in paragraph at lines 374--375
 
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+[]\OT1/ptm/m/n/8 https://www.datacenterdynamics.com/en/news/ibm-mainframes-survive-
  []
 
 
@@ -1267,42 +547,29 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[8
+[2
 
 ] (./r1.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `r1.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `r1.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  E7FCB7A962B2175B1F3D481652C20EC9;3654.
+Package rerunfilecheck Info: File `r1.out' has not changed.
+(rerunfilecheck)             Checksum: 54C4CC352DC376C3E35BC632803A4601;328.
  ) 
 Here is how much of TeX's memory you used:
- 15441 strings out of 473330
- 299766 string characters out of 5723878
- 683728 words of memory out of 5000000
- 38363 multiletter control sequences out of 15000+600000
- 599505 words of font info for 113 fonts, out of 8000000 for 9000
+ 15259 strings out of 473330
+ 295485 string characters out of 5723878
+ 685092 words of memory out of 5000000
+ 38215 multiletter control sequences out of 15000+600000
+ 592905 words of font info for 105 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,80p,1691b,1010s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on r1.pdf (8 pages, 220752 bytes).
+ 75i,8n,80p,1399b,897s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on r1.pdf (2 pages, 59195 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 128 compressed objects within 2 object streams
- 43 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 74 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
 
