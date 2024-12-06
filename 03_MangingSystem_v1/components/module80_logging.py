@@ -6,6 +6,20 @@ from datetime import datetime
 current_a10_file = None
 current_a30_file = None
 
+def pick_wanted(input_dict):
+    # Define the items you want to pick
+    wanted_keys = ["cpu", "cpu_temperature", "memory", "apache2metrics_BusyWorkers","apache2metrics_Load1","apache2metrics_DurationPerReq",  "health", "performance", "no", "clock"]
+    
+    # Initialize the output dictionary
+    picked = {}
+    
+    for key in wanted_keys:
+        # Check if the key exists in the input_dict; if not, add it with an empty value
+        picked[key] = input_dict.get(key, "")
+    
+    return picked
+
+
 # Function to check file size and create a new file if needed
 def check_or_create_file(prefix):
     global current_a10_file, current_a30_file

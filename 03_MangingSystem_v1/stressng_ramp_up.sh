@@ -7,13 +7,13 @@
 
 
 # Total duration of stress in seconds
-TOTAL_DURATION=600
+TOTAL_DURATION=900
 
 # Ramp-up duration in seconds
-RAMP_UP_DURATION=180
+RAMP_UP_DURATION=240
 
 # Target CPU load percentage
-CPU_TARGET_LOAD=70
+CPU_TARGET_LOAD=75
 
 # Target memory usage in MB (adjust based on your calculation)
 MEMORY_TARGET_MB=270
