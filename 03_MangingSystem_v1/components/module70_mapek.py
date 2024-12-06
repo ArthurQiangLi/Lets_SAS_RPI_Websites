@@ -44,25 +44,25 @@ def mape_planning(metric, state, plan):
         plan['clock'] = 'min' 
 
     if state['performance'] == 'bad':
-        plan['no'] = max(1, plan['no'] + 1)  # Decrease by 1 but not below 1
+        plan['no'] = min(4, plan['no'] + 1)  # Decrease by 1 but not below 1
 
     if state['performance'] == 'good':
-        plan['no'] = min(4, plan['no'] - 1)  # Increase by 1 but not above 4
+        plan['no'] = max(1, plan['no'] - 1)  # Increase by 1 but not above 4
 
     return plan
 
 
 ##
 # Testing
-'''
+
 
 
 
 dic = {
  'Timestamp': '2024-11-27 15:57:47',
- 'cpu': '3.8',
+ 'cpu': '70',
  'memory': '44.7',
- 'cpu_temperature': '58.5',
+ 'cpu_temperature': '78.5',
  'arm_clock': '1400.0',
  'total_cpu': '42.0',
  'throttled_status_under_voltage': 'True',
@@ -85,7 +85,7 @@ dic = {
  'apache2metrics_Processes': '2',
  'apache2metrics_ConnsTotal': '0',
  'apache2metrics_DurationPerReq': '1.84821',
- 'apache2metrics_Load1': '1.4',
+ 'apache2metrics_Load1': '2.4',
  'apache2metrics_Load5': '1.7',
  'apache2metrics_ServerUptime': '3d 20h 35m 5s'
 }
@@ -103,4 +103,3 @@ plan = mape_planning(metric, state, plan)
 mapek = state | plan  # log data to plot
 print(mapek)
 
-'''

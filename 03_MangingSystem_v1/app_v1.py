@@ -128,7 +128,7 @@ def foo2_thread():
         mapek = state | plan  # log data to plot
         print(mapek)
 
-        time.sleep(10)  # Wait 10 seconds
+        time.sleep(60)  # Wait 10 seconds
 
 if __name__ == "__main__":
     threading.Thread(target=foo1_thread, daemon=True).start() #daemon=True ensures that the threads terminate automatically when the main program exits
