@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.5)  6 DEC 2024 22:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.5)  6 DEC 2024 22:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -539,12 +539,12 @@ Package pdftex.def Info: ./media/high_level_framework.png  used on input line 23
 (pdftex.def)             Requested size: 232.19843pt x 177.56094pt.
 
 
-<./media/idle_graphs.png, id=91, 560.59438pt x 340.77313pt>
+<./media/idle_graphs.png, id=92, 560.59438pt x 340.77313pt>
 File: ./media/idle_graphs.png Graphic file (type png)
 <use ./media/idle_graphs.png>
 Package pdftex.def Info: ./media/idle_graphs.png  used on input line 272.
 (pdftex.def)             Requested size: 232.19843pt x 141.14781pt.
-<./media/heavy_load.png, id=92, 560.59438pt x 340.27126pt>
+<./media/heavy_load.png, id=93, 560.59438pt x 340.27126pt>
 File: ./media/heavy_load.png Graphic file (type png)
 <use ./media/heavy_load.png>
 Package pdftex.def Info: ./media/heavy_load.png  used on input line 279.
@@ -555,12 +555,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [5 <./media/three_layer_framework.png> <./media/high_level_framework.png> <./media/idle_graphs.png>]
-<./media/before_SAS_metrics.png, id=108, 1040.688pt x 650.43pt>
+<./media/before_SAS_metrics.png, id=109, 1040.688pt x 650.43pt>
 File: ./media/before_SAS_metrics.png Graphic file (type png)
 <use ./media/before_SAS_metrics.png>
 Package pdftex.def Info: ./media/before_SAS_metrics.png  used on input line 288.
 (pdftex.def)             Requested size: 232.19843pt x 145.11969pt.
-<./media/before_SAS_utility_and_plans.png, id=109, 361.35pt x 650.43pt>
+<./media/before_SAS_utility_and_plans.png, id=110, 361.35pt x 650.43pt>
 File: ./media/before_SAS_utility_and_plans.png Graphic file (type png)
 <use ./media/before_SAS_utility_and_plans.png>
 Package pdftex.def Info: ./media/before_SAS_utility_and_plans.png  used on input line 295.
@@ -570,7 +570,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-<./media/after_SAS_metrics.png, id=111, 1040.688pt x 650.43pt>
+<./media/after_SAS_metrics.png, id=112, 1040.688pt x 650.43pt>
 File: ./media/after_SAS_metrics.png Graphic file (type png)
 <use ./media/after_SAS_metrics.png>
 Package pdftex.def Info: ./media/after_SAS_metrics.png  used on input line 304.
@@ -581,14 +581,14 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [6 <./media/heavy_load.png> <./media/before_SAS_metrics.png> <./media/before_SAS_utility_and_plans.png>]
-<./media/after_SAS_utility_and_plans.png, id=123, 361.35pt x 650.43pt>
+<./media/after_SAS_utility_and_plans.png, id=124, 361.35pt x 650.43pt>
 File: ./media/after_SAS_utility_and_plans.png Graphic file (type png)
 <use ./media/after_SAS_utility_and_plans.png>
 Package pdftex.def Info: ./media/after_SAS_utility_and_plans.png  used on input line 311.
 (pdftex.def)             Requested size: 232.19843pt x 417.96098pt.
 
 
-<./media/anomaly_test_CPU.png, id=125, 456.95718pt x 456.20438pt>
+<./media/anomaly_test_CPU.png, id=126, 456.95718pt x 456.20438pt>
 File: ./media/anomaly_test_CPU.png Graphic file (type png)
 <use ./media/anomaly_test_CPU.png>
 Package pdftex.def Info: ./media/anomaly_test_CPU.png  used on input line 322.
@@ -596,12 +596,12 @@ Package pdftex.def Info: ./media/anomaly_test_CPU.png  used on input line 322.
 
 
 [7 <./media/after_SAS_metrics.png> <./media/after_SAS_utility_and_plans.png> <./media/anomaly_test_CPU.png>]
-<./media/anomaly_test_CPU_with_transition.png, id=141, 867.24pt x 433.62pt>
+<./media/anomaly_test_CPU_with_transition.png, id=142, 867.24pt x 433.62pt>
 File: ./media/anomaly_test_CPU_with_transition.png Graphic file (type png)
 <use ./media/anomaly_test_CPU_with_transition.png>
 Package pdftex.def Info: ./media/anomaly_test_CPU_with_transition.png  used on input line 331.
 (pdftex.def)             Requested size: 232.19843pt x 116.0931pt.
-<./media/anomaly_test_CPU-Latency_with_transition.png, id=142, 867.24pt x 433.62pt>
+<./media/anomaly_test_CPU-Latency_with_transition.png, id=143, 867.24pt x 433.62pt>
 File: ./media/anomaly_test_CPU-Latency_with_transition.png Graphic file (type png)
 <use ./media/anomaly_test_CPU-Latency_with_transition.png>
 Package pdftex.def Info: ./media/anomaly_test_CPU-Latency_with_transition.png  used on input line 338.
@@ -723,10 +723,10 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,8n,80p,1870b,1031s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on r1.pdf (9 pages, 1518460 bytes).
+Output written on r1.pdf (9 pages, 1518380 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 164 compressed objects within 2 object streams
+ 222 PDF objects out of 1000 (max. 8388607)
+ 165 compressed objects within 2 object streams
  39 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
