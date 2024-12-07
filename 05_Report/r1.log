@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.5)  6 DEC 2024 22:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.5)  6 DEC 2024 22:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -470,52 +470,48 @@ Package hyperref Info: Link coloring OFF on input line 21.
 
 
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 66.
-(c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 66.
- (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+
 
 [1{c:/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-
-<./media/metrics_dashboard.png, id=50, 1281.78876pt x 1027.84pt>
-File: ./media/metrics_dashboard.png Graphic file (type png)
-<use ./media/metrics_dashboard.png>
-Package pdftex.def Info: ./media/metrics_dashboard.png  used on input line 117.
-(pdftex.def)             Requested size: 232.19843pt x 186.19516pt.
-
-Underfull \vbox (badness 6396) has occurred while \output is active []
+LaTeX Font Info:    Trying to load font information for U+msa on input line 64.
+ (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
+ (c:/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
 
 
 
 [2]
+<./media/metrics_dashboard.png, id=56, 1281.78876pt x 1027.84pt>
+File: ./media/metrics_dashboard.png Graphic file (type png)
+<use ./media/metrics_dashboard.png>
+Package pdftex.def Info: ./media/metrics_dashboard.png  used on input line 115.
+(pdftex.def)             Requested size: 232.19843pt x 186.19516pt.
 
-LaTeX Warning: Reference `tab:utility-thresholds' on page 3 undefined on input line 126.
+
+LaTeX Warning: Reference `tab:utility-thresholds' on page 3 undefined on input line 124.
 
 
-
-<./media/state_diagram.png, id=61, 3296.315pt x 2252.415pt>
-File: ./media/state_diagram.png Graphic file (type png)
-<use ./media/state_diagram.png>
-Package pdftex.def Info: ./media/state_diagram.png  used on input line 162.
-(pdftex.def)             Requested size: 232.19843pt x 158.64749pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
 [3 <./media/metrics_dashboard.png>]
-LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 172.
+<./media/state_diagram.png, id=72, 3296.315pt x 2252.415pt>
+File: ./media/state_diagram.png Graphic file (type png)
+<use ./media/state_diagram.png>
+Package pdftex.def Info: ./media/state_diagram.png  used on input line 160.
+(pdftex.def)             Requested size: 232.19843pt x 158.64749pt.
+LaTeX Font Info:    Trying to load font information for OT1+pcr on input line 170.
  (c:/texlive/2024/texmf-dist/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
-Overfull \hbox (3.29744pt too wide) in paragraph at lines 200--200
+Overfull \hbox (3.29744pt too wide) in paragraph at lines 198--198
  []\OT1/pcr/m/n/8 devices/system/cpu/cpu0/cpufreq/scaling_setspeed"[] 
  []
 
@@ -524,7 +520,7 @@ Overfull \hbox (3.29744pt too wide) in paragraph at lines 200--200
 <./media/three_layer_framework.png, id=77, 536.0025pt x 511.9125pt>
 File: ./media/three_layer_framework.png Graphic file (type png)
 <use ./media/three_layer_framework.png>
-Package pdftex.def Info: ./media/three_layer_framework.png  used on input line 229.
+Package pdftex.def Info: ./media/three_layer_framework.png  used on input line 227.
 (pdftex.def)             Requested size: 232.19843pt x 221.75842pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -532,22 +528,22 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [4 <./media/state_diagram.png>]
-<./media/high_level_framework.png, id=86, 703.87968pt x 538.26094pt>
+<./media/high_level_framework.png, id=87, 703.87968pt x 538.26094pt>
 File: ./media/high_level_framework.png Graphic file (type png)
 <use ./media/high_level_framework.png>
-Package pdftex.def Info: ./media/high_level_framework.png  used on input line 236.
+Package pdftex.def Info: ./media/high_level_framework.png  used on input line 234.
 (pdftex.def)             Requested size: 232.19843pt x 177.56094pt.
 
 
-<./media/idle_graphs.png, id=92, 560.59438pt x 340.77313pt>
+<./media/idle_graphs.png, id=93, 560.59438pt x 340.77313pt>
 File: ./media/idle_graphs.png Graphic file (type png)
 <use ./media/idle_graphs.png>
-Package pdftex.def Info: ./media/idle_graphs.png  used on input line 272.
+Package pdftex.def Info: ./media/idle_graphs.png  used on input line 270.
 (pdftex.def)             Requested size: 232.19843pt x 141.14781pt.
-<./media/heavy_load.png, id=93, 560.59438pt x 340.27126pt>
+<./media/heavy_load.png, id=94, 560.59438pt x 340.27126pt>
 File: ./media/heavy_load.png Graphic file (type png)
 <use ./media/heavy_load.png>
-Package pdftex.def Info: ./media/heavy_load.png  used on input line 279.
+Package pdftex.def Info: ./media/heavy_load.png  used on input line 277.
 (pdftex.def)             Requested size: 232.19843pt x 140.93994pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -555,25 +551,25 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [5 <./media/three_layer_framework.png> <./media/high_level_framework.png> <./media/idle_graphs.png>]
-<./media/before_SAS_metrics.png, id=109, 1040.688pt x 650.43pt>
+<./media/before_SAS_metrics.png, id=110, 1040.688pt x 650.43pt>
 File: ./media/before_SAS_metrics.png Graphic file (type png)
 <use ./media/before_SAS_metrics.png>
-Package pdftex.def Info: ./media/before_SAS_metrics.png  used on input line 288.
+Package pdftex.def Info: ./media/before_SAS_metrics.png  used on input line 286.
 (pdftex.def)             Requested size: 232.19843pt x 145.11969pt.
-<./media/before_SAS_utility_and_plans.png, id=110, 361.35pt x 650.43pt>
+<./media/before_SAS_utility_and_plans.png, id=111, 361.35pt x 650.43pt>
 File: ./media/before_SAS_utility_and_plans.png Graphic file (type png)
 <use ./media/before_SAS_utility_and_plans.png>
-Package pdftex.def Info: ./media/before_SAS_utility_and_plans.png  used on input line 295.
+Package pdftex.def Info: ./media/before_SAS_utility_and_plans.png  used on input line 293.
 (pdftex.def)             Requested size: 232.19843pt x 417.96098pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-<./media/after_SAS_metrics.png, id=112, 1040.688pt x 650.43pt>
+<./media/after_SAS_metrics.png, id=113, 1040.688pt x 650.43pt>
 File: ./media/after_SAS_metrics.png Graphic file (type png)
 <use ./media/after_SAS_metrics.png>
-Package pdftex.def Info: ./media/after_SAS_metrics.png  used on input line 304.
+Package pdftex.def Info: ./media/after_SAS_metrics.png  used on input line 302.
 (pdftex.def)             Requested size: 232.19843pt x 145.11969pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -581,107 +577,107 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [6 <./media/heavy_load.png> <./media/before_SAS_metrics.png> <./media/before_SAS_utility_and_plans.png>]
-<./media/after_SAS_utility_and_plans.png, id=124, 361.35pt x 650.43pt>
+<./media/after_SAS_utility_and_plans.png, id=125, 361.35pt x 650.43pt>
 File: ./media/after_SAS_utility_and_plans.png Graphic file (type png)
 <use ./media/after_SAS_utility_and_plans.png>
-Package pdftex.def Info: ./media/after_SAS_utility_and_plans.png  used on input line 311.
+Package pdftex.def Info: ./media/after_SAS_utility_and_plans.png  used on input line 309.
 (pdftex.def)             Requested size: 232.19843pt x 417.96098pt.
 
 
-<./media/anomaly_test_CPU.png, id=126, 456.95718pt x 456.20438pt>
+<./media/anomaly_test_CPU.png, id=127, 456.95718pt x 456.20438pt>
 File: ./media/anomaly_test_CPU.png Graphic file (type png)
 <use ./media/anomaly_test_CPU.png>
-Package pdftex.def Info: ./media/anomaly_test_CPU.png  used on input line 322.
+Package pdftex.def Info: ./media/anomaly_test_CPU.png  used on input line 320.
 (pdftex.def)             Requested size: 232.19843pt x 231.81189pt.
 
 
 [7 <./media/after_SAS_metrics.png> <./media/after_SAS_utility_and_plans.png> <./media/anomaly_test_CPU.png>]
-<./media/anomaly_test_CPU_with_transition.png, id=142, 867.24pt x 433.62pt>
+<./media/anomaly_test_CPU_with_transition.png, id=143, 867.24pt x 433.62pt>
 File: ./media/anomaly_test_CPU_with_transition.png Graphic file (type png)
 <use ./media/anomaly_test_CPU_with_transition.png>
-Package pdftex.def Info: ./media/anomaly_test_CPU_with_transition.png  used on input line 331.
+Package pdftex.def Info: ./media/anomaly_test_CPU_with_transition.png  used on input line 329.
 (pdftex.def)             Requested size: 232.19843pt x 116.0931pt.
-<./media/anomaly_test_CPU-Latency_with_transition.png, id=143, 867.24pt x 433.62pt>
+<./media/anomaly_test_CPU-Latency_with_transition.png, id=144, 867.24pt x 433.62pt>
 File: ./media/anomaly_test_CPU-Latency_with_transition.png Graphic file (type png)
 <use ./media/anomaly_test_CPU-Latency_with_transition.png>
-Package pdftex.def Info: ./media/anomaly_test_CPU-Latency_with_transition.png  used on input line 338.
+Package pdftex.def Info: ./media/anomaly_test_CPU-Latency_with_transition.png  used on input line 336.
 (pdftex.def)             Requested size: 232.19843pt x 116.0931pt.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 []\OT1/ptm/m/n/8 L. Pounder, "Rasp-berry Pi cel-e-brates 12 years as sales
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 \OT1/ptm/m/n/8 break 61 mil-lion units," Tom's Hard-ware, Feb. 29, 2024.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 \OT1/ptm/m/n/8 [On-line]. Avail-able: []$https : / / www . tomshardware . com / raspberry-[]pi /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 358--359
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 \OT1/ptm/m/n/8 raspberry-[]pi-[]celebrates-[]12-[]years-[]as-[]sales-[]break-[]61-[]million-[]units$[].
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 362--363
+Underfull \hbox (badness 1776) in paragraph at lines 360--361
 \OT1/ptm/m/n/8 Mar. 14, 2024. [On-line]. Avail-able: []$https : / / www . onlogic . com / blog /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 362--363
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 \OT1/ptm/m/n/8 industrial-[]raspberry-[]pi-[]a-[]brief-[]history-[]and-[]current-[]state/$[]. [Ac-cessed:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 364--365
+Underfull \hbox (badness 10000) in paragraph at lines 362--363
 \OT1/ptm/m/n/8 / / www . makeuseof . com / raspberry-[]pi-[]di^^Nculties-[]self-[]hosting-[]services/$[].
  []
 
 
-Underfull \hbox (badness 3108) in paragraph at lines 366--367
+Underfull \hbox (badness 3108) in paragraph at lines 364--365
 \OT1/ptm/m/n/8 i-tal, Jun. 17, 2024. [On-line]. Avail-able: []$https : / / fastercapital . com /
  []
 
 
-Underfull \hbox (badness 1810) in paragraph at lines 366--367
+Underfull \hbox (badness 1810) in paragraph at lines 364--365
 \OT1/ptm/m/n/8 content / Web-[]Server-[]-[]Hosting-[]a-[]Website-[]with-[]Raspberry-[]Pi . html$[]. [Ac-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 368--369
+Underfull \hbox (badness 10000) in paragraph at lines 366--367
 []\OT1/ptm/m/n/8 Neil, "Com-par-ing a Rasp-berry Pi 4 to AWS," Nelop
  []
 
 
-Underfull \hbox (badness 5260) in paragraph at lines 368--369
+Underfull \hbox (badness 5260) in paragraph at lines 366--367
 \OT1/ptm/m/n/8 Sys-tems, Oct. 19, 2020. [On-line]. Avail-able: []$https : / / nelop . com /
  []
 
 
 
 [8 <./media/anomaly_test_CPU_with_transition.png> <./media/anomaly_test_CPU-Latency_with_transition.png>]
-Underfull \hbox (badness 2573) in paragraph at lines 370--371
+Underfull \hbox (badness 2573) in paragraph at lines 368--369
 []\OT1/ptm/m/n/8 G. But-ler, "IBM main-frames sur-vive 4.8 mag-ni-tude Earth-quake
  []
 
 
-Underfull \hbox (badness 7796) in paragraph at lines 370--371
+Underfull \hbox (badness 7796) in paragraph at lines 368--369
 \OT1/ptm/m/n/8 in US East Coast," Data Cen-ter Dy-nam-ics, Apr. 8, 2024.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 \OT1/ptm/m/n/8 [On-line]. Avail-able: []$https : / / www . datacenterdynamics . com / en / news /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 370--371
+Underfull \hbox (badness 10000) in paragraph at lines 368--369
 \OT1/ptm/m/n/8 ibm-[]mainframes-[]survive-[]48-[]magnitude-[]earthquake-[]in-[]us-[]east-[]coast/$[].
  []
 
@@ -715,18 +711,18 @@ Package rerunfilecheck Info: File `r1.out' has not changed.
 (rerunfilecheck)             Checksum: 61EA6BFA47BE87F1ECAC6089AD91D39F;532.
  ) 
 Here is how much of TeX's memory you used:
- 15471 strings out of 473330
- 300919 string characters out of 5723878
- 686198 words of memory out of 5000000
- 38387 multiletter control sequences out of 15000+600000
- 600974 words of font info for 121 fonts, out of 8000000 for 9000
+ 15474 strings out of 473330
+ 300986 string characters out of 5723878
+ 688198 words of memory out of 5000000
+ 38389 multiletter control sequences out of 15000+600000
+ 602070 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,80p,1870b,1031s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on r1.pdf (9 pages, 1518380 bytes).
+ 75i,8n,80p,1870b,1066s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on r1.pdf (9 pages, 1528971 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 165 compressed objects within 2 object streams
+ 227 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
  39 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
