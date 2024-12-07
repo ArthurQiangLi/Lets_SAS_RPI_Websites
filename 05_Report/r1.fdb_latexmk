@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1733534161.82873 "c:/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/05_Report/r1.tex" "r1.pdf" "r1" 1733534167.26276 0
-  "c:/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/05_Report/r1.tex" 1733534160 27749 4db8d9263d5c3eebc5840c177f1074ea ""
+["pdflatex"] 1733536027.07629 "c:/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/05_Report/r1.tex" "r1.pdf" "r1" 1733536032.54291 0
+  "c:/Users/danie/Dropbox/bonjr/coding/VSProjects/Lets_SAS_RPI_Websites/05_Report/r1.tex" 1733536025 30496 4100f16c8e250de79b76146473f2e2f3 ""
   "c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1733427640 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "c:/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1733428179 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb7t.tfm" 1733437257 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -113,6 +113,7 @@
   "c:/texlive/2024/texmf.cnf" 1733438575 713 e69b156964470283e0530f5060668171 ""
   "media/after_SAS_metrics.png" 1733507849 149644 9a534bcd33008ff0bb61268e0979f4d9 ""
   "media/after_SAS_utility_and_plans.png" 1733507849 48410 af24376a3cd924143a7b41fdfc1517c7 ""
+  "media/anomaly_test_CPU.png" 1733534452 62611 e64f1ae9758104f8f757e2f45f59ad65 ""
   "media/before_SAS_metrics.png" 1733507849 138501 29d7bc9e18824f35540af832226f59f7 ""
   "media/before_SAS_utility_and_plans.png" 1733507849 29828 99c8e3b12333f38ce84880688d1bc609 ""
   "media/heavy_load.png" 1733531066 247292 ac4c5579fe0712c7d33f4822772b2e60 ""
@@ -121,9 +122,9 @@
   "media/metrics_dashboard.png" 1733516742 92870 9034d74c8d19880ca1d33b04c73b44c9 ""
   "media/state_diagram.png" 1733451661 264503 5dd935dbe7a2888bd906d2f156076772 ""
   "media/three_layer_framework.png" 1730165803 226472 7ff92b62614899beac548c91ab0d0a76 ""
-  "r1.aux" 1733534167 4254 7f21574379ff78ab4cf778b32c951ab3 "pdflatex"
-  "r1.out" 1733534167 439 43b94a9d3bfc6109589b8c9126c61557 "pdflatex"
-  "r1.tex" 1733534160 27749 4db8d9263d5c3eebc5840c177f1074ea ""
+  "r1.aux" 1733536032 4523 19c1fd58e164d035218c76e1ee0d75aa "pdflatex"
+  "r1.out" 1733536032 439 43b94a9d3bfc6109589b8c9126c61557 "pdflatex"
+  "r1.tex" 1733536025 30496 4100f16c8e250de79b76146473f2e2f3 ""
   (generated)
   "r1.aux"
   "r1.log"
