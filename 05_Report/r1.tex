@@ -60,15 +60,15 @@ However, there are many issues often associated with self-hosting services on th
 While commercial cloud services and mainframes do provide a robust solution to the many issues presented, the significant cost and complexity may make them inaccessible for DIY applications with limited budgets looking to provide high quality services, thus a novel approach is required. This leads us to the exploration of a self-adaptive solution; aiming to enhance RPi capabilities and achieve higher levels of system stability and reliability.
 
 \section{\textbf{Methodology}}\label{methodology}
-The presented solution explores how a self-adaptive RPi website hosting setup (RPiWeb) could bridge the gap between the aforementioned benefits of the RPi, the stability, reliability, security, and performance of traditional cloud services like AWS as well as the resiliency of IBM mainframes. That is, how a RPi could also—at a much smaller scale—be considered unbeatable. For this project, a 2019 Model B, featuring 4 CPU cores @ 1.5GHz, 2GB of RAM, and a Linux-based operating system is selected and acts as the managed element. The RPi is hosting a React based website that was also prepared specifically for this study. This website contains a combination of simple content, such as plain text, as well as high resolution images and videos. Duplications of said content were made to mirror the size and complexity of websites that are expected to be hosted by the RPi in real scenarios. This hardware setup serves as the foundation for testing our self-adaptive framework in an environment where resources are limited. In many cases, users with a similar setup might opt to mitigate the issues by simply over-provisioning resources, but this approach, on top of the added manual labour, can quickly become costly and inefficient. Instead, a self-adaptive approach aims to equip the RPi with Self-CHOP (Self-Configuring, Self-Healing, Self-Optimizing, and Self-Protecting) capabilities:
+The presented solution explores how a self-adaptive RPi website hosting setup (RPiWeb) could bridge the gap between the aforementioned benefits of the RPi, the stability, reliability, security, and performance of traditional cloud services like AWS as well as the resiliency of IBM mainframes. That is, how a RPi could also—at a much smaller scale—be considered unbeatable. For this project, a 2019 Model B, featuring 4 CPU cores @ 1.4GHz, 1GB of RAM, and a Linux-based operating system is selected and acts as the managed element. The RPi is hosting a React based website that was also prepared specifically for this study. This website contains a combination of simple content, such as plain text, as well as high resolution images and videos. Duplications of said content were made to mirror the size and complexity of websites that are expected to be hosted by the RPi in real scenarios. This hardware setup serves as the foundation for testing our self-adaptive framework in an environment where resources are limited. In many cases, users with a similar setup might opt to mitigate the issues by simply over-provisioning resources, but this approach, on top of the added manual labour, can quickly become costly and inefficient. Instead, a self-adaptive approach aims to equip the RPi with Self-CHOP (Self-Configuring, Self-Healing, Self-Optimizing, and Self-Protecting) capabilities:
 
 \begin{itemize}
     \item \textbf{Self-Configuring:}
-          The RPi is able to automatically adjust configuration based on workload demands. During peak traffic, the system may adjust CPU clock speeds, ...
+          The RPi is able to automatically adjust configuration based on workload demands. During peak traffic, the system may adjust CPU clock speeds.
     \item \textbf{Self-Healing:}
           When the RPi experiences a crash due to overload, a watchdog mechanism is able to reboot the system, minimizing downtime and removing the need for human intervention.
     \item \textbf{Self-Optimizing:}
-          Dynamic adjustments to improve efficiency are made through content degradation, priority-based fallback pages, ...
+          Dynamic adjustments to improve efficiency are made through content degradation, priority-based fallback pages.
     \item \textbf{Self-Protecting:}
           The SAS (Self-Adaptive System) should implement security measures to detect and block suspicious and/or unauthorized activity, maintaining a secure environment for the application and its data.
 \end{itemize}
@@ -124,33 +124,33 @@ To design the SAS for the RPiWeb, the system should embody the principles of Sel
 
           \begin{itemize}
               \item \textbf{Utility Function:} The utility function asses two key areas. The first being machine health, focusing on CPU usage and temperature thresholds. The second, is website performance, focusing on network metrics. Table \ref{tab:utility-thresholds} summarizes the thresholds that were determined based on experimentation with the RPi. Initially, all metrics were to be considered, however, this approach was prone to bugs and thus, moving forward, only CPU Usage, Memory Usage, CPU Temperature, Apache Load, durationPerReq (Latency), and busyworkers are considered:
-              
-              \begin{table}[ht]
-                \centering
-                \caption{Adaptation Plans for System States}
-                \label{tab:adaptation-plans}
-                \small
-                \begin{tabular}{cccc}
-                \toprule
-                \textbf{Plan No.} & \textbf{Serve Content} & \textbf{Serve Visitors} & \textbf{Downtime} \\
-                \midrule
-                1 & Full & All & No \\
-                2 & Degraded & All & No \\
-                3 & Degraded & Limited Number & No \\
-                4 & X & X & rebooting \\
-                \bottomrule
-                \end{tabular}
-                \end{table}
 
-                To calculate utility, we assign weights to each metric based on their importance to achieving the adaptation goals. The utility component \( u_i \) for each metric is then calculated and a final utility score is found using Equation \ref{utility_formula},
+                    \begin{table}[ht]
+                        \centering
+                        \caption{Adaptation Plans for System States}
+                        \label{tab:adaptation-plans}
+                        \small
+                        \begin{tabular}{cccc}
+                            \toprule
+                            \textbf{Plan No.} & \textbf{Serve Content} & \textbf{Serve Visitors} & \textbf{Downtime} \\
+                            \midrule
+                            1                 & Full                   & All                     & No                \\
+                            2                 & Degraded               & All                     & No                \\
+                            3                 & Degraded               & Limited Number          & No                \\
+                            4                 & X                      & X                       & rebooting         \\
+                            \bottomrule
+                        \end{tabular}
+                    \end{table}
 
-                \begin{equation}
-                U = w_{\text{CPU}} \cdot u_{\text{CPU}} + w_{\text{MEM}} \cdot u_{\text{MEM}}+ ...
-                \label{utility_formula}
-                \end{equation}
+                    To calculate utility, we assign weights to each metric based on their importance to achieving the adaptation goals. The utility component \( u_i \) for each metric is then calculated and a final utility score is found using Equation \ref{utility_formula},
 
-                where Equation \ref{utility_formula} is a shortened version of the full equation that would include all the relevant metrics.
-                
+                    \begin{equation}
+                        U = w_{\text{CPU}} \cdot u_{\text{CPU}} + w_{\text{MEM}} \cdot u_{\text{MEM}}+ ...
+                        \label{utility_formula}
+                    \end{equation}
+
+                    where Equation \ref{utility_formula} is a shortened version of the full equation that would include all the relevant metrics.
+
               \item \textbf{Anomaly Detection:}
                     An Isolation Forest algorithm is trained on the historical data collected by the monitoring daemon. This algorithm isolates anomalies by looking at splits in data space that separate rare/unexpected points from normal ones. Over time, the aggregation of data should reveal a distinction between normal and unexpected operation. Using this model that is trained on this distinction, a check against the current data collected by the monitoring daemon is made. If the model identifies the data as an anomaly, then this serves as an indicator for the adaptation. To obtain this model, it was first necessary to prepare the data using the $prepare\_data.py$ script. Raw data from the monitoring daemon is preprocessed. Missing values are handled by dropping the rows. Categorical weather data was one-hot encoded to transform it into format that can be used for model training. Lastly, a StandardScaler is used to ensure uniformity in scale and improve model performance. Following the data preparation, the $train\_model.py$ script is invoked. This script takes the preprocessed data and uses it to train the Isolation Forest model that is used by the monitoring daemon for real-time detection. The contamination (expected portion of anomalies) hyperparameter was tweaked to 0.08, achieving a suitable balance for the model when working with our limited test data. The second hyperparameter, n\_estimators (number of trees), was left in its default value of 100.
           \end{itemize}
@@ -165,7 +165,57 @@ To design the SAS for the RPiWeb, the system should embody the principles of Sel
           \end{figure}
 
     \item \textbf{Execute:}
-          Using the same python libraries $psutil$ and $os$, it is possible to execute the plans to enact the system adaptation. For content degradation, a python script interacts with the HTML files served by Apache HTTP Server. By default, Apache2 does not have a direct APi interface to toggle the serving of media files, thus a script approach which modifies the .htaccess configuration file is taken, which does not require a restart or reload. Although the method results in some overhead to the server, its rare use makes the method still viable.
+          For execution, we turn to the effectors. Using the same python libraries $psutil$ and $os$, it is possible to execute the plans to enact the system adaptation. For content degradation, a python script interacts with the HTML files served by Apache HTTP Server. By default, Apache2 does not have a direct APi interface to toggle the serving of media files, thus a script approach which modifies the .htaccess configuration file is taken, which does not require a restart or reload. The script is as follows:
+
+          \begin{flushleft}
+              \scriptsize
+              \begin{verbatim}
+            <FilesMatch "\.(jpg|png|mp4|mp3)$"> 
+                Require all denied 
+            </FilesMatch> 
+            \end{verbatim}
+          \end{flushleft}
+
+          To enable access again, the file can be rewritten as:
+
+          \begin{flushleft}
+              \scriptsize
+              \begin{verbatim}
+            <FilesMatch "\.(jpg|png|mp4|mp3)$"> 
+                Require all granted 
+            </FilesMatch> 
+            \end{verbatim}
+          \end{flushleft}
+
+          Although the method results in some overhead to the server, its rare use makes the method still viable.
+
+          \noindent
+          \begin{flushleft}
+              For adjusting the CPU clock, we are able to set the clock speed using sudo command scripts:
+
+              {\footnotesize
+              \begin{verbatim}
+sudo sh -c "echo <frequency_in_kHz> > /sys/
+devices/system/cpu/cpu0/cpufreq/scaling_setspeed"
+\end{verbatim}
+              }
+
+              However, To make the program more universal, we choose the ‘governor’ which can be used to set ‘min’ and ‘max’ cpu clock. Those two methods are similar. In the following example, ‘performance’ parameter commands system runs at the maximum frequency; ‘powersave’ commands system runs at minimum frequency.
+
+                  {\footnotesize
+                      \begin{verbatim}
+sudo sh -c "echo performance > /sys/devices/
+system/cpu/cpu0/cpufreq/scaling_governor"
+\end{verbatim}
+                  }
+
+              In the implementation of effectors, we translate these commands into python functions.
+          \end{flushleft}
+
+          For the watchdog, we monitor whether the Apache2 is alive. Normally we can monitor the pid of the Apache2 process, but there is risk that the pid is on but the process is dead. Instead, we choose to monitor systemctl is-active apache2, cause it is directly related to the Apache HTTP server's healthy.
+          
+          There is a hardware watchdog timer built in RPi cpu, which is the best option for the SAS since it is reliable. However, different RPi versions have different watchdog settings. For this project, we demonstrated the usage with a software watchdog, which is a python daemon monitoring the state of the Apache2. In the daemon, we set a thread running every 10 seconds to check Apache2 status, if there is a 120-second timeout occurring, the daemon will issue a ‘sudo reboot’ command to restart the OS.
+
 \end{itemize}
 
 For added clarification, the environment, which is also monitored by the SAS, can be broken down into key components. The hardware constraints of the RPi itself and its specifications and external conditions are the two main environments that then encapsulate other components. The Apache HTTP Server which hosts the target website, connecting the RPi to users is an environment that connects the RPi to the external world/users.
@@ -196,24 +246,24 @@ For reference, the project's source code may be found in the GitHub repository \
     \label{tab:technologies}
     \small
     \begin{tabular}{ll}
-    \toprule
-    \textbf{Technology} & \textbf{Purpose} \\
-    \midrule
-    RPi                    & Hardware platform hosting website \\
-    Apache HTTP Server     & Hosts website and manages requests \\
-    Python                 & Implementation language \\
-    Flask                  & Framework for dashboard \\
-    OpenWeather API        & Fetching environmental metrics \\
-    psutil                 & Library for monitoring system metrics \\
-    JMeter                 & Simulating web traffic and testing \\
-    Isolation Forest       & ML algorithm for detecting anomalies \\
-    StandardScaler         & Scaling data to improve model accuracy \\
-    OneHotEncoder          & Encoding categorical data \\
-    joblib                 & Serialization/deserialization of models \\
-    \bottomrule
+        \toprule
+        \textbf{Technology} & \textbf{Purpose}                        \\
+        \midrule
+        RPi                 & Hardware platform hosting website       \\
+        Apache HTTP Server  & Hosts website and manages requests      \\
+        Python              & Implementation language                 \\
+        Flask               & Framework for dashboard                 \\
+        OpenWeather API     & Fetching environmental metrics          \\
+        psutil              & Library for monitoring system metrics   \\
+        JMeter              & Simulating web traffic and testing      \\
+        Isolation Forest    & ML algorithm for detecting anomalies    \\
+        StandardScaler      & Scaling data to improve model accuracy  \\
+        OneHotEncoder       & Encoding categorical data               \\
+        joblib              & Serialization/deserialization of models \\
+        \bottomrule
     \end{tabular}
-    \end{table}
-    
+\end{table}
+
 \section{\textbf{Testing and Results}}\label{test_and_results}
 In order to test the adaptation system, a combination of Open-loop, JMeter and Stress-ng was used. Open-loop was used to perform a long running test to asses the system's base state and performance for comparison. We noted that the traffic and load on the RPi during idle operation is very light as depicted by Figure \ref{fig:idle_graphs}. CPU temps for example, remained low at 58 degrees Celsius, and CPU usage for example, remained stable at roughly 10\%, and no adaptation was triggered. JMeter, was used to simulate incoming traffic for various different loads. Two computers were running the JMeter scripts simultaneously in attempts to properly stress the RPiWeb. Two load types were used. The first setup is a ramp up to 600 threads (users), with an initial delay of 10 seconds to allow for additional configuration across computers. Initial users start at 5, with increments of 5 users every 1-2 seconds. The maximum load is then held for 180 seconds before the shutdown loop commences. The second script, has a sharper spike, shooting up to 500 threads and holding the load for a few minutes. Both scripts would at times run at the same time if the load on RPi was still minimal. Results of the test are depicted in Figure \ref{fig:heavy_load}. Specific implementations of the JMeter scripts ($traffic_simulation_spike.jmx$ and $traffic_simulation.jmx$) may be found in the GitHub repositories \cite{arthur_github}.
 
@@ -276,6 +326,20 @@ For adaptations under the anomaly detection approach, similar stress tests were 
 
 As there were some limitations to JMeter approach, further tests using stress-ng with the model trained on the original high load data were conducted to generate Figures \ref{fig:anomaly_test_CPU_with_transition} and \ref{fig:anomaly_test_CPU-Latency_with_transition}. These two figures more accurately show the exact moment in which the adaptation kicks in, represented by the green dashed lines and labelled as transitions. In Figure \ref{fig:anomaly_test_CPU_with_transition}, the anomaly detection model exhibits some signs of weakness when it triggers adaptation far too early under what would be considered moderate load. This is due to the limited data that the model was trained on, still resulting in some false positives. But the model still performs adequately after, triggering adaptation at around 63\% CPU usage, and only disabling the adaptation once CPU usage has fallen below 50\%. Thus, during this time, the model was appropriately handling the high load induced by stress-ng. Since stress-ng will would not allow us to see the adaptation effect clearly, Latency is also now depicted in Figure \ref{fig:anomaly_test_CPU-Latency_with_transition}. This figure once again indicates using dashed green lines the moment in which SAS disabled/enabled transitions occur. We see that at around 62\%, the anomaly label switches from 1 (indicated normal system behavior) to -1 (indicating that an anomaly is detected). Throughout this period, we also notice a decrease in Latency due to the content degradation mechanism of the SAS. And once the adaptation switches back, we note that the latency one more begins to increase as the website is back to serving full quality content while still ramping down from the stress test.
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{./media/anomaly_test_CPU_with_transition.png}
+    \caption{CPU Usage using anomaly detection with transitions}
+    \label{fig:anomaly_test_CPU_with_transition}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{./media/anomaly_test_CPU-Latency_with_transition.png}
+    \caption{CPU Usage and Latency using anomaly detection with transitions}
+    \label{fig:anomaly_test_CPU-Latency_with_transition}
+\end{figure}
+
 \section{\textbf{Conclusion}}\label{conclusion}
 Results demonstrated the potential of the self-adaptive framework and how it could enhance the web hosting capabilities of the RPi. Using the MAPE-K feedback loop model, improvements in maintaining system stability under fluctuating traffic loads and ensuring minimal downtime, through adaptive strategies such as content degradation and CPU clock adjustments were achieved. We noted improved resource management, as the framework successfully reduced CPU temperatures and optimized response times under stress, which allowed for a more stable system. The most effective adaptation strategies appeared to be degradation of content, as seen with the anomaly detection method, proving effective in maintaining user experience during high traffic.
 
@@ -283,9 +347,11 @@ However, several challenges and limitations were also identified during testing.
 
 To address the challenges and enhance the framework's capabilities, we propose various improvements. With respect to stress testing, the use of more robust traffic generation setups that have a higher capacity to simulate extreme load scenarios would be necessary. Perhaps, cloud-based stress testing tools to eliminate client-side bottlenecks could be considered. For anomaly detection, there is the need to collect a richer dataset under various real-world scenarios. This would allow for the adequate training of the anomaly detection model. If it is still the case that limited data poses an issue, then alternative machine learning algorithms could be explored.
 
-For the watchdog, using a hardware-based solution that can operate independetly of the RPi would be ideal. however, its implementation could be costly and verbose, going against the DIY nature of the presented SAS.
+For the watchdog, using a hardware-based solution that can operate independently of the RPi would be ideal. however, its implementation could be costly and verbose, going against the DIY nature of the presented SAS.
 
-Finally, the ability to scale in any direction, whether it be to support more resource-constrainted envrioments, or operate for more industrial grade solutions in smart home applications remains the ....
+Finally, the ability to scale in any direction, whether it be to support more resource-constrained environments, or operate for more industrial grade solutions in smart home applications remains the key to expanding the self adaptive system's versatility and relevance.
+
+Overall, these improvements would strengthen the SAS, and pave the way for more industrial applications of RPi based hosting systems. The insights gained from this project will serve as a strong foundation for advancing SAS operating under resource constraints.
 
 \begin{thebibliography}{00}
 
@@ -295,15 +361,15 @@ Finally, the ability to scale in any direction, whether it be to support more re
 
     \bibitem{pi_history} "Industrial Raspberry Pi: A brief history and current state," OnLogic, Mar. 14, 2024. [Online]. Available: \url{https://www.onlogic.com/blog/industrial-raspberry-pi-a-brief-history-and-current-state/}. [Accessed: Dec. 4, 2024].
 
-    \bibitem{pi_headaches} https://www.makeuseof.com/raspberry-pi-difficulties-self-hosting-services/
+    \bibitem{pi_headaches} D. Rutland, "8 Potential Headaches of Self-Hosting Services on Raspberry Pi," MakeUseOf, Aug. 17, 2023. [Online]. Available: \url{https://www.makeuseof.com/raspberry-pi-difficulties-self-hosting-services/}. [Accessed: Dec. 5, 2024].
 
-    \bibitem{pi_website_hosting} https://fastercapital.com/content/Web-Server--Hosting-a-Website-with-Raspberry-Pi.html\#Troubleshooting-common-issues-when-hosting-a-website-with-Raspberry-Pi
+    \bibitem{pi_website_hosting} "Web Server: Hosting a Website with Raspberry Pi," FasterCapital, Jun. 17, 2024. [Online]. Available: \url{https://fastercapital.com/content/Web-Server--Hosting-a-Website-with-Raspberry-Pi.html}. [Accessed: Dec. 6, 2024].
 
-    \bibitem{pi_vs_AWS} https://nelop.com/comparing-a-raspberry-pi-4-to-aws/
+    \bibitem{pi_vs_AWS} Neil, "Comparing a Raspberry Pi 4 to AWS," Nelop Systems, Oct. 19, 2020. [Online]. Available: \url{https://nelop.com/comparing-a-raspberry-pi-4-to-aws/}. [Accessed: Dec. 6, 2024].
 
-    \bibitem{IBM_mainframes} https://www.datacenterdynamics.com/en/news/ibm-mainframes-survive-48-magnitude-earthquake-in-us-east-coast/
+    \bibitem{IBM_mainframes} G. Butler, "IBM mainframes survive 4.8 magnitude Earthquake in US East Coast," Data Center Dynamics, Apr. 8, 2024. [Online]. Available: \url{https://www.datacenterdynamics.com/en/news/ibm-mainframes-survive-48-magnitude-earthquake-in-us-east-coast/}. [Accessed: Dec. 6, 2024].
 
-    \bibitem{arthur_github} https://github.com/ArthurQiangLi/Lets\_SAS\_RPI\_Websites/tree/main
+    \bibitem{arthur_github} A. Q. Li and D. Almeida, "Let's SAS RPI Websites," GitHub repository, [Online]. Available: \url{https://github.com/ArthurQiangLi/Lets_SAS_RPI_Websites/tree/main}. [Accessed: Dec. 6, 2024].
 
 \end{thebibliography}
 
