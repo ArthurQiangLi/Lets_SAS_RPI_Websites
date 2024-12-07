@@ -200,22 +200,22 @@ For reference, the project's source code may be found in the GitHub repository \
     \textbf{Technology} & \textbf{Purpose} \\
     \midrule
     RPi                    & Hardware platform hosting website \\
-    Apache HTTP Server     & Web server hosts website and manages requests \\
+    Apache HTTP Server     & Hosts website and manages requests \\
     Python                 & Implementation language \\
-    Flask                  & Framework for dashboard and exposing APIs \\
+    Flask                  & Framework for dashboard \\
     OpenWeather API        & Fetching environmental metrics \\
     psutil                 & Library for monitoring system metrics \\
-    JMeter                 & Tool for simulating web traffic and testing system \\
-    Isolation Forest       & Machine learning algorithm for detecting anomalies \\
-    StandardScaler         & Scaling numeric data to improve model accuracy \\
+    JMeter                 & Simulating web traffic and testing \\
+    Isolation Forest       & ML algorithm for detecting anomalies \\
+    StandardScaler         & Scaling data to improve model accuracy \\
     OneHotEncoder          & Encoding categorical data \\
-    joblib                 & Serialization and deserialization of ML models \\
+    joblib                 & Serialization/deserialization of models \\
     \bottomrule
     \end{tabular}
     \end{table}
     
 \section{\textbf{Testing and Results}}\label{test_and_results}
-In order to test the adaptation system, a combination of Open-loop, JMeter and Stress-ng was used. Open-loop was used to perform a long running test to asses the system's base state and performance for comparison. We noted that the traffic and load on the RPi during idle operation is very light as depicted by Figure \ref{fig:idle_graphs}. JMeter, was used to simulate incoming traffic for various different loads. Two computers were running the JMeter scripts simultaneously in attempts to properly stress the RPiWeb. Two load types were used. The first setup is a ramp up to 600 threads (users), with an initial delay of 10 seconds to allow for additional configuration across computers. Initial users start at 5, with increments of 5 users every 1-2 seconds. The maximum load is then held for 180 seconds before the shutdown loop commences. The second script, has a sharper spike, shooting up to 500 threads and holding the load for a few minutes. Both scripts would at times run at the same time if the load on RPi was still minimal. Results of the test are depicted in Figure \ref{fig:moderate_load}. Specific implementations of the JMeter scripts may be found in the GitHub repositories. Finally, Stress-ng is used to take the RPi load to the extreme, representing the highest of load demand and triggering self adaptation. Figures \ref{fig:before_SAS_metrics} and \ref{fig:before_SAS_utility_and_plans} are from tests conducted with SAS disabled, while \ref{fig:after_SAS_metrics} and \ref{fig:after_SAS_utility_and_plans} are tests conducted with SAS enabled.
+In order to test the adaptation system, a combination of Open-loop, JMeter and Stress-ng was used. Open-loop was used to perform a long running test to asses the system's base state and performance for comparison. We noted that the traffic and load on the RPi during idle operation is very light as depicted by Figure \ref{fig:idle_graphs}. CPU temps for example, remained low at 58 degrees Celsius, and CPU usage for example, remained stable at roughly 10\%, and no adaptation was triggered. JMeter, was used to simulate incoming traffic for various different loads. Two computers were running the JMeter scripts simultaneously in attempts to properly stress the RPiWeb. Two load types were used. The first setup is a ramp up to 600 threads (users), with an initial delay of 10 seconds to allow for additional configuration across computers. Initial users start at 5, with increments of 5 users every 1-2 seconds. The maximum load is then held for 180 seconds before the shutdown loop commences. The second script, has a sharper spike, shooting up to 500 threads and holding the load for a few minutes. Both scripts would at times run at the same time if the load on RPi was still minimal. Results of the test are depicted in Figure \ref{fig:heavy_load}. Specific implementations of the JMeter scripts ($traffic_simulation_spike.jmx$ and $traffic_simulation.jmx$) may be found in the GitHub repositories. Finally, Stress-ng is used to take the RPi load to the extreme, representing the highest of load demand and triggering self adaptation.
 
 \begin{figure}[H]
     \centering
@@ -226,9 +226,39 @@ In order to test the adaptation system, a combination of Open-loop, JMeter and S
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.45\textwidth]{./media/moderate_load.png}
-    \caption{Moderate load on RPi}
-    \label{fig:moderate_load}
+    \includegraphics[width=0.45\textwidth]{./media/heavy_load.png}
+    \caption{Heavy load on RPi}
+    \label{fig:heavy_load}
+\end{figure}
+
+Figures \ref{fig:before_SAS_metrics} and \ref{fig:before_SAS_utility_and_plans} are from tests conducted with SAS disabled, while \ref{fig:after_SAS_metrics} and \ref{fig:after_SAS_utility_and_plans} are tests conducted with SAS enabled.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{./media/before_SAS_metrics.png}
+    \caption{RPi system metrics with SAS disabled}
+    \label{fig:before_SAS_metrics}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{./media/before_SAS_utility_and_plans.png}
+    \caption{Utility and adaptation plans with SAS disabled}
+    \label{fig:before_SAS_utility_and_plans}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{./media/after_SAS_metrics.png}
+    \caption{RPi system metrics with SAS enabled}
+    \label{fig:after_SAS_metrics}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{./media/after_SAS_utility_and_plans.png}
+    \caption{Utility and adaptation plans with SAS enabled}
+    \label{fig:after_SAS_utility_and_plans}
 \end{figure}
 
 \begin{thebibliography}{00}
