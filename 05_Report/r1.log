@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.5)  6 DEC 2024 20:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.12.5)  6 DEC 2024 21:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -484,7 +484,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 
-<./media/metrics_dashboard.png, id=46, 499.8675pt x 335.75438pt>
+<./media/metrics_dashboard.png, id=50, 499.8675pt x 335.75438pt>
 File: ./media/metrics_dashboard.png Graphic file (type png)
 <use ./media/metrics_dashboard.png>
 Package pdftex.def Info: ./media/metrics_dashboard.png  used on input line 117.
@@ -500,7 +500,7 @@ LaTeX Warning: Reference `tab:utility-thresholds' on page 3 undefined on input l
 
 
 
-<./media/state_diagram.png, id=57, 3296.315pt x 2252.415pt>
+<./media/state_diagram.png, id=61, 3296.315pt x 2252.415pt>
 File: ./media/state_diagram.png Graphic file (type png)
 <use ./media/state_diagram.png>
 Package pdftex.def Info: ./media/state_diagram.png  used on input line 162.
@@ -508,7 +508,7 @@ Package pdftex.def Info: ./media/state_diagram.png  used on input line 162.
 
 
 [3 <./media/metrics_dashboard.png> <./media/state_diagram.png>]
-<./media/three_layer_framework.png, id=74, 536.0025pt x 511.9125pt>
+<./media/three_layer_framework.png, id=78, 536.0025pt x 511.9125pt>
 File: ./media/three_layer_framework.png Graphic file (type png)
 <use ./media/three_layer_framework.png>
 Package pdftex.def Info: ./media/three_layer_framework.png  used on input line 179.
@@ -518,7 +518,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-<./media/high_level_framework.png, id=75, 703.87968pt x 538.26094pt>
+<./media/high_level_framework.png, id=79, 703.87968pt x 538.26094pt>
 File: ./media/high_level_framework.png Graphic file (type png)
 <use ./media/high_level_framework.png>
 Package pdftex.def Info: ./media/high_level_framework.png  used on input line 186.
@@ -526,12 +526,12 @@ Package pdftex.def Info: ./media/high_level_framework.png  used on input line 18
 
 
 [4 <./media/three_layer_framework.png> <./media/high_level_framework.png>]
-<./media/idle_graphs.png, id=90, 560.59438pt x 340.77313pt>
+<./media/idle_graphs.png, id=94, 560.59438pt x 340.77313pt>
 File: ./media/idle_graphs.png Graphic file (type png)
 <use ./media/idle_graphs.png>
 Package pdftex.def Info: ./media/idle_graphs.png  used on input line 222.
 (pdftex.def)             Requested size: 232.19843pt x 141.14781pt.
-<./media/heavy_load.png, id=91, 560.59438pt x 340.27126pt>
+<./media/heavy_load.png, id=95, 560.59438pt x 340.27126pt>
 File: ./media/heavy_load.png Graphic file (type png)
 <use ./media/heavy_load.png>
 Package pdftex.def Info: ./media/heavy_load.png  used on input line 229.
@@ -541,12 +541,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-<./media/before_SAS_metrics.png, id=96, 1040.688pt x 650.43pt>
+<./media/before_SAS_metrics.png, id=100, 1040.688pt x 650.43pt>
 File: ./media/before_SAS_metrics.png Graphic file (type png)
 <use ./media/before_SAS_metrics.png>
 Package pdftex.def Info: ./media/before_SAS_metrics.png  used on input line 238.
 (pdftex.def)             Requested size: 232.19843pt x 145.11969pt.
-<./media/before_SAS_utility_and_plans.png, id=97, 361.35pt x 650.43pt>
+<./media/before_SAS_utility_and_plans.png, id=101, 361.35pt x 650.43pt>
 File: ./media/before_SAS_utility_and_plans.png Graphic file (type png)
 <use ./media/before_SAS_utility_and_plans.png>
 Package pdftex.def Info: ./media/before_SAS_utility_and_plans.png  used on input line 245.
@@ -557,7 +557,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 [5 <./media/idle_graphs.png> <./media/heavy_load.png> <./media/before_SAS_metrics.png>]
-<./media/after_SAS_metrics.png, id=112, 1040.688pt x 650.43pt>
+<./media/after_SAS_metrics.png, id=116, 1040.688pt x 650.43pt>
 File: ./media/after_SAS_metrics.png Graphic file (type png)
 <use ./media/after_SAS_metrics.png>
 Package pdftex.def Info: ./media/after_SAS_metrics.png  used on input line 254.
@@ -567,7 +567,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-<./media/after_SAS_utility_and_plans.png, id=113, 361.35pt x 650.43pt>
+<./media/after_SAS_utility_and_plans.png, id=117, 361.35pt x 650.43pt>
 File: ./media/after_SAS_utility_and_plans.png Graphic file (type png)
 <use ./media/after_SAS_utility_and_plans.png>
 Package pdftex.def Info: ./media/after_SAS_utility_and_plans.png  used on input line 261.
@@ -575,7 +575,7 @@ Package pdftex.def Info: ./media/after_SAS_utility_and_plans.png  used on input 
 
 
 [6 <./media/before_SAS_utility_and_plans.png> <./media/after_SAS_metrics.png> <./media/after_SAS_utility_and_plans.png>]
-<./media/anomaly_test_CPU.png, id=122, 456.95718pt x 456.20438pt>
+<./media/anomaly_test_CPU.png, id=126, 456.95718pt x 456.20438pt>
 File: ./media/anomaly_test_CPU.png Graphic file (type png)
 <use ./media/anomaly_test_CPU.png>
 Package pdftex.def Info: ./media/anomaly_test_CPU.png  used on input line 272.
@@ -596,52 +596,54 @@ LaTeX Warning: Reference `fig:anomaly_test_CPU-Latency_with_transition' on page 
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+
+[7 <./media/anomaly_test_CPU.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 []\OT1/ptm/m/n/8 L. Pounder, "Rasp-berry Pi cel-e-brates 12 years as sales
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 \OT1/ptm/m/n/8 break 61 mil-lion units," Tom's Hard-ware, Feb. 29, 2024.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 \OT1/ptm/m/n/8 [On-line]. Avail-able: []$https : / / www . tomshardware . com / raspberry-[]pi /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 281--282
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 \OT1/ptm/m/n/8 raspberry-[]pi-[]celebrates-[]12-[]years-[]as-[]sales-[]break-[]61-[]million-[]units$[].
  []
 
 
-Underfull \hbox (badness 1776) in paragraph at lines 285--286
+Underfull \hbox (badness 1776) in paragraph at lines 296--297
 \OT1/ptm/m/n/8 Mar. 14, 2024. [On-line]. Avail-able: []$https : / / www . onlogic . com / blog /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 285--286
+Underfull \hbox (badness 10000) in paragraph at lines 296--297
 \OT1/ptm/m/n/8 industrial-[]raspberry-[]pi-[]a-[]brief-[]history-[]and-[]current-[]state/$[]. [Ac-cessed:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 287--288
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
 []\OT1/ptm/m/n/8 https://www.makeuseof.com/raspberry-pi-difficulties-self-hosting-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 []\OT1/ptm/m/n/8 https://fastercapital.com/content/Web-Server--Hosting-a-Website-with-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 289--290
+Underfull \hbox (badness 10000) in paragraph at lines 300--301
 \OT1/ptm/m/n/8 Raspberry-Pi.html#Troubleshooting-common-issues-when-hosting-a-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 293--294
+Underfull \hbox (badness 10000) in paragraph at lines 304--305
 []\OT1/ptm/m/n/8 https://www.datacenterdynamics.com/en/news/ibm-mainframes-survive-
  []
 
@@ -658,7 +660,11 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[7 <./media/anomaly_test_CPU.png>] (./r1.aux)
+
+
+[8
+
+] (./r1.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 1
 L3 programming layer <2024-11-02>
@@ -668,21 +674,21 @@ L3 programming layer <2024-11-02>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `r1.out' has not changed.
-(rerunfilecheck)             Checksum: 43B94A9D3BFC6109589B8C9126C61557;439.
+(rerunfilecheck)             Checksum: 61EA6BFA47BE87F1ECAC6089AD91D39F;532.
  ) 
 Here is how much of TeX's memory you used:
- 15405 strings out of 473330
- 299391 string characters out of 5723878
- 686001 words of memory out of 5000000
- 38332 multiletter control sequences out of 15000+600000
+ 15409 strings out of 473330
+ 299429 string characters out of 5723878
+ 686038 words of memory out of 5000000
+ 38334 multiletter control sequences out of 15000+600000
  599437 words of font info for 116 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,80p,1870b,1020s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on r1.pdf (7 pages, 1375493 bytes).
+Output written on r1.pdf (8 pages, 1377860 bytes).
 PDF statistics:
- 181 PDF objects out of 1000 (max. 8388607)
- 132 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 88 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 189 PDF objects out of 1000 (max. 8388607)
+ 139 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

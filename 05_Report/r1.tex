@@ -276,6 +276,17 @@ For adaptations under the anomaly detection approach, similar stress tests were 
 
 As there were some limitations to JMeter approach, further tests using stress-ng with the model trained on the original high load data were conducted to generate Figures \ref{fig:anomaly_test_CPU_with_transition} and \ref{fig:anomaly_test_CPU-Latency_with_transition}. These two figures more accurately show the exact moment in which the adaptation kicks in, represented by the green dashed lines and labelled as transitions. In Figure \ref{fig:anomaly_test_CPU_with_transition}, the anomaly detection model exhibits some signs of weakness when it triggers adaptation far too early under what would be considered moderate load. This is due to the limited data that the model was trained on, still resulting in some false positives. But the model still performs adequately after, triggering adaptation at around 63\% CPU usage, and only disabling the adaptation once CPU usage has fallen below 50\%. Thus, during this time, the model was appropriately handling the high load induced by stress-ng. Since stress-ng will would not allow us to see the adaptation effect clearly, Latency is also now depicted in Figure \ref{fig:anomaly_test_CPU-Latency_with_transition}. This figure once again indicates using dashed green lines the moment in which SAS disabled/enabled transitions occur. We see that at around 62\%, the anomaly label switches from 1 (indicated normal system behavior) to -1 (indicating that an anomaly is detected). Throughout this period, we also notice a decrease in Latency due to the content degradation mechanism of the SAS. And once the adaptation switches back, we note that the latency one more begins to increase as the website is back to serving full quality content while still ramping down from the stress test.
 
+\section{\textbf{Conclusion}}\label{conclusion}
+Results demonstrated the potential of the self-adaptive framework and how it could enhance the web hosting capabilities of the RPi. Using the MAPE-K feedback loop model, improvements in maintaining system stability under fluctuating traffic loads and ensuring minimal downtime, through adaptive strategies such as content degradation and CPU clock adjustments were achieved. We noted improved resource management, as the framework successfully reduced CPU temperatures and optimized response times under stress, which allowed for a more stable system. The most effective adaptation strategies appeared to be degradation of content, as seen with the anomaly detection method, proving effective in maintaining user experience during high traffic.
+
+However, several challenges and limitations were also identified during testing. It was difficult to adequately stress the RPi using JMeter as the stress testing setup may have been limited by the capacity of the client machines to send network requests that would fully load the RPi. And this resulted in incomplete testing of the RPi's maximum potential under realistic scenarios. Additionally, the anomaly detection model was limited by the small amount of historical data that was used for its training. This led to some false positives during certain scenarios. Lastly, the software-based watchdog mechanism is not reliable, as the system crash also disabled the watchdog itself, prevent the intended reboot.
+
+To address the challenges and enhance the framework's capabilities, we propose various improvements. With respect to stress testing, the use of more robust traffic generation setups that have a higher capacity to simulate extreme load scenarios would be necessary. Perhaps, cloud-based stress testing tools to eliminate client-side bottlenecks could be considered. For anomaly detection, there is the need to collect a richer dataset under various real-world scenarios. This would allow for the adequate training of the anomaly detection model. If it is still the case that limited data poses an issue, then alternative machine learning algorithms could be explored.
+
+For the watchdog, using a hardware-based solution that can operate independetly of the RPi would be ideal. however, its implementation could be costly and verbose, going against the DIY nature of the presented SAS.
+
+Finally, the ability to scale in any direction, whether it be to support more resource-constrainted envrioments, or operate for more industrial grade solutions in smart home applications remains the ....
+
 \begin{thebibliography}{00}
 
     \bibitem{pi_sales} L. Pounder, "Raspberry Pi celebrates 12 years as sales break 61 million units," Tom's Hardware, Feb. 29, 2024. [Online]. Available: \url{https://www.tomshardware.com/raspberry-pi/raspberry-pi-celebrates-12-years-as-sales-break-61-million-units}. [Accessed: Dec. 4, 2024].
@@ -293,7 +304,6 @@ As there were some limitations to JMeter approach, further tests using stress-ng
     \bibitem{IBM_mainframes} https://www.datacenterdynamics.com/en/news/ibm-mainframes-survive-48-magnitude-earthquake-in-us-east-coast/
 
     \bibitem{arthur_github} https://github.com/ArthurQiangLi/Lets\_SAS\_RPI\_Websites/tree/main
-
 
 \end{thebibliography}
 
