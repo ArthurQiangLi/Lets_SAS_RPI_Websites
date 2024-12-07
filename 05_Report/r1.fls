@@ -239,10 +239,6 @@ INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-INPUT c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-INPUT c:/texlive/2024/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
 INPUT ./media/state_diagram.png
 INPUT ./media/state_diagram.png
 INPUT ./media/state_diagram.png
@@ -255,7 +251,6 @@ INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmb7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/vf/adobe/times/ptmr7t.vf
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT ./media/three_layer_framework.png
@@ -268,6 +263,16 @@ INPUT ./media/high_level_framework.png
 INPUT ./media/high_level_framework.png
 INPUT ./media/high_level_framework.png
 INPUT ./media/high_level_framework.png
+INPUT ./media/idle_graphs.png
+INPUT ./media/idle_graphs.png
+INPUT ./media/idle_graphs.png
+INPUT ./media/idle_graphs.png
+INPUT ./media/idle_graphs.png
+INPUT ./media/moderate_load.png
+INPUT ./media/moderate_load.png
+INPUT ./media/moderate_load.png
+INPUT ./media/moderate_load.png
+INPUT ./media/moderate_load.png
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
 INPUT c:/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
@@ -279,9 +284,7 @@ INPUT ./r1.out
 INPUT ./r1.out
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
-INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb
 INPUT c:/texlive/2024/texmf-dist/fonts/type1/urw/times/utmb8a.pfb

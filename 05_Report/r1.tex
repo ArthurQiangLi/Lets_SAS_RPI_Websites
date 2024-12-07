@@ -123,23 +123,21 @@ To design the SAS for the RPiWeb, the system should embody the principles of Sel
           The analyze component is responsible for interpreting the metrics measured in the monitoring phase, in preparation for planning and the adaptation signal output. Two main approaches have been explored:
 
           \begin{itemize}
-              \item \textbf{Utility Function:} The utility function asses two key areas. The first being machine health, focusing on CPU usage and temperature thresholds. The second, is website performance, focusing on network metrics. Table \ref{tab:utility-thresholds} summarizes the thresholds that were determined based on experimentation with the RPi:
+              \item \textbf{Utility Function:} The utility function asses two key areas. The first being machine health, focusing on CPU usage and temperature thresholds. The second, is website performance, focusing on network metrics. Table \ref{tab:utility-thresholds} summarizes the thresholds that were determined based on experimentation with the RPi. Initially, all metrics were to be considered, however, this approach was prone to bugs and thus, moving forward, only CPU Usage, Memory Usage, CPU Temperature, Apache Load, durationPerReq (Latency), and busyworkers are considered:
               
               \begin{table}[ht]
                 \centering
-                \caption{Utility Thresholds for System Health and Website Performance}
-                \label{tab:utility-thresholds}
+                \caption{Adaptation Plans for System States}
+                \label{tab:adaptation-plans}
                 \small
-                \begin{tabular}{lccc}
+                \begin{tabular}{cccc}
                 \toprule
-                \textbf{Metric} & \textbf{Good} & \textbf{Medium} & \textbf{Critical} \\
+                \textbf{Plan No.} & \textbf{Serve Content} & \textbf{Serve Visitors} & \textbf{Downtime} \\
                 \midrule
-                CPU Usage (\%) & $< 60$ & $60$--$80$ & $> 80$ \\
-                Memory Usage (\%) & $< 60$ & $60$--$80$ & $> 80$ \\
-                CPU Temperature (\textdegree C) & $< 60$ & $60$--$70$ & $> 70$ \\
-                Latency (ms) & $< 10$ & $10$--$20$ & $> 20$ \\
-                Apache Load (Load1) & $< 1$ & $1$--$2$ & $> 2$ \\
-                Busy Workers & $< 20$ & $20$--$30$ & $> 30$ \\
+                1 & Full & All & No \\
+                2 & Degraded & All & No \\
+                3 & Degraded & Limited Number & No \\
+                4 & X & X & rebooting \\
                 \bottomrule
                 \end{tabular}
                 \end{table}
@@ -167,7 +165,7 @@ To design the SAS for the RPiWeb, the system should embody the principles of Sel
           \end{figure}
 
     \item \textbf{Execute:}
-          Using the same python libraries $psutil$ and $os$, it is possible to execute the plans to enact the system adaptation. For content degradation, a python script interacts with the HTML files served by Apache HTTP Server. For...
+          Using the same python libraries $psutil$ and $os$, it is possible to execute the plans to enact the system adaptation. For content degradation, a python script interacts with the HTML files served by Apache HTTP Server. By default, Apache2 does not have a direct APi interface to toggle the serving of media files, thus a script approach which modifies the .htaccess configuration file is taken, which does not require a restart or reload. Although the method results in some overhead to the server, its rare use makes the method still viable.
 \end{itemize}
 
 For added clarification, the environment, which is also monitored by the SAS, can be broken down into key components. The hardware constraints of the RPi itself and its specifications and external conditions are the two main environments that then encapsulate other components. The Apache HTTP Server which hosts the target website, connecting the RPi to users is an environment that connects the RPi to the external world/users.
@@ -214,7 +212,24 @@ For reference, the project's source code may be found in the GitHub repository \
     joblib                 & Serialization and deserialization of ML models \\
     \bottomrule
     \end{tabular}
-    \end{table}    
+    \end{table}
+    
+\section{\textbf{Testing and Results}}\label{test_and_results}
+In order to test the adaptation system, a combination of Open-loop, JMeter and Stress-ng was used. Open-loop was used to perform a long running test to asses the system's base state and performance for comparison. We noted that the traffic and load on the RPi during idle operation is very light as depicted by Figure \ref{fig:idle_graphs}. JMeter, was used to simulate incoming traffic for various different loads. Two computers were running the JMeter scripts simultaneously in attempts to properly stress the RPiWeb. Two load types were used. The first setup is a ramp up to 600 threads (users), with an initial delay of 10 seconds to allow for additional configuration across computers. Initial users start at 5, with increments of 5 users every 1-2 seconds. The maximum load is then held for 180 seconds before the shutdown loop commences. The second script, has a sharper spike, shooting up to 500 threads and holding the load for a few minutes. Both scripts would at times run at the same time if the load on RPi was still minimal. Results of the test are depicted in Figure \ref{fig:moderate_load}. Specific implementations of the JMeter scripts may be found in the GitHub repositories. Finally, Stress-ng is used to take the RPi load to the extreme, representing the highest of load demand and triggering self adaptation. Figures \ref{fig:before_SAS_metrics} and \ref{fig:before_SAS_utility_and_plans} are from tests conducted with SAS disabled, while \ref{fig:after_SAS_metrics} and \ref{fig:after_SAS_utility_and_plans} are tests conducted with SAS enabled.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{./media/idle_graphs.png}
+    \caption{Idle performance of RPi}
+    \label{fig:idle_graphs}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{./media/moderate_load.png}
+    \caption{Moderate load on RPi}
+    \label{fig:moderate_load}
+\end{figure}
 
 \begin{thebibliography}{00}
 
